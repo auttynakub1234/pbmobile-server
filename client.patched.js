@@ -2,114 +2,42 @@
   "cf"!==LOBBY.srv||t.mode||(t=Object.assign({},t,{mode:"bomb"}));
   const a=t.mode&&PB.modeOf(t.mode)||PB.MODES[0],
         o=e._st={practice:!1,sp:t.sp||"",mode:a,win:a.win,time:a.time,map:modeMap(a),enemies:0,dif:1,random:!1,lock:{p:!0,s:!0,m:!0,t:!0,rpg:!1},obs:{tp:!1,fc:!1,en:!1,hp:!1},joinBlock:!1,balance:1};
+
+  ["pbOnlineConfigPanel","pbBotConfigPanel","lbAiBotToggle"].forEach((id=>{
+    const el=document.getElementById(id);
+    el&&el.remove();
+  }));
+
   e.show("lbCreateWin");
   ["rrCreateImageDummy2","rrCreateImageDummy3","rrCreateImageDummy4","rrCreateImageXMas","rrCreateMapPopup"].forEach((t=>e.show(t,!1)));
-  e.text("lbCreateWinCaption","สร้างห้องแข่งขันออนไลน์ (Create Online Room)","c").text("lbCreateTitleKey","ชื่อห้อง").text("lbCreatePasswordKey","รหัสผ่าน");
-  e.text("rrCreateModeKey","โหมด").text("rrCreateTypeKey","เงื่อนไขชนะ").text("rrCreateTimeKey","เวลาแข่งขัน").text("rrCreateRandomMap","สุ่มด่าน");
+  e.text("lbCreateWinCaption","สร้างห้องแข่งขันออนไลน์ (Online Room)","c").text("lbCreateTitleKey","ชื่อห้อง").text("lbCreatePasswordKey","รหัสผ่าน (4 หลัก)");
+  e.text("rrCreateModeKey","โหมดการเล่น").text("rrCreateTypeKey","เงื่อนไขชนะ").text("rrCreateTimeKey","เวลาแข่งขัน").text("rrCreateRandomMap","สุ่มด่าน");
   e.text("rrCreateLimitKey","จำกัดอาวุธ").text("rrCreateLimitPrimaryKey","ปืนหลัก").text("rrCreateLimitSecondaryKey","ปืนพก").text("rrCreateLimitMeleeKey","มีด").text("rrCreateLimitThrowKey","ระเบิด").text("rrCreateLimitRPG7Key","RPG7");
   e.text("rrCreateLimitObserverKey","มุมมองสังเกตการณ์").text("rrObserver3PV_FreeKey","บุคคลที่ 3").text("rrObserver1PV_FreeKey","กล้องอิสระ").text("rrObserverEnemy_FreeKey","มองเห็นศัตรู").text("rrObserverEnemyHP_FreeKey","มองเห็น HP");
   e.text("rrCreateLimitJoinKey","ห้ามผู้เล่นอื่นเข้าระหว่างแข่ง").text("rrCreateLimitJoinYesKey","ใช่").text("rrCreateLimitJoinNoKey","ไม่");
   e.text("rrCreateTeamBalanceKey","ปรับสมดุลทีม").text("rrCreateTeamBalanceYesKey","อัตโนมัติ").text("rrCreateTeamBalanceYesKey2","ฝีมือ").text("rrCreateTeamBalanceNoKey","ปิด");
   e.label("lbCreateConfirm","สร้างห้อง").label("lbCreateCancel","ยกเลิก").label("rrLobbyRandomMapButton","ตั้งค่าด่าน");
 
-  const oldAiBtn=document.getElementById("lbAiBotToggle");
-  if(oldAiBtn)oldAiBtn.remove();
-
-  const modeThaiNames={dm:"Deathmatch",zombie:"ผู้ติดเชื้อ",bomb:"วางระเบิด",gungame:"Gun Game",kconf:"Kill Confirmed",dom:"ยึดครอง",escape:"หลบหนี"};
+  const modeThaiNames={dm:"Deathmatch (เดธแมตช์)",zombie:"Infectado (ผู้ติดเชื้อ)",bomb:"Bomb (วางระเบิด)",gungame:"Gun Game",kconf:"Kill Confirmed",dom:"Domination (ยึดครอง)",escape:"Escape (หลบหนี)",destroy:"Destroy (ทำลาย)"};
   const n=e.el.lbCreateTitleValue.querySelector(".in")||e.input("lbCreateTitleValue",{maxLength:22});
-  n.value="ห้อง "+(modeThaiNames[o.mode.id]||o.mode.name)+" #"+Math.floor(100+900*Math.random());
+  if(!n.value||n.value.startsWith("Sala de")||n.value.includes("ห้อง")){
+    n.value="ห้อง "+(modeThaiNames[o.mode.id]||o.mode.name).split(" ")[0]+" #"+Math.floor(100+900*Math.random());
+  }
 
   const i=e.el.lbCreatePasswordValue.querySelector(".in")||e.input("lbCreatePasswordValue",{maxLength:4,inputMode:"numeric"});
   i.value="";
   i.oninput=()=>{i.value=i.value.replace(/\D/g,"").slice(0,4),e._draw()};
   const s=(t,a)=>e.el[t]&&e.el[t].classList.toggle("on",!!a);
 
-  let onlinePanel=document.getElementById("pbOnlineConfigPanel");
-  if(!onlinePanel&&e.el.lbCreateWin){
-    if(e.el.lbCreateWin.style)e.el.lbCreateWin.style.overflow="visible";
-    onlinePanel=document.createElement("div");
-    onlinePanel.id="pbOnlineConfigPanel";
-    onlinePanel.style.cssText="position:absolute;left:488px;top:0;width:245px;height:500px;background:linear-gradient(180deg,#181e28 0%,#0f131a 100%);border:1px solid #3c4858;border-left:2px solid #5dade2;border-radius:0 8px 8px 0;box-shadow:0 8px 25px rgba(0,0,0,0.85);box-sizing:border-box;padding:12px 14px;display:flex;flex-direction:column;gap:10px;z-index:99;font-family:Tahoma,Arial,sans-serif;color:#dfe6f0;";
-    e.el.lbCreateWin.appendChild(onlinePanel);
-  }
-  const oldBotPanel=document.getElementById("pbBotConfigPanel");
-  if(oldBotPanel&&oldBotPanel!==onlinePanel)oldBotPanel.remove();
-  if(onlinePanel)onlinePanel.style.display="flex";
-
-  const thaiMapNames={BurningHall:"Burning Hall (หอสมุดไฟไหม้)",Crackdown:"Crackdown (แคร็กดาวน์)",Library:"Library (ห้องสมุด)",NPort:"National Port (เอ็นพอร์ต)",Downtown:"Downtown (ดาวน์ทาวน์ 1)",Downtown2:"Downtown 2 (ดาวน์ทาวน์ 2)",Luxville:"Luxville (ลักซ์วิลล์)",Hospital:"Hospital (โรงพยาบาล)",BlackPanther:"Black Panther (แบล็คแพนเธอร์)",Giran2:"Giran 2 (กิรัน 2)",Helispot:"Helispot (ลานจอดฮอ)",Uptown:"Uptown (อัปทาวน์)",NStation:"NStation (สถานีรถไฟ)",CargoPort:"Cargo Port (ท่าเรือสินค้า)",TwoTowers:"Two Towers (หอคอยคู่)",Junkyard:"Junkyard (สุสานรถ)",Breakdown:"Breakdown (เบรกดาวน์)",DSquad:"D-Squad (ดีสควอด)",Metro:"Metro (เมโทร รถไฟใต้ดิน)",RushHour:"Rush Hour (รัชอาวเวอร์)",Provence:"Provence (โพรวองซ์)",MachuPichu:"Machu Pichu (มาชูปิกชู)",DesertCamp:"Desert Camp (ค่ายทะเลทราย)",Outpost:"Outpost (เอาท์โพสต์)",SafeHouse:"Safe House (เซฟเฮ้าส์)",Sentrybase:"Sentry Base (เซนทรีเบส)",Blowcity:"Blow City (โบลว์ซิตี)",Stormtube:"Storm Tube (สตอร์มทูบ)",SandStorm:"Sand Storm (พายุทะเลทราย)",Under23:"Under 23 (อันเดอร์ 23)",PumpkinHollow:"Pumpkin Hollow (ฟักทองหลอน)",Construction:"Construction (เขตก่อสร้าง)",BreedingNest:"Breeding Nest (รังเพาะพันธุ์)"};
-
-  function updateOnlinePanel(){
-    if(!onlinePanel)return;
-    const curMode=o.mode?o.mode.id:"dm";
-    const validMaps=PB.mapsOf(o.mode);
-    if(!validMaps.includes(o.map)){o.map=validMaps[0]||"BurningHall"}
-
-    onlinePanel.innerHTML=`
-      <div style="font:bold 13px Tahoma,Arial;color:#5dade2;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #3c4858;padding-bottom:6px;">
-        <span>🌐 ตั้งค่าห้องแข่งขันออนไลน์</span>
-        <span style="font-size:10px;background:#27ae60;color:#fff;padding:1px 6px;border-radius:3px;font-weight:bold;">ONLINE</span>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:5px;">
-        <span style="font:bold 11px Tahoma;color:#a8c0d8;">🎮 เลือกโหมดการเล่น:</span>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;">
-          <button type="button" class="pb-mode-btn" data-m="dm" style="padding:7px 4px;font:bold 11px Tahoma;border-radius:4px;cursor:pointer;background:${curMode==="dm"?"#2980b9":"#1e2530"};color:#fff;border:${curMode==="dm"?"1px solid #5dade2":"1px solid #3a4555"};">💀 Deathmatch</button>
-          <button type="button" class="pb-mode-btn" data-m="zombie" style="padding:7px 4px;font:bold 11px Tahoma;border-radius:4px;cursor:pointer;background:${curMode==="zombie"?"#27ae60":"#1e2530"};color:#fff;border:${curMode==="zombie"?"1px solid #2ecc71":"1px solid #3a4555"};">🧟 ผู้ติดเชื้อ</button>
-          <button type="button" class="pb-mode-btn" data-m="bomb" style="padding:7px 4px;font:bold 11px Tahoma;border-radius:4px;cursor:pointer;background:${curMode==="bomb"?"#c0392b":"#1e2530"};color:#fff;border:${curMode==="bomb"?"1px solid #e74c3c":"1px solid #3a4555"};">💣 วางระเบิด</button>
-          <button type="button" class="pb-mode-btn" data-m="gungame" style="padding:7px 4px;font:bold 11px Tahoma;border-radius:4px;cursor:pointer;background:${curMode==="gungame"?"#d35400":"#1e2530"};color:#fff;border:${curMode==="gungame"?"1px solid #e67e22":"1px solid #3a4555"};">🔫 Gun Game</button>
-        </div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:4px;margin-top:4px;">
-        <span style="font:bold 11px Tahoma;color:#a8c0d8;">🗺️ เลือกด่าน (${validMaps.length} ด่าน):</span>
-        <select id="pbMapSelect" style="width:100%;height:28px;background:#1a202c;color:#fff;border:1px solid #4a5568;border-radius:4px;padding:2px 6px;font:11px Tahoma;cursor:pointer;">
-          ${validMaps.map(m=>`<option value="${m}" ${m===o.map?"selected":""}>${thaiMapNames[m]||m}</option>`).join("")}
-        </select>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:4px;background:#141a22;padding:8px;border-radius:4px;border:1px solid #2d3748;margin-top:2px;">
-        <div style="display:flex;justify-content:space-between;font:11px Tahoma;">
-          <span style="color:#a8c0d8;">👥 ความจุผู้เล่น:</span>
-          <b style="color:#ffd27a;">สูงสุด 16 คน (8 vs 8)</b>
-        </div>
-        <div style="display:flex;justify-content:space-between;font:11px Tahoma;">
-          <span style="color:#a8c0d8;">⚔️ ทีม:</span>
-          <span><b style="color:#e74c3c;">Red</b> vs <b style="color:#3498db;">Blue</b></span>
-        </div>
-      </div>
-      <div style="margin-top:auto;padding:8px;background:#0d141d;border:1px solid #204060;border-radius:4px;font:11px Tahoma;color:#94a3b8;line-height:1.4;">
-        <div style="color:#5dade2;font-weight:bold;margin-bottom:2px;">🌐 เซิร์ฟเวอร์ออนไลน์ Real-time</div>
-        ห้องนี้เปิดให้ผู้เล่นอื่นในเซิร์ฟเวอร์เข้าร่วมเล่นด้วยกันผ่าน WebSocket ได้ทันที
-      </div>
-    `;
-
-    onlinePanel.querySelectorAll(".pb-mode-btn").forEach(btn=>{
-      btn.onclick=ev=>{
-        ev.stopPropagation();
-        o.mode=PB.modeOf(btn.dataset.m);
-        o.win=o.mode.win;
-        o.time=o.mode.time;
-        o.map=modeMap(o.mode);
-        if(!n.value||n.value.includes("ห้อง")||n.value.includes("Deathmatch")||n.value.includes("ระเบิด")||n.value.includes("เชื้อ")){
-          n.value="ห้อง "+(modeThaiNames[o.mode.id]||o.mode.name)+" #"+Math.floor(100+900*Math.random());
-        }
-        e._draw();
-      };
-    });
-
-    const mapSelect=onlinePanel.querySelector("#pbMapSelect");
-    if(mapSelect){
-      mapSelect.onchange=()=>{o.map=mapSelect.value;e._draw();};
-    }
-  }
-
   e._draw=()=>{
-    updateOnlinePanel();
     const t=o.mode;
     newTag(e.el.rrCreateModeValue,NEW_MODES_UI.includes(t.id));
-    e.text("rrCreateModeValue",t.name,"c").text("rrCreateTypeValue",PB.winText(t,o.win),"c").text("rrCreateTimeValue",o.time+" min","c");
-    e.text("rrCreateMap",o.random?"Mapa aleatório":PB.mapLabel(o.map));
+    e.text("rrCreateModeValue",modeThaiNames[t.id]||t.name,"c").text("rrCreateTypeValue",PB.winText(t,o.win),"c").text("rrCreateTimeValue",o.time+" นาที","c");
+    e.text("rrCreateMap",o.random?"สุ่มด่านทั้งหมด":PB.mapLabel(o.map));
     e.show("rrCreateMap",!o.random).show("rrCreateMapCombo",!o.random).show("rrLobbyRandomMapButton",o.random).show("rrCreateRandomMap",!1).show("rrCheckRandomMap",!1).show("rrCreateLimitRPG7",!1).show("rrCreateLimitRPG7Key",!1).show("rrCreateLimitRPG7_Lock",!1);
     const a=!o.random&&PB.mapImage(o.map),mImg=e.el.rrCreateImageDummy;
     if(mImg){
-      mImg.style.background=a?`url(${a}) center/100% 100% no-repeat`:"#000";
+      mImg.style.background=a?"url("+a+") center/100% 100% no-repeat":"#000";
       mImg.querySelectorAll(":scope > .s").forEach((e=>e.style.display=a?"none":""));
       let qEl=mImg.querySelector(".q");
       qEl||(qEl=document.createElement("div"),qEl.className="q",mImg.appendChild(qEl));
@@ -139,6 +67,9 @@
   const r=t=>{
     const a=roomModes(),n=(a.indexOf(o.mode)+t+a.length)%a.length;
     o.mode=a[n],o.map=modeMap(o.mode,o.map),o.win=o.mode.win,o.time=o.mode.time;
+    if(!n.value||n.value.includes("ห้อง")||n.value.includes("Deathmatch")||n.value.includes("ระเบิด")||n.value.includes("เชื้อ")){
+      n.value="ห้อง "+(modeThaiNames[o.mode.id]||o.mode.name).split(" ")[0]+" #"+Math.floor(100+900*Math.random());
+    }
     e._draw();
   };
   const l=(t,a,n)=>()=>{
@@ -147,18 +78,21 @@
     e._draw();
   };
 
+  const selectMap=()=>{
+    const t=PB.mapsOf(e._st.mode);
+    dropdown(e.el.rrCreateMap,t.map(PB.mapLabel),(a=>{
+      const o=e._st;o.map=t[a],o.win=o.mode.win,o.time=o.mode.time;e._draw();
+    }));
+  };
+
   e._createBound||(e._createBound=!0,
     e.on("rrCreateModePrev",(()=>r(-1))).on("rrCreateModeNext",(()=>r(1)))
      .on("rrCreateTypePrev",(()=>l("win",e._st.mode.wins,-1)())).on("rrCreateTypeNext",(()=>l("win",e._st.mode.wins,1)()))
      .on("rrCreateTimePrev",(()=>l("time",e._st.mode.times,-1)())).on("rrCreateTimeNext",(()=>l("time",e._st.mode.times,1)()))
-     .on("rrCreateMapCombo",(()=>{
-       const t=PB.mapsOf(e._st.mode);
-       dropdown(e.el.rrCreateMap,t.map(PB.mapLabel),(a=>{
-         const o=e._st;o.map=t[a],o.win=o.mode.win,o.time=o.mode.time;e._draw();
-       }));
-     }))
+     .on("rrCreateMapCombo",selectMap)
+     .on("rrCreateMap",selectMap)
      .on("rrCheckRandomMap",(()=>{e._st.random=!e._st.random,e._draw();}))
-     .on("rrLobbyRandomMapButton",(()=>STRING_POPUP("Todos os mapas do modo entram no sorteio.")))
+     .on("rrLobbyRandomMapButton",(()=>STRING_POPUP("ด่านทั้งหมดในโหมดนี้จะถูกสุ่ม")))
      .on("rrCreateLimitPrimary",(()=>{e._st.mode.lockP||e._st.sp||(e._st.lock.p=!e._st.lock.p,e._draw());}))
      .on("rrCreateLimitSecondary",(()=>{"knuckle"!==e._st.sp&&(e._st.lock.s=!e._st.lock.s,e._draw());}))
      .on("rrCreateLimitThrow",(()=>{e._st.lock.t=!e._st.lock.t,e._draw();}))
@@ -180,18 +114,16 @@
 
   e._confirm=()=>{
     const t=(n.value||"").trim();
-    if(!t)return STRING_POPUP("Digite o nome da sala");
-    if(t.includes("{col:"))return STRING_POPUP("Não é possível digitar a palavra");
+    if(!t)return STRING_POPUP("กรุณากรอกชื่อห้อง");
+    if(t.includes("{col:"))return STRING_POPUP("คำไม่ถูกต้อง");
     const a=PB.mapsOf(o.mode),s=(o.random?a[Math.floor(Math.random()*a.length)]:o.map)||"Downtown";
     e.show("lbCreateWin",!1);
-    if(onlinePanel)onlinePanel.style.display="none";
     e._open=!1;
     createRoom({title:t,pw:i.value,mode:o.mode.id,kills:o.win,time:o.time,map:s,random:o.random,lock:o.lock,obs:o.obs,joinBlock:o.joinBlock,balance:o.balance,ai:0,sp:o.sp});
   };
 
   e._cancel=()=>{
     e.show("lbCreateWin",!1);
-    if(onlinePanel)onlinePanel.style.display="none";
     e._open=!1;
     i.value="";
   };
