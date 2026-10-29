@@ -1,0 +1,3506 @@
+{
+  "stage": {
+    "name": "RushHour",
+    "world": "World/RushHour/RushHour_World.i3s",
+    "sky": "World/RushHour/RushHour_Sky.i3s",
+    "cols": {
+      "hero": "World/RushHour/RushHour_Col_Hero.i3s",
+      "hit": "World/RushHour/RushHour_Col_Hit.i3s",
+      "light": "World/RushHour/RushHour_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/RushHour/RushHour_World.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/RushHour/RushHour_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/RushHour/RushHour_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/RushHour/RushHour_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/RushHour/RushHour_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/RushHour/RushHour.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/RushHour_Car_Glass.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/RushHour_Car_Glass.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box1.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box2.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box3.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box4.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector05.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector06.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box8.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector08.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box9.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector08.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector09.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box11.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/RH_sector09.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/RushHour/_Generated/Box12.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/h/DeadTown_Fire_S.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/effect/DeadTown_Fire_S.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/h/DeadTown_Fire_S.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/effect/DeadTown_Fire_S.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/h/DeadTown_Fire_S.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/effect/DeadTown_Fire_S.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Car_Tram_A.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Car_Tram_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Car_Tram_A.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Car_Tram_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/moving/RushHour_Tram_Ani.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/moving/RushHour_Tram_Ani.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "World/RushHour/Light/RushHour_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/h/DeadTown_Fire_S.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/effect/DeadTown_Fire_S.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/SmokeSourceSequence_Large.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/FireSourceSequence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/Glow.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/SmokeSourceSequence_Large.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "effect/h/DeadTown_Fire_L.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/effect/DeadTown_Fire_L.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      }
+    ],
+    "ins_version": 4,
+    "layers": [
+      "Default",
+      "Section",
+      "Sector",
+      "effect"
+    ],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/RushHour/Textures/Uptown2_ObjectLightingMap.i3i",
+        "name": "Uptown2_ObjectLightingMap"
+      },
+      {
+        "path": "World/RushHour/Textures/Beetle_01.i3i",
+        "name": "Beetle_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Box_Paper_Red_01.i3i",
+        "name": "Box_Paper_Red_01"
+      },
+      {
+        "path": "World/RushHour/Textures/BusStop_01.i3i",
+        "name": "BusStop_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Car_Ambulance_01.i3i",
+        "name": "Car_Ambulance_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Car_ChevroletVan_01_Indoor_01.i3i",
+        "name": "Car_ChevroletVan_01_Indoor_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Car_ChevroletVan_01_White_01_Outdoor_01.i3i",
+        "name": "Car_ChevroletVan_01_White_01_Outdoor_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Car_CTS_Indoor_01.i3i",
+        "name": "Car_CTS_Indoor_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Car_CTS_Outdoor_01_Green_01.i3i",
+        "name": "Car_CTS_Outdoor_01_Green_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Car_Pumper_01.i3i",
+        "name": "Car_Pumper_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Car_Pumper_02.i3i",
+        "name": "Car_Pumper_02"
+      },
+      {
+        "path": "World/RushHour/Textures/GarbageCan_Middle_01.i3i",
+        "name": "GarbageCan_Middle_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Place_Reial_Streetlamp.i3i",
+        "name": "Place_Reial_Streetlamp"
+      },
+      {
+        "path": "World/RushHour/Textures/Table.i3i",
+        "name": "Table"
+      },
+      {
+        "path": "World/RushHour/Textures/table_chair.i3i",
+        "name": "table_chair"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_aircon_lc_01.i3i",
+        "name": "Uptown2_aircon_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Aircos_01.i3i",
+        "name": "Uptown2_Aircos_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Arch_01.i3i",
+        "name": "Uptown2_Arch_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_barricade_01.i3i",
+        "name": "Uptown2_barricade_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_boxpaperblue_01.i3i",
+        "name": "Uptown2_boxpaperblue_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_door_01.i3i",
+        "name": "Uptown2_door_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_door_lc_02.i3i",
+        "name": "Uptown2_door_lc_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_door_lc_05.i3i",
+        "name": "Uptown2_door_lc_05"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_ect_lc_01.i3i",
+        "name": "Uptown2_ect_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_flowerbed_lc_01.i3i",
+        "name": "Uptown2_flowerbed_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_grass_01.i3i",
+        "name": "Uptown2_grass_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_line_lc_01.i3i",
+        "name": "Uptown2_line_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_newspaper_01.i3i",
+        "name": "Uptown2_newspaper_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_phonebooth_01.i3i",
+        "name": "Uptown2_phonebooth_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_popsign_01.i3i",
+        "name": "Uptown2_popsign_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_publicphone_01.i3i",
+        "name": "Uptown2_publicphone_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Reial_Sign.i3i",
+        "name": "Uptown2_Reial_Sign"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_02.i3i",
+        "name": "Uptown2_shop_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_05.i3i",
+        "name": "Uptown2_shop_05"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_lc_04.i3i",
+        "name": "Uptown2_shop_lc_04"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_sign_04.i3i",
+        "name": "Uptown2_sign_04"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_simplicityshop.i3i",
+        "name": "Uptown2_simplicityshop"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_stair_red.i3i",
+        "name": "Uptown2_stair_red"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_tent_02.i3i",
+        "name": "Uptown2_tent_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_treebark.i3i",
+        "name": "Uptown2_treebark"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_15_YK.i3i",
+        "name": "Uptown2_Wall_15_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Window_lc_01.i3i",
+        "name": "Uptown2_Window_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wood_Crate_04_D.i3i",
+        "name": "Uptown2_Wood_Crate_04_D"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_WorldLightingMap.i3i",
+        "name": "Uptown2_WorldLightingMap"
+      },
+      {
+        "path": "World/RushHour/Textures/road_wall_03.i3i",
+        "name": "road_wall_03"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_around_building.i3i",
+        "name": "Uptown2_around_building"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Aroundshop_01.i3i",
+        "name": "Uptown2_Aroundshop_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_bottom_block_02.i3i",
+        "name": "Uptown2_bottom_block_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_brick_01.i3i",
+        "name": "Uptown2_brick_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_brick_lc_01.i3i",
+        "name": "Uptown2_brick_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_brick_lc_04.i3i",
+        "name": "Uptown2_brick_lc_04"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_brick_lc_06.i3i",
+        "name": "Uptown2_brick_lc_06"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_brick_lc_08.i3i",
+        "name": "Uptown2_brick_lc_08"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_brick_lc_09.i3i",
+        "name": "Uptown2_brick_lc_09"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_brick_lc_12.i3i",
+        "name": "Uptown2_brick_lc_12"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_ceiling_YK.i3i",
+        "name": "Uptown2_ceiling_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_concrete_lc_03.i3i",
+        "name": "Uptown2_concrete_lc_03"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_concrete_lc_06.i3i",
+        "name": "Uptown2_concrete_lc_06"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_concrete_lc_09.i3i",
+        "name": "Uptown2_concrete_lc_09"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_concrete_lc_10.i3i",
+        "name": "Uptown2_concrete_lc_10"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Deco_01.i3i",
+        "name": "Uptown2_Deco_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_deco_ceiling.i3i",
+        "name": "Uptown2_deco_ceiling"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_door_02.i3i",
+        "name": "Uptown2_door_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_door_lc_01.i3i",
+        "name": "Uptown2_door_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_door_lc_03.i3i",
+        "name": "Uptown2_door_lc_03"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_door_lc_04.i3i",
+        "name": "Uptown2_door_lc_04"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_ect_lc_02.i3i",
+        "name": "Uptown2_ect_lc_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_floor_lc_01.i3i",
+        "name": "Uptown2_floor_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_ground_lc_03.i3i",
+        "name": "Uptown2_ground_lc_03"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Road_01.i3i",
+        "name": "Uptown2_Road_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_room_lc_01.i3i",
+        "name": "Uptown2_room_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_01.i3i",
+        "name": "Uptown2_shop_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_03.i3i",
+        "name": "Uptown2_shop_03"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_04.i3i",
+        "name": "Uptown2_shop_04"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_06.i3i",
+        "name": "Uptown2_shop_06"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_07.i3i",
+        "name": "Uptown2_shop_07"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_08.i3i",
+        "name": "Uptown2_shop_08"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_lc_02.i3i",
+        "name": "Uptown2_shop_lc_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_lc_03.i3i",
+        "name": "Uptown2_shop_lc_03"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_lc_05.i3i",
+        "name": "Uptown2_shop_lc_05"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_lc_06.i3i",
+        "name": "Uptown2_shop_lc_06"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_lc_07.i3i",
+        "name": "Uptown2_shop_lc_07"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_lc_08.i3i",
+        "name": "Uptown2_shop_lc_08"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shop_sign_01.i3i",
+        "name": "Uptown2_shop_sign_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_slate_lc_01.i3i",
+        "name": "Uptown2_slate_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_slate_lc_02.i3i",
+        "name": "Uptown2_slate_lc_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_tent_01.i3i",
+        "name": "Uptown2_tent_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_tent_lc_01.i3i",
+        "name": "Uptown2_tent_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_01_YK.i3i",
+        "name": "Uptown2_Wall_01_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_06_YK.i3i",
+        "name": "Uptown2_Wall_06_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_07_YK.i3i",
+        "name": "Uptown2_Wall_07_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_08_YK.i3i",
+        "name": "Uptown2_Wall_08_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_09_YK.i3i",
+        "name": "Uptown2_Wall_09_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_11_YK.i3i",
+        "name": "Uptown2_Wall_11_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_13_YK.i3i",
+        "name": "Uptown2_Wall_13_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_14_YK.i3i",
+        "name": "Uptown2_Wall_14_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Wall_16_YK.i3i",
+        "name": "Uptown2_Wall_16_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_wallpaper_02.i3i",
+        "name": "Uptown2_wallpaper_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Window_lc_02.i3i",
+        "name": "Uptown2_Window_lc_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Window_lc_04.i3i",
+        "name": "Uptown2_Window_lc_04"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown_Re_road_05.i3i",
+        "name": "Uptown_Re_road_05"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_RoadLightingMap.i3i",
+        "name": "Uptown2_RoadLightingMap"
+      },
+      {
+        "path": "World/RushHour/Textures/Upown2_around_building_02.i3i",
+        "name": "Upown2_around_building_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_bottom_block_01.i3i",
+        "name": "Uptown2_bottom_block_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_ground_lc_01.i3i",
+        "name": "Uptown2_ground_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_ground_lc_02.i3i",
+        "name": "Uptown2_ground_lc_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Rail_01_YK.i3i",
+        "name": "Uptown2_Rail_01_YK"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Road_03.i3i",
+        "name": "Uptown2_Road_03"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Window_01.i3i",
+        "name": "Uptown2_Window_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Window_02.i3i",
+        "name": "Uptown2_Window_02"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown_Re_road_01.i3i",
+        "name": "Uptown_Re_road_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_decal_01.i3i",
+        "name": "Uptown2_decal_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_AlpaLightingMap.i3i",
+        "name": "Uptown2_AlpaLightingMap"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_Balcony_01.i3i",
+        "name": "Uptown2_Balcony_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_decal_03.i3i",
+        "name": "Uptown2_decal_03"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_garbage_01.i3i",
+        "name": "Uptown2_garbage_01"
+      },
+      {
+        "path": "World/RushHour/Textures/uptown2_graffiti_lc_01.i3i",
+        "name": "uptown2_graffiti_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_ground_01.i3i",
+        "name": "Uptown2_ground_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_ivy_01.i3i",
+        "name": "Uptown2_ivy_01"
+      },
+      {
+        "path": "World/RushHour/Textures/uptown2_poster_lc_01.i3i",
+        "name": "uptown2_poster_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_road_sign_01.i3i",
+        "name": "Uptown2_road_sign_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_shutter_lc_01.i3i",
+        "name": "Uptown2_shutter_lc_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_signlpa_01.i3i",
+        "name": "Uptown2_signlpa_01"
+      },
+      {
+        "path": "World/RushHour/Textures/Uptown2_tree01.i3i",
+        "name": "Uptown2_tree01"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          915441240,
+          2764272536,
+          2471055870,
+          508846075
+        ],
+        "respath": "World/RushHour/RushHour.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -16.946758270263672,
+        1.4532020092010498,
+        -41.17325973510742
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "Respawn1",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -16.946758270263672,
+        1.4532020092010498,
+        -43.15007019042969
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "Respawn2",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -20.004873275756836,
+        1.4532020092010498,
+        -41.17325973510742
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "Respawn3",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -20.004873275756836,
+        1.4532020092010498,
+        -43.15007019042969
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "Respawn4",
+      "res": null,
+      "obj": null,
+      "pos": [
+        24.75792121887207,
+        1.4532020092010498,
+        -41.17325973510742
+      ],
+      "rot": [
+        0,
+        -88.48854623700944,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6977188587188721,
+        0,
+        0.7163717746734619
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "Respawn5",
+      "res": null,
+      "obj": null,
+      "pos": [
+        24.75792121887207,
+        1.4532020092010498,
+        -43.15007019042969
+      ],
+      "rot": [
+        0,
+        -88.48854623700944,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6977188587188721,
+        0,
+        0.7163717746734619
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "Respawn6",
+      "res": null,
+      "obj": null,
+      "pos": [
+        21.699806213378906,
+        1.4532020092010498,
+        -41.17325973510742
+      ],
+      "rot": [
+        0,
+        -88.48854623700944,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6977188587188721,
+        0,
+        0.7163717746734619
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "Respawn7",
+      "res": null,
+      "obj": null,
+      "pos": [
+        21.699806213378906,
+        1.4532020092010498,
+        -43.15007019042969
+      ],
+      "rot": [
+        0,
+        -88.48854623700944,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6977188587188721,
+        0,
+        0.7163717746734619
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "Respawn8",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -16.946758270263672,
+        1.4532020092010498,
+        42.65652084350586
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "Respawn9",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -16.946758270263672,
+        1.4532020092010498,
+        40.679710388183594
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "Respawn10",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -20.004873275756836,
+        1.4532020092010498,
+        42.65652084350586
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "Respawn11",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -20.004873275756836,
+        1.4532020092010498,
+        40.679710388183594
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "Respawn12",
+      "res": null,
+      "obj": null,
+      "pos": [
+        23.57768440246582,
+        1.4532020092010498,
+        43.19834899902344
+      ],
+      "rot": [
+        0,
+        -88.48854623700944,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6977188587188721,
+        0,
+        0.7163717746734619
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "Respawn13",
+      "res": null,
+      "obj": null,
+      "pos": [
+        23.57768440246582,
+        1.4532020092010498,
+        41.22153854370117
+      ],
+      "rot": [
+        0,
+        -88.48854623700944,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6977188587188721,
+        0,
+        0.7163717746734619
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "Respawn14",
+      "res": null,
+      "obj": null,
+      "pos": [
+        20.519569396972656,
+        1.4532020092010498,
+        43.19834899902344
+      ],
+      "rot": [
+        0,
+        -88.48854623700944,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6977188587188721,
+        0,
+        0.7163717746734619
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn14",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "Respawn15",
+      "res": null,
+      "obj": null,
+      "pos": [
+        20.519569396972656,
+        1.4532020092010498,
+        41.22153854370117
+      ],
+      "rot": [
+        0,
+        -88.48854623700944,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6977188587188721,
+        0,
+        0.7163717746734619
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn15",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "prop",
+      "name": "RushHour_Car_Glass0",
+      "res": "Object/glass/RushHour_Car_Glass.i3s",
+      "obj": "Object/glass/RushHour_Car_Glass.i3Obj",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          59492330,
+          3207255881,
+          2170376501,
+          988356256
+        ],
+        "respath": "Object/glass/RushHour_Car_Glass.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "RushHour_Car_Glass0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "trigger",
+      "name": "Box0",
+      "res": "Scene/RushHour/_Generated/RH_sector01.i3Evt",
+      "obj": null,
+      "pos": [
+        20.009859085083008,
+        4.747426986694336,
+        -44.335445404052734
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        22.231822967529297,
+        9.384298324584961,
+        13.498954772949219
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          940546412,
+          3008626590,
+          2657442276,
+          2068968257
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box0",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "trigger",
+      "name": "Box1",
+      "res": "Scene/RushHour/_Generated/RH_sector01.i3Evt",
+      "obj": null,
+      "pos": [
+        -16.591869354248047,
+        2.9163498878479004,
+        -41.202327728271484
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.180930137634277,
+        6.189956188201904,
+        9.97341537475586
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          940546412,
+          3008626590,
+          2657442276,
+          2068968257
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box1",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "trigger",
+      "name": "Box2",
+      "res": "Scene/RushHour/_Generated/RH_sector02.i3Evt",
+      "obj": null,
+      "pos": [
+        15.851954460144043,
+        1.3302760124206543,
+        -25.846879959106445
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.777313232421875,
+        3.3171041011810303,
+        21.447589874267578
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1523057246,
+          1980645045,
+          3274251800,
+          1179834341
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box2",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "trigger",
+      "name": "Box3",
+      "res": "Scene/RushHour/_Generated/RH_sector03.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.16091899573802948,
+        6.119499206542969,
+        -29.59569549560547
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        16.28607940673828,
+        14.814638137817383,
+        46.804656982421875
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1858474904,
+          231158247,
+          411565422,
+          3889872850
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box3",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "trigger",
+      "name": "Box4",
+      "res": "Scene/RushHour/_Generated/RH_sector04.i3Evt",
+      "obj": null,
+      "pos": [
+        -10.878711700439453,
+        3.2824790477752686,
+        -0.0012229999992996454
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        48.932212829589844,
+        15.630086898803711,
+        10.319823265075684
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1113521823,
+          2052161462,
+          3923760824,
+          792742598
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box4",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "trigger",
+      "name": "Box5",
+      "res": "Scene/RushHour/_Generated/RH_sector05.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.2038249969482422,
+        0.45645299553871155,
+        26.867902755737305
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        15.885924339294434,
+        21.354232788085938,
+        41.326969146728516
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          549642612,
+          865763548,
+          39966295,
+          2106028546
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box5",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "trigger",
+      "name": "Box6",
+      "res": "Scene/RushHour/_Generated/RH_sector06.i3Evt",
+      "obj": null,
+      "pos": [
+        15.161394119262695,
+        6.79780912399292,
+        19.8293399810791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        11.543790817260742,
+        13.559013366699219,
+        10.117437362670898
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4012659407,
+          2533081365,
+          67758618,
+          1795081664
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box6",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "trigger",
+      "name": "Box7",
+      "res": "Scene/RushHour/_Generated/RH_sector07.i3Evt",
+      "obj": null,
+      "pos": [
+        18.07206153869629,
+        4.560774803161621,
+        36.41307067871094
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        15.409500122070312,
+        10.869967460632324,
+        20.23392677307129
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2835872313,
+          776122453,
+          1776039850,
+          1711091541
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box7",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "trigger",
+      "name": "Box8",
+      "res": "Scene/RushHour/_Generated/RH_sector07.i3Evt",
+      "obj": null,
+      "pos": [
+        -18.063331604003906,
+        3.8538498878479004,
+        41.81229782104492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        17.519224166870117,
+        10.418416023254395,
+        11.115034103393555
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2835872313,
+          776122453,
+          1776039850,
+          1711091541
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box8",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "trigger",
+      "name": "Box9",
+      "res": "Scene/RushHour/_Generated/RH_sector08.i3Evt",
+      "obj": null,
+      "pos": [
+        -22.483341217041016,
+        3.9097180366516113,
+        21.7010440826416
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        26.64452362060547,
+        19.08083724975586,
+        10.842103004455566
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3099519881,
+          6965493,
+          3882919072,
+          2636034200
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box9",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "trigger",
+      "name": "Box10",
+      "res": "Scene/RushHour/_Generated/RH_sector08.i3Evt",
+      "obj": null,
+      "pos": [
+        -29.49750518798828,
+        5.342803001403809,
+        12.285934448242188
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.75328254699707,
+        13.463282585144043,
+        12.323480606079102
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3099519881,
+          6965493,
+          3882919072,
+          2636034200
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box10",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "trigger",
+      "name": "Box11",
+      "res": "Scene/RushHour/_Generated/RH_sector09.i3Evt",
+      "obj": null,
+      "pos": [
+        -22.223108291625977,
+        4.446149826049805,
+        -20.631546020507812
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        11.834287643432617,
+        9.289093971252441,
+        26.83287239074707
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1844593708,
+          3165640269,
+          219550401,
+          2228857054
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box11",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "trigger",
+      "name": "Box12",
+      "res": "Scene/RushHour/_Generated/RH_sector09.i3Evt",
+      "obj": null,
+      "pos": [
+        -14.31667423248291,
+        1.863929033279419,
+        -28.50440216064453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.9854097366333,
+        4.913435935974121,
+        11.634323120117188
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1844593708,
+          3165640269,
+          219550401,
+          2228857054
+        ],
+        "respath": "Scene/RushHour/_Generated/RH_sector09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box12",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "prop",
+      "name": "DeadTown_Fire_S0",
+      "res": null,
+      "obj": "object/effect/DeadTown_Fire_S.i3Obj",
+      "pos": [
+        -48.54224395751953,
+        2.7970399856567383,
+        3.5507431030273438
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2163833697,
+          3890042485,
+          1014475532,
+          1063038250
+        ],
+        "respath": "object/effect/DeadTown_Fire_S.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "DeadTown_Fire_S0",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "prop",
+      "name": "DeadTown_Fire_S1",
+      "res": null,
+      "obj": "object/effect/DeadTown_Fire_S.i3Obj",
+      "pos": [
+        -46.16753387451172,
+        2.4915590286254883,
+        1.5956710577011108
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2163833697,
+          3890042485,
+          1014475532,
+          1063038250
+        ],
+        "respath": "object/effect/DeadTown_Fire_S.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "DeadTown_Fire_S1",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "prop",
+      "name": "DeadTown_Fire_S2",
+      "res": null,
+      "obj": "object/effect/DeadTown_Fire_S.i3Obj",
+      "pos": [
+        17.40829849243164,
+        11.809310913085938,
+        7.974472999572754
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2163833697,
+          3890042485,
+          1014475532,
+          1063038250
+        ],
+        "respath": "object/effect/DeadTown_Fire_S.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "DeadTown_Fire_S2",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "prop",
+      "name": "Àüµ¿Â÷",
+      "res": "Object/moving/RushHour_Tram_Ani.i3s",
+      "obj": "Object/moving/RushHour_Tram_Ani.i3Obj",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          884392538,
+          1420956555,
+          3696249842,
+          1814278387
+        ],
+        "respath": "Object/moving/RushHour_Tram_Ani.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 4,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Àüµ¿Â÷",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "unknown",
+      "name": "RushHour_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -4.471848011016846,
+        25.68013572692871,
+        -3.235395908355713
+      ],
+      "rot": [
+        -71.07640561435807,
+        -126.88988557054489,
+        87.33604114996243
+      ],
+      "quat": [
+        -0.6905518770217896,
+        -0.3470958471298218,
+        -0.1249060183763504,
+        0.6221423745155334
+      ],
+      "scale": [
+        1,
+        0.9999997019767761,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          2452252239,
+          3569981087,
+          3184018932,
+          1795957555
+        ],
+        "respath": "World/RushHour/Light/RushHour_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "RushHour_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "prop",
+      "name": "DeadTown_Fire_S3",
+      "res": null,
+      "obj": "object/effect/DeadTown_Fire_S.i3Obj",
+      "pos": [
+        12.586091041564941,
+        8.816056251525879,
+        4.8341169357299805
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.2082350254058838,
+        1.0482330322265625,
+        1.1697659492492676
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2163833697,
+          3890042485,
+          1014475532,
+          1063038250
+        ],
+        "respath": "object/effect/DeadTown_Fire_S.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "DeadTown_Fire_S3",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "prop",
+      "name": "DeadTown_Fire_L0",
+      "res": null,
+      "obj": "object/effect/DeadTown_Fire_L.i3Obj",
+      "pos": [
+        13.926610946655273,
+        7.753444194793701,
+        5.503963947296143
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.7790830135345459,
+        0.6910399794578552,
+        0.8458970189094543
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1515182779,
+          4255375092,
+          4125895506,
+          2384257392
+        ],
+        "respath": "object/effect/DeadTown_Fire_L.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "DeadTown_Fire_L0",
+        "layer": 0
+      }
+    }
+  ]
+}

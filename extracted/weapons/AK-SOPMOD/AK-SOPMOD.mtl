@@ -1,0 +1,9 @@
+# Materials for AK SOPMOD
+newmtl Mtl_APoint_dot_sight_Diff.webp
+Kd 1 1 1
+map_Kd APoint_dot_sight_Diff.webp
+
+newmtl Mtl_AK_SOPMOD_Diff.webp
+Kd 1 1 1
+map_Kd AK_SOPMOD_Diff.webp
+

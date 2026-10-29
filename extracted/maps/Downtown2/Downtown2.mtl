@@ -1,0 +1,121 @@
+# Materials for Downtown2
+newmtl Mtl_Chair_01.webp
+Kd 1 1 1
+map_Kd Chair_01.webp
+
+newmtl Mtl_Chair_02.webp
+Kd 1 1 1
+map_Kd Chair_02.webp
+
+newmtl Mtl_building_Cafe_in_B_04.webp
+Kd 1 1 1
+map_Kd building_Cafe_in_B_04.webp
+
+newmtl Mtl_EspressoMachine_01.webp
+Kd 1 1 1
+map_Kd EspressoMachine_01.webp
+
+newmtl Mtl_CupBoard_01.webp
+Kd 1 1 1
+map_Kd CupBoard_01.webp
+
+newmtl Mtl_menu_board.webp
+Kd 1 1 1
+map_Kd menu_board.webp
+
+newmtl Mtl_building_Cafe_B_02 .webp
+Kd 1 1 1
+map_Kd building_Cafe_B_02 .webp
+
+newmtl Mtl_building_store_C_02.webp
+Kd 1 1 1
+map_Kd building_store_C_02.webp
+
+newmtl Mtl_building_Cafe_in_A_04.webp
+Kd 1 1 1
+map_Kd building_Cafe_in_A_04.webp
+
+newmtl Mtl_emergency exit_1.webp
+Kd 1 1 1
+map_Kd emergency exit_1.webp
+
+newmtl Mtl_Ork Cask.webp
+Kd 1 1 1
+map_Kd Ork Cask.webp
+
+newmtl Mtl_Ground_Tile_01.webp
+Kd 1 1 1
+map_Kd Ground_Tile_01.webp
+
+newmtl Mtl_Table_02.webp
+Kd 1 1 1
+map_Kd Table_02.webp
+
+newmtl Mtl_CashMachine_01.webp
+Kd 1 1 1
+map_Kd CashMachine_01.webp
+
+newmtl Mtl_box.webp
+Kd 1 1 1
+map_Kd box.webp
+
+newmtl Mtl_Barricade_Stone_01.webp
+Kd 1 1 1
+map_Kd Barricade_Stone_01.webp
+
+newmtl Mtl_building_Cafe_in_A_01.webp
+Kd 1 1 1
+map_Kd building_Cafe_in_A_01.webp
+
+newmtl Mtl_Blind_Closed_Normal.webp
+Kd 1 1 1
+map_Kd Blind_Closed_Normal.webp
+
+newmtl Mtl_building_Cafe_in_B_03.webp
+Kd 1 1 1
+map_Kd building_Cafe_in_B_03.webp
+
+newmtl Mtl_stair_1.webp
+Kd 1 1 1
+map_Kd stair_1.webp
+
+newmtl Mtl_Sofa_01.webp
+Kd 1 1 1
+map_Kd Sofa_01.webp
+
+newmtl Mtl_Carpet_02.webp
+Kd 1 1 1
+map_Kd Carpet_02.webp
+
+newmtl Mtl_Chair_03.webp
+Kd 1 1 1
+map_Kd Chair_03.webp
+
+newmtl Mtl_BarTable_01.webp
+Kd 1 1 1
+map_Kd BarTable_01.webp
+
+newmtl Mtl_info_board.webp
+Kd 1 1 1
+map_Kd info_board.webp
+
+newmtl Mtl_Table_01.webp
+Kd 1 1 1
+map_Kd Table_01.webp
+
+newmtl Mtl_Palette_Wood_01.webp
+Kd 1 1 1
+map_Kd Palette_Wood_01.webp
+
+newmtl Mtl_Window_Barricade_1.webp
+Kd 1 1 1
+map_Kd Window_Barricade_1.webp
+
+newmtl Mtl_building_Cafe_in_A_03.webp
+Kd 1 1 1
+map_Kd building_Cafe_in_A_03.webp
+
+newmtl Mtl_box_wood_01.webp
+Kd 1 1 1
+map_Kd box_wood_01.webp
+

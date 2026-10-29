@@ -1,0 +1,9 @@
+# Materials for L115A1
+newmtl Mtl_L115A1.webp
+Kd 1 1 1
+map_Kd L115A1.webp
+
+newmtl Mtl_L115A1scope.webp
+Kd 1 1 1
+map_Kd L115A1scope.webp
+

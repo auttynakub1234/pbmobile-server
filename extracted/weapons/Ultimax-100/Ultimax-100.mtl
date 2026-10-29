@@ -1,0 +1,9 @@
+# Materials for Ultimax 100
+newmtl Mtl_Ultimax-100_Light_Diff.webp
+Kd 1 1 1
+map_Kd Ultimax-100_Light_Diff.webp
+
+newmtl Mtl_Ultimax-100_Diff.webp
+Kd 1 1 1
+map_Kd Ultimax-100_Diff.webp
+

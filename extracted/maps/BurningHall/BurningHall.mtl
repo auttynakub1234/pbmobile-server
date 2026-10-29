@@ -1,0 +1,197 @@
+# Materials for BurningHall
+newmtl Mtl_book_1.webp
+Kd 1 1 1
+map_Kd book_1.webp
+
+newmtl Mtl_bookcase_1.webp
+Kd 1 1 1
+map_Kd bookcase_1.webp
+
+newmtl Mtl_show_table.webp
+Kd 1 1 1
+map_Kd show_table.webp
+
+newmtl Mtl_base_1B.webp
+Kd 1 1 1
+map_Kd base_1B.webp
+
+newmtl Mtl_base_1_2B.webp
+Kd 1 1 1
+map_Kd base_1_2B.webp
+
+newmtl Mtl_base_1_3.webp
+Kd 1 1 1
+map_Kd base_1_3.webp
+
+newmtl Mtl_base_1_4B.webp
+Kd 1 1 1
+map_Kd base_1_4B.webp
+
+newmtl Mtl_base_2B.webp
+Kd 1 1 1
+map_Kd base_2B.webp
+
+newmtl Mtl_base_2_1.webp
+Kd 1 1 1
+map_Kd base_2_1.webp
+
+newmtl Mtl_base_8.webp
+Kd 1 1 1
+map_Kd base_8.webp
+
+newmtl Mtl_base_10.webp
+Kd 1 1 1
+map_Kd base_10.webp
+
+newmtl Mtl_wall_window_3B.webp
+Kd 1 1 1
+map_Kd wall_window_3B.webp
+
+newmtl Mtl_wall1_1.webp
+Kd 1 1 1
+map_Kd wall1_1.webp
+
+newmtl Mtl_wall1_2.webp
+Kd 1 1 1
+map_Kd wall1_2.webp
+
+newmtl Mtl_wall2_2B.webp
+Kd 1 1 1
+map_Kd wall2_2B.webp
+
+newmtl Mtl_wall3_1.webp
+Kd 1 1 1
+map_Kd wall3_1.webp
+
+newmtl Mtl_wall_window_1.webp
+Kd 1 1 1
+map_Kd wall_window_1.webp
+
+newmtl Mtl_wall_window_2.webp
+Kd 1 1 1
+map_Kd wall_window_2.webp
+
+newmtl Mtl_bookcase_3.webp
+Kd 1 1 1
+map_Kd bookcase_3.webp
+
+newmtl Mtl_stair_wall_1.webp
+Kd 1 1 1
+map_Kd stair_wall_1.webp
+
+newmtl Mtl_stair_wall_2.webp
+Kd 1 1 1
+map_Kd stair_wall_2.webp
+
+newmtl Mtl_stair_wall_4.webp
+Kd 1 1 1
+map_Kd stair_wall_4.webp
+
+newmtl Mtl_stair_1B.webp
+Kd 1 1 1
+map_Kd stair_1B.webp
+
+newmtl Mtl_stair_2.webp
+Kd 1 1 1
+map_Kd stair_2.webp
+
+newmtl Mtl_Door_wall_1.webp
+Kd 1 1 1
+map_Kd Door_wall_1.webp
+
+newmtl Mtl_Door_wall_2B.webp
+Kd 1 1 1
+map_Kd Door_wall_2B.webp
+
+newmtl Mtl_Door_1.webp
+Kd 1 1 1
+map_Kd Door_1.webp
+
+newmtl Mtl_Door_wall_2.webp
+Kd 1 1 1
+map_Kd Door_wall_2.webp
+
+newmtl Mtl_ceiling_2.webp
+Kd 1 1 1
+map_Kd ceiling_2.webp
+
+newmtl Mtl_ceiling_3.webp
+Kd 1 1 1
+map_Kd ceiling_3.webp
+
+newmtl Mtl_handrail_ceiling_1.webp
+Kd 1 1 1
+map_Kd handrail_ceiling_1.webp
+
+newmtl Mtl_handrail_ceiling_3.webp
+Kd 1 1 1
+map_Kd handrail_ceiling_3.webp
+
+newmtl Mtl_handrail_ceiling_2.webp
+Kd 1 1 1
+map_Kd handrail_ceiling_2.webp
+
+newmtl Mtl_outside_wall_2.webp
+Kd 1 1 1
+map_Kd outside_wall_2.webp
+
+newmtl Mtl_Ground_Grass_1.webp
+Kd 1 1 1
+map_Kd Ground_Grass_1.webp
+
+newmtl Mtl_frame_01.webp
+Kd 1 1 1
+map_Kd frame_01.webp
+
+newmtl Mtl_frame_02.webp
+Kd 1 1 1
+map_Kd frame_02.webp
+
+newmtl Mtl_handrail_1.webp
+Kd 1 1 1
+map_Kd handrail_1.webp
+
+newmtl Mtl_board_1.webp
+Kd 1 1 1
+map_Kd board_1.webp
+
+newmtl Mtl_radiator_1.webp
+Kd 1 1 1
+map_Kd radiator_1.webp
+
+newmtl Mtl_light.webp
+Kd 1 1 1
+map_Kd light.webp
+
+newmtl Mtl_Window_Barricade_1.webp
+Kd 1 1 1
+map_Kd Window_Barricade_1.webp
+
+newmtl Mtl_stair_1_3B.webp
+Kd 1 1 1
+map_Kd stair_1_3B.webp
+
+newmtl Mtl_paper1.webp
+Kd 1 1 1
+map_Kd paper1.webp
+
+newmtl Mtl_paper2.webp
+Kd 1 1 1
+map_Kd paper2.webp
+
+newmtl Mtl_base_3.webp
+Kd 1 1 1
+map_Kd base_3.webp
+
+newmtl Mtl_wall4_2.webp
+Kd 1 1 1
+map_Kd wall4_2.webp
+
+newmtl Mtl_stair_3.webp
+Kd 1 1 1
+map_Kd stair_3.webp
+
+newmtl Mtl_Door_wall_3.webp
+Kd 1 1 1
+map_Kd Door_wall_3.webp
+

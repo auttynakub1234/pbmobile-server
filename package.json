@@ -1,0 +1,20 @@
+{
+  "name": "pbmobile-dedicated-server",
+  "version": "1.0.0",
+  "description": "Point Blank Mobile Dedicated Game & Lobby Server",
+  "main": "pb_server.js",
+  "scripts": {
+    "start": "node pb_server.js",
+    "preload": "node preload_assets.js",
+    "test": "node test_online.js"
+  },
+  "keywords": [
+    "pbmobile",
+    "dedicated-server",
+    "multiplayer",
+    "point-blank",
+    "fps"
+  ],
+  "author": "",
+  "license": "ISC"
+}

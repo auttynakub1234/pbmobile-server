@@ -1,0 +1,13 @@
+# Materials for XM2010
+newmtl Mtl_HK417_BIPOD_Diff.webp
+Kd 1 1 1
+map_Kd HK417_BIPOD_Diff.webp
+
+newmtl Mtl_xm2010_Diff.webp
+Kd 1 1 1
+map_Kd xm2010_Diff.webp
+
+newmtl Mtl_XM2010_Scope_Diff.webp
+Kd 1 1 1
+map_Kd XM2010_Scope_Diff.webp
+

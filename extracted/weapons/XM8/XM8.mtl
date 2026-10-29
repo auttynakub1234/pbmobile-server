@@ -1,0 +1,5 @@
+# Materials for XM8
+newmtl Mtl_XM8_Diff.webp
+Kd 1 1 1
+map_Kd XM8_Diff.webp
+

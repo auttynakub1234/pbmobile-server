@@ -1,0 +1,5 @@
+# Materials for P99&HAK
+newmtl Mtl_P99_diff.webp
+Kd 1 1 1
+map_Kd P99_diff.webp
+

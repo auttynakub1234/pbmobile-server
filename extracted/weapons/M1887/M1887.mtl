@@ -1,0 +1,5 @@
+# Materials for M1887
+newmtl Mtl_M1887_Diff.webp
+Kd 1 1 1
+map_Kd M1887_Diff.webp
+

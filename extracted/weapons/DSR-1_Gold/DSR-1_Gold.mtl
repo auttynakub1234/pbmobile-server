@@ -1,0 +1,9 @@
+# Materials for DSR-1 G.
+newmtl Mtl_DSR_1_Scope_diff.webp
+Kd 1 1 1
+map_Kd DSR_1_Scope_diff.webp
+
+newmtl Mtl_DSR_1_Gold_diff.webp
+Kd 1 1 1
+map_Kd DSR_1_Gold_diff.webp
+

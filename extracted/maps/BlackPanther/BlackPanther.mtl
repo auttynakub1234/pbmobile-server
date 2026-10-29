@@ -1,0 +1,121 @@
+# Materials for BlackPanther
+newmtl Mtl_Box_Paper_Blue_01.webp
+Kd 1 1 1
+map_Kd Box_Paper_Blue_01.webp
+
+newmtl Mtl_Car_BRKT_01_Army_01.webp
+Kd 1 1 1
+map_Kd Car_BRKT_01_Army_01.webp
+
+newmtl Mtl_Pipe_01.webp
+Kd 1 1 1
+map_Kd Pipe_01.webp
+
+newmtl Mtl_Cabinet_02.webp
+Kd 1 1 1
+map_Kd Cabinet_02.webp
+
+newmtl Mtl_Car_Forklift_01.webp
+Kd 1 1 1
+map_Kd Car_Forklift_01.webp
+
+newmtl Mtl_Remnant_02_01.webp
+Kd 1 1 1
+map_Kd Remnant_02_01.webp
+
+newmtl Mtl_Palette_Wood_01.webp
+Kd 1 1 1
+map_Kd Palette_Wood_01.webp
+
+newmtl Mtl_Drum_1.webp
+Kd 1 1 1
+map_Kd Drum_1.webp
+
+newmtl Mtl_Box_Wood_01.webp
+Kd 1 1 1
+map_Kd Box_Wood_01.webp
+
+newmtl Mtl_CableDrum_01.webp
+Kd 1 1 1
+map_Kd CableDrum_01.webp
+
+newmtl Mtl_rpg7_box.webp
+Kd 1 1 1
+map_Kd rpg7_box.webp
+
+newmtl Mtl_Camouflage_02.webp
+Kd 1 1 1
+map_Kd Camouflage_02.webp
+
+newmtl Mtl_Chair.webp
+Kd 1 1 1
+map_Kd Chair.webp
+
+newmtl Mtl_Ladder_01_01.webp
+Kd 1 1 1
+map_Kd Ladder_01_01.webp
+
+newmtl Mtl_interior_2.webp
+Kd 1 1 1
+map_Kd interior_2.webp
+
+newmtl Mtl_Crane_3.webp
+Kd 1 1 1
+map_Kd Crane_3.webp
+
+newmtl Mtl_controler_01.webp
+Kd 1 1 1
+map_Kd controler_01.webp
+
+newmtl Mtl_Grat_1.webp
+Kd 1 1 1
+map_Kd Grat_1.webp
+
+newmtl Mtl_VentOpening.webp
+Kd 1 1 1
+map_Kd VentOpening.webp
+
+newmtl Mtl_H_Steel_01.webp
+Kd 1 1 1
+map_Kd H_Steel_01.webp
+
+newmtl Mtl_crane.webp
+Kd 1 1 1
+map_Kd crane.webp
+
+newmtl Mtl_ventilation_04.webp
+Kd 1 1 1
+map_Kd ventilation_04.webp
+
+newmtl Mtl_computer.webp
+Kd 1 1 1
+map_Kd computer.webp
+
+newmtl Mtl_Desk.webp
+Kd 1 1 1
+map_Kd Desk.webp
+
+newmtl Mtl_Wall_01.webp
+Kd 1 1 1
+map_Kd Wall_01.webp
+
+newmtl Mtl_Numbering.webp
+Kd 1 1 1
+map_Kd Numbering.webp
+
+newmtl Mtl_Sign_Danger_01.webp
+Kd 1 1 1
+map_Kd Sign_Danger_01.webp
+
+newmtl Mtl_Pipe_02.webp
+Kd 1 1 1
+map_Kd Pipe_02.webp
+
+newmtl Mtl_Tile_03_1.webp
+Kd 1 1 1
+map_Kd Tile_03_1.webp
+
+newmtl Mtl_Metal Shelf.webp
+Kd 1 1 1
+map_Kd Metal Shelf.webp
+

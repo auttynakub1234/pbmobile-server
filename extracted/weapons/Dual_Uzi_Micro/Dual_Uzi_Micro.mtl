@@ -1,0 +1,9 @@
+# Materials for Micro Uzi Dupla
+newmtl Mtl_Silencer_G_diff.webp
+Kd 1 1 1
+map_Kd Silencer_G_diff.webp
+
+newmtl Mtl_Uzi_1_diff.webp
+Kd 1 1 1
+map_Kd Uzi_1_diff.webp
+

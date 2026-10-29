@@ -1,0 +1,5 @@
+# Materials for Fang Blade
+newmtl Mtl_FangBlade_diff.webp
+Kd 1 1 1
+map_Kd FangBlade_diff.webp
+

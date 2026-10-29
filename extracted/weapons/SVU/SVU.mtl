@@ -1,0 +1,9 @@
+# Materials for SVU
+newmtl Mtl_SVU_scope_Bl_Diff.webp
+Kd 1 1 1
+map_Kd SVU_scope_Bl_Diff.webp
+
+newmtl Mtl_SVU_Diff.webp
+Kd 1 1 1
+map_Kd SVU_Diff.webp
+

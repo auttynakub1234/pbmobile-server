@@ -1,0 +1,5 @@
+# Materials for Faca de Osso
+newmtl Mtl_BoneKnife_diff.webp
+Kd 1 1 1
+map_Kd BoneKnife_diff.webp
+

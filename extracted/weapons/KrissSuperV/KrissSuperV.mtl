@@ -1,0 +1,9 @@
+# Materials for Kriss S.V
+newmtl Mtl_DotSight.webp
+Kd 1 1 1
+map_Kd DotSight.webp
+
+newmtl Mtl_Kriss_super_V.webp
+Kd 1 1 1
+map_Kd Kriss_super_V.webp
+

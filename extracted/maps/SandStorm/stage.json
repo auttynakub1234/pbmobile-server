@@ -1,0 +1,3104 @@
+{
+  "stage": {
+    "name": "SandStorm",
+    "world": "World/SandStorm/Sandstorm_world.i3s",
+    "sky": "World/SandStorm/Sandstorm_Sky.i3s",
+    "cols": {
+      "hero": "World/SandStorm/Sandstorm_Col_Hero.i3s",
+      "hit": "World/SandStorm/Sandstorm_Col_Hit.i3s",
+      "light": "World/SandStorm/Sandstorm_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/SandStorm/Sandstorm_world.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SandStorm/Sandstorm_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SandStorm/Sandstorm_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SandStorm/Sandstorm_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SandStorm/Sandstorm_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SandStorm/SandStorm.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box1.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box2.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box3.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box4.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_05.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box8.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_06.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box9.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_08.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box11.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_09.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box12.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box13.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box14.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box15.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box16.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box17.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Sector_13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box18.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/SS_Section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box19.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SandStorm/Light/SandStorm_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Scene/SandStorm/_Generated/Box20.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Window_Barricade_1.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Downtown_wood.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/downtown_wood.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      }
+    ],
+    "ins_version": 3,
+    "layers": [],
+    "source": "pack",
+    "textures": []
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          3921212026,
+          4126821144,
+          3716284495,
+          3790837528
+        ],
+        "respath": "World/SandStorm/SandStorm.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -21.941852569580078,
+        0.9565449953079224,
+        -55.15981674194336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -24.383909225463867,
+        0.9565449953079224,
+        -55.15981674194336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -26.899372100830078,
+        0.9565449953079224,
+        -55.15981674194336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -29.694957733154297,
+        0.9565449953079224,
+        -55.15981674194336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -21.941852569580078,
+        0.9565449953079224,
+        -52.29953384399414
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -24.383909225463867,
+        0.9565449953079224,
+        -52.29953384399414
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -26.899372100830078,
+        0.9565449953079224,
+        -52.29953384399414
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -29.694957733154297,
+        0.9565449953079224,
+        -52.29953384399414
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -14.973603248596191,
+        0.5019590258598328,
+        36.352333068847656
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -12.66968059539795,
+        0.5019590258598328,
+        36.352333068847656
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -10.073271751403809,
+        0.5019590258598328,
+        36.352333068847656
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -7.580221176147461,
+        0.5019590258598328,
+        36.352333068847656
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -9.804070472717285,
+        0.5019590258598328,
+        34.46812438964844
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -8.165387153625488,
+        0.5019590258598328,
+        33.82221984863281
+      ],
+      "rot": [
+        0,
+        -143.92484369397346,
+        0
+      ],
+      "quat": [
+        0,
+        -0.950853705406189,
+        0,
+        0.3096407651901245
+      ],
+      "scale": [
+        0.9999998211860657,
+        1,
+        0.9999998211860657
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -12.372838020324707,
+        0.5019590258598328,
+        34.18142318725586
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -14.310403823852539,
+        0.5019590258598328,
+        34.87898254394531
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "trigger",
+      "name": "Box0",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.913808822631836,
+        2.8733229637145996,
+        -47.881248474121094
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        25.203439712524414,
+        11.699577331542969,
+        23.47747039794922
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3833256148,
+          1471760613,
+          640691648,
+          563386666
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "trigger",
+      "name": "Box1",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -36.017608642578125,
+        2.8733229637145996,
+        -30.995105743408203
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.55370044708252,
+        11.699577331542969,
+        13.24465560913086
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3833256148,
+          1471760613,
+          640691648,
+          563386666
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "trigger",
+      "name": "Box2",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        -17.083145141601562,
+        -0.6134240031242371,
+        -26.883493423461914
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        21.124717712402344,
+        5.910553932189941,
+        18.046201705932617
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          504304974,
+          4099046428,
+          545398543,
+          3029616240
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "trigger",
+      "name": "Box3",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        -23.654254913330078,
+        -2.9119958877563477,
+        -7.02368688583374
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        32.590843200683594,
+        8.267656326293945,
+        20.06334686279297
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4157163333,
+          3715693956,
+          3441351608,
+          4121750825
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "trigger",
+      "name": "Box4",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        -23.654254913330078,
+        5.326817989349365,
+        -4.005863189697266
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        32.590843200683594,
+        8.267656326293945,
+        15.452413558959961
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4157163333,
+          3715693956,
+          3441351608,
+          4121750825
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "140000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "trigger",
+      "name": "Box5",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        8.938240051269531,
+        1.5234429836273193,
+        -14.126218795776367
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        30.770889282226562,
+        10.490468978881836,
+        34.187774658203125
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3602944597,
+          2426658407,
+          932162376,
+          1874642901
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "trigger",
+      "name": "Box6",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        16.124814987182617,
+        1.5234429836273193,
+        5.491580009460449
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        18.90754508972168,
+        10.490468978881836,
+        5.020113945007324
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3602944597,
+          2426658407,
+          932162376,
+          1874642901
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "trigger",
+      "name": "Box7",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        -34.9847297668457,
+        4.028357028961182,
+        -18.186752319335938
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.985777854919434,
+        4.924564838409424,
+        11.663751602172852
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1947071228,
+          2013009501,
+          1513948987,
+          149970275
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "trigger",
+      "name": "Box8",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        -30.210439682006836,
+        4.028357028961182,
+        -20.691390991210938
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.159862995147705,
+        4.924564838409424,
+        6.293317794799805
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1947071228,
+          2013009501,
+          1513948987,
+          149970275
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "trigger",
+      "name": "Box9",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -33.655025482177734,
+        3.077738046646118,
+        12.17380428314209
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        15.991930961608887,
+        3.4665679931640625,
+        16.144939422607422
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1749219503,
+          799790236,
+          1636064590,
+          4061819473
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "trigger",
+      "name": "Box10",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        -33.86824035644531,
+        -1.3127100467681885,
+        12.17380428314209
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        16.00055694580078,
+        4.756387233734131,
+        16.144939422607422
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3628402743,
+          1068906360,
+          3348007994,
+          2149857947
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "trigger",
+      "name": "Box11",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        -28.428203582763672,
+        3.148189067840576,
+        28.338302612304688
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.684409141540527,
+        4.467091083526611,
+        15.783062934875488
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2492684118,
+          1330272803,
+          238143481,
+          446576258
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "trigger",
+      "name": "Box12",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        -12.755422592163086,
+        0.3894970118999481,
+        8.522801399230957
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        24.84649658203125,
+        10.47844409942627,
+        10.627400398254395
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          529123276,
+          2841955158,
+          1015039096,
+          1978697997
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "trigger",
+      "name": "Box13",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        3.115324020385742,
+        0.2018209993839264,
+        13.732047080993652
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.51535701751709,
+        9.335283279418945,
+        19.752187728881836
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3217823759,
+          933912080,
+          3808374433,
+          3998995963
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "trigger",
+      "name": "Box14",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        10.537392616271973,
+        0.2018209993839264,
+        21.582515716552734
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.608307838439941,
+        9.335283279418945,
+        12.349823951721191
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3217823759,
+          933912080,
+          3808374433,
+          3998995963
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box14",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "trigger",
+      "name": "Box15",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_11.i3Evt",
+      "obj": null,
+      "pos": [
+        16.436580657958984,
+        -0.5009009838104248,
+        34.39502716064453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        36.41904830932617,
+        9.839168548583984,
+        12.697742462158203
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          556878727,
+          2799556249,
+          23520118,
+          129826066
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box15",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "trigger",
+      "name": "Box16",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_12.i3Evt",
+      "obj": null,
+      "pos": [
+        -12.018501281738281,
+        3.1624579429626465,
+        26.71265983581543
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        19.738162994384766,
+        10.46020793914795,
+        25.112226486206055
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1797246358,
+          3573873827,
+          1635198707,
+          77130979
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box16",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "trigger",
+      "name": "Box17",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_12.i3Evt",
+      "obj": null,
+      "pos": [
+        -1.0429919958114624,
+        3.1624579429626465,
+        19.30186653137207
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.555675983428955,
+        10.46020793914795,
+        5.225987911224365
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1797246358,
+          3573873827,
+          1635198707,
+          77130979
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "210000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box17",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "trigger",
+      "name": "Box18",
+      "res": "Scene/SandStorm/_Generated/SS_Sector_13.i3Evt",
+      "obj": null,
+      "pos": [
+        28.743858337402344,
+        4.2392168045043945,
+        18.12630844116211
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        25.519275665283203,
+        14.785999298095703,
+        19.452198028564453
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3517520430,
+          765943247,
+          2028667175,
+          2824613406
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Sector_13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box18",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "trigger",
+      "name": "Box19",
+      "res": "Scene/SandStorm/_Generated/SS_Section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -34.16489028930664,
+        3.160968065261841,
+        4.099178791046143
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        16.805763244628906,
+        4.571536064147949,
+        32.83522415161133
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3563381008,
+          2538278037,
+          76416839,
+          2729064230
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box19",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "unknown",
+      "name": "SandStorm_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -17.42405128479004,
+        41.9771728515625,
+        -0.22248299419879913
+      ],
+      "rot": [
+        -64.22901889774077,
+        -0.7783319325026833,
+        48.75927862413983
+      ],
+      "quat": [
+        -0.48657283186912537,
+        0.2141946256160736,
+        0.346323162317276,
+        0.77293461561203
+      ],
+      "scale": [
+        1.0000003576278687,
+        1.0000003576278687,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          3007413657,
+          167039253,
+          2829798329,
+          2958306281
+        ],
+        "respath": "World/SandStorm/Light/SandStorm_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "SandStorm_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "trigger",
+      "name": "Box20",
+      "res": "Scene/SandStorm/_Generated/SS_Section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        10.808146476745605,
+        -0.3971570134162903,
+        29.19403648376465
+      ],
+      "rot": [
+        -26.25262437630008,
+        0,
+        0
+      ],
+      "quat": [
+        -0.22709856927394867,
+        0,
+        0,
+        0.9738717675209045
+      ],
+      "scale": [
+        1,
+        2.002531051635742,
+        7.2337117195129395
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3563381008,
+          2538278037,
+          76416839,
+          2729064230
+        ],
+        "respath": "Scene/SandStorm/_Generated/SS_Section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box20",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "prop",
+      "name": "downtown_wood0",
+      "res": "Object/break/Downtown_wood.I3S",
+      "obj": "Object/break/downtown_wood.i3Obj",
+      "pos": [
+        -2.292733907699585,
+        3.4839940071105957,
+        36.991172790527344
+      ],
+      "rot": [
+        81.01062673640989,
+        2.299422338427209,
+        -0.00006996627109645224
+      ],
+      "quat": [
+        0.6493876576423645,
+        0.015256653539836407,
+        -0.013032980263233185,
+        0.7601928114891052
+      ],
+      "scale": [
+        1.000000238418579,
+        1.1168218851089478,
+        0.9999997019767761
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1907532715,
+          403822042,
+          3225500791,
+          4261693783
+        ],
+        "respath": "Object/break/downtown_wood.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "downtown_wood0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "prop",
+      "name": "downtown_wood1",
+      "res": "Object/break/Downtown_wood.I3S",
+      "obj": "Object/break/downtown_wood.i3Obj",
+      "pos": [
+        -2.2573959827423096,
+        4.32710599899292,
+        37.124732971191406
+      ],
+      "rot": [
+        88.4264158791486,
+        169.0696337801628,
+        164.5366759271955
+      ],
+      "quat": [
+        0.7159405946731567,
+        0.030178252607584,
+        -0.025744706392288208,
+        0.6970334053039551
+      ],
+      "scale": [
+        1,
+        1.2923998832702637,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1907532715,
+          403822042,
+          3225500791,
+          4261693783
+        ],
+        "respath": "Object/break/downtown_wood.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "downtown_wood1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "prop",
+      "name": "downtown_wood2",
+      "res": "Object/break/Downtown_wood.I3S",
+      "obj": "Object/break/downtown_wood.i3Obj",
+      "pos": [
+        -2.2592499256134033,
+        5.146048069000244,
+        37.096595764160156
+      ],
+      "rot": [
+        84.75058565780071,
+        178.13069266884293,
+        173.81601745608694
+      ],
+      "quat": [
+        0.7381654381752014,
+        0.02886403352022171,
+        -0.024316413328051567,
+        0.6735631823539734
+      ],
+      "scale": [
+        0.9999998807907104,
+        1.2804733514785767,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1907532715,
+          403822042,
+          3225500791,
+          4261693783
+        ],
+        "respath": "Object/break/downtown_wood.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "downtown_wood2",
+        "layer": 0
+      }
+    }
+  ]
+}

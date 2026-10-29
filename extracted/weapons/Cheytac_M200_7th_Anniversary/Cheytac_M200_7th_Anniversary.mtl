@@ -1,0 +1,9 @@
+# Materials for Cheytac M200 PBBR7
+newmtl Mtl_PSG-1_diff.webp
+Kd 1 1 1
+map_Kd PSG-1_diff.webp
+
+newmtl Mtl_CheyTac_M200_diff.webp
+Kd 1 1 1
+map_Kd CheyTac_M200_diff.webp
+

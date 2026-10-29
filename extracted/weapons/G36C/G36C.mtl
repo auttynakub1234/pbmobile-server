@@ -1,0 +1,9 @@
+# Materials for G36C Ext.
+newmtl Mtl_Scope.webp
+Kd 1 1 1
+map_Kd Scope.webp
+
+newmtl Mtl_G36c.webp
+Kd 1 1 1
+map_Kd G36c.webp
+

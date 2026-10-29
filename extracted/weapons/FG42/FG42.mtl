@@ -1,0 +1,5 @@
+# Materials for FG 42
+newmtl Mtl_Fg42_DIFF.webp
+Kd 1 1 1
+map_Kd Fg42_DIFF.webp
+

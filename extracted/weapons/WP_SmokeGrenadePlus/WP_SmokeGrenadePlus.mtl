@@ -1,0 +1,5 @@
+# Materials for WP Smoke Plus
+newmtl Mtl_WP_Smoke_Plus_diff.webp
+Kd 1 1 1
+map_Kd WP_Smoke_Plus_diff.webp
+

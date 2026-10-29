@@ -1,0 +1,3293 @@
+{
+  "stage": {
+    "name": "Junkyard",
+    "world": "World/Junkyard/Junkyard_World.I3S",
+    "sky": "World/Junkyard/Junkyard_Sky.i3s",
+    "cols": {
+      "hero": "World/Junkyard/Junkyard_Col_Hero.I3S",
+      "hit": "World/Junkyard/Junkyard_Col_Hit.I3S",
+      "light": null
+    },
+    "rsc": [
+      {
+        "path": "World/Junkyard/Textures/junkyard_allLightingMap.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Barricade_Stone_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Car_Ambulance_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Car_Trailer_01_Head_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Drum_Black_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Glass_Car_CTS_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Glass_Car_Swat_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/interior_2.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_01_Blue_01_Break_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_01_Break_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_01_Green_01_Break_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_01_Red_01_Break_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_01_White_01_Break_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_battery_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Billboard_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_biolab_box_06.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bottom_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bottom_01_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bottom_yk_06.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bridge_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Car_Truck_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_ceiling_yk_03.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_concrete_lc_01_04.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_concrete_lc_01_05.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_concrete_lc_01_06.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_concrete_lc_01_09.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Container_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Container_03.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Crane_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Crane_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_crusher_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_crusher_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_door_lc_01_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_door_lc_01_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_door_lc_01_03.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Large_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Large_01_Blue.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Large_01_Red.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Middle_01_Blue.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Middle_01_Red.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Ground_01_rs.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Ground_08_rs.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_ground_lc_01_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_light_lc_01_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Metal_frame_01_rs.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metal_lc_01_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metal_lc_01_03.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metal_lc_01_04.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metal_lc_01_10.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_metal_m_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metalframe_lc_01_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metalframe_lc_01_03.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_mountain_01_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pillar_01_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pipe_lc_01_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pipe_lc_01_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pipe_lc_01_03.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pipe_lc_01_04.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Sandbag.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_scrapyard_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_side_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_side_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_signal_1.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_tongs_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_TrafficSign_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_truck_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_ventilation_yk_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wall_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wall_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wall_yk_08.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_watertank_02_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_watertank_03_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_window_lc_01_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_wood_m_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wood_m_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wood_m_04.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_wood_m_05.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wood_m_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Wood_rs_05.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_Wood_rs_14.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Palette_Wood_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/StreetLight_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/tire.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_alphaLightingMap.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_grass_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Metal_frame_03_rs.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Metal_frame_04_rs.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_sign_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_tree_lc_01_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wirefence01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/barbedwire_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bg_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bg_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bg_03.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Decal_01_rs.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_sign_01_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_sign_02_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Junkyard_World.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Junkyard_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Junkyard_Col_Hero.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Junkyard_Col_Hit.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Junkyard_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Junkyard.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "World/Junkyard/Light/Junkyard_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Junkyard/_Generated/MapSector_1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Junkyard/_Generated/MapSector_2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Junkyard/_Generated/MapSector_3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Junkyard/_Generated/JY_Section_1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Junkyard/_Generated/JY_Section_1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Junkyard/_Generated/JY_Section_1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Junkyard_Break_02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Junkyard_Break_03.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Junkyard_Break_02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Junkyard_Break_03.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Junkyard_Break_03.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      }
+    ],
+    "ins_version": 4,
+    "layers": [
+      "Default",
+      "Respawn",
+      "Sector",
+      "Section",
+      "Objects",
+      "HitMap",
+      "HitMap"
+    ],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/Junkyard/Textures/junkyard_allLightingMap.i3i",
+        "name": "junkyard_allLightingMap"
+      },
+      {
+        "path": "World/Junkyard/Textures/Barricade_Stone_01.i3i",
+        "name": "Barricade_Stone_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Car_Ambulance_01.i3i",
+        "name": "Car_Ambulance_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Car_Trailer_01_Head_01.i3i",
+        "name": "Car_Trailer_01_Head_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Drum_Black_01.i3i",
+        "name": "Drum_Black_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Glass_Car_CTS_01.i3i",
+        "name": "Glass_Car_CTS_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Glass_Car_Swat_01.i3i",
+        "name": "Glass_Car_Swat_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/interior_2.i3i",
+        "name": "interior_2"
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_01_Blue_01_Break_01.i3i",
+        "name": "junkyard_01_Blue_01_Break_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_01_Break_01.i3i",
+        "name": "Junkyard_01_Break_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_01_Green_01_Break_01.i3i",
+        "name": "Junkyard_01_Green_01_Break_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_01_Red_01_Break_01.i3i",
+        "name": "Junkyard_01_Red_01_Break_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_01_White_01_Break_01.i3i",
+        "name": "Junkyard_01_White_01_Break_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_battery_01.i3i",
+        "name": "Junkyard_battery_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Billboard_01.i3i",
+        "name": "Junkyard_Billboard_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_biolab_box_06.i3i",
+        "name": "Junkyard_biolab_box_06"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bottom_01.i3i",
+        "name": "Junkyard_bottom_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bottom_01_B.i3i",
+        "name": "Junkyard_bottom_01_B"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bottom_yk_06.i3i",
+        "name": "Junkyard_bottom_yk_06"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bridge_01.i3i",
+        "name": "Junkyard_bridge_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Car_Truck_01.i3i",
+        "name": "Junkyard_Car_Truck_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_ceiling_yk_03.i3i",
+        "name": "Junkyard_ceiling_yk_03"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_concrete_lc_01_04.i3i",
+        "name": "Junkyard_concrete_lc_01_04"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_concrete_lc_01_05.i3i",
+        "name": "Junkyard_concrete_lc_01_05"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_concrete_lc_01_06.i3i",
+        "name": "Junkyard_concrete_lc_01_06"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_concrete_lc_01_09.i3i",
+        "name": "Junkyard_concrete_lc_01_09"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Container_02.i3i",
+        "name": "Junkyard_Container_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Container_03.i3i",
+        "name": "Junkyard_Container_03"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Crane_01.i3i",
+        "name": "Junkyard_Crane_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Crane_02.i3i",
+        "name": "Junkyard_Crane_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_crusher_01.i3i",
+        "name": "Junkyard_crusher_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_crusher_02.i3i",
+        "name": "Junkyard_crusher_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_door_lc_01_01.i3i",
+        "name": "Junkyard_door_lc_01_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_door_lc_01_02.i3i",
+        "name": "Junkyard_door_lc_01_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_door_lc_01_03.i3i",
+        "name": "Junkyard_door_lc_01_03"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Large_01.i3i",
+        "name": "Junkyard_GarbageCan_Large_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Large_01_Blue.i3i",
+        "name": "Junkyard_GarbageCan_Large_01_Blue"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Large_01_Red.i3i",
+        "name": "Junkyard_GarbageCan_Large_01_Red"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Middle_01_Blue.i3i",
+        "name": "Junkyard_GarbageCan_Middle_01_Blue"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_GarbageCan_Middle_01_Red.i3i",
+        "name": "Junkyard_GarbageCan_Middle_01_Red"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Ground_01_rs.i3i",
+        "name": "Junkyard_Ground_01_rs"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Ground_08_rs.i3i",
+        "name": "Junkyard_Ground_08_rs"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_ground_lc_01_01.i3i",
+        "name": "Junkyard_ground_lc_01_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_light_lc_01_01.i3i",
+        "name": "Junkyard_light_lc_01_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Metal_frame_01_rs.i3i",
+        "name": "Junkyard_Metal_frame_01_rs"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metal_lc_01_01.i3i",
+        "name": "Junkyard_metal_lc_01_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metal_lc_01_03.i3i",
+        "name": "Junkyard_metal_lc_01_03"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metal_lc_01_04.i3i",
+        "name": "Junkyard_metal_lc_01_04"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metal_lc_01_10.i3i",
+        "name": "Junkyard_metal_lc_01_10"
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_metal_m_07.i3i",
+        "name": "junkyard_metal_m_07"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metalframe_lc_01_01.i3i",
+        "name": "Junkyard_metalframe_lc_01_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_metalframe_lc_01_03.i3i",
+        "name": "Junkyard_metalframe_lc_01_03"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_mountain_01_B.i3i",
+        "name": "Junkyard_mountain_01_B"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pillar_01_B.i3i",
+        "name": "Junkyard_pillar_01_B"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pipe_lc_01_01.i3i",
+        "name": "Junkyard_pipe_lc_01_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pipe_lc_01_02.i3i",
+        "name": "Junkyard_pipe_lc_01_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pipe_lc_01_03.i3i",
+        "name": "Junkyard_pipe_lc_01_03"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_pipe_lc_01_04.i3i",
+        "name": "Junkyard_pipe_lc_01_04"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Sandbag.i3i",
+        "name": "Junkyard_Sandbag"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_scrapyard_01.i3i",
+        "name": "Junkyard_scrapyard_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_side_01.i3i",
+        "name": "Junkyard_side_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_side_02.i3i",
+        "name": "Junkyard_side_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_signal_1.i3i",
+        "name": "Junkyard_signal_1"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_tongs_01.i3i",
+        "name": "Junkyard_tongs_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_TrafficSign_01.i3i",
+        "name": "Junkyard_TrafficSign_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_truck_01.i3i",
+        "name": "junkyard_truck_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_ventilation_yk_01.i3i",
+        "name": "Junkyard_ventilation_yk_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wall_01.i3i",
+        "name": "Junkyard_wall_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wall_02.i3i",
+        "name": "Junkyard_wall_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wall_yk_08.i3i",
+        "name": "Junkyard_wall_yk_08"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_watertank_02_B.i3i",
+        "name": "Junkyard_watertank_02_B"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_watertank_03_B.i3i",
+        "name": "Junkyard_watertank_03_B"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_window_lc_01_01.i3i",
+        "name": "Junkyard_window_lc_01_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_wood_m_01.i3i",
+        "name": "junkyard_wood_m_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wood_m_02.i3i",
+        "name": "Junkyard_wood_m_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wood_m_04.i3i",
+        "name": "Junkyard_wood_m_04"
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_wood_m_05.i3i",
+        "name": "junkyard_wood_m_05"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wood_m_07.i3i",
+        "name": "Junkyard_wood_m_07"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Wood_rs_05.i3i",
+        "name": "Junkyard_Wood_rs_05"
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_Wood_rs_14.i3i",
+        "name": "junkyard_Wood_rs_14"
+      },
+      {
+        "path": "World/Junkyard/Textures/Palette_Wood_01.i3i",
+        "name": "Palette_Wood_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/StreetLight_02.i3i",
+        "name": "StreetLight_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/tire.i3i",
+        "name": "tire"
+      },
+      {
+        "path": "World/Junkyard/Textures/junkyard_alphaLightingMap.i3i",
+        "name": "junkyard_alphaLightingMap"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_grass_01.i3i",
+        "name": "Junkyard_grass_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Metal_frame_03_rs.i3i",
+        "name": "Junkyard_Metal_frame_03_rs"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Metal_frame_04_rs.i3i",
+        "name": "Junkyard_Metal_frame_04_rs"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_sign_01.i3i",
+        "name": "Junkyard_sign_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_tree_lc_01_01.i3i",
+        "name": "Junkyard_tree_lc_01_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_wirefence01.i3i",
+        "name": "Junkyard_wirefence01"
+      },
+      {
+        "path": "World/Junkyard/Textures/barbedwire_01.i3i",
+        "name": "barbedwire_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bg_01.i3i",
+        "name": "Junkyard_bg_01"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bg_02.i3i",
+        "name": "Junkyard_bg_02"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_bg_03.i3i",
+        "name": "Junkyard_bg_03"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_Decal_01_rs.i3i",
+        "name": "Junkyard_Decal_01_rs"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_sign_01_B.i3i",
+        "name": "Junkyard_sign_01_B"
+      },
+      {
+        "path": "World/Junkyard/Textures/Junkyard_sign_02_B.i3i",
+        "name": "Junkyard_sign_02_B"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          3715005900,
+          2998532851,
+          1265144301,
+          1141645633
+        ],
+        "respath": "World/Junkyard/Junkyard.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        13.600000381469727,
+        0.20000000298023224,
+        -11.199999809265137
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "Respawn1",
+      "res": null,
+      "obj": null,
+      "pos": [
+        13.619999885559082,
+        0.20000000298023224,
+        -9.479999542236328
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn1",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "Respawn2",
+      "res": null,
+      "obj": null,
+      "pos": [
+        13.369999885559082,
+        0.20000000298023224,
+        -7.559999942779541
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn2",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "Respawn3",
+      "res": null,
+      "obj": null,
+      "pos": [
+        14.319999694824219,
+        0.20000000298023224,
+        2.7799999713897705
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn3",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "Respawn4",
+      "res": null,
+      "obj": null,
+      "pos": [
+        15.020000457763672,
+        0.20000000298023224,
+        4.840000152587891
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn4",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "Respawn5",
+      "res": null,
+      "obj": null,
+      "pos": [
+        14.762199401855469,
+        0.20000000298023224,
+        7
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn5",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "Respawn6",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -18.1299991607666,
+        0.20000000298023224,
+        -16.9565372467041
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn6",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "Respawn7",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -17.1200008392334,
+        0.20000000298023224,
+        -9.782999992370605
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn7",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "Respawn8",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -18.3799991607666,
+        0.20000000298023224,
+        -4.300000190734863
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn8",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "Respawn9",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -18.049999237060547,
+        0.20000000298023224,
+        9.670000076293945
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn9",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "Respawn10",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -18.059999465942383,
+        0.20000000298023224,
+        12.100000381469727
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn10",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "Respawn11",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -18.139999389648438,
+        0.20000000298023224,
+        14.319999694824219
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn11",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "unknown",
+      "name": "Junkyard_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -3.6887989044189453,
+        10.154520988464355,
+        -2.5852320194244385
+      ],
+      "rot": [
+        -90,
+        0,
+        0
+      ],
+      "quat": [
+        -0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          3840328049,
+          952036767,
+          2351136919,
+          58638103
+        ],
+        "respath": "World/Junkyard/Light/Junkyard_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Junkyard_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "trigger",
+      "name": "Sector01_1",
+      "res": "Scene/Junkyard/_Generated/MapSector_1.i3Evt",
+      "obj": null,
+      "pos": [
+        9.014421463012695,
+        5.5858941078186035,
+        -0.16051599383354187
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        15.671184539794922,
+        11.048746109008789,
+        38.96263122558594
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3685199775,
+          3492571600,
+          3431097324,
+          2518329483
+        ],
+        "respath": "Scene/Junkyard/_Generated/MapSector_1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Sector01_1",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "trigger",
+      "name": "Sector02_1",
+      "res": "Scene/Junkyard/_Generated/MapSector_2.i3Evt",
+      "obj": null,
+      "pos": [
+        -3.166037082672119,
+        5.5858941078186035,
+        -0.16051599383354187
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.063683032989502,
+        11.048746109008789,
+        38.96263122558594
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2139755203,
+          626615248,
+          3080532892,
+          242618764
+        ],
+        "respath": "Scene/Junkyard/_Generated/MapSector_2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Sector02_1",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "trigger",
+      "name": "Sector03_1",
+      "res": "Scene/Junkyard/_Generated/MapSector_3.i3Evt",
+      "obj": null,
+      "pos": [
+        -14.988417625427246,
+        5.5858941078186035,
+        -0.16051599383354187
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        15.671184539794922,
+        11.048746109008789,
+        38.96263122558594
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3517484787,
+          3134949867,
+          1977444862,
+          119146567
+        ],
+        "respath": "Scene/Junkyard/_Generated/MapSector_3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Sector03_1",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "trigger",
+      "name": "Section_01_1",
+      "res": "Scene/Junkyard/_Generated/JY_Section_1.i3Evt",
+      "obj": null,
+      "pos": [
+        7.3433098793029785,
+        5.5062432289123535,
+        7.821098804473877
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.732117652893066,
+        5.820361137390137,
+        7.093119144439697
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          702718503,
+          4239478155,
+          3539193691,
+          4016246511
+        ],
+        "respath": "Scene/Junkyard/_Generated/JY_Section_1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Section_01_1",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "trigger",
+      "name": "Section_01_2",
+      "res": "Scene/Junkyard/_Generated/JY_Section_1.i3Evt",
+      "obj": null,
+      "pos": [
+        -10.826095581054688,
+        5.418360233306885,
+        -9.149327278137207
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.569618225097656,
+        5.820361137390137,
+        7.090619087219238
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          702718503,
+          4239478155,
+          3539193691,
+          4016246511
+        ],
+        "respath": "Scene/Junkyard/_Generated/JY_Section_1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Section_01_2",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "trigger",
+      "name": "Section_01_3",
+      "res": "Scene/Junkyard/_Generated/JY_Section_1.i3Evt",
+      "obj": null,
+      "pos": [
+        8.900503158569336,
+        4.984333038330078,
+        3.5118770599365234
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.6371169090270996,
+        5.820361137390137,
+        8.750619888305664
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          702718503,
+          4239478155,
+          3539193691,
+          4016246511
+        ],
+        "respath": "Scene/Junkyard/_Generated/JY_Section_1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Section_01_3",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_1",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        8.590124130249023,
+        2.300352096557617,
+        -9.371931076049805
+      ],
+      "rot": [
+        88.00018875140346,
+        180,
+        180
+      ],
+      "quat": [
+        0.7193396687507629,
+        0,
+        0,
+        0.6946585774421692
+      ],
+      "scale": [
+        1,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_1",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_2",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        7.257274150848389,
+        0.13980600237846375,
+        6.60691499710083
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_2",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_3",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        -6.462497234344482,
+        0.0131029998883605,
+        -8.378331184387207
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_3",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_4",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        -13.943774223327637,
+        2.0894479751586914,
+        11.958763122558594
+      ],
+      "rot": [
+        80.00001558949938,
+        0,
+        0
+      ],
+      "quat": [
+        0.6427876949310303,
+        0,
+        0,
+        0.7660443782806396
+      ],
+      "scale": [
+        1,
+        1.000000238418579,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_4",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_5",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        -3.65431809425354,
+        2.5342400074005127,
+        1.577604055404663
+      ],
+      "rot": [
+        -78.00000194101426,
+        -179.9999204177194,
+        -162.00008763794744
+      ],
+      "quat": [
+        -0.7675780653953552,
+        0.12157227843999863,
+        0.09844746440649033,
+        0.6215723752975464
+      ],
+      "scale": [
+        1.0000003576278687,
+        1.0000003576278687,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_5",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "prop",
+      "name": "Junkyard_Break_2",
+      "res": null,
+      "obj": "Object/break/Junkyard_Break_02.i3Obj",
+      "pos": [
+        -3.3788719177246094,
+        3.250965118408203,
+        2.362963914871216
+      ],
+      "rot": [
+        19.00017435471776,
+        -70.9998667284651,
+        -179.9998596416585
+      ],
+      "quat": [
+        0.5727380514144897,
+        0.13436844944953918,
+        -0.8029507398605347,
+        0.09584533423185349
+      ],
+      "scale": [
+        1.000000238418579,
+        1.0000004768371582,
+        0.9999997019767761
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3642912601,
+          3182236305,
+          191114395,
+          3599624099
+        ],
+        "respath": "Object/break/Junkyard_Break_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Junkyard_Break_2",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "prop",
+      "name": "Junkyard_Break_4",
+      "res": null,
+      "obj": "Object/break/Junkyard_Break_03.i3Obj",
+      "pos": [
+        -1.7765159606933594,
+        -0.1667650043964386,
+        14.498373985290527
+      ],
+      "rot": [
+        -5.000007435793605,
+        -90.00000072066142,
+        0.000005994271672695696
+      ],
+      "quat": [
+        -0.030843647196888924,
+        -0.7064337730407715,
+        -0.030843570828437805,
+        0.7064338326454163
+      ],
+      "scale": [
+        1,
+        1.1974998712539673,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1587131030,
+          1592557247,
+          72705902,
+          4065340233
+        ],
+        "respath": "Object/break/Junkyard_Break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Junkyard_Break_4",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "prop",
+      "name": "Junkyard_Break_5",
+      "res": null,
+      "obj": "Object/break/Junkyard_Break_02.i3Obj",
+      "pos": [
+        3.09895396232605,
+        1.615339994430542,
+        -1.3781429529190063
+      ],
+      "rot": [
+        55.00000297108128,
+        -90.00002008440123,
+        90.00002008440123
+      ],
+      "quat": [
+        -0.2126312106847763,
+        -0.6743797659873962,
+        0.6743797659873962,
+        0.2126312106847763
+      ],
+      "scale": [
+        1.000000238418579,
+        0.7875000238418579,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3642912601,
+          3182236305,
+          191114395,
+          3599624099
+        ],
+        "respath": "Object/break/Junkyard_Break_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Junkyard_Break_5",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "prop",
+      "name": "Junkyard_Break_3",
+      "res": null,
+      "obj": "Object/break/Junkyard_Break_03.i3Obj",
+      "pos": [
+        -1.7298099994659424,
+        -0.10949499905109406,
+        -4.2192769050598145
+      ],
+      "rot": [
+        -50.00000861003591,
+        -90.00001672131022,
+        0.0000031754009135843807
+      ],
+      "quat": [
+        -0.29883626103401184,
+        -0.6408564448356628,
+        -0.29883626103401184,
+        0.6408563852310181
+      ],
+      "scale": [
+        1,
+        1.0000005960464478,
+        1.0000005960464478
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1587131030,
+          1592557247,
+          72705902,
+          4065340233
+        ],
+        "respath": "Object/break/Junkyard_Break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Junkyard_Break_3",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "prop",
+      "name": "Junkyard_Break_6",
+      "res": null,
+      "obj": "Object/break/Junkyard_Break_03.i3Obj",
+      "pos": [
+        -3.761013984680176,
+        -0.16282999515533447,
+        -2.0169320106506348
+      ],
+      "rot": [
+        -7.040736926190813,
+        139.8188311058125,
+        -0.6055515084998887
+      ],
+      "quat": [
+        -0.026045585051178932,
+        0.9372540712356567,
+        0.05585440993309021,
+        0.34315720200538635
+      ],
+      "scale": [
+        1.1075003147125244,
+        1.2057712078094482,
+        0.9999998807907104
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1587131030,
+          1592557247,
+          72705902,
+          4065340233
+        ],
+        "respath": "Object/break/Junkyard_Break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Junkyard_Break_6",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_6",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        -7.125857830047607,
+        -0.02612599916756153,
+        9.424508094787598
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_6",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_7",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        1.146644949913025,
+        -0.02612599916756153,
+        -5.8628458976745605
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_7",
+        "layer": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Materials for MP5K Ext.
+newmtl Mtl_Silencer.webp
+Kd 1 1 1
+map_Kd Silencer.webp
+
+newmtl Mtl_MP5K.webp
+Kd 1 1 1
+map_Kd MP5K.webp
+

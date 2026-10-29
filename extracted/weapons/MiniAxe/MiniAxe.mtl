@@ -1,0 +1,5 @@
+# Materials for Mini Axe
+newmtl Mtl_Mini_Axe_diffuse.webp
+Kd 1 1 1
+map_Kd Mini_Axe_diffuse.webp
+

@@ -1,0 +1,9 @@
+# Materials for M4A1 G.
+newmtl Mtl_M4A1G.webp
+Kd 1 1 1
+map_Kd M4A1G.webp
+
+newmtl Mtl_ScopeG.webp
+Kd 1 1 1
+map_Kd ScopeG.webp
+

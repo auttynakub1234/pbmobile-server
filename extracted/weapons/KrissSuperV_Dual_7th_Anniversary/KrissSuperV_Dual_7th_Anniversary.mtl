@@ -1,0 +1,9 @@
+# Materials for Dual Kriss S.V PBBR7
+newmtl Mtl_DotSight.webp
+Kd 1 1 1
+map_Kd DotSight.webp
+
+newmtl Mtl_Kriss_super_V.webp
+Kd 1 1 1
+map_Kd Kriss_super_V.webp
+

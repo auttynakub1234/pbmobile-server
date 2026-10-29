@@ -1,0 +1,5559 @@
+{
+  "stage": {
+    "name": "Crackdown",
+    "world": "World/Crackdown/Crackdown_World.I3S",
+    "sky": "World/Crackdown/Crackdown_Sky.i3s",
+    "cols": {
+      "hero": "World/Crackdown/Crackdown_Col_Hero.I3S",
+      "hit": "World/Crackdown/Crackdown_Col_Hit.I3S",
+      "light": null
+    },
+    "rsc": [
+      {
+        "path": "World/Crackdown/Crackdown_World.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Crackdown/Crackdown_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Crackdown/Crackdown_Col_Hero.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Crackdown/Crackdown_Col_Hit.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Crackdown/Crackdown_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Crackdown/Crackdown.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "World/Crackdown/Light/Crackdown_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Object/billboard/Crackdown_Glass01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/billboard/Glass_RefMask.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/billboard/Crackdown_Glass01.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/billboard/Crackdown_Glass02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/billboard/Crackdown_Glass02.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "World/Crackdown/Path.i3Path",
+        "type": 11,
+        "tname": "PATH",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Cd02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_1.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Cb03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_2.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_3.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_4.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/map1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/m4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_60.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/m3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_600.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/m2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_6000.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/m5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_61.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_601.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_6001.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/M9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_62.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/M8.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_602.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/M11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_6002.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/M10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_60000.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/m7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_60020.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/m6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_600200.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_6020.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_70.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/M13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_60200.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_700.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Crackdown/_Generated/Box_60201.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      }
+    ],
+    "ins_version": 4,
+    "layers": [
+      "Default",
+      "Default",
+      "Layer",
+      "Layer1",
+      "Layer2"
+    ],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/Crackdown/Textures/Crackdown_1LightingMap_256.i3i",
+        "name": "Crackdown_1LightingMap_256"
+      },
+      {
+        "path": "World/Crackdown/Textures/handrail.i3i",
+        "name": "handrail"
+      },
+      {
+        "path": "World/Crackdown/Textures/bottom.i3i",
+        "name": "bottom"
+      },
+      {
+        "path": "World/Crackdown/Textures/GarbageCan_Middle_01.i3i",
+        "name": "GarbageCan_Middle_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/Container CrackDown.i3i",
+        "name": "Container CrackDown"
+      },
+      {
+        "path": "World/Crackdown/Textures/Drum_Black_01.i3i",
+        "name": "Drum_Black_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/Drum_Blue_01.i3i",
+        "name": "Drum_Blue_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/CableDrum_01.i3i",
+        "name": "CableDrum_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/interior_2.i3i",
+        "name": "interior_2"
+      },
+      {
+        "path": "World/Crackdown/Textures/Palette_Wood_01.i3i",
+        "name": "Palette_Wood_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/wood_resources_01.i3i",
+        "name": "wood_resources_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/Car_CTS_Indoor_01_Break_01.i3i",
+        "name": "Car_CTS_Indoor_01_Break_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/Car_CTS_Outdoor_01_Taxi_01_Break_01.i3i",
+        "name": "Car_CTS_Outdoor_01_Taxi_01_Break_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/Car_Option_01_Break_01.i3i",
+        "name": "Car_Option_01_Break_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/WireEntanglement_01.i3i",
+        "name": "WireEntanglement_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/bottom_02.i3i",
+        "name": "bottom_02"
+      },
+      {
+        "path": "World/Crackdown/Textures/road_1.i3i",
+        "name": "road_1"
+      },
+      {
+        "path": "World/Crackdown/Textures/Sign_Danger_01.i3i",
+        "name": "Sign_Danger_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/Handrail_01.i3i",
+        "name": "Handrail_01"
+      },
+      {
+        "path": "World/Crackdown/Textures/Car_Humvee_01_Outdoor_01_Pattern_02_Diff.i3i",
+        "name": "Car_Humvee_01_Outdoor_01_Pattern_02_Diff"
+      },
+      {
+        "path": "World/Crackdown/Textures/Crackdown_AlphaLightingMap_256.i3i",
+        "name": "Crackdown_AlphaLightingMap_256"
+      },
+      {
+        "path": "World/Crackdown/Textures/leaflet_2.i3i",
+        "name": "leaflet_2"
+      },
+      {
+        "path": "World/Crackdown/Textures/leaflet_1.i3i",
+        "name": "leaflet_1"
+      },
+      {
+        "path": "World/Crackdown/Textures/WireEntanglement_02.i3i",
+        "name": "WireEntanglement_02"
+      },
+      {
+        "path": "World/Crackdown/Textures/WireEntanglement_03.i3i",
+        "name": "WireEntanglement_03"
+      },
+      {
+        "path": "World/Crackdown/Textures/Car_Humvee_01_window_01_Diff.i3i",
+        "name": "Car_Humvee_01_window_01_Diff"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          2048724226,
+          3896572073,
+          3186133662,
+          2250502622
+        ],
+        "respath": "World/Crackdown/Crackdown.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        14.91519546508789,
+        1.6172269582748413,
+        -14.858721733093262
+      ],
+      "rot": [
+        0,
+        -30.000014430174883,
+        0
+      ],
+      "quat": [
+        0,
+        -0.2588191628456116,
+        0,
+        0.9659258127212524
+      ],
+      "scale": [
+        0.9999995827674866,
+        1,
+        0.9999995827674866
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -12.535477638244629,
+        1.5968990325927734,
+        -0.41165000200271606
+      ],
+      "rot": [
+        0,
+        170.0000131372409,
+        0
+      ],
+      "quat": [
+        0,
+        0.9961947798728943,
+        0,
+        0.08715564757585526
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -1.4839739799499512,
+        1.7972830533981323,
+        -15.321455001831055
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -1.5076500177383423,
+        1.7842309474945068,
+        16.30946159362793
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        15.595708847045898,
+        1.7842309474945068,
+        -2.4930520057678223
+      ],
+      "rot": [
+        0,
+        -140.000053997595,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9396928548812866,
+        0,
+        0.34201979637145996
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -12.08310317993164,
+        1.7842309474945068,
+        13.831353187561035
+      ],
+      "rot": [
+        0,
+        150.00000470082068,
+        0
+      ],
+      "quat": [
+        0,
+        0.9659258127212524,
+        0,
+        0.25881898403167725
+      ],
+      "scale": [
+        0.9999995827674866,
+        1,
+        0.9999995827674866
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -15.337117195129395,
+        1.6172269582748413,
+        4.713313102722168
+      ],
+      "rot": [
+        0,
+        19.999984740786076,
+        0
+      ],
+      "quat": [
+        0,
+        0.17364804446697235,
+        0,
+        0.9848077893257141
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        2.247637987136841,
+        1.9269989728927612,
+        16.382532119750977
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        12.506104469299316,
+        1.6172269582748413,
+        2.025758981704712
+      ],
+      "rot": [
+        0,
+        -9.99998746178698,
+        0
+      ],
+      "quat": [
+        0,
+        -0.08715563267469406,
+        0,
+        0.9961947202682495
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        1.4662820100784302,
+        1.7972830533981323,
+        -15.321455001831055
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -14.3219633102417,
+        1.6172269582748413,
+        -8.457867622375488
+      ],
+      "rot": [
+        0,
+        19.999984740786076,
+        0
+      ],
+      "quat": [
+        0,
+        0.17364804446697235,
+        0,
+        0.9848077893257141
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        13.070981979370117,
+        1.7842309474945068,
+        12.912012100219727
+      ],
+      "rot": [
+        0,
+        170.0000131372409,
+        0
+      ],
+      "quat": [
+        0,
+        0.9961947798728943,
+        0,
+        0.08715564757585526
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "unknown",
+      "name": "Element",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -10.863271713256836,
+        27.01852798461914,
+        -9.986859321594238
+      ],
+      "rot": [
+        -46.704131743053175,
+        -128.461747368033,
+        -4.161769175272117
+      ],
+      "quat": [
+        -0.142190083861351,
+        -0.8324977159500122,
+        -0.3712185025215149,
+        0.3859098255634308
+      ],
+      "scale": [
+        1.0000003576278687,
+        1.0000004768371582,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          149644223,
+          3951625279,
+          2537216957,
+          1068162187
+        ],
+        "respath": "World/Crackdown/Light/Crackdown_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Element",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "prop",
+      "name": "Crackdown_Glass01",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -17.417829513549805,
+        2.692828893661499,
+        -1.318668007850647
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        0.8999999761581421
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "prop",
+      "name": "Crackdown_Glass010",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        15.482142448425293,
+        2.692828893661499,
+        17.563526153564453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass010",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "prop",
+      "name": "Crackdown_Glass011",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        12.010733604431152,
+        2.692828893661499,
+        17.563526153564453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass011",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "prop",
+      "name": "Crackdown_Glass012",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        5.082088947296143,
+        2.692828893661499,
+        17.563526153564453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass012",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "prop",
+      "name": "Crackdown_Glass020",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        17.19571876525879,
+        2.686655044555664,
+        4.9309868812561035
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass020",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "prop",
+      "name": "Crackdown_Glass013",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        1.6136449575424194,
+        2.692828893661499,
+        17.563526153564453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass013",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "prop",
+      "name": "Crackdown_Glass0200",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        12.144857406616211,
+        2.686655044555664,
+        17.561626434326172
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0200",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "prop",
+      "name": "Crackdown_Glass0201",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        1.7689160108566284,
+        2.686655044555664,
+        17.561626434326172
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0201",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "prop",
+      "name": "Crackdown_Glass015",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -8.766799926757812,
+        2.692828893661499,
+        17.563526153564453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass015",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "prop",
+      "name": "Crackdown_Glass0202",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        -8.603718757629395,
+        2.686655044555664,
+        17.561626434326172
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0202",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "prop",
+      "name": "Crackdown_Glass016",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -15.676248550415039,
+        2.692828893661499,
+        17.56076431274414
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass016",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "prop",
+      "name": "Crackdown_Glass017",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -17.417829513549805,
+        2.692828893661499,
+        12.339425086975098
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass017",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "prop",
+      "name": "Crackdown_Glass018",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -17.417829513549805,
+        2.692828893661499,
+        8.880777359008789
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass018",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "prop",
+      "name": "Crackdown_Glass0203",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        -17.417757034301758,
+        2.686655044555664,
+        12.228837966918945
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0203",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "prop",
+      "name": "Crackdown_Glass019",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -15.674118041992188,
+        2.692828893661499,
+        -17.08391761779785
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass019",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "prop",
+      "name": "Crackdown_Glass0204",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        -17.41448974609375,
+        2.686655044555664,
+        1.8191699981689453
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0204",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "prop",
+      "name": "Crackdown_Glass0190",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -17.417829513549805,
+        2.692828893661499,
+        1.955819010734558
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0190",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "prop",
+      "name": "Crackdown_Glass0191",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -17.417829513549805,
+        2.692828893661499,
+        -15.334074020385742
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0191",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "prop",
+      "name": "Crackdown_Glass0205",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        -17.41448974609375,
+        2.686655044555664,
+        -15.650748252868652
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.100000023841858,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0205",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "prop",
+      "name": "Crackdown_Glass0140",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -5.3090128898620605,
+        2.692828893661499,
+        17.563526153564453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0140",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "prop",
+      "name": "Crackdown_Glass0141",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        -1.801259994506836,
+        2.692828893661499,
+        -17.089601516723633
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0141",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "prop",
+      "name": "Crackdown_Glass0206",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        -8.755912780761719,
+        2.686655044555664,
+        -17.094209671020508
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.9700000286102295,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0206",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "prop",
+      "name": "Crackdown_Glass0142",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        1.635903000831604,
+        2.692828893661499,
+        -17.089601516723633
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0142",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "prop",
+      "name": "Crackdown_Glass0143",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        8.562492370605469,
+        2.692828893661499,
+        -17.089601516723633
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0143",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "prop",
+      "name": "Crackdown_Glass0207",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        8.705018997192383,
+        2.686655044555664,
+        -17.090309143066406
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0207",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "prop",
+      "name": "Crackdown_Glass0144",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        17.203588485717773,
+        2.692828893661499,
+        11.98442268371582
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0144",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "prop",
+      "name": "Crackdown_Glass0208",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        19.070396423339844,
+        2.686655044555664,
+        -17.090309143066406
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0208",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "prop",
+      "name": "Crackdown_Glass01440",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        12.004252433776855,
+        2.692828893661499,
+        -17.089601516723633
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass01440",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "prop",
+      "name": "Crackdown_Glass01441",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        17.203588485717773,
+        2.692828893661499,
+        -15.530950546264648
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        0.8999999761581421
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass01441",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "prop",
+      "name": "Crackdown_Glass01442",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        17.203588485717773,
+        2.692828893661499,
+        -8.769216537475586
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass01442",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i44",
+      "kind": "prop",
+      "name": "Crackdown_Glass0209",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        17.19571876525879,
+        2.686655044555664,
+        -15.838727951049805
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass0209",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i45",
+      "kind": "prop",
+      "name": "Crackdown_Glass01443",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        17.203588485717773,
+        2.692828893661499,
+        -5.307328224182129
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass01443",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i46",
+      "kind": "prop",
+      "name": "Crackdown_Glass01444",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        17.203588485717773,
+        2.692828893661499,
+        1.601302981376648
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass01444",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i47",
+      "kind": "prop",
+      "name": "Crackdown_Glass02010",
+      "res": "Object/billboard/Crackdown_Glass02.I3S",
+      "obj": "Object/billboard/Crackdown_Glass02.i3Obj",
+      "pos": [
+        17.19571876525879,
+        2.686655044555664,
+        -5.455408096313477
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1357971831,
+          3723167327,
+          2334610304,
+          2558292421
+        ],
+        "respath": "Object/billboard/Crackdown_Glass02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass02010",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i48",
+      "kind": "prop",
+      "name": "Crackdown_Glass01445",
+      "res": "Object/billboard/Crackdown_Glass01.I3S",
+      "obj": "Object/billboard/Crackdown_Glass01.i3Obj",
+      "pos": [
+        17.203588485717773,
+        2.692828893661499,
+        5.068077087402344
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          751063725,
+          2877323406,
+          3603316996,
+          3249354718
+        ],
+        "respath": "Object/billboard/Crackdown_Glass01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Crackdown_Glass01445",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i49",
+      "kind": "unknown",
+      "name": "Path",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -335.3853454589844,
+        0,
+        27.80792236328125
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2763177827,
+        "clsname": "i3GamePath",
+        "res": [
+          2116153080,
+          3208115436,
+          343370873,
+          692387941
+        ],
+        "respath": "World/Crackdown/Path.i3Path",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Path",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i50",
+      "kind": "trigger",
+      "name": "Box",
+      "res": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+      "obj": null,
+      "pos": [
+        -10.746708869934082,
+        2.9050590991973877,
+        1.2982540130615234
+      ],
+      "rot": [
+        0,
+        -15.448260306732326,
+        0
+      ],
+      "quat": [
+        0,
+        -0.1344035267829895,
+        0,
+        0.9909266829490662
+      ],
+      "scale": [
+        2.295153856277466,
+        2.440757989883423,
+        5.3637189865112305
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1245816141,
+          1199620088,
+          1625914531,
+          1154907918
+        ],
+        "respath": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i51",
+      "kind": "trigger",
+      "name": "Box_0",
+      "res": "Scene/Crackdown/_Generated/Cd02.i3Evt",
+      "obj": null,
+      "pos": [
+        -10.721199035644531,
+        4.777903079986572,
+        1.2965589761734009
+      ],
+      "rot": [
+        0,
+        -15.272853185452565,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13288654386997223,
+        0,
+        0.9911312460899353
+      ],
+      "scale": [
+        2.23002028465271,
+        1.2655609846115112,
+        5.260040283203125
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3887545055,
+          1196520423,
+          1235369653,
+          3590957343
+        ],
+        "respath": "Scene/Crackdown/_Generated/Cd02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_0",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i52",
+      "kind": "trigger",
+      "name": "Box_1",
+      "res": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+      "obj": null,
+      "pos": [
+        0.22400400042533875,
+        2.9033091068267822,
+        16.311519622802734
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.132739067077637,
+        2.462522029876709,
+        2.2756829261779785
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1245816141,
+          1199620088,
+          1625914531,
+          1154907918
+        ],
+        "respath": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_1",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i53",
+      "kind": "trigger",
+      "name": "Box_2",
+      "res": "Scene/Crackdown/_Generated/Cb03.i3Evt",
+      "obj": null,
+      "pos": [
+        0.25159400701522827,
+        4.8365960121154785,
+        16.304080963134766
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.074844837188721,
+        1.4300570487976074,
+        2.2569708824157715
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3340609614,
+          418239620,
+          1736887857,
+          2823284560
+        ],
+        "respath": "Scene/Crackdown/_Generated/Cb03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_2",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i54",
+      "kind": "trigger",
+      "name": "Box_3",
+      "res": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+      "obj": null,
+      "pos": [
+        -2.8911070823669434,
+        2.9451680183410645,
+        4.850214004516602
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.4791738986968994,
+        2.369874954223633,
+        6.083126068115234
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1245816141,
+          1199620088,
+          1625914531,
+          1154907918
+        ],
+        "respath": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_3",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i55",
+      "kind": "trigger",
+      "name": "Box_4",
+      "res": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+      "obj": null,
+      "pos": [
+        10.957642555236816,
+        2.7780139446258545,
+        -0.1703830063343048
+      ],
+      "rot": [
+        0,
+        -15.063787034070746,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13107804954051971,
+        0,
+        0.9913721084594727
+      ],
+      "scale": [
+        2.3285973072052,
+        2.745727062225342,
+        5.209231376647949
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1245816141,
+          1199620088,
+          1625914531,
+          1154907918
+        ],
+        "respath": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_4",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i56",
+      "kind": "trigger",
+      "name": "Box_5",
+      "res": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+      "obj": null,
+      "pos": [
+        0.03532399982213974,
+        2.879568099975586,
+        -15.134380340576172
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.979537010192871,
+        2.55007004737854,
+        2.4175820350646973
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1245816141,
+          1199620088,
+          1625914531,
+          1154907918
+        ],
+        "respath": "Scene/Crackdown/_Generated/Cd01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_5",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i57",
+      "kind": "trigger",
+      "name": "Box_6",
+      "res": "Scene/Crackdown/_Generated/map1.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.050023000687360764,
+        3.2577550411224365,
+        -15.244486808776855
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.665926933288574,
+        3.1997029781341553,
+        2.7563021183013916
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1725068469,
+          2752184458,
+          4002831531,
+          3813663159
+        ],
+        "respath": "Scene/Crackdown/_Generated/map1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_6",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i58",
+      "kind": "trigger",
+      "name": "Box_60",
+      "res": "Scene/Crackdown/_Generated/m4.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.050023000687360764,
+        3.2577550411224365,
+        -8.856250762939453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.301532745361328,
+        3.1997029781341553,
+        9.871688842773438
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2256802356,
+          2302077359,
+          2430885747,
+          2052146261
+        ],
+        "respath": "Scene/Crackdown/_Generated/m4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_60",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i59",
+      "kind": "trigger",
+      "name": "Box_600",
+      "res": "Scene/Crackdown/_Generated/m3.i3Evt",
+      "obj": null,
+      "pos": [
+        12.139443397521973,
+        3.2577550411224365,
+        -10.4536714553833
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.758852005004883,
+        3.1997029781341553,
+        12.72504997253418
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          112539872,
+          406941226,
+          3890583647,
+          652278649
+        ],
+        "respath": "Scene/Crackdown/_Generated/m3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_600",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i60",
+      "kind": "trigger",
+      "name": "Box_6000",
+      "res": "Scene/Crackdown/_Generated/m2.i3Evt",
+      "obj": null,
+      "pos": [
+        -12.166500091552734,
+        3.2577550411224365,
+        -10.260038375854492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.758852005004883,
+        3.1997029781341553,
+        12.72504997253418
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2326012646,
+          503336530,
+          4052380629,
+          2939452
+        ],
+        "respath": "Scene/Crackdown/_Generated/m2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_6000",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i61",
+      "kind": "trigger",
+      "name": "Box_7",
+      "res": "Scene/Crackdown/_Generated/m5.i3Evt",
+      "obj": null,
+      "pos": [
+        3.265022039413452,
+        3.4190940856933594,
+        0.6517080068588257
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.647002220153809,
+        4.347132205963135,
+        8.74981689453125
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2032873642,
+          216874572,
+          2933599873,
+          4118631514
+        ],
+        "respath": "Scene/Crackdown/_Generated/m5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_7",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i62",
+      "kind": "trigger",
+      "name": "Box_61",
+      "res": "Scene/Crackdown/_Generated/map1.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.050023000687360764,
+        3.2577550411224365,
+        -15.244486808776855
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.665926933288574,
+        3.1997029781341553,
+        2.7563021183013916
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1725068469,
+          2752184458,
+          4002831531,
+          3813663159
+        ],
+        "respath": "Scene/Crackdown/_Generated/map1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_61",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i63",
+      "kind": "trigger",
+      "name": "Box_601",
+      "res": "Scene/Crackdown/_Generated/map1.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.050023000687360764,
+        3.2577550411224365,
+        -8.856250762939453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.301532745361328,
+        3.1997029781341553,
+        9.871688842773438
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1725068469,
+          2752184458,
+          4002831531,
+          3813663159
+        ],
+        "respath": "Scene/Crackdown/_Generated/map1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_601",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i64",
+      "kind": "trigger",
+      "name": "Box_6001",
+      "res": "Scene/Crackdown/_Generated/map1.i3Evt",
+      "obj": null,
+      "pos": [
+        12.139443397521973,
+        3.2577550411224365,
+        -10.260038375854492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.758852005004883,
+        3.1997029781341553,
+        12.72504997253418
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1725068469,
+          2752184458,
+          4002831531,
+          3813663159
+        ],
+        "respath": "Scene/Crackdown/_Generated/map1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_6001",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i65",
+      "kind": "trigger",
+      "name": "Box_62",
+      "res": "Scene/Crackdown/_Generated/M9.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.050023000687360764,
+        3.2577550411224365,
+        16.554845809936523
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.665926933288574,
+        3.1997029781341553,
+        2.7563021183013916
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3623310882,
+          2057303844,
+          2667406133,
+          63526122
+        ],
+        "respath": "Scene/Crackdown/_Generated/M9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_62",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i66",
+      "kind": "trigger",
+      "name": "Box_602",
+      "res": "Scene/Crackdown/_Generated/M8.i3Evt",
+      "obj": null,
+      "pos": [
+        2.6241679191589355,
+        3.2577550411224365,
+        10.139627456665039
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.797632217407227,
+        3.1997029781341553,
+        9.871688842773438
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1634013775,
+          1939090326,
+          767130317,
+          4048750436
+        ],
+        "respath": "Scene/Crackdown/_Generated/M8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_602",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i67",
+      "kind": "trigger",
+      "name": "Box_6002",
+      "res": "Scene/Crackdown/_Generated/M11.i3Evt",
+      "obj": null,
+      "pos": [
+        12.139443397521973,
+        3.2577550411224365,
+        11.599284172058105
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.758852005004883,
+        3.1997029781341553,
+        12.72504997253418
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          377041215,
+          2401202070,
+          1538595432,
+          3191996253
+        ],
+        "respath": "Scene/Crackdown/_Generated/M11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_6002",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i68",
+      "kind": "trigger",
+      "name": "Box_60000",
+      "res": "Scene/Crackdown/_Generated/M10.i3Evt",
+      "obj": null,
+      "pos": [
+        -12.166500091552734,
+        3.2577550411224365,
+        11.303960800170898
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.758852005004883,
+        3.1997029781341553,
+        12.72504997253418
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2145318271,
+          3986020026,
+          387631456,
+          3026726373
+        ],
+        "respath": "Scene/Crackdown/_Generated/M10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_60000",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i69",
+      "kind": "trigger",
+      "name": "Box_60020",
+      "res": "Scene/Crackdown/_Generated/m7.i3Evt",
+      "obj": null,
+      "pos": [
+        12.958491325378418,
+        3.2577550411224365,
+        0.49442699551582336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.358199119567871,
+        3.1997029781341553,
+        8.56793212890625
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2923196394,
+          510872985,
+          1393406776,
+          345464668
+        ],
+        "respath": "Scene/Crackdown/_Generated/m7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_60020",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i70",
+      "kind": "trigger",
+      "name": "Box_600200",
+      "res": "Scene/Crackdown/_Generated/m6.i3Evt",
+      "obj": null,
+      "pos": [
+        -12.865449905395508,
+        3.2577550411224365,
+        0.49442699551582336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.358199119567871,
+        3.1997029781341553,
+        8.56793212890625
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          58391614,
+          1185231436,
+          3193799467,
+          2308531932
+        ],
+        "respath": "Scene/Crackdown/_Generated/m6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_600200",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i71",
+      "kind": "trigger",
+      "name": "Box_6020",
+      "res": "Scene/Crackdown/_Generated/M8.i3Evt",
+      "obj": null,
+      "pos": [
+        -4.008944034576416,
+        3.2577550411224365,
+        11.5081787109375
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.981317043304443,
+        3.1997029781341553,
+        7.05006217956543
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1634013775,
+          1939090326,
+          767130317,
+          4048750436
+        ],
+        "respath": "Scene/Crackdown/_Generated/M8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_6020",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i72",
+      "kind": "trigger",
+      "name": "Box_70",
+      "res": "Scene/Crackdown/_Generated/m5.i3Evt",
+      "obj": null,
+      "pos": [
+        -5.161001205444336,
+        3.4190940856933594,
+        -0.9867069721221924
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.710076808929443,
+        4.347132205963135,
+        5.359217166900635
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2032873642,
+          216874572,
+          2933599873,
+          4118631514
+        ],
+        "respath": "Scene/Crackdown/_Generated/m5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "3d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_70",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i73",
+      "kind": "trigger",
+      "name": "Box_60200",
+      "res": "Scene/Crackdown/_Generated/M13.i3Evt",
+      "obj": null,
+      "pos": [
+        -2.9579169750213623,
+        3.2577550411224365,
+        4.845510005950928
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.1163289546966553,
+        3.1997029781341553,
+        5.775207042694092
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3658030440,
+          815009975,
+          1321003384,
+          2971050197
+        ],
+        "respath": "Scene/Crackdown/_Generated/M13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_60200",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i74",
+      "kind": "trigger",
+      "name": "Box_700",
+      "res": "Scene/Crackdown/_Generated/m5.i3Evt",
+      "obj": null,
+      "pos": [
+        -6.321630001068115,
+        3.4190940856933594,
+        3.2313599586486816
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.2858500480651855,
+        4.347132205963135,
+        2.9245879650115967
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2032873642,
+          216874572,
+          2933599873,
+          4118631514
+        ],
+        "respath": "Scene/Crackdown/_Generated/m5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "3d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_700",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i75",
+      "kind": "trigger",
+      "name": "Box_60201",
+      "res": "Scene/Crackdown/_Generated/M8.i3Evt",
+      "obj": null,
+      "pos": [
+        -5.306247234344482,
+        3.2577550411224365,
+        6.304411888122559
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.3208069801330566,
+        3.1997029781341553,
+        2.7830541133880615
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1634013775,
+          1939090326,
+          767130317,
+          4048750436
+        ],
+        "respath": "Scene/Crackdown/_Generated/M8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_60201",
+        "layer": 4
+      }
+    }
+  ]
+}

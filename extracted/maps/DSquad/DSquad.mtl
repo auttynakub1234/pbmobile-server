@@ -1,0 +1,121 @@
+# Materials for DSquad
+newmtl Mtl_Poster_1.webp
+Kd 1 1 1
+map_Kd Poster_1.webp
+
+newmtl Mtl_base_5.webp
+Kd 1 1 1
+map_Kd base_5.webp
+
+newmtl Mtl_Poster_2.webp
+Kd 1 1 1
+map_Kd Poster_2.webp
+
+newmtl Mtl_base_2_01.webp
+Kd 1 1 1
+map_Kd base_2_01.webp
+
+newmtl Mtl_wall_3_2.webp
+Kd 1 1 1
+map_Kd wall_3_2.webp
+
+newmtl Mtl_base_10.webp
+Kd 1 1 1
+map_Kd base_10.webp
+
+newmtl Mtl_base_1_1.webp
+Kd 1 1 1
+map_Kd base_1_1.webp
+
+newmtl Mtl_wall_3.webp
+Kd 1 1 1
+map_Kd wall_3.webp
+
+newmtl Mtl_base_12_1.webp
+Kd 1 1 1
+map_Kd base_12_1.webp
+
+newmtl Mtl_base_2.webp
+Kd 1 1 1
+map_Kd base_2.webp
+
+newmtl Mtl_wall_1_1.webp
+Kd 1 1 1
+map_Kd wall_1_1.webp
+
+newmtl Mtl_base_3.webp
+Kd 1 1 1
+map_Kd base_3.webp
+
+newmtl Mtl_base_1.webp
+Kd 1 1 1
+map_Kd base_1.webp
+
+newmtl Mtl_base_13.webp
+Kd 1 1 1
+map_Kd base_13.webp
+
+newmtl Mtl_leaflet_2.webp
+Kd 1 1 1
+map_Kd leaflet_2.webp
+
+newmtl Mtl_base_8_1.webp
+Kd 1 1 1
+map_Kd base_8_1.webp
+
+newmtl Mtl_base_1_4.webp
+Kd 1 1 1
+map_Kd base_1_4.webp
+
+newmtl Mtl_wall_5_1.webp
+Kd 1 1 1
+map_Kd wall_5_1.webp
+
+newmtl Mtl_leaflet_1.webp
+Kd 1 1 1
+map_Kd leaflet_1.webp
+
+newmtl Mtl_wall_2.webp
+Kd 1 1 1
+map_Kd wall_2.webp
+
+newmtl Mtl_wall_2_1.webp
+Kd 1 1 1
+map_Kd wall_2_1.webp
+
+newmtl Mtl_base_1_2.webp
+Kd 1 1 1
+map_Kd base_1_2.webp
+
+newmtl Mtl_base_8_3.webp
+Kd 1 1 1
+map_Kd base_8_3.webp
+
+newmtl Mtl_base_1_7.webp
+Kd 1 1 1
+map_Kd base_1_7.webp
+
+newmtl Mtl_base_8.webp
+Kd 1 1 1
+map_Kd base_8.webp
+
+newmtl Mtl_base_11.webp
+Kd 1 1 1
+map_Kd base_11.webp
+
+newmtl Mtl_base_9_1.webp
+Kd 1 1 1
+map_Kd base_9_1.webp
+
+newmtl Mtl_base_7.webp
+Kd 1 1 1
+map_Kd base_7.webp
+
+newmtl Mtl_wall_3_1.webp
+Kd 1 1 1
+map_Kd wall_3_1.webp
+
+newmtl Mtl_base_1_3.webp
+Kd 1 1 1
+map_Kd base_1_3.webp
+

@@ -1,0 +1,9 @@
+# Materials for GL-06
+newmtl Mtl_Grenade.webp
+Kd 1 1 1
+map_Kd Grenade.webp
+
+newmtl Mtl_Gl06_diff.webp
+Kd 1 1 1
+map_Kd Gl06_diff.webp
+

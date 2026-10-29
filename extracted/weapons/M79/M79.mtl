@@ -1,0 +1,9 @@
+# Materials for M79
+newmtl Mtl_M79_diff.webp
+Kd 1 1 1
+map_Kd M79_diff.webp
+
+newmtl Mtl_Grenade.webp
+Kd 1 1 1
+map_Kd Grenade.webp
+

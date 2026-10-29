@@ -1,0 +1,121 @@
+# Materials for Junkyard
+newmtl Mtl_Drum_Black_01.webp
+Kd 1 1 1
+map_Kd Drum_Black_01.webp
+
+newmtl Mtl_Car_Trailer_01_Head_01.webp
+Kd 1 1 1
+map_Kd Car_Trailer_01_Head_01.webp
+
+newmtl Mtl_Junkyard_01_Break_01.webp
+Kd 1 1 1
+map_Kd Junkyard_01_Break_01.webp
+
+newmtl Mtl_Car_Ambulance_01.webp
+Kd 1 1 1
+map_Kd Car_Ambulance_01.webp
+
+newmtl Mtl_Junkyard_concrete_lc_01_05.webp
+Kd 1 1 1
+map_Kd Junkyard_concrete_lc_01_05.webp
+
+newmtl Mtl_Junkyard_Container_02.webp
+Kd 1 1 1
+map_Kd Junkyard_Container_02.webp
+
+newmtl Mtl_Junkyard_biolab_box_06.webp
+Kd 1 1 1
+map_Kd Junkyard_biolab_box_06.webp
+
+newmtl Mtl_Junkyard_crusher_01.webp
+Kd 1 1 1
+map_Kd Junkyard_crusher_01.webp
+
+newmtl Mtl_Junkyard_bridge_01.webp
+Kd 1 1 1
+map_Kd Junkyard_bridge_01.webp
+
+newmtl Mtl_Junkyard_Crane_02.webp
+Kd 1 1 1
+map_Kd Junkyard_Crane_02.webp
+
+newmtl Mtl_Junkyard_battery_01.webp
+Kd 1 1 1
+map_Kd Junkyard_battery_01.webp
+
+newmtl Mtl_Junkyard_Billboard_01.webp
+Kd 1 1 1
+map_Kd Junkyard_Billboard_01.webp
+
+newmtl Mtl_Glass_Car_Swat_01.webp
+Kd 1 1 1
+map_Kd Glass_Car_Swat_01.webp
+
+newmtl Mtl_Junkyard_Car_Truck_01.webp
+Kd 1 1 1
+map_Kd Junkyard_Car_Truck_01.webp
+
+newmtl Mtl_Junkyard_01_White_01_Break_01.webp
+Kd 1 1 1
+map_Kd Junkyard_01_White_01_Break_01.webp
+
+newmtl Mtl_interior_2.webp
+Kd 1 1 1
+map_Kd interior_2.webp
+
+newmtl Mtl_Junkyard_Container_03.webp
+Kd 1 1 1
+map_Kd Junkyard_Container_03.webp
+
+newmtl Mtl_Junkyard_concrete_lc_01_09.webp
+Kd 1 1 1
+map_Kd Junkyard_concrete_lc_01_09.webp
+
+newmtl Mtl_Barricade_Stone_01.webp
+Kd 1 1 1
+map_Kd Barricade_Stone_01.webp
+
+newmtl Mtl_Junkyard_Crane_01.webp
+Kd 1 1 1
+map_Kd Junkyard_Crane_01.webp
+
+newmtl Mtl_Junkyard_bottom_01.webp
+Kd 1 1 1
+map_Kd Junkyard_bottom_01.webp
+
+newmtl Mtl_Junkyard_concrete_lc_01_06.webp
+Kd 1 1 1
+map_Kd Junkyard_concrete_lc_01_06.webp
+
+newmtl Mtl_Junkyard_concrete_lc_01_04.webp
+Kd 1 1 1
+map_Kd Junkyard_concrete_lc_01_04.webp
+
+newmtl Mtl_Junkyard_01_Green_01_Break_01.webp
+Kd 1 1 1
+map_Kd Junkyard_01_Green_01_Break_01.webp
+
+newmtl Mtl_junkyard_01_Blue_01_Break_01.webp
+Kd 1 1 1
+map_Kd junkyard_01_Blue_01_Break_01.webp
+
+newmtl Mtl_Junkyard_01_Red_01_Break_01.webp
+Kd 1 1 1
+map_Kd Junkyard_01_Red_01_Break_01.webp
+
+newmtl Mtl_Junkyard_bottom_yk_06.webp
+Kd 1 1 1
+map_Kd Junkyard_bottom_yk_06.webp
+
+newmtl Mtl_Glass_Car_CTS_01.webp
+Kd 1 1 1
+map_Kd Glass_Car_CTS_01.webp
+
+newmtl Mtl_Junkyard_ceiling_yk_03.webp
+Kd 1 1 1
+map_Kd Junkyard_ceiling_yk_03.webp
+
+newmtl Mtl_Junkyard_bottom_01_B.webp
+Kd 1 1 1
+map_Kd Junkyard_bottom_01_B.webp
+

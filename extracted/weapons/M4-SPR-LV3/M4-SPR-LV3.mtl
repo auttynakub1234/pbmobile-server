@@ -1,0 +1,25 @@
+# Materials for M4 SPR Lv3
+newmtl Mtl_AN_PEQ-15_Diff.webp
+Kd 1 1 1
+map_Kd AN_PEQ-15_Diff.webp
+
+newmtl Mtl_PSG-1_diff_sand.webp
+Kd 1 1 1
+map_Kd PSG-1_diff_sand.webp
+
+newmtl Mtl_Magazine_M4A1_sand.webp
+Kd 1 1 1
+map_Kd Magazine_M4A1_sand.webp
+
+newmtl Mtl_Silencer_D_diff.webp
+Kd 1 1 1
+map_Kd Silencer_D_diff.webp
+
+newmtl Mtl_Stock_A_diff_sand.webp
+Kd 1 1 1
+map_Kd Stock_A_diff_sand.webp
+
+newmtl Mtl_M4A1_cus_diff_sand.webp
+Kd 1 1 1
+map_Kd M4A1_cus_diff_sand.webp
+

@@ -1,0 +1,8852 @@
+{
+  "stage": {
+    "name": "Blowcity",
+    "world": "World/Blowcity/Blowcity_World.I3S",
+    "sky": "World/Blowcity/Blowcity_Sky.i3s",
+    "cols": {
+      "hero": "World/Blowcity/Blowcity_Col_Hero.i3s",
+      "hit": "World/Blowcity/Blowcity_Col_Hit.i3s",
+      "light": "World/Blowcity/Blowcity_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "world/blowcity/Blowcity_World.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "world/blowcity/Blowcity_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "world/blowcity/Blowcity_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "world/blowcity/Blowcity_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "world/blowcity/Blowcity_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "world/blowcity/Blowcity.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "SOUND/OBJECT/EXPLOSION/OB_EXP_CH47_AMBIENT_IN.WAV",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Model_Ch47LightingMap.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Ch-47.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Ch-47_inside.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Ch-47_Glass .i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Ch-47_Glass_mask.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Model_Ch47LightingMap.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Ch-47.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Ch-47_inside.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Ch-47_Glass .i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Ch-47_Glass_mask.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/CH47_Idle.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/helicopter_ch47.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07_Break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/glass/Glass_Building_07.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "SOUND/OBJECT/EXPLOSION/OB_TAXI_AMBIENT.WAV",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_Outdoor_01_Taxi_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_Indoor_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_01_Option_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_Outdoor_01_Taxi_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_Indoor_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_01_Option_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_01_Taxi_01.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_Outdoor_01_Taxi_01_Break_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_Indoor_01_Break_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_01_Option_01_Break_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_01_Taxi_01_Break_01.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Car_CTS_01_Taxi_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "world/blowcity/light/Blowcity_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02_Lux.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02_Lux.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "SOUND/OBJECT/EXPLOSION/OB_VENDINGMACHINE_2.WAV",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02_Destruction.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02_break.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01_Lux.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01_Lux.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "SOUND/OBJECT/EXPLOSION/OB_VENDINGMACHINE_1.WAV",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01_Destruction.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01_break.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02_Lux.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02_Lux.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "SOUND/OBJECT/EXPLOSION/OB_VENDINGMACHINE_2.WAV",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02_Destruction.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02_break.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01_Lux.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01_Lux.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "SOUND/OBJECT/EXPLOSION/OB_VENDINGMACHINE_1.WAV",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01_Destruction.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01_break.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/break/Vending_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_40.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_41.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_42.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_420.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_43.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_430.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_44.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_440.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_45.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_46.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_47.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_48.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_470.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_50.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_51.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_52.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc8.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_53.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_54.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_55.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/bc12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_8.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_80.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_9.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_11.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_12.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_120.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_13.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_56.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_57.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_58.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_59.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_60.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_61.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_62.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_8.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_63.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_130.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_1200.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_100.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_101.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_64.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_8.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_630.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_640.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_641.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_560.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_81.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_5600.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_8.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_631.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_620.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/sector_5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/blowcity/_generated/Box_12000.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      }
+    ],
+    "ins_version": 4,
+    "layers": [
+      "Default",
+      "Default",
+      "Layer",
+      "Sector"
+    ],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/Blowcity/Textures/BarTable_01.i3i",
+        "name": "BarTable_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Blind_Closed_Normal.i3i",
+        "name": "Blind_Closed_Normal"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_Cafe_B_02 .i3i",
+        "name": "building_Cafe_B_02 "
+      },
+      {
+        "path": "World/Blowcity/Textures/building_Cafe_in_A_01.i3i",
+        "name": "building_Cafe_in_A_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_Cafe_in_A_03.i3i",
+        "name": "building_Cafe_in_A_03"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_Cafe_in_A_04.i3i",
+        "name": "building_Cafe_in_A_04"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_Cafe_in_B_03.i3i",
+        "name": "building_Cafe_in_B_03"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_Cafe_in_B_04.i3i",
+        "name": "building_Cafe_in_B_04"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_store_C_01.i3i",
+        "name": "building_store_C_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_store_C_02.i3i",
+        "name": "building_store_C_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/Carpet_01.i3i",
+        "name": "Carpet_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Carpet_02.i3i",
+        "name": "Carpet_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/emergency_exit_1.i3i",
+        "name": "emergency_exit_1"
+      },
+      {
+        "path": "World/Blowcity/Textures/Ground_Tile_01.i3i",
+        "name": "Ground_Tile_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/stair_1.i3i",
+        "name": "stair_1"
+      },
+      {
+        "path": "World/Blowcity/Textures/Window_Barricade_1.i3i",
+        "name": "Window_Barricade_1"
+      },
+      {
+        "path": "World/Blowcity/Textures/Barricade_Stone_01.i3i",
+        "name": "Barricade_Stone_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/box.i3i",
+        "name": "box"
+      },
+      {
+        "path": "World/Blowcity/Textures/box_wood_01.i3i",
+        "name": "box_wood_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/CableDrum_01.i3i",
+        "name": "CableDrum_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Car_BRKT_01_Police_01.i3i",
+        "name": "Car_BRKT_01_Police_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Car_Humvee_01_indoor_01_Diff.i3i",
+        "name": "Car_Humvee_01_indoor_01_Diff"
+      },
+      {
+        "path": "World/Blowcity/Textures/Car_Humvee_01_Outdoor_01_Brown_01_Diff.i3i",
+        "name": "Car_Humvee_01_Outdoor_01_Brown_01_Diff"
+      },
+      {
+        "path": "World/Blowcity/Textures/Car_Trailer_01_Container_01.i3i",
+        "name": "Car_Trailer_01_Container_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Car_Trailer_01_Head_01.i3i",
+        "name": "Car_Trailer_01_Head_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Chair_01.i3i",
+        "name": "Chair_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Cone_01.i3i",
+        "name": "Cone_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/controlerbox_1.i3i",
+        "name": "controlerbox_1"
+      },
+      {
+        "path": "World/Blowcity/Textures/CupBoard_01.i3i",
+        "name": "CupBoard_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Drum_Cyan_01.i3i",
+        "name": "Drum_Cyan_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Dustbin_01.i3i",
+        "name": "Dustbin_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/GarbageCan_Large_Red.i3i",
+        "name": "GarbageCan_Large_Red"
+      },
+      {
+        "path": "World/Blowcity/Textures/GarbageCan_Middle_01.i3i",
+        "name": "GarbageCan_Middle_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Heliport_rail.i3i",
+        "name": "Heliport_rail"
+      },
+      {
+        "path": "World/Blowcity/Textures/interior_2.i3i",
+        "name": "interior_2"
+      },
+      {
+        "path": "World/Blowcity/Textures/Lighting.i3i",
+        "name": "Lighting"
+      },
+      {
+        "path": "World/Blowcity/Textures/box2.i3i",
+        "name": "box2"
+      },
+      {
+        "path": "World/Blowcity/Textures/EspressoMachine_01.i3i",
+        "name": "EspressoMachine_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/CashMachine_01.i3i",
+        "name": "CashMachine_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/info_board.i3i",
+        "name": "info_board"
+      },
+      {
+        "path": "World/Blowcity/Textures/TelephoneBox_Large_01.i3i",
+        "name": "TelephoneBox_Large_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/menu_board.i3i",
+        "name": "menu_board"
+      },
+      {
+        "path": "World/Blowcity/Textures/Palette_Wood_01.i3i",
+        "name": "Palette_Wood_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/radiator_1.i3i",
+        "name": "radiator_1"
+      },
+      {
+        "path": "World/Blowcity/Textures/RoadLamp_01.i3i",
+        "name": "RoadLamp_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Sign_Danger_01.i3i",
+        "name": "Sign_Danger_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/signboard_01.i3i",
+        "name": "signboard_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/signboard_02.i3i",
+        "name": "signboard_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/Smalldynamo_01.i3i",
+        "name": "Smalldynamo_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Sofa_01.i3i",
+        "name": "Sofa_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Stand_01.i3i",
+        "name": "Stand_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/StreetLight_02.i3i",
+        "name": "StreetLight_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/Table_01.i3i",
+        "name": "Table_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Table_02.i3i",
+        "name": "Table_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/Telephone_01.i3i",
+        "name": "Telephone_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/TelephoneBox_Small_01.i3i",
+        "name": "TelephoneBox_Small_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Transformer_1_A.i3i",
+        "name": "Transformer_1_A"
+      },
+      {
+        "path": "World/Blowcity/Textures/Transformer_1_B.i3i",
+        "name": "Transformer_1_B"
+      },
+      {
+        "path": "World/Blowcity/Textures/transmission_tower_01.i3i",
+        "name": "transmission_tower_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Wall_light.i3i",
+        "name": "Wall_light"
+      },
+      {
+        "path": "World/Blowcity/Textures/WireEntanglement_01.i3i",
+        "name": "WireEntanglement_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_store_A_01.i3i",
+        "name": "building_store_A_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_store_A_02.i3i",
+        "name": "building_store_A_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_store_A_03.i3i",
+        "name": "building_store_A_03"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_store_B_01.i3i",
+        "name": "building_store_B_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_store_B_02.i3i",
+        "name": "building_store_B_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_Top_A_01.i3i",
+        "name": "building_Top_A_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_A_01.i3i",
+        "name": "building_wall_A_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_A_02.i3i",
+        "name": "building_wall_A_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_A_03.i3i",
+        "name": "building_wall_A_03"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_B_01.i3i",
+        "name": "building_wall_B_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_B_02.i3i",
+        "name": "building_wall_B_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_B_03.i3i",
+        "name": "building_wall_B_03"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_bottom_01.i3i",
+        "name": "building_wall_bottom_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_C_01.i3i",
+        "name": "building_wall_C_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_C_02.i3i",
+        "name": "building_wall_C_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_C_03.i3i",
+        "name": "building_wall_C_03"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_D_01.i3i",
+        "name": "building_wall_D_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_D_02.i3i",
+        "name": "building_wall_D_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/building_wall_D_03.i3i",
+        "name": "building_wall_D_03"
+      },
+      {
+        "path": "World/Blowcity/Textures/EmergencyStaircase.i3i",
+        "name": "EmergencyStaircase"
+      },
+      {
+        "path": "World/Blowcity/Textures/handrail.i3i",
+        "name": "handrail"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_2.i3i",
+        "name": "road_2"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_alley_01.i3i",
+        "name": "road_alley_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_sidewalk_01.i3i",
+        "name": "road_sidewalk_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_sidewalk_02.i3i",
+        "name": "road_sidewalk_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_stair_01.i3i",
+        "name": "road_stair_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_wall_04.i3i",
+        "name": "road_wall_04"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_wall_05.i3i",
+        "name": "road_wall_05"
+      },
+      {
+        "path": "World/Blowcity/Textures/shutter_2.i3i",
+        "name": "shutter_2"
+      },
+      {
+        "path": "World/Blowcity/Textures/sidewalk_2B.i3i",
+        "name": "sidewalk_2B"
+      },
+      {
+        "path": "World/Blowcity/Textures/break_1.i3i",
+        "name": "break_1"
+      },
+      {
+        "path": "World/Blowcity/Textures/grass_01.i3i",
+        "name": "grass_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/overpass_bottom_01.i3i",
+        "name": "overpass_bottom_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/overpass_bottom_01_break_A.i3i",
+        "name": "overpass_bottom_01_break_A"
+      },
+      {
+        "path": "World/Blowcity/Textures/overpass_column_01.i3i",
+        "name": "overpass_column_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/overpass_side_01.i3i",
+        "name": "overpass_side_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/overpass_side_01_break_A.i3i",
+        "name": "overpass_side_01_break_A"
+      },
+      {
+        "path": "World/Blowcity/Textures/overpass_side_02.i3i",
+        "name": "overpass_side_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/overpass_side_03.i3i",
+        "name": "overpass_side_03"
+      },
+      {
+        "path": "World/Blowcity/Textures/overpass_stair.i3i",
+        "name": "overpass_stair"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_1.i3i",
+        "name": "road_1"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_1_break_D.i3i",
+        "name": "road_1_break_D"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_2_break_A.i3i",
+        "name": "road_2_break_A"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_6.i3i",
+        "name": "road_6"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_sidewalk_02_break_A.i3i",
+        "name": "road_sidewalk_02_break_A"
+      },
+      {
+        "path": "World/Blowcity/Textures/road_sidewalk_03.i3i",
+        "name": "road_sidewalk_03"
+      },
+      {
+        "path": "World/Blowcity/Textures/soundproofwall_01.i3i",
+        "name": "soundproofwall_01"
+      },
+      {
+        "path": "World/Blowcity/Textures/Poster_1.i3i",
+        "name": "Poster_1"
+      },
+      {
+        "path": "World/Blowcity/Textures/leaflet_2.i3i",
+        "name": "leaflet_2"
+      },
+      {
+        "path": "World/Blowcity/Textures/paper1.i3i",
+        "name": "paper1"
+      },
+      {
+        "path": "World/Blowcity/Textures/paper2.i3i",
+        "name": "paper2"
+      },
+      {
+        "path": "World/Blowcity/Textures/Poster_2.i3i",
+        "name": "Poster_2"
+      },
+      {
+        "path": "World/Blowcity/Textures/sign.i3i",
+        "name": "sign"
+      },
+      {
+        "path": "World/Blowcity/Textures/WireEntanglement_02.i3i",
+        "name": "WireEntanglement_02"
+      },
+      {
+        "path": "World/Blowcity/Textures/WireEntanglement_03.i3i",
+        "name": "WireEntanglement_03"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          1093764163,
+          2507323668,
+          4142978247,
+          3228034882
+        ],
+        "respath": "world/blowcity/Blowcity.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        38.70066833496094,
+        0.012144999578595161,
+        5.843952178955078
+      ],
+      "rot": [
+        0,
+        -130.0000128436289,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9063078761100769,
+        0,
+        0.42261824011802673
+      ],
+      "scale": [
+        1.0000005960464478,
+        1,
+        1.0000005960464478
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        41.4447021484375,
+        0.012144999578595161,
+        5.843952178955078
+      ],
+      "rot": [
+        0,
+        -130.0000128436289,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9063078761100769,
+        0,
+        0.42261824011802673
+      ],
+      "scale": [
+        1.0000005960464478,
+        1,
+        1.0000005960464478
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        38.70066833496094,
+        0.012144999578595161,
+        9.356344223022461
+      ],
+      "rot": [
+        0,
+        -75.00001132911436,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6087614893913269,
+        0,
+        0.7933534383773804
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        41.4447021484375,
+        0.012144999578595161,
+        9.356344223022461
+      ],
+      "rot": [
+        0,
+        -75.00001132911436,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6087614893913269,
+        0,
+        0.7933534383773804
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -71.68081665039062,
+        12.571212768554688,
+        -16.088153839111328
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -68.39876556396484,
+        12.469342231750488,
+        -16.901397705078125
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -71.70152282714844,
+        12.548421859741211,
+        -12.571263313293457
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -68.39876556396484,
+        12.469342231750488,
+        -13.38900375366211
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        20.276540756225586,
+        3.9669339656829834,
+        12.789787292480469
+      ],
+      "rot": [
+        0,
+        -70.00001040435676,
+        0
+      ],
+      "quat": [
+        0,
+        -0.5735765099525452,
+        0,
+        0.8191519975662231
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        17.24321746826172,
+        3.9669339656829834,
+        12.789787292480469
+      ],
+      "rot": [
+        0,
+        -130.0000128436289,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9063078761100769,
+        0,
+        0.42261824011802673
+      ],
+      "scale": [
+        1.0000005960464478,
+        1,
+        1.0000005960464478
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        20.276540756225586,
+        3.9669339656829834,
+        16.302181243896484
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        17.24321746826172,
+        3.9669339656829834,
+        16.302181243896484
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -53.37462615966797,
+        12.57894515991211,
+        -23.534778594970703
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -56.94108200073242,
+        12.509260177612305,
+        -25.546220779418945
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -59.685115814208984,
+        12.509260177612305,
+        -22.03382682800293
+      ],
+      "rot": [
+        0,
+        14.999996006614516,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052615523338318,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "Respawn",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -56.94108200073242,
+        12.509260177612305,
+        -22.03382682800293
+      ],
+      "rot": [
+        0,
+        45.0000041978901,
+        0
+      ],
+      "quat": [
+        0,
+        0.3826834559440613,
+        0,
+        0.9238795638084412
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "prop",
+      "name": "helicopter_ch47",
+      "res": "Object/moving/CH47_Idle.i3s",
+      "obj": "object/moving/helicopter_ch47.i3Obj",
+      "pos": [
+        -65.50332641601562,
+        16.308513641357422,
+        -31.170063018798828
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2495885315,
+          451753035,
+          2476150109,
+          2826821268
+        ],
+        "respath": "object/moving/helicopter_ch47.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 4,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "helicopter_ch47",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "prop",
+      "name": "Glass_Building_06",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        30.706260681152344,
+        8.118804931640625,
+        -25.097440719604492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.1308670043945312,
+        1.052603006362915,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "prop",
+      "name": "Glass_Building_06",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        17.63631820678711,
+        8.11057186126709,
+        -25.097440719604492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.1308670043945312,
+        1.052603006362915,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "prop",
+      "name": "Glass_Building_06",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        20.922903060913086,
+        8.11476993560791,
+        -25.097440719604492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.1308670043945312,
+        1.052603006362915,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "prop",
+      "name": "Glass_Building_06",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        24.141704559326172,
+        8.117464065551758,
+        -25.097440719604492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.1308670043945312,
+        1.052603006362915,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "prop",
+      "name": "Glass_Building_06",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        27.481548309326172,
+        8.11125373840332,
+        -25.097440719604492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.1308670043945312,
+        1.052603006362915,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "prop",
+      "name": "Glass_Building_060",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        32.47644805908203,
+        8.123942375183105,
+        -17.323671340942383
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.031609058380127,
+        1.065147042274475,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_060",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "prop",
+      "name": "Glass_Building_060",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        32.48793029785156,
+        8.102158546447754,
+        -23.440818786621094
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1.064283013343811,
+        1.044052004814148
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_060",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "prop",
+      "name": "Glass_Building_060",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        32.48149108886719,
+        8.11913776397705,
+        -20.384077072143555
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.0299999713897705,
+        1.0499999523162842,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_060",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "prop",
+      "name": "Glass_Building_061",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        27.26824951171875,
+        8.08279037475586,
+        -15.625529289245605
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1.1562650203704834,
+        1.109231948852539,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_061",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "prop",
+      "name": "Glass_Building_061",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        30.73499870300293,
+        8.096675872802734,
+        -15.62910270690918
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1.1562650203704834,
+        1.109231948852539,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_061",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "prop",
+      "name": "Glass_Building_062",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        -30.409534454345703,
+        8.286087989807129,
+        22.504446029663086
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.059999942779541,
+        1.0399999618530273,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_062",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "prop",
+      "name": "Glass_Building_062",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        -37.751468658447266,
+        8.293347358703613,
+        22.47721290588379
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_062",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "prop",
+      "name": "Glass_Building_063",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        -15.51311206817627,
+        8.299043655395508,
+        15.58591079711914
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_063",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "prop",
+      "name": "Glass_Building_064",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        -16.8391056060791,
+        8.298654556274414,
+        29.387968063354492
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        0.8100000023841858,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_064",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "prop",
+      "name": "Glass_Building_065",
+      "res": "Object/glass/Glass_Building_06.i3s",
+      "obj": "object/glass/Glass_Building_06.i3Obj",
+      "pos": [
+        -37.815067291259766,
+        8.269058227539062,
+        9.24549674987793
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0174369812011719,
+        1.0221530199050903,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2783597481,
+          3959620907,
+          2273129616,
+          1175455386
+        ],
+        "respath": "object/glass/Glass_Building_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_065",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "prop",
+      "name": "Glass_Building_070",
+      "res": "Object/glass/Glass_Building_07.i3s",
+      "obj": "object/glass/Glass_Building_07.i3Obj",
+      "pos": [
+        -22.985815048217773,
+        8.283381462097168,
+        35.284019470214844
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.059999942779541,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1298614332,
+          3967081862,
+          74839724,
+          877280482
+        ],
+        "respath": "object/glass/Glass_Building_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_070",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "prop",
+      "name": "Glass_Building_07",
+      "res": "Object/glass/Glass_Building_07.i3s",
+      "obj": "object/glass/Glass_Building_07.i3Obj",
+      "pos": [
+        -22.531705856323242,
+        8.288026809692383,
+        35.7183952331543
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.059999942779541,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1298614332,
+          3967081862,
+          74839724,
+          877280482
+        ],
+        "respath": "object/glass/Glass_Building_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "prop",
+      "name": "Glass_Building_070",
+      "res": "Object/glass/Glass_Building_07.i3s",
+      "obj": "object/glass/Glass_Building_07.i3Obj",
+      "pos": [
+        -22.989131927490234,
+        8.295975685119629,
+        33.538604736328125
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1.059999942779541,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1298614332,
+          3967081862,
+          74839724,
+          877280482
+        ],
+        "respath": "object/glass/Glass_Building_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_070",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "prop",
+      "name": "Glass_Building_07",
+      "res": "Object/glass/Glass_Building_07.i3s",
+      "obj": "object/glass/Glass_Building_07.i3Obj",
+      "pos": [
+        -22.541532516479492,
+        8.292362213134766,
+        33.08987045288086
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.059999942779541,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1298614332,
+          3967081862,
+          74839724,
+          877280482
+        ],
+        "respath": "object/glass/Glass_Building_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Glass_Building_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "prop",
+      "name": "Car_CTS_01_Taxi_01",
+      "res": "Object/bomb/Car_CTS_01_Taxi_01.I3S",
+      "obj": "object/bomb/Car_CTS_01_Taxi_01.i3Obj",
+      "pos": [
+        19.57261085510254,
+        7.9708027839660645,
+        -36.64836883544922
+      ],
+      "rot": [
+        0,
+        -157.34267718977313,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9805164933204651,
+        0,
+        0.19643664360046387
+      ],
+      "scale": [
+        0.9999998211860657,
+        1,
+        0.9999998211860657
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          190827876,
+          1849380741,
+          1578101770,
+          1693897280
+        ],
+        "respath": "object/bomb/Car_CTS_01_Taxi_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Car_CTS_01_Taxi_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "unknown",
+      "name": "Blowcity_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -6.285583019256592,
+        63.09193801879883,
+        -12.446697235107422
+      ],
+      "rot": [
+        -90,
+        0,
+        0
+      ],
+      "quat": [
+        -0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          2827347837,
+          3825886499,
+          2233796179,
+          1690969160
+        ],
+        "respath": "world/blowcity/light/Blowcity_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Blowcity_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "prop",
+      "name": "Vending_02",
+      "res": "Object/break/Vending_02.i3s",
+      "obj": "object/break/Vending_02.i3Obj",
+      "pos": [
+        33.5326042175293,
+        0.17015999555587769,
+        -17.642263412475586
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3744435697,
+          2997456514,
+          514649216,
+          3431087954
+        ],
+        "respath": "object/break/Vending_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Vending_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "prop",
+      "name": "Vending_01",
+      "res": "Object/break/Vending_01.I3S",
+      "obj": "object/break/Vending_01.i3Obj",
+      "pos": [
+        33.50132751464844,
+        0.17015999555587769,
+        -16.326099395751953
+      ],
+      "rot": [
+        0,
+        90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1609175826,
+          3167437490,
+          4076200501,
+          141899678
+        ],
+        "respath": "object/break/Vending_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Vending_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "prop",
+      "name": "Vending_020",
+      "res": "Object/break/Vending_02.i3s",
+      "obj": "object/break/Vending_02.i3Obj",
+      "pos": [
+        -55.752296447753906,
+        7.389328956604004,
+        11.842938423156738
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3744435697,
+          2997456514,
+          514649216,
+          3431087954
+        ],
+        "respath": "object/break/Vending_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Vending_020",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "prop",
+      "name": "Vending_010",
+      "res": "Object/break/Vending_01.I3S",
+      "obj": "object/break/Vending_01.i3Obj",
+      "pos": [
+        -54.438350677490234,
+        7.389328956604004,
+        11.875776290893555
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1609175826,
+          3167437490,
+          4076200501,
+          141899678
+        ],
+        "respath": "object/break/Vending_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Vending_010",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_01",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        -4.740127086639404,
+        0.43991801142692566,
+        -2.8103299140930176
+      ],
+      "rot": [
+        90,
+        45.000001950239266,
+        0
+      ],
+      "quat": [
+        0.6532815098762512,
+        0.27059805393218994,
+        -0.27059805393218994,
+        0.6532815098762512
+      ],
+      "scale": [
+        1.000000238418579,
+        1.000000238418579,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i44",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_01",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        -12.229780197143555,
+        7.665019989013672,
+        12.92121696472168
+      ],
+      "rot": [
+        90,
+        45.000001950239266,
+        0
+      ],
+      "quat": [
+        0.6532815098762512,
+        0.27059805393218994,
+        -0.27059805393218994,
+        0.6532815098762512
+      ],
+      "scale": [
+        1.000000238418579,
+        1.000000238418579,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i45",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_010",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        -14.806583404541016,
+        8.24544906616211,
+        -35.532135009765625
+      ],
+      "rot": [
+        90,
+        120.0000253783875,
+        0
+      ],
+      "quat": [
+        0.35355326533317566,
+        0.6123725175857544,
+        -0.6123725175857544,
+        0.35355326533317566
+      ],
+      "scale": [
+        0.9999995827674866,
+        0.9999995827674866,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_010",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i46",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_01",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        -27.795759201049805,
+        7.665019989013672,
+        40.92058181762695
+      ],
+      "rot": [
+        90,
+        45.000001950239266,
+        0
+      ],
+      "quat": [
+        0.6532815098762512,
+        0.27059805393218994,
+        -0.27059805393218994,
+        0.6532815098762512
+      ],
+      "scale": [
+        1.000000238418579,
+        1.000000238418579,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i47",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_01",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        11.6816987991333,
+        4.232758045196533,
+        -9.270463943481445
+      ],
+      "rot": [
+        90,
+        45.000001950239266,
+        0
+      ],
+      "quat": [
+        0.6532815098762512,
+        0.27059805393218994,
+        -0.27059805393218994,
+        0.6532815098762512
+      ],
+      "scale": [
+        1.000000238418579,
+        1.000000238418579,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i48",
+      "kind": "trigger",
+      "name": "Box_40",
+      "res": "Scene/Blowcity/_Generated/bc1.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.815980911254883,
+        9.870165824890137,
+        -30.538057327270508
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.655813217163086,
+        3.473253011703491,
+        3.1943130493164062
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          747807081,
+          2882745573,
+          2791116263,
+          3396957177
+        ],
+        "respath": "scene/blowcity/_generated/bc1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_40",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i49",
+      "kind": "trigger",
+      "name": "Box_41",
+      "res": "Scene/Blowcity/_Generated/bc1.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.313774108886719,
+        6.475124835968018,
+        -28.5961856842041
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.32102108001709,
+        4.463304042816162,
+        6.1250128746032715
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          747807081,
+          2882745573,
+          2791116263,
+          3396957177
+        ],
+        "respath": "scene/blowcity/_generated/bc1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_41",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i50",
+      "kind": "trigger",
+      "name": "Box_42",
+      "res": "Scene/Blowcity/_Generated/bc1.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.85595703125,
+        8.462125778198242,
+        -30.610036849975586
+      ],
+      "rot": [
+        0,
+        0,
+        -28.658479535193738
+      ],
+      "quat": [
+        0,
+        0,
+        -0.24749349057674408,
+        0.968889594078064
+      ],
+      "scale": [
+        10.634225845336914,
+        3.7138149738311768,
+        2.9325098991394043
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          747807081,
+          2882745573,
+          2791116263,
+          3396957177
+        ],
+        "respath": "scene/blowcity/_generated/bc1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_42",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i51",
+      "kind": "trigger",
+      "name": "Box_420",
+      "res": "Scene/Blowcity/_Generated/bc1.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.85595703125,
+        3.9526000022888184,
+        -27.403038024902344
+      ],
+      "rot": [
+        2.553837513422516e-7,
+        -178.13635938082098,
+        -28.658478051825185
+      ],
+      "quat": [
+        -0.2474607527256012,
+        0.9687614440917969,
+        0.004024889320135117,
+        -0.015756679698824883
+      ],
+      "scale": [
+        10.63422679901123,
+        3.7138149738311768,
+        2.9325101375579834
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          747807081,
+          2882745573,
+          2791116263,
+          3396957177
+        ],
+        "respath": "scene/blowcity/_generated/bc1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_420",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i52",
+      "kind": "trigger",
+      "name": "Box_43",
+      "res": "Scene/Blowcity/_Generated/bc6.i3Evt",
+      "obj": null,
+      "pos": [
+        13.00709056854248,
+        6.288623809814453,
+        -28.862497329711914
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.485514163970947,
+        4.75062894821167,
+        6.416950225830078
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3347785708,
+          4045552967,
+          3014456565,
+          2505893319
+        ],
+        "respath": "scene/blowcity/_generated/bc6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_43",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i53",
+      "kind": "trigger",
+      "name": "Box_430",
+      "res": "Scene/Blowcity/_Generated/bc6.i3Evt",
+      "obj": null,
+      "pos": [
+        25.58403968811035,
+        10.335565567016602,
+        -30.67948341369629
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.485514163970947,
+        4.7506279945373535,
+        3.505211114883423
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3347785708,
+          4045552967,
+          3014456565,
+          2505893319
+        ],
+        "respath": "scene/blowcity/_generated/bc6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_430",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i54",
+      "kind": "trigger",
+      "name": "Box_44",
+      "res": "Scene/Blowcity/_Generated/bc6.i3Evt",
+      "obj": null,
+      "pos": [
+        19.01447105407715,
+        7.9211649894714355,
+        -30.714855194091797
+      ],
+      "rot": [
+        0,
+        0,
+        25.178092853434986
+      ],
+      "quat": [
+        0,
+        0,
+        0.21795666217803955,
+        0.9759584665298462
+      ],
+      "scale": [
+        9.514152526855469,
+        3.005829334259033,
+        2.567431926727295
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3347785708,
+          4045552967,
+          3014456565,
+          2505893319
+        ],
+        "respath": "scene/blowcity/_generated/bc6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_44",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i55",
+      "kind": "trigger",
+      "name": "Box_440",
+      "res": "Scene/Blowcity/_Generated/bc6.i3Evt",
+      "obj": null,
+      "pos": [
+        19.711254119873047,
+        3.6752030849456787,
+        -27.42487907409668
+      ],
+      "rot": [
+        -0.0000035932609617850773,
+        -179.77277690076028,
+        25.178085356611636
+      ],
+      "quat": [
+        0.21795617043972015,
+        0.9759565591812134,
+        -0.00043215430923737586,
+        -0.00193522940389812
+      ],
+      "scale": [
+        9.514152526855469,
+        3.005829095840454,
+        2.567432165145874
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3347785708,
+          4045552967,
+          3014456565,
+          2505893319
+        ],
+        "respath": "scene/blowcity/_generated/bc6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_440",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i56",
+      "kind": "trigger",
+      "name": "Box_45",
+      "res": "Scene/Blowcity/_Generated/bc9.i3Evt",
+      "obj": null,
+      "pos": [
+        -10.154764175415039,
+        8.990927696228027,
+        36.633304595947266
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3.6248719692230225,
+        3.5684280395507812,
+        6.406134128570557
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          145573362,
+          1235783885,
+          2559220756,
+          3373670980
+        ],
+        "respath": "scene/blowcity/_generated/bc9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_45",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i57",
+      "kind": "trigger",
+      "name": "Box_46",
+      "res": "Scene/Blowcity/_Generated/bc10.i3Evt",
+      "obj": null,
+      "pos": [
+        23.07881736755371,
+        6.280052185058594,
+        -1.4204200506210327
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        21.65534019470215,
+        4.654889106750488,
+        8.479013442993164
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1917928502,
+          2681034948,
+          1983919391,
+          3207770916
+        ],
+        "respath": "scene/blowcity/_generated/bc10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_46",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i58",
+      "kind": "trigger",
+      "name": "Box_47",
+      "res": "Scene/Blowcity/_Generated/bc11.i3Evt",
+      "obj": null,
+      "pos": [
+        -24.66018295288086,
+        5.722352981567383,
+        -2.8722240924835205
+      ],
+      "rot": [
+        0,
+        0,
+        27.521532798315725
+      ],
+      "quat": [
+        0,
+        0,
+        0.23786841332912445,
+        0.9712973833084106
+      ],
+      "scale": [
+        9.76002311706543,
+        3.534377098083496,
+        3.2967031002044678
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          361248789,
+          2344872057,
+          2000053217,
+          440330161
+        ],
+        "respath": "scene/blowcity/_generated/bc11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_47",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i59",
+      "kind": "trigger",
+      "name": "Box_48",
+      "res": "Scene/Blowcity/_Generated/bc13.i3Evt",
+      "obj": null,
+      "pos": [
+        22.34906578063965,
+        1.3179140090942383,
+        -1.3786020278930664
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.809934616088867,
+        3.796233892440796,
+        7.101926803588867
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          40017969,
+          2924305078,
+          2409408763,
+          2030885738
+        ],
+        "respath": "scene/blowcity/_generated/bc13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_48",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i60",
+      "kind": "trigger",
+      "name": "Box_470",
+      "res": "Scene/Blowcity/_Generated/bc11.i3Evt",
+      "obj": null,
+      "pos": [
+        -20.276140213012695,
+        3.2592720985412598,
+        0.6262159943580627
+      ],
+      "rot": [
+        -0.0000017989895545558405,
+        -179.8785017898099,
+        27.52153297588919
+      ],
+      "quat": [
+        0.2378682792186737,
+        0.9712968468666077,
+        -0.0002521899004932493,
+        -0.0010298428824171424
+      ],
+      "scale": [
+        9.760022163391113,
+        3.534376859664917,
+        3.2967023849487305
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          361248789,
+          2344872057,
+          2000053217,
+          440330161
+        ],
+        "respath": "scene/blowcity/_generated/bc11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_470",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i61",
+      "kind": "trigger",
+      "name": "Box_50",
+      "res": "Scene/Blowcity/_Generated/bc11.i3Evt",
+      "obj": null,
+      "pos": [
+        -26.404314041137695,
+        4.966174125671387,
+        -1.1236059665679932
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3.809499979019165,
+        2.9207799434661865,
+        6.899219989776611
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          361248789,
+          2344872057,
+          2000053217,
+          440330161
+        ],
+        "respath": "scene/blowcity/_generated/bc11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_50",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i62",
+      "kind": "trigger",
+      "name": "Box_51",
+      "res": "Scene/Blowcity/_Generated/bc11.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.01324462890625,
+        1.812412977218628,
+        -1.027629017829895
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.2604289054870605,
+        3.2452070713043213,
+        7.074318885803223
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          361248789,
+          2344872057,
+          2000053217,
+          440330161
+        ],
+        "respath": "scene/blowcity/_generated/bc11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_51",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i63",
+      "kind": "trigger",
+      "name": "Box_52",
+      "res": "Scene/Blowcity/_Generated/bc7.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.22293472290039,
+        8.748698234558105,
+        29.416122436523438
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.495927810668945,
+        2.3976659774780273,
+        13.783015251159668
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1406965337,
+          1571544416,
+          2330850475,
+          2357005423
+        ],
+        "respath": "scene/blowcity/_generated/bc7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_52",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i64",
+      "kind": "trigger",
+      "name": "Box_53",
+      "res": "Scene/Blowcity/_Generated/bc8.i3Evt",
+      "obj": null,
+      "pos": [
+        -30.932619094848633,
+        8.911714553833008,
+        15.917152404785156
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        16.60009002685547,
+        2.6603169441223145,
+        12.970947265625
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3080179377,
+          988265807,
+          4271371520,
+          2610449790
+        ],
+        "respath": "scene/blowcity/_generated/bc8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_53",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i65",
+      "kind": "trigger",
+      "name": "Box_54",
+      "res": "Scene/Blowcity/_Generated/bc9.i3Evt",
+      "obj": null,
+      "pos": [
+        -18.880416870117188,
+        8.700373649597168,
+        24.726064682006836
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.523451805114746,
+        2.9254379272460938,
+        9.506448745727539
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          145573362,
+          1235783885,
+          2559220756,
+          3373670980
+        ],
+        "respath": "scene/blowcity/_generated/bc9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_54",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i66",
+      "kind": "trigger",
+      "name": "Box_55",
+      "res": "Scene/Blowcity/_Generated/bc10.i3Evt",
+      "obj": null,
+      "pos": [
+        -18.836013793945312,
+        8.911310195922852,
+        15.131351470947266
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.602510929107666,
+        2.6733028888702393,
+        9.774768829345703
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1917928502,
+          2681034948,
+          1983919391,
+          3207770916
+        ],
+        "respath": "scene/blowcity/_generated/bc10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_55",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i67",
+      "kind": "trigger",
+      "name": "Box_5",
+      "res": "Scene/Blowcity/_Generated/bc12.i3Evt",
+      "obj": null,
+      "pos": [
+        -16.43492317199707,
+        7.785694122314453,
+        -1.3345999717712402
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.296040534973145,
+        3.8513081073760986,
+        6.629515171051025
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2144397574,
+          3450477468,
+          4157507504,
+          42674103
+        ],
+        "respath": "scene/blowcity/_generated/bc12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_5",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i68",
+      "kind": "trigger",
+      "name": "Box_6",
+      "res": "Scene/Blowcity/_Generated/sector_11.i3Evt",
+      "obj": null,
+      "pos": [
+        -58.61567687988281,
+        13.10237979888916,
+        -16.810413360595703
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        38.116004943847656,
+        15.999292373657227,
+        24.611242294311523
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          886770432,
+          2460554854,
+          1919352052,
+          2814873901
+        ],
+        "respath": "scene/blowcity/_generated/sector_11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_6",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i69",
+      "kind": "trigger",
+      "name": "Box_7",
+      "res": "Scene/Blowcity/_Generated/sector_4.i3Evt",
+      "obj": null,
+      "pos": [
+        -8.005385398864746,
+        10.853338241577148,
+        -39.32039260864258
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        75.10052490234375,
+        6.090693950653076,
+        16.447189331054688
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2190014857,
+          828293845,
+          3104745014,
+          2673638691
+        ],
+        "respath": "scene/blowcity/_generated/sector_4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_7",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i70",
+      "kind": "trigger",
+      "name": "Box_8",
+      "res": "Scene/Blowcity/_Generated/sector_4.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.49742889404297,
+        6.289361000061035,
+        -28.229019165039062
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        32.97434616088867,
+        12.19332218170166,
+        5.586162090301514
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2190014857,
+          828293845,
+          3104745014,
+          2673638691
+        ],
+        "respath": "scene/blowcity/_generated/sector_4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_8",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i71",
+      "kind": "trigger",
+      "name": "Box_80",
+      "res": "Scene/Blowcity/_Generated/sector_4.i3Evt",
+      "obj": null,
+      "pos": [
+        13.872678756713867,
+        6.289361000061035,
+        -28.240859985351562
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        37.538761138916016,
+        12.19332218170166,
+        5.593200206756592
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2190014857,
+          828293845,
+          3104745014,
+          2673638691
+        ],
+        "respath": "scene/blowcity/_generated/sector_4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_80",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i72",
+      "kind": "trigger",
+      "name": "Box_9",
+      "res": "Scene/Blowcity/_Generated/sector_3.i3Evt",
+      "obj": null,
+      "pos": [
+        22.06515884399414,
+        7.900115966796875,
+        -20.413911819458008
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        21.104633331298828,
+        7.742547988891602,
+        9.893434524536133
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          828833744,
+          2745832114,
+          654428288,
+          1685935053
+        ],
+        "respath": "scene/blowcity/_generated/sector_3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_9",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i73",
+      "kind": "trigger",
+      "name": "Box_10",
+      "res": "Scene/Blowcity/_Generated/sector_2.i3Evt",
+      "obj": null,
+      "pos": [
+        22.699079513549805,
+        6.6833720207214355,
+        -1.4360909461975098
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.607913970947266,
+        5.137598991394043,
+        20.547809600830078
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2136608259,
+          1981017433,
+          1769672442,
+          1183146951
+        ],
+        "respath": "scene/blowcity/_generated/sector_2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_10",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i74",
+      "kind": "trigger",
+      "name": "Box_11",
+      "res": "Scene/Blowcity/_Generated/sector_6.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.802276611328125,
+        4.950669765472412,
+        -1.1590650081634521
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        19.500391006469727,
+        10.447136878967285,
+        7.256357192993164
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3082071467,
+          1644167929,
+          1345466801,
+          1692311337
+        ],
+        "respath": "scene/blowcity/_generated/sector_6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_11",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i75",
+      "kind": "trigger",
+      "name": "Box_12",
+      "res": "Scene/Blowcity/_Generated/sector_5.i3Evt",
+      "obj": null,
+      "pos": [
+        -11.557140350341797,
+        3.542249917984009,
+        -8.201476097106934
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        22.055801391601562,
+        6.750127792358398,
+        6.7593278884887695
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3099619626,
+          2120753774,
+          2901971813,
+          4078801852
+        ],
+        "respath": "scene/blowcity/_generated/sector_5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_12",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i76",
+      "kind": "trigger",
+      "name": "Box_120",
+      "res": "Scene/Blowcity/_Generated/sector_5.i3Evt",
+      "obj": null,
+      "pos": [
+        13.803511619567871,
+        0.44969600439071655,
+        -1.3502399921417236
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        37.46080780029297,
+        6.750127792358398,
+        6.875699996948242
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3099619626,
+          2120753774,
+          2901971813,
+          4078801852
+        ],
+        "respath": "scene/blowcity/_generated/sector_5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_120",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i77",
+      "kind": "trigger",
+      "name": "Box_13",
+      "res": "Scene/Blowcity/_Generated/sector_1.i3Evt",
+      "obj": null,
+      "pos": [
+        29.646106719970703,
+        5.107144832611084,
+        24.42314338684082
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        34.99483108520508,
+        10.077589988708496,
+        30.901798248291016
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1707167021,
+          3684069942,
+          1928014159,
+          1623629040
+        ],
+        "respath": "scene/blowcity/_generated/sector_1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_13",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i78",
+      "kind": "trigger",
+      "name": "Box_56",
+      "res": "Scene/Blowcity/_Generated/sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        -48.300968170166016,
+        9.941720962524414,
+        10.848505020141602
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        17.37198829650879,
+        5.302497863769531,
+        30.62630844116211
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          383013224,
+          2013365387,
+          169311246,
+          992165175
+        ],
+        "respath": "scene/blowcity/_generated/sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_56",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i79",
+      "kind": "trigger",
+      "name": "Box_57",
+      "res": "Scene/Blowcity/_Generated/sector_7.i3Evt",
+      "obj": null,
+      "pos": [
+        -30.890216827392578,
+        9.075352668762207,
+        15.8318452835083
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        16.798583984375,
+        3.501070976257324,
+        13.007953643798828
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1529329997,
+          3163128187,
+          2723426496,
+          1350801184
+        ],
+        "respath": "scene/blowcity/_generated/sector_7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_57",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i80",
+      "kind": "trigger",
+      "name": "Box_58",
+      "res": "Scene/Blowcity/_Generated/sector_7.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.42282485961914,
+        9.235468864440918,
+        29.189010620117188
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.95506477355957,
+        3.1171319484710693,
+        13.94248104095459
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1529329997,
+          3163128187,
+          2723426496,
+          1350801184
+        ],
+        "respath": "scene/blowcity/_generated/sector_7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "4f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_58",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i81",
+      "kind": "trigger",
+      "name": "Box_59",
+      "res": "Scene/Blowcity/_Generated/sector_7.i3Evt",
+      "obj": null,
+      "pos": [
+        -18.80863380432129,
+        8.926278114318848,
+        19.291446685791016
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.672776222229004,
+        3.912806987762451,
+        20.18327522277832
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1529329997,
+          3163128187,
+          2723426496,
+          1350801184
+        ],
+        "respath": "scene/blowcity/_generated/sector_7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "4f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_59",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i82",
+      "kind": "trigger",
+      "name": "Box_60",
+      "res": "Scene/Blowcity/_Generated/sector_9.i3Evt",
+      "obj": null,
+      "pos": [
+        -36.08502960205078,
+        8.229795455932617,
+        26.16093635559082
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.015054225921631,
+        5.32470703125,
+        6.90253210067749
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1834528450,
+          1448418277,
+          3730235113,
+          1112642243
+        ],
+        "respath": "scene/blowcity/_generated/sector_9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_60",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i83",
+      "kind": "trigger",
+      "name": "Box_61",
+      "res": "Scene/Blowcity/_Generated/sector_9.i3Evt",
+      "obj": null,
+      "pos": [
+        -43.33274841308594,
+        6.772209167480469,
+        27.948257446289062
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.444471836090088,
+        8.54256534576416,
+        3.537785053253174
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1834528450,
+          1448418277,
+          3730235113,
+          1112642243
+        ],
+        "respath": "scene/blowcity/_generated/sector_9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_61",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i84",
+      "kind": "trigger",
+      "name": "Box_62",
+      "res": "Scene/Blowcity/_Generated/sector_9.i3Evt",
+      "obj": null,
+      "pos": [
+        -44.63054275512695,
+        7.4564008712768555,
+        40.242515563964844
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3.8276209831237793,
+        8.423981666564941,
+        20.922557830810547
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1834528450,
+          1448418277,
+          3730235113,
+          1112642243
+        ],
+        "respath": "scene/blowcity/_generated/sector_9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_62",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i85",
+      "kind": "trigger",
+      "name": "Box_63",
+      "res": "Scene/Blowcity/_Generated/sector_8.i3Evt",
+      "obj": null,
+      "pos": [
+        -14.696846008300781,
+        9.600658416748047,
+        36.65591049194336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        15.387593269348145,
+        11.2396240234375,
+        14.159141540527344
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2342979803,
+          353602554,
+          1123163712,
+          332768069
+        ],
+        "respath": "scene/blowcity/_generated/sector_8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_63",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i86",
+      "kind": "trigger",
+      "name": "Box_130",
+      "res": "Scene/Blowcity/_Generated/sector_1.i3Evt",
+      "obj": null,
+      "pos": [
+        39.966407775878906,
+        5.107144832611084,
+        -11.757079124450684
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.64432144165039,
+        10.077589988708496,
+        41.19050598144531
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1707167021,
+          3684069942,
+          1928014159,
+          1623629040
+        ],
+        "respath": "scene/blowcity/_generated/sector_1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_130",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i87",
+      "kind": "trigger",
+      "name": "Box_1200",
+      "res": "Scene/Blowcity/_Generated/sector_5.i3Evt",
+      "obj": null,
+      "pos": [
+        5.146230220794678,
+        3.6136889457702637,
+        -10.099143028259277
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.097492218017578,
+        6.750127792358398,
+        10.486319541931152
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3099619626,
+          2120753774,
+          2901971813,
+          4078801852
+        ],
+        "respath": "scene/blowcity/_generated/sector_5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_1200",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i88",
+      "kind": "trigger",
+      "name": "Box_100",
+      "res": "Scene/Blowcity/_Generated/sector_2.i3Evt",
+      "obj": null,
+      "pos": [
+        22.699079513549805,
+        4.479672908782959,
+        -13.464664459228516
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.607913970947266,
+        10.252187728881836,
+        3.3825531005859375
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2136608259,
+          1981017433,
+          1769672442,
+          1183146951
+        ],
+        "respath": "scene/blowcity/_generated/sector_2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_100",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i89",
+      "kind": "trigger",
+      "name": "Box_101",
+      "res": "Scene/Blowcity/_Generated/sector_2.i3Evt",
+      "obj": null,
+      "pos": [
+        10.558993339538574,
+        6.6833720207214355,
+        -9.96162223815918
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3.5739779472351074,
+        5.137598991394043,
+        10.15129280090332
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2136608259,
+          1981017433,
+          1769672442,
+          1183146951
+        ],
+        "respath": "scene/blowcity/_generated/sector_2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_101",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i90",
+      "kind": "trigger",
+      "name": "Box_64",
+      "res": "Scene/Blowcity/_Generated/sector_12.i3Evt",
+      "obj": null,
+      "pos": [
+        -10.188844680786133,
+        9.154048919677734,
+        10.900114059448242
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.032352447509766,
+        7.162481784820557,
+        16.705337524414062
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          63254464,
+          711354998,
+          3128908452,
+          127430908
+        ],
+        "respath": "scene/blowcity/_generated/sector_12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_64",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i91",
+      "kind": "trigger",
+      "name": "Box_630",
+      "res": "Scene/Blowcity/_Generated/sector_8.i3Evt",
+      "obj": null,
+      "pos": [
+        -11.893425941467285,
+        9.600658416748047,
+        24.42021369934082
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.721725940704346,
+        11.239620208740234,
+        10.228675842285156
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2342979803,
+          353602554,
+          1123163712,
+          332768069
+        ],
+        "respath": "scene/blowcity/_generated/sector_8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_630",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i92",
+      "kind": "trigger",
+      "name": "Box_640",
+      "res": "Scene/Blowcity/_Generated/sector_12.i3Evt",
+      "obj": null,
+      "pos": [
+        3.490180015563965,
+        8.405108451843262,
+        15.746946334838867
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        17.219985961914062,
+        8.92784595489502,
+        7.213953018188477
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          63254464,
+          711354998,
+          3128908452,
+          127430908
+        ],
+        "respath": "scene/blowcity/_generated/sector_12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_640",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i93",
+      "kind": "trigger",
+      "name": "Box_641",
+      "res": "Scene/Blowcity/_Generated/sector_12.i3Evt",
+      "obj": null,
+      "pos": [
+        -8.51662540435791,
+        9.154048919677734,
+        -1.1605490446090698
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.942890167236328,
+        7.162481784820557,
+        7.275210857391357
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          63254464,
+          711354998,
+          3128908452,
+          127430908
+        ],
+        "respath": "scene/blowcity/_generated/sector_12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_641",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i94",
+      "kind": "trigger",
+      "name": "Box_560",
+      "res": "Scene/Blowcity/_Generated/sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        -31.068998336791992,
+        6.626460075378418,
+        -12.041360855102539
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        16.911056518554688,
+        6.40601110458374,
+        14.366310119628906
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          383013224,
+          2013365387,
+          169311246,
+          992165175
+        ],
+        "respath": "scene/blowcity/_generated/sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_560",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i95",
+      "kind": "trigger",
+      "name": "Box_81",
+      "res": "Scene/Blowcity/_Generated/sector_4.i3Evt",
+      "obj": null,
+      "pos": [
+        -29.124242782592773,
+        6.289361000061035,
+        -22.317546844482422
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.258258819580078,
+        12.19332218170166,
+        6.100897789001465
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2190014857,
+          828293845,
+          3104745014,
+          2673638691
+        ],
+        "respath": "scene/blowcity/_generated/sector_4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_81",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i96",
+      "kind": "trigger",
+      "name": "Box_5600",
+      "res": "Scene/Blowcity/_Generated/sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        -36.96430206298828,
+        8.447504043579102,
+        2.1771159172058105
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.064294815063477,
+        5.715277194976807,
+        13.916020393371582
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          383013224,
+          2013365387,
+          169311246,
+          992165175
+        ],
+        "respath": "scene/blowcity/_generated/sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_5600",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i97",
+      "kind": "trigger",
+      "name": "Box_631",
+      "res": "Scene/Blowcity/_Generated/sector_8.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.59588050842285,
+        9.600658416748047,
+        40.00934600830078
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.296456336975098,
+        11.239622116088867,
+        7.005207061767578
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2342979803,
+          353602554,
+          1123163712,
+          332768069
+        ],
+        "respath": "scene/blowcity/_generated/sector_8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_631",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i98",
+      "kind": "trigger",
+      "name": "Box_620",
+      "res": "Scene/Blowcity/_Generated/sector_9.i3Evt",
+      "obj": null,
+      "pos": [
+        -35.893218994140625,
+        7.4564008712768555,
+        47.11927032470703
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.536806106567383,
+        8.423981666564941,
+        7.054286956787109
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1834528450,
+          1448418277,
+          3730235113,
+          1112642243
+        ],
+        "respath": "scene/blowcity/_generated/sector_9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_620",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i99",
+      "kind": "trigger",
+      "name": "Box_12000",
+      "res": "Scene/Blowcity/_Generated/sector_5.i3Evt",
+      "obj": null,
+      "pos": [
+        7.036428928375244,
+        8.646103858947754,
+        -1.3843640089035034
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.638860702514648,
+        6.750127792358398,
+        6.8293561935424805
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3099619626,
+          2120753774,
+          2901971813,
+          4078801852
+        ],
+        "respath": "scene/blowcity/_generated/sector_5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_12000",
+        "layer": 3
+      }
+    }
+  ]
+}

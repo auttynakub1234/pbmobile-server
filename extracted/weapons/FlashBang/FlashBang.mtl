@@ -1,0 +1,5 @@
+# Materials for FlashBang
+newmtl Mtl_Flash_bang.webp
+Kd 1 1 1
+map_Kd Flash_bang.webp
+

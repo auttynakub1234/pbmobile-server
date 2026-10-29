@@ -1,0 +1,9 @@
+# Materials for PSG1
+newmtl Mtl_HK_PSG1.webp
+Kd 1 1 1
+map_Kd HK_PSG1.webp
+
+newmtl Mtl_PSGscop.webp
+Kd 1 1 1
+map_Kd PSGscop.webp
+

@@ -1,0 +1,6581 @@
+{
+  "stage": {
+    "name": "Metro",
+    "world": "World/Metro/Metro_World.i3s",
+    "sky": "World/Metro/Metro_Sky.i3s",
+    "cols": {
+      "hero": "World/Metro/Metro_Col_Hero.i3s",
+      "hit": "World/Metro/Metro_Col_Hit.i3s",
+      "light": "World/Metro/Metro_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/Metro/Metro_World.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Metro/Metro_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Metro/Metro_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Metro/Metro_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Metro/Metro_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Metro/Metro.i3wrd",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Train_alphaLightingMap.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Dsquad_glass_01_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Dsquad_glass_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Dsquad_glass_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/BreakLightingMap.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_pillar_01_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_pillar_02_B.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_00.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "sound/object/explosion/OB_Wall_Destroy.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_00.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_03.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_03.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_04.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_04.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_05.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_05.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_06.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_07.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_07.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_08.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_08.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_09.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_09.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dsquad_break_10.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/M_Sector_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/Box5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/M_Sector_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/Box6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/M_Sector_03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/Box7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/M_Sector_04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/Box8.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/M_Sector_05.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/Box9.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/M_Sector_06.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/Box10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/M_Sector_07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Metro/_Generated/Box11.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Metro/Light/Metro_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "sound/object/explosion/OB_Stormtube_Subway_warn2.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "sound/object/explosion/OB_Stormtube_Subway_warn1.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "sound/object/explosion/OB_Stormtube_Subway.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Stormtube_Subway_Move01.i3a",
+        "type": 0,
+        "tname": "ANIMATION",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_03.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_04.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_05.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_06.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_07.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_08.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_09.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/sw_Glass_1.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Glass_RefMask.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/cube.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/Stormtube_Subway.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "object/moving/stormtube_subway_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      }
+    ],
+    "ins_version": 4,
+    "layers": [
+      "Default"
+    ],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/Metro/Textures/DSQUAD_botLightingMap.i3i",
+        "name": "DSQUAD_botLightingMap"
+      },
+      {
+        "path": "World/Metro/Textures/Information booth_01.i3i",
+        "name": "Information booth_01"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_cart01_Diff.i3i",
+        "name": "Dsquad_cart01_Diff"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_cart_01_B.i3i",
+        "name": "Dsquad_cart_01_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_things01_Diff.i3i",
+        "name": "Dsquad_things01_Diff"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_bookshelf_01_B.i3i",
+        "name": "Dsquad_bookshelf_01_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_bottom_03_B.i3i",
+        "name": "Dsquad_bottom_03_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_bottom_04_B.i3i",
+        "name": "Dsquad_bottom_04_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_door_01_B.i3i",
+        "name": "Dsquad_door_01_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_door_02_B.i3i",
+        "name": "Dsquad_door_02_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_door_03_B.i3i",
+        "name": "Dsquad_door_03_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_Down.i3i",
+        "name": "Dsquad_Down"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_newspaper_01.i3i",
+        "name": "Dsquad_newspaper_01"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_pot_01.i3i",
+        "name": "Dsquad_pot_01"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_sign_01_B.i3i",
+        "name": "Dsquad_sign_01_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_sign_02_B.i3i",
+        "name": "Dsquad_sign_02_B"
+      },
+      {
+        "path": "World/Metro/Textures/dsquad_sign_02_y.i3i",
+        "name": "dsquad_sign_02_y"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_SteelBench.i3i",
+        "name": "Dsquad_SteelBench"
+      },
+      {
+        "path": "World/Metro/Textures/Dsqurd_poster_02_rs.i3i",
+        "name": "Dsqurd_poster_02_rs"
+      },
+      {
+        "path": "World/Metro/Textures/Dsqurd_poster_04_rs.i3i",
+        "name": "Dsqurd_poster_04_rs"
+      },
+      {
+        "path": "World/Metro/Textures/Dsqurd_poster_05_rs.i3i",
+        "name": "Dsqurd_poster_05_rs"
+      },
+      {
+        "path": "World/Metro/Textures/Escalator_A.i3i",
+        "name": "Escalator_A"
+      },
+      {
+        "path": "World/Metro/Textures/Escalator_B.i3i",
+        "name": "Escalator_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsqurd_Re_newsstand_001.i3i",
+        "name": "Dsqurd_Re_newsstand_001"
+      },
+      {
+        "path": "World/Metro/Textures/Dsqurd_Re_newsstand_002.i3i",
+        "name": "Dsqurd_Re_newsstand_002"
+      },
+      {
+        "path": "World/Metro/Textures/Dsqurd_Re_phonebooth.i3i",
+        "name": "Dsqurd_Re_phonebooth"
+      },
+      {
+        "path": "World/Metro/Textures/Dsqurd_Re_photobooth.i3i",
+        "name": "Dsqurd_Re_photobooth"
+      },
+      {
+        "path": "World/Metro/Textures/pillar_Brick_27.i3i",
+        "name": "pillar_Brick_27"
+      },
+      {
+        "path": "World/Metro/Textures/subway_sign01.i3i",
+        "name": "subway_sign01"
+      },
+      {
+        "path": "World/Metro/Textures/Vending machine_01.i3i",
+        "name": "Vending machine_01"
+      },
+      {
+        "path": "World/Metro/Textures/Vending machine_03.i3i",
+        "name": "Vending machine_03"
+      },
+      {
+        "path": "World/Metro/Textures/DSQUAD_trainLightingMap.i3i",
+        "name": "DSQUAD_trainLightingMap"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_box_01_B.i3i",
+        "name": "Dsquad_box_01_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_ceiling_01_B.i3i",
+        "name": "Dsquad_ceiling_01_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_ceiling_02_B.i3i",
+        "name": "Dsquad_ceiling_02_B"
+      },
+      {
+        "path": "World/Metro/Textures/dsquad_sign_01_y.i3i",
+        "name": "dsquad_sign_01_y"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_sign_03_B.i3i",
+        "name": "Dsquad_sign_03_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_wall_02_B.i3i",
+        "name": "Dsquad_wall_02_B"
+      },
+      {
+        "path": "World/Metro/Textures/Dsqurd_Jack01.i3i",
+        "name": "Dsqurd_Jack01"
+      },
+      {
+        "path": "World/Metro/Textures/emergency_equipment.i3i",
+        "name": "emergency_equipment"
+      },
+      {
+        "path": "World/Metro/Textures/Screen door_01.i3i",
+        "name": "Screen door_01"
+      },
+      {
+        "path": "World/Metro/Textures/subway_linemap_board.i3i",
+        "name": "subway_linemap_board"
+      },
+      {
+        "path": "World/Metro/Textures/sw_02.i3i",
+        "name": "sw_02"
+      },
+      {
+        "path": "World/Metro/Textures/sw_03.i3i",
+        "name": "sw_03"
+      },
+      {
+        "path": "World/Metro/Textures/sw_04.i3i",
+        "name": "sw_04"
+      },
+      {
+        "path": "World/Metro/Textures/sw_08.i3i",
+        "name": "sw_08"
+      },
+      {
+        "path": "World/Metro/Textures/Transfer_dispensing_machine_01.i3i",
+        "name": "Transfer_dispensing_machine_01"
+      },
+      {
+        "path": "World/Metro/Textures/Transfer_dispensing_machine_02.i3i",
+        "name": "Transfer_dispensing_machine_02"
+      },
+      {
+        "path": "World/Metro/Textures/wastebasket.i3i",
+        "name": "wastebasket"
+      },
+      {
+        "path": "World/Metro/Textures/DSQUAD_wallLightingMap.i3i",
+        "name": "DSQUAD_wallLightingMap"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_wall_05_B.i3i",
+        "name": "Dsquad_wall_05_B"
+      },
+      {
+        "path": "World/Metro/Textures/subway_sign02.i3i",
+        "name": "subway_sign02"
+      },
+      {
+        "path": "World/Metro/Textures/sw_01.i3i",
+        "name": "sw_01"
+      },
+      {
+        "path": "World/Metro/Textures/sw_05.i3i",
+        "name": "sw_05"
+      },
+      {
+        "path": "World/Metro/Textures/sw_06.i3i",
+        "name": "sw_06"
+      },
+      {
+        "path": "World/Metro/Textures/sw_07.i3i",
+        "name": "sw_07"
+      },
+      {
+        "path": "World/Metro/Textures/sw_09.i3i",
+        "name": "sw_09"
+      },
+      {
+        "path": "World/Metro/Textures/Ticket barrier_01.i3i",
+        "name": "Ticket barrier_01"
+      },
+      {
+        "path": "World/Metro/Textures/alpha_01LightingMap.i3i",
+        "name": "alpha_01LightingMap"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_garbage_01.i3i",
+        "name": "Dsquad_garbage_01"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_leaf_01.i3i",
+        "name": "Dsquad_leaf_01"
+      },
+      {
+        "path": "World/Metro/Textures/Dsquad_glass_01_B.i3i",
+        "name": "Dsquad_glass_01_B"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          683281615,
+          3040760084,
+          4152351092,
+          3394564413
+        ],
+        "respath": "World/Metro/Metro.i3wrd",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        55.020286560058594,
+        7.1786208152771,
+        -1.5909240245819092
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "Respawn1",
+      "res": null,
+      "obj": null,
+      "pos": [
+        55.020286560058594,
+        7.1786208152771,
+        -3.7063839435577393
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "Respawn2",
+      "res": null,
+      "obj": null,
+      "pos": [
+        55.020286560058594,
+        7.1786208152771,
+        -5.865486145019531
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "Respawn3",
+      "res": null,
+      "obj": null,
+      "pos": [
+        55.020286560058594,
+        7.1786208152771,
+        -8.015198707580566
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "Respawn4",
+      "res": null,
+      "obj": null,
+      "pos": [
+        56.934814453125,
+        7.1786208152771,
+        -2.6677780151367188
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "Respawn5",
+      "res": null,
+      "obj": null,
+      "pos": [
+        56.934814453125,
+        7.1786208152771,
+        -4.783237934112549
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "Respawn6",
+      "res": null,
+      "obj": null,
+      "pos": [
+        56.934814453125,
+        7.1786208152771,
+        -6.942339897155762
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "Respawn7",
+      "res": null,
+      "obj": null,
+      "pos": [
+        56.934814453125,
+        7.1786208152771,
+        -9.092053413391113
+      ],
+      "rot": [
+        0,
+        -90.00000769819438,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "Respawn8",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -55.81178283691406,
+        7.1786208152771,
+        9.202905654907227
+      ],
+      "rot": [
+        0,
+        90.00624780528081,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071453332901001,
+        0,
+        0.7070683240890503
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "Respawn9",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -55.81178283691406,
+        7.1786208152771,
+        7.08744478225708
+      ],
+      "rot": [
+        0,
+        90.00624780528081,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071453332901001,
+        0,
+        0.7070683240890503
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "Respawn10",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -55.81178283691406,
+        7.1786208152771,
+        4.928342819213867
+      ],
+      "rot": [
+        0,
+        90.00624780528081,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071453332901001,
+        0,
+        0.7070683240890503
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "Respawn11",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -55.81178283691406,
+        7.1786208152771,
+        2.7786309719085693
+      ],
+      "rot": [
+        0,
+        90.00624780528081,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071453332901001,
+        0,
+        0.7070683240890503
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "Respawn12",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -53.897254943847656,
+        7.1786208152771,
+        8.126051902770996
+      ],
+      "rot": [
+        0,
+        90.00624780528081,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071453332901001,
+        0,
+        0.7070683240890503
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "Respawn13",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -53.897254943847656,
+        7.1786208152771,
+        6.01059103012085
+      ],
+      "rot": [
+        0,
+        90.00624780528081,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071453332901001,
+        0,
+        0.7070683240890503
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "Respawn14",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -53.897254943847656,
+        7.1786208152771,
+        3.8514890670776367
+      ],
+      "rot": [
+        0,
+        90.00624780528081,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071453332901001,
+        0,
+        0.7070683240890503
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn14",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "Respawn15",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -53.897254943847656,
+        7.1786208152771,
+        1.7017760276794434
+      ],
+      "rot": [
+        0,
+        90.00624780528081,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071453332901001,
+        0,
+        0.7070683240890503
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn15",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "prop",
+      "name": "Dsquad_glass_1",
+      "res": "Object/glass/Dsquad_glass_01.i3s",
+      "obj": "Object/glass/Dsquad_glass_01.i3Obj",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2937022728,
+          471558945,
+          1868121817,
+          1502975786
+        ],
+        "respath": "Object/glass/Dsquad_glass_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_glass_1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "prop",
+      "name": "Dsquad_break_0",
+      "res": "Object/break/Dsquad_break_00.i3s",
+      "obj": "Object/break/Dsquad_break_00.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3544688373,
+          926298869,
+          1537536885,
+          3741107443
+        ],
+        "respath": "Object/break/Dsquad_break_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "prop",
+      "name": "Dsquad_break_1",
+      "res": "Object/break/Dsquad_break_01.i3s",
+      "obj": "Object/break/Dsquad_break_01.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2832527841,
+          3256421290,
+          79810646,
+          2473426736
+        ],
+        "respath": "Object/break/Dsquad_break_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "prop",
+      "name": "Dsquad_break_2",
+      "res": "Object/break/Dsquad_break_02.i3s",
+      "obj": "Object/break/Dsquad_break_02.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3649818014,
+          2323159579,
+          3134449461,
+          2738317811
+        ],
+        "respath": "Object/break/Dsquad_break_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "prop",
+      "name": "Dsquad_break_3",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "prop",
+      "name": "Dsquad_break_4",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "prop",
+      "name": "Dsquad_break_5",
+      "res": "Object/break/Dsquad_break_04.i3s",
+      "obj": "Object/break/Dsquad_break_04.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          626645542,
+          1242510212,
+          3530494418,
+          2852722566
+        ],
+        "respath": "Object/break/Dsquad_break_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "prop",
+      "name": "Dsquad_break_6",
+      "res": "Object/break/Dsquad_break_05.i3s",
+      "obj": "Object/break/Dsquad_break_05.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          28127249,
+          2312280923,
+          1796653030,
+          47697274
+        ],
+        "respath": "Object/break/Dsquad_break_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "prop",
+      "name": "Dsquad_break_7",
+      "res": "Object/break/Dsquad_break_06.i3s",
+      "obj": "Object/break/Dsquad_break_06.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4267409421,
+          2421854200,
+          1808459368,
+          323736183
+        ],
+        "respath": "Object/break/Dsquad_break_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "prop",
+      "name": "Dsquad_break_8",
+      "res": "Object/break/Dsquad_break_07.i3s",
+      "obj": "Object/break/Dsquad_break_07.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2472634487,
+          662713154,
+          1189497950,
+          3301608330
+        ],
+        "respath": "Object/break/Dsquad_break_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "prop",
+      "name": "Dsquad_break_9",
+      "res": "Object/break/Dsquad_break_08.i3s",
+      "obj": "Object/break/Dsquad_break_08.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          132655364,
+          1657846215,
+          3220043835,
+          2931534729
+        ],
+        "respath": "Object/break/Dsquad_break_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "prop",
+      "name": "Dsquad_break_10",
+      "res": "Object/break/Dsquad_break_09.i3s",
+      "obj": "Object/break/Dsquad_break_09.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          324682977,
+          1785151563,
+          3125884472,
+          2885791728
+        ],
+        "respath": "Object/break/Dsquad_break_09.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "prop",
+      "name": "Dsquad_break_11",
+      "res": "Object/break/Dsquad_break_10.i3s",
+      "obj": "Object/break/Dsquad_break_10.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          946849197,
+          1234463954,
+          3237273117,
+          3346642911
+        ],
+        "respath": "Object/break/Dsquad_break_10.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "prop",
+      "name": "Dsquad_break_12",
+      "res": "Object/break/Dsquad_break_00.i3s",
+      "obj": "Object/break/Dsquad_break_00.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3544688373,
+          926298869,
+          1537536885,
+          3741107443
+        ],
+        "respath": "Object/break/Dsquad_break_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "prop",
+      "name": "Dsquad_break_13",
+      "res": "Object/break/Dsquad_break_01.i3s",
+      "obj": "Object/break/Dsquad_break_01.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2832527841,
+          3256421290,
+          79810646,
+          2473426736
+        ],
+        "respath": "Object/break/Dsquad_break_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "prop",
+      "name": "Dsquad_break_14",
+      "res": "Object/break/Dsquad_break_02.i3s",
+      "obj": "Object/break/Dsquad_break_02.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3649818014,
+          2323159579,
+          3134449461,
+          2738317811
+        ],
+        "respath": "Object/break/Dsquad_break_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_14",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "prop",
+      "name": "Dsquad_break_15",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_15",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "prop",
+      "name": "Dsquad_break_16",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_16",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "prop",
+      "name": "Dsquad_break_17",
+      "res": "Object/break/Dsquad_break_04.i3s",
+      "obj": "Object/break/Dsquad_break_04.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          626645542,
+          1242510212,
+          3530494418,
+          2852722566
+        ],
+        "respath": "Object/break/Dsquad_break_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_17",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "prop",
+      "name": "Dsquad_break_18",
+      "res": "Object/break/Dsquad_break_05.i3s",
+      "obj": "Object/break/Dsquad_break_05.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          28127249,
+          2312280923,
+          1796653030,
+          47697274
+        ],
+        "respath": "Object/break/Dsquad_break_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_18",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "prop",
+      "name": "Dsquad_break_19",
+      "res": "Object/break/Dsquad_break_06.i3s",
+      "obj": "Object/break/Dsquad_break_06.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4267409421,
+          2421854200,
+          1808459368,
+          323736183
+        ],
+        "respath": "Object/break/Dsquad_break_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_19",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "prop",
+      "name": "Dsquad_break_20",
+      "res": "Object/break/Dsquad_break_07.i3s",
+      "obj": "Object/break/Dsquad_break_07.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2472634487,
+          662713154,
+          1189497950,
+          3301608330
+        ],
+        "respath": "Object/break/Dsquad_break_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_20",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "prop",
+      "name": "Dsquad_break_21",
+      "res": "Object/break/Dsquad_break_08.i3s",
+      "obj": "Object/break/Dsquad_break_08.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          132655364,
+          1657846215,
+          3220043835,
+          2931534729
+        ],
+        "respath": "Object/break/Dsquad_break_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_21",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "prop",
+      "name": "Dsquad_break_22",
+      "res": "Object/break/Dsquad_break_09.i3s",
+      "obj": "Object/break/Dsquad_break_09.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          324682977,
+          1785151563,
+          3125884472,
+          2885791728
+        ],
+        "respath": "Object/break/Dsquad_break_09.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_22",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "prop",
+      "name": "Dsquad_break_23",
+      "res": "Object/break/Dsquad_break_10.i3s",
+      "obj": "Object/break/Dsquad_break_10.i3Obj",
+      "pos": [
+        -6.985891819000244,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          946849197,
+          1234463954,
+          3237273117,
+          3346642911
+        ],
+        "respath": "Object/break/Dsquad_break_10.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_23",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "prop",
+      "name": "Dsquad_break_24",
+      "res": "Object/break/Dsquad_break_00.i3s",
+      "obj": "Object/break/Dsquad_break_00.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3544688373,
+          926298869,
+          1537536885,
+          3741107443
+        ],
+        "respath": "Object/break/Dsquad_break_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_24",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "prop",
+      "name": "Dsquad_break_25",
+      "res": "Object/break/Dsquad_break_01.i3s",
+      "obj": "Object/break/Dsquad_break_01.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2832527841,
+          3256421290,
+          79810646,
+          2473426736
+        ],
+        "respath": "Object/break/Dsquad_break_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_25",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i44",
+      "kind": "prop",
+      "name": "Dsquad_break_26",
+      "res": "Object/break/Dsquad_break_02.i3s",
+      "obj": "Object/break/Dsquad_break_02.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3649818014,
+          2323159579,
+          3134449461,
+          2738317811
+        ],
+        "respath": "Object/break/Dsquad_break_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_26",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i45",
+      "kind": "prop",
+      "name": "Dsquad_break_27",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_27",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i46",
+      "kind": "prop",
+      "name": "Dsquad_break_28",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_28",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i47",
+      "kind": "prop",
+      "name": "Dsquad_break_29",
+      "res": "Object/break/Dsquad_break_04.i3s",
+      "obj": "Object/break/Dsquad_break_04.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          626645542,
+          1242510212,
+          3530494418,
+          2852722566
+        ],
+        "respath": "Object/break/Dsquad_break_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_29",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i48",
+      "kind": "prop",
+      "name": "Dsquad_break_30",
+      "res": "Object/break/Dsquad_break_05.i3s",
+      "obj": "Object/break/Dsquad_break_05.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          28127249,
+          2312280923,
+          1796653030,
+          47697274
+        ],
+        "respath": "Object/break/Dsquad_break_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_30",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i49",
+      "kind": "prop",
+      "name": "Dsquad_break_31",
+      "res": "Object/break/Dsquad_break_06.i3s",
+      "obj": "Object/break/Dsquad_break_06.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4267409421,
+          2421854200,
+          1808459368,
+          323736183
+        ],
+        "respath": "Object/break/Dsquad_break_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_31",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i50",
+      "kind": "prop",
+      "name": "Dsquad_break_32",
+      "res": "Object/break/Dsquad_break_07.i3s",
+      "obj": "Object/break/Dsquad_break_07.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2472634487,
+          662713154,
+          1189497950,
+          3301608330
+        ],
+        "respath": "Object/break/Dsquad_break_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_32",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i51",
+      "kind": "prop",
+      "name": "Dsquad_break_33",
+      "res": "Object/break/Dsquad_break_08.i3s",
+      "obj": "Object/break/Dsquad_break_08.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          132655364,
+          1657846215,
+          3220043835,
+          2931534729
+        ],
+        "respath": "Object/break/Dsquad_break_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_33",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i52",
+      "kind": "prop",
+      "name": "Dsquad_break_34",
+      "res": "Object/break/Dsquad_break_09.i3s",
+      "obj": "Object/break/Dsquad_break_09.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          324682977,
+          1785151563,
+          3125884472,
+          2885791728
+        ],
+        "respath": "Object/break/Dsquad_break_09.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_34",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i53",
+      "kind": "prop",
+      "name": "Dsquad_break_35",
+      "res": "Object/break/Dsquad_break_10.i3s",
+      "obj": "Object/break/Dsquad_break_10.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        -4.913168907165527
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          946849197,
+          1234463954,
+          3237273117,
+          3346642911
+        ],
+        "respath": "Object/break/Dsquad_break_10.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_35",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i54",
+      "kind": "prop",
+      "name": "Dsquad_break_36",
+      "res": "Object/break/Dsquad_break_00.i3s",
+      "obj": "Object/break/Dsquad_break_00.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3544688373,
+          926298869,
+          1537536885,
+          3741107443
+        ],
+        "respath": "Object/break/Dsquad_break_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_36",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i55",
+      "kind": "prop",
+      "name": "Dsquad_break_37",
+      "res": "Object/break/Dsquad_break_01.i3s",
+      "obj": "Object/break/Dsquad_break_01.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2832527841,
+          3256421290,
+          79810646,
+          2473426736
+        ],
+        "respath": "Object/break/Dsquad_break_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_37",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i56",
+      "kind": "prop",
+      "name": "Dsquad_break_38",
+      "res": "Object/break/Dsquad_break_02.i3s",
+      "obj": "Object/break/Dsquad_break_02.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3649818014,
+          2323159579,
+          3134449461,
+          2738317811
+        ],
+        "respath": "Object/break/Dsquad_break_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_38",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i57",
+      "kind": "prop",
+      "name": "Dsquad_break_39",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_39",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i58",
+      "kind": "prop",
+      "name": "Dsquad_break_40",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_40",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i59",
+      "kind": "prop",
+      "name": "Dsquad_break_41",
+      "res": "Object/break/Dsquad_break_04.i3s",
+      "obj": "Object/break/Dsquad_break_04.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          626645542,
+          1242510212,
+          3530494418,
+          2852722566
+        ],
+        "respath": "Object/break/Dsquad_break_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_41",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i60",
+      "kind": "prop",
+      "name": "Dsquad_break_42",
+      "res": "Object/break/Dsquad_break_05.i3s",
+      "obj": "Object/break/Dsquad_break_05.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          28127249,
+          2312280923,
+          1796653030,
+          47697274
+        ],
+        "respath": "Object/break/Dsquad_break_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_42",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i61",
+      "kind": "prop",
+      "name": "Dsquad_break_43",
+      "res": "Object/break/Dsquad_break_06.i3s",
+      "obj": "Object/break/Dsquad_break_06.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4267409421,
+          2421854200,
+          1808459368,
+          323736183
+        ],
+        "respath": "Object/break/Dsquad_break_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_43",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i62",
+      "kind": "prop",
+      "name": "Dsquad_break_44",
+      "res": "Object/break/Dsquad_break_07.i3s",
+      "obj": "Object/break/Dsquad_break_07.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2472634487,
+          662713154,
+          1189497950,
+          3301608330
+        ],
+        "respath": "Object/break/Dsquad_break_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_44",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i63",
+      "kind": "prop",
+      "name": "Dsquad_break_45",
+      "res": "Object/break/Dsquad_break_08.i3s",
+      "obj": "Object/break/Dsquad_break_08.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          132655364,
+          1657846215,
+          3220043835,
+          2931534729
+        ],
+        "respath": "Object/break/Dsquad_break_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_45",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i64",
+      "kind": "prop",
+      "name": "Dsquad_break_46",
+      "res": "Object/break/Dsquad_break_09.i3s",
+      "obj": "Object/break/Dsquad_break_09.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          324682977,
+          1785151563,
+          3125884472,
+          2885791728
+        ],
+        "respath": "Object/break/Dsquad_break_09.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_46",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i65",
+      "kind": "prop",
+      "name": "Dsquad_break_47",
+      "res": "Object/break/Dsquad_break_10.i3s",
+      "obj": "Object/break/Dsquad_break_10.i3Obj",
+      "pos": [
+        6.956089973449707,
+        5.567462921142578,
+        5.031009197235107
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          946849197,
+          1234463954,
+          3237273117,
+          3346642911
+        ],
+        "respath": "Object/break/Dsquad_break_10.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_47",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i66",
+      "kind": "prop",
+      "name": "Dsquad_break_48",
+      "res": "Object/break/Dsquad_break_00.i3s",
+      "obj": "Object/break/Dsquad_break_00.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3544688373,
+          926298869,
+          1537536885,
+          3741107443
+        ],
+        "respath": "Object/break/Dsquad_break_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_48",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i67",
+      "kind": "prop",
+      "name": "Dsquad_break_49",
+      "res": "Object/break/Dsquad_break_01.i3s",
+      "obj": "Object/break/Dsquad_break_01.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2832527841,
+          3256421290,
+          79810646,
+          2473426736
+        ],
+        "respath": "Object/break/Dsquad_break_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_49",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i68",
+      "kind": "prop",
+      "name": "Dsquad_break_50",
+      "res": "Object/break/Dsquad_break_02.i3s",
+      "obj": "Object/break/Dsquad_break_02.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3649818014,
+          2323159579,
+          3134449461,
+          2738317811
+        ],
+        "respath": "Object/break/Dsquad_break_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_50",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i69",
+      "kind": "prop",
+      "name": "Dsquad_break_51",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_51",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i70",
+      "kind": "prop",
+      "name": "Dsquad_break_52",
+      "res": "Object/break/Dsquad_break_03.i3s",
+      "obj": "Object/break/Dsquad_break_03.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1568802150,
+          1335533069,
+          3618955754,
+          3149568621
+        ],
+        "respath": "Object/break/Dsquad_break_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_52",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i71",
+      "kind": "prop",
+      "name": "Dsquad_break_53",
+      "res": "Object/break/Dsquad_break_04.i3s",
+      "obj": "Object/break/Dsquad_break_04.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          626645542,
+          1242510212,
+          3530494418,
+          2852722566
+        ],
+        "respath": "Object/break/Dsquad_break_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_53",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i72",
+      "kind": "prop",
+      "name": "Dsquad_break_54",
+      "res": "Object/break/Dsquad_break_05.i3s",
+      "obj": "Object/break/Dsquad_break_05.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          28127249,
+          2312280923,
+          1796653030,
+          47697274
+        ],
+        "respath": "Object/break/Dsquad_break_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_54",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i73",
+      "kind": "prop",
+      "name": "Dsquad_break_55",
+      "res": "Object/break/Dsquad_break_06.i3s",
+      "obj": "Object/break/Dsquad_break_06.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4267409421,
+          2421854200,
+          1808459368,
+          323736183
+        ],
+        "respath": "Object/break/Dsquad_break_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_55",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i74",
+      "kind": "prop",
+      "name": "Dsquad_break_56",
+      "res": "Object/break/Dsquad_break_07.i3s",
+      "obj": "Object/break/Dsquad_break_07.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2472634487,
+          662713154,
+          1189497950,
+          3301608330
+        ],
+        "respath": "Object/break/Dsquad_break_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_56",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i75",
+      "kind": "prop",
+      "name": "Dsquad_break_57",
+      "res": "Object/break/Dsquad_break_08.i3s",
+      "obj": "Object/break/Dsquad_break_08.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          132655364,
+          1657846215,
+          3220043835,
+          2931534729
+        ],
+        "respath": "Object/break/Dsquad_break_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_57",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i76",
+      "kind": "prop",
+      "name": "Dsquad_break_58",
+      "res": "Object/break/Dsquad_break_09.i3s",
+      "obj": "Object/break/Dsquad_break_09.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          324682977,
+          1785151563,
+          3125884472,
+          2885791728
+        ],
+        "respath": "Object/break/Dsquad_break_09.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_58",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i77",
+      "kind": "prop",
+      "name": "Dsquad_break_59",
+      "res": "Object/break/Dsquad_break_10.i3s",
+      "obj": "Object/break/Dsquad_break_10.i3Obj",
+      "pos": [
+        -0.002061000093817711,
+        5.567462921142578,
+        -0.061445001512765884
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          946849197,
+          1234463954,
+          3237273117,
+          3346642911
+        ],
+        "respath": "Object/break/Dsquad_break_10.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dsquad_break_59",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i78",
+      "kind": "trigger",
+      "name": "Box5",
+      "res": "Scene/Metro/_Generated/M_Sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        55.8798713684082,
+        7.177145004272461,
+        -5.045475006103516
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        29.41794204711914,
+        12.198835372924805,
+        45.352718353271484
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1163131763,
+          363777669,
+          717144472,
+          232377241
+        ],
+        "respath": "Scene/Metro/_Generated/M_Sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i79",
+      "kind": "trigger",
+      "name": "Box6",
+      "res": "Scene/Metro/_Generated/M_Sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        27.97979736328125,
+        2.511522054672241,
+        1.9497029781341553
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        26.14684295654297,
+        21.41309356689453,
+        31.433162689208984
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1905034797,
+          1213493138,
+          2534584416,
+          2552725368
+        ],
+        "respath": "Scene/Metro/_Generated/M_Sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i80",
+      "kind": "trigger",
+      "name": "Box7",
+      "res": "Scene/Metro/_Generated/M_Sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        -8.918792724609375,
+        2.511531114578247,
+        25.941486358642578
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        64.68301391601562,
+        20.962480545043945,
+        16.32961654663086
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4210919094,
+          3831044207,
+          2121026339,
+          4177414012
+        ],
+        "respath": "Scene/Metro/_Generated/M_Sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i81",
+      "kind": "trigger",
+      "name": "Box8",
+      "res": "Scene/Metro/_Generated/M_Sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.02478400059044361,
+        5.611979961395264,
+        0.02486399933695793
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        29.683807373046875,
+        15.645709991455078,
+        35.13410949707031
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3357315066,
+          1928306957,
+          2909758854,
+          3905873729
+        ],
+        "respath": "Scene/Metro/_Generated/M_Sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i82",
+      "kind": "trigger",
+      "name": "Box9",
+      "res": "Scene/Metro/_Generated/M_Sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        -55.207637786865234,
+        7.177145957946777,
+        11.609030723571777
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        27.727846145629883,
+        11.726734161376953,
+        55.1216926574707
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          616947851,
+          3891373500,
+          2865150610,
+          676713469
+        ],
+        "respath": "Scene/Metro/_Generated/M_Sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i83",
+      "kind": "trigger",
+      "name": "Box10",
+      "res": "Scene/Metro/_Generated/M_Sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -28.097461700439453,
+        2.511522054672241,
+        -1.2411479949951172
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        26.33578872680664,
+        19.802488327026367,
+        32.928489685058594
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          185002119,
+          3699156016,
+          2109289039,
+          2928174882
+        ],
+        "respath": "Scene/Metro/_Generated/M_Sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i84",
+      "kind": "trigger",
+      "name": "Box11",
+      "res": "Scene/Metro/_Generated/M_Sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        8.507575988769531,
+        5.643309116363525,
+        -26.398256301879883
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        65.15023040771484,
+        17.534101486206055,
+        17.263832092285156
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1963509921,
+          2584582219,
+          96932916,
+          3757925032
+        ],
+        "respath": "Scene/Metro/_Generated/M_Sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i85",
+      "kind": "unknown",
+      "name": "Metro_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        5.805566787719727,
+        41.78307342529297,
+        7.7904510498046875
+      ],
+      "rot": [
+        -90,
+        0,
+        0
+      ],
+      "quat": [
+        -0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          3731832706,
+          1377545029,
+          206915784,
+          1293823948
+        ],
+        "respath": "World/Metro/Light/Metro_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Metro_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i86",
+      "kind": "prop",
+      "name": "stormtube_subway_1",
+      "res": "Object/moving/Stormtube_Subway.i3s",
+      "obj": "object/moving/stormtube_subway_01.i3Obj",
+      "pos": [
+        -0.6229580044746399,
+        0.6736599802970886,
+        3.758017063140869
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1991691990,
+          463467294,
+          3621774491,
+          4103915299
+        ],
+        "respath": "object/moving/stormtube_subway_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "stormtube_subway_1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i87",
+      "kind": "prop",
+      "name": "stormtube_subway_2",
+      "res": "Object/moving/Stormtube_Subway.i3s",
+      "obj": "object/moving/stormtube_subway_01.i3Obj",
+      "pos": [
+        8.202369689941406,
+        0.8387629985809326,
+        -4.144756317138672
+      ],
+      "rot": [
+        0,
+        -179.99999499104388,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -4.371138828673793e-8
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1991691990,
+          463467294,
+          3621774491,
+          4103915299
+        ],
+        "respath": "object/moving/stormtube_subway_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "stormtube_subway_2",
+        "layer": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,4948 @@
+{
+  "stage": {
+    "name": "Downtown2",
+    "world": "World/Downtown2/Downtown2_World.I3S",
+    "sky": "World/Downtown2/Downtown2_Sky.i3s",
+    "cols": {
+      "hero": "World/Downtown2/Downtown2_Col_Hero.I3S",
+      "hit": "World/Downtown2/Downtown2_Col_Hit.I3S",
+      "light": null
+    },
+    "rsc": [
+      {
+        "path": "World/Downtown2/Downtown2_World.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Downtown2/Downtown2_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Downtown2/Downtown2_Col_Hero.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Downtown2/Downtown2_Col_Hit.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Downtown2/Downtown2_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Downtown2/Downtown2.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "World/Downtown2/Light/Downtown2_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/sw_Glass_1.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Glass_RefMask.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/BuildingGlass_Town_04.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/GrassBuilding_Break_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/BuildingGlass_Town_04_Break.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/BuildingGlass_Town_04.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_1.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_2.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_4.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_40.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_400.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_4000.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_40000.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_400000.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_05.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_06.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_60.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_08.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_8.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_09.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_9.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_90.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_11.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_12.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_120.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_13.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_section_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_14.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_140.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_section_03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_15.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_section_04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_16.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_3.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_30.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_300.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_3000.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Glass_Building_06.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Downtown2_Glass_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Glass_Building_Break_Sample_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Downtown2_Glass_01_Break.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Downtown2_Glass_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_50.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/downtown2_sector_14.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_17.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Downtown2/_Generated/Box_150.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      }
+    ],
+    "ins_version": 3,
+    "layers": [],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/Downtown2/Textures/Downtown_InLightingMap.i3i",
+        "name": "Downtown_InLightingMap"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_Cafe_in_A_01.i3i",
+        "name": "building_Cafe_in_A_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_Cafe_B_02 .i3i",
+        "name": "building_Cafe_B_02 "
+      },
+      {
+        "path": "World/Downtown2/Textures/Blind_Closed_Normal.i3i",
+        "name": "Blind_Closed_Normal"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_Cafe_in_B_04.i3i",
+        "name": "building_Cafe_in_B_04"
+      },
+      {
+        "path": "World/Downtown2/Textures/Carpet_02.i3i",
+        "name": "Carpet_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/CupBoard_01.i3i",
+        "name": "CupBoard_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/emergency exit_1.i3i",
+        "name": "emergency exit_1"
+      },
+      {
+        "path": "World/Downtown2/Textures/CashMachine_01.i3i",
+        "name": "CashMachine_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/EspressoMachine_01.i3i",
+        "name": "EspressoMachine_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Ground_Tile_01.i3i",
+        "name": "Ground_Tile_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Ork Cask.i3i",
+        "name": "Ork Cask"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_store_C_02.i3i",
+        "name": "building_store_C_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_Cafe_in_A_03.i3i",
+        "name": "building_Cafe_in_A_03"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_Cafe_in_B_03.i3i",
+        "name": "building_Cafe_in_B_03"
+      },
+      {
+        "path": "World/Downtown2/Textures/BarTable_01.i3i",
+        "name": "BarTable_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/info_board.i3i",
+        "name": "info_board"
+      },
+      {
+        "path": "World/Downtown2/Textures/menu_board.i3i",
+        "name": "menu_board"
+      },
+      {
+        "path": "World/Downtown2/Textures/stair_1.i3i",
+        "name": "stair_1"
+      },
+      {
+        "path": "World/Downtown2/Textures/Sofa_01.i3i",
+        "name": "Sofa_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Chair_01.i3i",
+        "name": "Chair_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Palette_Wood_01.i3i",
+        "name": "Palette_Wood_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_Cafe_in_A_04.i3i",
+        "name": "building_Cafe_in_A_04"
+      },
+      {
+        "path": "World/Downtown2/Textures/Chair_02.i3i",
+        "name": "Chair_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/Chair_03.i3i",
+        "name": "Chair_03"
+      },
+      {
+        "path": "World/Downtown2/Textures/Table_01.i3i",
+        "name": "Table_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Table_02.i3i",
+        "name": "Table_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/Window_Barricade_1.i3i",
+        "name": "Window_Barricade_1"
+      },
+      {
+        "path": "World/Downtown2/Textures/Downtown_ObjectLightingMap.i3i",
+        "name": "Downtown_ObjectLightingMap"
+      },
+      {
+        "path": "World/Downtown2/Textures/Barricade_Stone_01.i3i",
+        "name": "Barricade_Stone_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/box.i3i",
+        "name": "box"
+      },
+      {
+        "path": "World/Downtown2/Textures/box_wood_01.i3i",
+        "name": "box_wood_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Car_BRKT_01_Police_01.i3i",
+        "name": "Car_BRKT_01_Police_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Car_TopCar_01_Khaki_01.i3i",
+        "name": "Car_TopCar_01_Khaki_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Condensor_01.i3i",
+        "name": "Condensor_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Cone_01.i3i",
+        "name": "Cone_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Dustbin_01.i3i",
+        "name": "Dustbin_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/GarbageCan_Large_01.i3i",
+        "name": "GarbageCan_Large_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/GarbageCan_Middle_01.i3i",
+        "name": "GarbageCan_Middle_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/GarbageCan_Small_01.i3i",
+        "name": "GarbageCan_Small_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/handrail_02.i3i",
+        "name": "handrail_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/hang sign.i3i",
+        "name": "hang sign"
+      },
+      {
+        "path": "World/Downtown2/Textures/Building_sign_02.i3i",
+        "name": "Building_sign_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/awning_1.i3i",
+        "name": "awning_1"
+      },
+      {
+        "path": "World/Downtown2/Textures/awning_2.i3i",
+        "name": "awning_2"
+      },
+      {
+        "path": "World/Downtown2/Textures/awning_3.i3i",
+        "name": "awning_3"
+      },
+      {
+        "path": "World/Downtown2/Textures/militery Lamp.i3i",
+        "name": "militery Lamp"
+      },
+      {
+        "path": "World/Downtown2/Textures/Flugs.i3i",
+        "name": "Flugs"
+      },
+      {
+        "path": "World/Downtown2/Textures/parasol_01.i3i",
+        "name": "parasol_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/parasol_02.i3i",
+        "name": "parasol_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/BillboardInner.i3i",
+        "name": "BillboardInner"
+      },
+      {
+        "path": "World/Downtown2/Textures/RoadLamp_01.i3i",
+        "name": "RoadLamp_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/signboard_01.i3i",
+        "name": "signboard_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/signboard_02.i3i",
+        "name": "signboard_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/signboard_03.i3i",
+        "name": "signboard_03"
+      },
+      {
+        "path": "World/Downtown2/Textures/stand sign.i3i",
+        "name": "stand sign"
+      },
+      {
+        "path": "World/Downtown2/Textures/StreetLight_01.i3i",
+        "name": "StreetLight_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Telephone_01.i3i",
+        "name": "Telephone_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/TelephoneBox_Large_01.i3i",
+        "name": "TelephoneBox_Large_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Vending_02.i3i",
+        "name": "Vending_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/board_001.i3i",
+        "name": "board_001"
+      },
+      {
+        "path": "World/Downtown2/Textures/Downtown_outLightingMap.i3i",
+        "name": "Downtown_outLightingMap"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_store_A_01.i3i",
+        "name": "building_store_A_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_store_A_02.i3i",
+        "name": "building_store_A_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_store_A_03.i3i",
+        "name": "building_store_A_03"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_store_B_01.i3i",
+        "name": "building_store_B_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_Top_A_01.i3i",
+        "name": "building_Top_A_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_A_01.i3i",
+        "name": "building_wall_A_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_A_02.i3i",
+        "name": "building_wall_A_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_A_03.i3i",
+        "name": "building_wall_A_03"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_B_01.i3i",
+        "name": "building_wall_B_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_B_02.i3i",
+        "name": "building_wall_B_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_B_03.i3i",
+        "name": "building_wall_B_03"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_C_01.i3i",
+        "name": "building_wall_C_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_C_02.i3i",
+        "name": "building_wall_C_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_C_03.i3i",
+        "name": "building_wall_C_03"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_D_01.i3i",
+        "name": "building_wall_D_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_D_02.i3i",
+        "name": "building_wall_D_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_D_03.i3i",
+        "name": "building_wall_D_03"
+      },
+      {
+        "path": "World/Downtown2/Textures/Building_04.i3i",
+        "name": "Building_04"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_wall_bottom_01.i3i",
+        "name": "building_wall_bottom_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Building_01.i3i",
+        "name": "Building_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/Building_roof.i3i",
+        "name": "Building_roof"
+      },
+      {
+        "path": "World/Downtown2/Textures/building store_D_02.i3i",
+        "name": "building store_D_02"
+      },
+      {
+        "path": "World/Downtown2/Textures/Building_sign_01.i3i",
+        "name": "Building_sign_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/building_store_C_01.i3i",
+        "name": "building_store_C_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/tent_3.i3i",
+        "name": "tent_3"
+      },
+      {
+        "path": "World/Downtown2/Textures/tent_4.i3i",
+        "name": "tent_4"
+      },
+      {
+        "path": "World/Downtown2/Textures/shutter_2.i3i",
+        "name": "shutter_2"
+      },
+      {
+        "path": "World/Downtown2/Textures/sidewalk_2B.i3i",
+        "name": "sidewalk_2B"
+      },
+      {
+        "path": "World/Downtown2/Textures/road_wall_05.i3i",
+        "name": "road_wall_05"
+      },
+      {
+        "path": "World/Downtown2/Textures/handrail.i3i",
+        "name": "handrail"
+      },
+      {
+        "path": "World/Downtown2/Textures/road_2.i3i",
+        "name": "road_2"
+      },
+      {
+        "path": "World/Downtown2/Textures/road_alley_01.i3i",
+        "name": "road_alley_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/road_sidewalk_01.i3i",
+        "name": "road_sidewalk_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/road_wall_04.i3i",
+        "name": "road_wall_04"
+      },
+      {
+        "path": "World/Downtown2/Textures/tent_2.i3i",
+        "name": "tent_2"
+      },
+      {
+        "path": "World/Downtown2/Textures/handrail_01.i3i",
+        "name": "handrail_01"
+      },
+      {
+        "path": "World/Downtown2/Textures/leaflet_1.i3i",
+        "name": "leaflet_1"
+      },
+      {
+        "path": "World/Downtown2/Textures/leaflet_2.i3i",
+        "name": "leaflet_2"
+      },
+      {
+        "path": "World/Downtown2/Textures/poster1.i3i",
+        "name": "poster1"
+      },
+      {
+        "path": "World/Downtown2/Textures/poster2.i3i",
+        "name": "poster2"
+      },
+      {
+        "path": "World/Downtown2/Textures/poster3.i3i",
+        "name": "poster3"
+      },
+      {
+        "path": "World/Downtown2/Textures/sign.i3i",
+        "name": "sign"
+      },
+      {
+        "path": "World/Downtown2/Textures/sign alpa.i3i",
+        "name": "sign alpa"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          2542269366,
+          2962417113,
+          3336742018,
+          4269468672
+        ],
+        "respath": "World/Downtown2/Downtown2.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "unknown",
+      "name": "Downtown2_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        5.27821683883667,
+        27.88412094116211,
+        12.923105239868164
+      ],
+      "rot": [
+        -72.94526273199105,
+        65.23782408438522,
+        -80.24732424170112
+      ],
+      "quat": [
+        -0.662194013595581,
+        0.008797800168395042,
+        -0.19146402180194855,
+        0.7244054675102234
+      ],
+      "scale": [
+        0.9999988079071045,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          272712940,
+          2430869762,
+          659930674,
+          3952772023
+        ],
+        "respath": "World/Downtown2/Light/Downtown2_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Downtown2_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -18.565265655517578,
+        -5.240056991577148,
+        -41.2782096862793
+      ],
+      "rot": [
+        0,
+        60.56974383593657,
+        0
+      ],
+      "quat": [
+        0,
+        0.5042996406555176,
+        0,
+        0.8635287284851074
+      ],
+      "scale": [
+        1.0000005960464478,
+        1,
+        1.0000005960464478
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -21.141216278076172,
+        -5.240056991577148,
+        -41.2782096862793
+      ],
+      "rot": [
+        0,
+        35.415234614026744,
+        0
+      ],
+      "quat": [
+        0,
+        0.3041597008705139,
+        0,
+        0.9526211023330688
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -18.565265655517578,
+        -5.240056991577148,
+        -43.63993835449219
+      ],
+      "rot": [
+        0,
+        62.39857879223332,
+        0
+      ],
+      "quat": [
+        0,
+        0.5180163979530334,
+        0,
+        0.8553707003593445
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -21.141216278076172,
+        -5.240056991577148,
+        -43.63993835449219
+      ],
+      "rot": [
+        0,
+        30.614830562949763,
+        0
+      ],
+      "quat": [
+        0,
+        0.263997882604599,
+        0,
+        0.9645232558250427
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -24.93006134033203,
+        -5.240056991577148,
+        -39.81039047241211
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -27.893077850341797,
+        -5.240056991577148,
+        -39.711055755615234
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -24.93006134033203,
+        -5.240056991577148,
+        -42.172119140625
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -27.50600814819336,
+        -5.240056991577148,
+        -42.172119140625
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        26.787460327148438,
+        -8.492740631103516,
+        46.13624572753906
+      ],
+      "rot": [
+        0,
+        -114.46817506542614,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8408887386322021,
+        0,
+        0.541208028793335
+      ],
+      "scale": [
+        1.0000005960464478,
+        1,
+        1.0000005960464478
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        24.211509704589844,
+        -8.492740631103516,
+        46.13624572753906
+      ],
+      "rot": [
+        0,
+        -139.6227075129839,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9385614395141602,
+        0,
+        0.34511223435401917
+      ],
+      "scale": [
+        0.9999998807907104,
+        1,
+        0.9999998807907104
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        26.787460327148438,
+        -8.492740631103516,
+        43.774513244628906
+      ],
+      "rot": [
+        0,
+        -112.63934836023793,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8321446180343628,
+        0,
+        0.5545588135719299
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        24.211509704589844,
+        -8.492740631103516,
+        43.774513244628906
+      ],
+      "rot": [
+        0,
+        -144.42311257870594,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9521909952163696,
+        0,
+        0.3055032193660736
+      ],
+      "scale": [
+        0.9999995827674866,
+        1,
+        0.9999995827674866
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        21.706619262695312,
+        -8.492740631103516,
+        46.13624572753906
+      ],
+      "rot": [
+        0,
+        -175.03794330289227,
+        0
+      ],
+      "quat": [
+        0,
+        0.9990626573562622,
+        0,
+        -0.043288588523864746
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        19.130672454833984,
+        -8.492740631103516,
+        46.13624572753906
+      ],
+      "rot": [
+        0,
+        -175.03794330289227,
+        0
+      ],
+      "quat": [
+        0,
+        0.9990626573562622,
+        0,
+        -0.043288588523864746
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        21.706619262695312,
+        -8.492740631103516,
+        43.774513244628906
+      ],
+      "rot": [
+        0,
+        -175.03794330289227,
+        0
+      ],
+      "quat": [
+        0,
+        0.9990626573562622,
+        0,
+        -0.043288588523864746
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        19.130672454833984,
+        -8.492740631103516,
+        43.774513244628906
+      ],
+      "rot": [
+        0,
+        -175.03794330289227,
+        0
+      ],
+      "quat": [
+        0,
+        0.9990626573562622,
+        0,
+        -0.043288588523864746
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "prop",
+      "name": "BuildingGlass_Town_04",
+      "res": "Object/glass/BuildingGlass_Town_04.I3S",
+      "obj": "Object/glass/BuildingGlass_Town_04.i3Obj",
+      "pos": [
+        36.5914306640625,
+        -7.957399845123291,
+        1.1664789915084839
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1895891326,
+          4101082259,
+          2644428218,
+          2944546195
+        ],
+        "respath": "Object/glass/BuildingGlass_Town_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "BuildingGlass_Town_04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "prop",
+      "name": "BuildingGlass_Town_040",
+      "res": "Object/glass/BuildingGlass_Town_04.I3S",
+      "obj": "Object/glass/BuildingGlass_Town_04.i3Obj",
+      "pos": [
+        33.192596435546875,
+        -7.957399845123291,
+        1.1664789915084839
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1895891326,
+          4101082259,
+          2644428218,
+          2944546195
+        ],
+        "respath": "Object/glass/BuildingGlass_Town_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "BuildingGlass_Town_040",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "prop",
+      "name": "BuildingGlass_Town_0400",
+      "res": "Object/glass/BuildingGlass_Town_04.I3S",
+      "obj": "Object/glass/BuildingGlass_Town_04.i3Obj",
+      "pos": [
+        26.382986068725586,
+        -7.957399845123291,
+        1.1664789915084839
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1895891326,
+          4101082259,
+          2644428218,
+          2944546195
+        ],
+        "respath": "Object/glass/BuildingGlass_Town_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "BuildingGlass_Town_0400",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "trigger",
+      "name": "Box_1",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        27.72750473022461,
+        -4.224369049072266,
+        46.26252746582031
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        28.677745819091797,
+        22.87291145324707,
+        16.400318145751953
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1183956463,
+          1375091022,
+          626523175,
+          3354528848
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "trigger",
+      "name": "Box_2",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        2.674575090408325,
+        -2.677781105041504,
+        47.81704330444336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.613561630249023,
+        22.060914993286133,
+        14.033297538757324
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2375998543,
+          1749721981,
+          3404564409,
+          4082519841
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "trigger",
+      "name": "Box_4",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        36.585514068603516,
+        -4.3709330558776855,
+        28.370697021484375
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.439971923828125,
+        18.095956802368164,
+        18.021724700927734
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4166043307,
+          2413045759,
+          525665462,
+          1730347456
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "trigger",
+      "name": "Box_40",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        41.49972152709961,
+        -4.3709330558776855,
+        21.11617088317871
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        22.597328186035156,
+        18.095956802368164,
+        18.021724700927734
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4166043307,
+          2413045759,
+          525665462,
+          1730347456
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_40",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "trigger",
+      "name": "Box_400",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        39.78627395629883,
+        -4.3709330558776855,
+        4.830557823181152
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        30.953304290771484,
+        18.095956802368164,
+        7.383975982666016
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4166043307,
+          2413045759,
+          525665462,
+          1730347456
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_400",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "trigger",
+      "name": "Box_4000",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        50.21181869506836,
+        -4.3709330558776855,
+        10.012351989746094
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.321537971496582,
+        18.095956802368164,
+        7.383975982666016
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4166043307,
+          2413045759,
+          525665462,
+          1730347456
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_4000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "trigger",
+      "name": "Box_40000",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        32.09639358520508,
+        -4.3709330558776855,
+        10.012351989746094
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.321537971496582,
+        18.095956802368164,
+        7.383975982666016
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4166043307,
+          2413045759,
+          525665462,
+          1730347456
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_40000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "trigger",
+      "name": "Box_400000",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        18.70758056640625,
+        -4.3709330558776855,
+        8.140748023986816
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.321537971496582,
+        18.095956802368164,
+        10.488231658935547
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4166043307,
+          2413045759,
+          525665462,
+          1730347456
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_400000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "trigger",
+      "name": "Box_5",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        18.82522201538086,
+        -2.4053189754486084,
+        30.87248992919922
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.921690940856934,
+        13.073979377746582,
+        12.875846862792969
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3542510807,
+          1827643608,
+          1063067571,
+          3446000686
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "trigger",
+      "name": "Box_6",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -17.343753814697266,
+        -5.6428937911987305,
+        20.009418487548828
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        18.938873291015625,
+        16.65840721130371,
+        19.258384704589844
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3754740133,
+          167172359,
+          1863959162,
+          2948019943
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "trigger",
+      "name": "Box_60",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.863697052001953,
+        -5.6428937911987305,
+        4.00545597076416
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.470148086547852,
+        16.65840721130371,
+        19.258384704589844
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3754740133,
+          167172359,
+          1863959162,
+          2948019943
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "1e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_60",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "trigger",
+      "name": "Box_7",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        37.37446212768555,
+        -3.0501339435577393,
+        -10.273521423339844
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        25.754669189453125,
+        11.876766204833984,
+        22.34978675842285
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2370661039,
+          2521125527,
+          2638480940,
+          3955332971
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "trigger",
+      "name": "Box_8",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        8.87949275970459,
+        -3.5099990367889404,
+        -22.036869049072266
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        30.289005279541016,
+        19.019023895263672,
+        24.973875045776367
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          586076884,
+          851156120,
+          1288387158,
+          3968630885
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "trigger",
+      "name": "Box_9",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        -7.035862922668457,
+        -1.0622340440750122,
+        -1.5164070129394531
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        15.893166542053223,
+        13.939772605895996,
+        10.002175331115723
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4183101534,
+          698664923,
+          504881726,
+          482622123
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "trigger",
+      "name": "Box_90",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        -16.94969940185547,
+        -1.0622340440750122,
+        -11.483667373657227
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.71402359008789,
+        13.939772605895996,
+        10.923436164855957
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4183101534,
+          698664923,
+          504881726,
+          482622123
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_90",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "trigger",
+      "name": "Box_10",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        -19.287548065185547,
+        1.184306025505066,
+        -33.724483489990234
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        25.26313018798828,
+        14.857258796691895,
+        32.37224197387695
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2346527308,
+          1006224280,
+          3079783589,
+          1996073040
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "trigger",
+      "name": "Box_11",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_11.i3Evt",
+      "obj": null,
+      "pos": [
+        1.9170780181884766,
+        -5.710598945617676,
+        14.101414680480957
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        18.714570999145508,
+        16.340435028076172,
+        20.402376174926758
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2134377832,
+          1024993540,
+          4230214377,
+          2740974957
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "trigger",
+      "name": "Box_12",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_13.i3Evt",
+      "obj": null,
+      "pos": [
+        41.16774368286133,
+        -3.8184690475463867,
+        10.393813133239746
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3.372706890106201,
+        15.525776863098145,
+        3.1514980792999268
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2892428468,
+          1781469285,
+          2387328389,
+          1535911247
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "trigger",
+      "name": "Box_120",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_12.i3Evt",
+      "obj": null,
+      "pos": [
+        -25.36484146118164,
+        -3.8184690475463867,
+        43.73454284667969
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.070313930511475,
+        15.525776863098145,
+        3.4392518997192383
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          105673256,
+          118971636,
+          286008187,
+          3067150800
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_120",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_01",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        36.27531051635742,
+        -8.807198524475098,
+        2.0870440006256104
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_010",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        -17.999319076538086,
+        -12.18588638305664,
+        29.122655868530273
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_010",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "prop",
+      "name": "Drum_Exp_Red_011",
+      "res": "Object/bomb/Drum_Exp_Red_01.i3s",
+      "obj": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+      "pos": [
+        11.845993041992188,
+        -8.867502212524414,
+        25.710477828979492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          999528253,
+          3467678,
+          606162252,
+          3969141191
+        ],
+        "respath": "Object/bomb/Drum_Exp_Red_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Drum_Exp_Red_011",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "trigger",
+      "name": "Box_13",
+      "res": "Scene/Downtown2/_Generated/downtown2_section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        14.155550956726074,
+        -4.3626580238342285,
+        33.83125305175781
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.45272696018219,
+        3.099371910095215,
+        6.434535026550293
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          126287461,
+          3543339756,
+          2326214709,
+          1592334694
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i44",
+      "kind": "trigger",
+      "name": "Box_14",
+      "res": "Scene/Downtown2/_Generated/downtown2_section_02.i3Evt",
+      "obj": null,
+      "pos": [
+        31.817302703857422,
+        -6.556702136993408,
+        15.070104598999023
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.8535690307617188,
+        4.568100929260254,
+        7.249938011169434
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3655258210,
+          1411688856,
+          377384679,
+          4250624123
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_section_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_14",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i45",
+      "kind": "trigger",
+      "name": "Box_140",
+      "res": "Scene/Downtown2/_Generated/downtown2_section_02.i3Evt",
+      "obj": null,
+      "pos": [
+        27.798412322998047,
+        -6.556702136993408,
+        13.594415664672852
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.636336803436279,
+        4.568100929260254,
+        7.249938011169434
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3655258210,
+          1411688856,
+          377384679,
+          4250624123
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_section_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "2c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_140",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i46",
+      "kind": "trigger",
+      "name": "Box_15",
+      "res": "Scene/Downtown2/_Generated/downtown2_section_03.i3Evt",
+      "obj": null,
+      "pos": [
+        21.45796012878418,
+        -6.64845609664917,
+        4.61952018737793
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        11.10019588470459,
+        5.224355220794678,
+        1.5364969968795776
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          485990591,
+          665508696,
+          4135001043,
+          2195446221
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_section_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_15",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i47",
+      "kind": "trigger",
+      "name": "Box_16",
+      "res": "Scene/Downtown2/_Generated/downtown2_section_04.i3Evt",
+      "obj": null,
+      "pos": [
+        16.34856414794922,
+        -3.5021400451660156,
+        -11.350250244140625
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.311528205871582,
+        4.741084098815918,
+        1.719020962715149
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1712225777,
+          1061258061,
+          292499717,
+          2475291923
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_section_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_16",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i48",
+      "kind": "trigger",
+      "name": "Box_3",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.45860767364502,
+        -7.653690814971924,
+        39.461448669433594
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.972158432006836,
+        18.728328704833984,
+        18.896509170532227
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3616488319,
+          26076251,
+          2246924238,
+          732166808
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i49",
+      "kind": "trigger",
+      "name": "Box_30",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        -35.305912017822266,
+        -7.653690814971924,
+        39.461448669433594
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.972158432006836,
+        18.728328704833984,
+        18.896509170532227
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3616488319,
+          26076251,
+          2246924238,
+          732166808
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_30",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i50",
+      "kind": "trigger",
+      "name": "Box_300",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        -26.347286224365234,
+        -7.653690814971924,
+        48.40594482421875
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.972158432006836,
+        18.728328704833984,
+        5.165486812591553
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3616488319,
+          26076251,
+          2246924238,
+          732166808
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_300",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i51",
+      "kind": "trigger",
+      "name": "Box_3000",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        -26.347286224365234,
+        -7.653690814971924,
+        35.91656494140625
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.972158432006836,
+        18.728328704833984,
+        11.738824844360352
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3616488319,
+          26076251,
+          2246924238,
+          732166808
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_3000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i52",
+      "kind": "prop",
+      "name": "Downtown2_Glass_01",
+      "res": "Object/glass/Downtown2_Glass_01.i3s",
+      "obj": "Object/glass/Downtown2_Glass_01.i3Obj",
+      "pos": [
+        -10.111350059509277,
+        -11.20240306854248,
+        30.326093673706055
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1719111106,
+          2053589196,
+          3833179635,
+          2629589671
+        ],
+        "respath": "Object/glass/Downtown2_Glass_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Downtown2_Glass_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i53",
+      "kind": "prop",
+      "name": "Downtown2_Glass_010",
+      "res": "Object/glass/Downtown2_Glass_01.i3s",
+      "obj": "Object/glass/Downtown2_Glass_01.i3Obj",
+      "pos": [
+        -13.738006591796875,
+        -11.20240306854248,
+        30.326093673706055
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1719111106,
+          2053589196,
+          3833179635,
+          2629589671
+        ],
+        "respath": "Object/glass/Downtown2_Glass_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Downtown2_Glass_010",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i54",
+      "kind": "prop",
+      "name": "Downtown2_Glass_0100",
+      "res": "Object/glass/Downtown2_Glass_01.i3s",
+      "obj": "Object/glass/Downtown2_Glass_01.i3Obj",
+      "pos": [
+        -17.365947723388672,
+        -11.20240306854248,
+        30.326093673706055
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1719111106,
+          2053589196,
+          3833179635,
+          2629589671
+        ],
+        "respath": "Object/glass/Downtown2_Glass_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Downtown2_Glass_0100",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i55",
+      "kind": "prop",
+      "name": "BuildingGlass_Town_0401",
+      "res": "Object/glass/BuildingGlass_Town_04.I3S",
+      "obj": "Object/glass/BuildingGlass_Town_04.i3Obj",
+      "pos": [
+        11.115943908691406,
+        -7.777669906616211,
+        8.518973350524902
+      ],
+      "rot": [
+        0,
+        90.04033290768157,
+        0
+      ],
+      "quat": [
+        0,
+        0.7073556184768677,
+        0,
+        0.7068578600883484
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1895891326,
+          4101082259,
+          2644428218,
+          2944546195
+        ],
+        "respath": "Object/glass/BuildingGlass_Town_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "BuildingGlass_Town_0401",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i56",
+      "kind": "prop",
+      "name": "BuildingGlass_Town_04011",
+      "res": "Object/glass/BuildingGlass_Town_04.I3S",
+      "obj": "Object/glass/BuildingGlass_Town_04.i3Obj",
+      "pos": [
+        5.730888843536377,
+        -7.9848408699035645,
+        24.561542510986328
+      ],
+      "rot": [
+        0,
+        -179.60190577608284,
+        0
+      ],
+      "quat": [
+        0,
+        0.9999939799308777,
+        0,
+        -0.0034740206319838762
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1895891326,
+          4101082259,
+          2644428218,
+          2944546195
+        ],
+        "respath": "Object/glass/BuildingGlass_Town_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "BuildingGlass_Town_04011",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i57",
+      "kind": "trigger",
+      "name": "Box_50",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        8.65414047241211,
+        -2.4053189754486084,
+        27.884262084960938
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.921690940856934,
+        13.073979377746582,
+        6.128379821777344
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3542510807,
+          1827643608,
+          1063067571,
+          3446000686
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "1d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_50",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i58",
+      "kind": "trigger",
+      "name": "Box_17",
+      "res": "Scene/Downtown2/_Generated/downtown2_sector_14.i3Evt",
+      "obj": null,
+      "pos": [
+        9.205202102661133,
+        -5.210967063903809,
+        35.7396354675293
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.611944198608398,
+        7.893082141876221,
+        9.069210052490234
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1341276231,
+          2914857208,
+          3253490609,
+          1115114676
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_sector_14.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_17",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i59",
+      "kind": "trigger",
+      "name": "Box_150",
+      "res": "Scene/Downtown2/_Generated/downtown2_section_03.i3Evt",
+      "obj": null,
+      "pos": [
+        12.191962242126465,
+        -6.64845609664917,
+        7.639510154724121
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.5186489820480347,
+        5.224355220794678,
+        6.850401878356934
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          485990591,
+          665508696,
+          4135001043,
+          2195446221
+        ],
+        "respath": "Scene/Downtown2/_Generated/downtown2_section_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "2e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_150",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i60",
+      "kind": "prop",
+      "name": "BuildingGlass_Town_0402",
+      "res": "Object/glass/BuildingGlass_Town_04.I3S",
+      "obj": "Object/glass/BuildingGlass_Town_04.i3Obj",
+      "pos": [
+        30.662782669067383,
+        -8.067723274230957,
+        -17.331619262695312
+      ],
+      "rot": [
+        0,
+        90.07156716748486,
+        0
+      ],
+      "quat": [
+        0,
+        0.7075482606887817,
+        0,
+        0.7066650390625
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1895891326,
+          4101082259,
+          2644428218,
+          2944546195
+        ],
+        "respath": "Object/glass/BuildingGlass_Town_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "BuildingGlass_Town_0402",
+        "layer": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Materials for Glock 18
+newmtl Mtl_Glock18.webp
+Kd 1 1 1
+map_Kd Glock18.webp
+
+newmtl Mtl_Glock18_Stock.webp
+Kd 1 1 1
+map_Kd Glock18_Stock.webp
+

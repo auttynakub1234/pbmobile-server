@@ -1,0 +1,13 @@
+# Materials for OA-93
+newmtl Mtl_DotSight.webp
+Kd 1 1 1
+map_Kd DotSight.webp
+
+newmtl Mtl_OA-93_Diff.webp
+Kd 1 1 1
+map_Kd OA-93_Diff.webp
+
+newmtl Mtl_Magazine_OA93_Diff.webp
+Kd 1 1 1
+map_Kd Magazine_OA93_Diff.webp
+

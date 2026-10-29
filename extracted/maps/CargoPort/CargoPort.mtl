@@ -1,0 +1,121 @@
+# Materials for CargoPort
+newmtl Mtl_Car_Forklift_01.webp
+Kd 1 1 1
+map_Kd Car_Forklift_01.webp
+
+newmtl Mtl_PortA2_Container_02_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Container_02_rs.webp
+
+newmtl Mtl_PortA2_Wall_04_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Wall_04_rs.webp
+
+newmtl Mtl_PortA2_BCrane_rs_01.webp
+Kd 1 1 1
+map_Kd PortA2_BCrane_rs_01.webp
+
+newmtl Mtl_PortA2_Container_01_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Container_01_rs.webp
+
+newmtl Mtl_PortA2_Drum_2.webp
+Kd 1 1 1
+map_Kd PortA2_Drum_2.webp
+
+newmtl Mtl_PortA2_Container_03_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Container_03_rs.webp
+
+newmtl Mtl_PortA2_bottom_rs_01.webp
+Kd 1 1 1
+map_Kd PortA2_bottom_rs_01.webp
+
+newmtl Mtl_PortA2_crane_02.webp
+Kd 1 1 1
+map_Kd PortA2_crane_02.webp
+
+newmtl Mtl_PortA2_Wall_05_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Wall_05_rs.webp
+
+newmtl Mtl_PortA2_asphalt_01_rs.webp
+Kd 1 1 1
+map_Kd PortA2_asphalt_01_rs.webp
+
+newmtl Mtl_PortA2_metalflame_rs_02.webp
+Kd 1 1 1
+map_Kd PortA2_metalflame_rs_02.webp
+
+newmtl Mtl_PortA2_crane_01.webp
+Kd 1 1 1
+map_Kd PortA2_crane_01.webp
+
+newmtl Mtl_PortA2_Wall_03_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Wall_03_rs.webp
+
+newmtl Mtl_PortA2_B_Sign_01_rs.webp
+Kd 1 1 1
+map_Kd PortA2_B_Sign_01_rs.webp
+
+newmtl Mtl_Cargoship_Turbine_01_01.webp
+Kd 1 1 1
+map_Kd Cargoship_Turbine_01_01.webp
+
+newmtl Mtl_PortA2_Box_01_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Box_01_rs.webp
+
+newmtl Mtl_PortA2_Wood_box_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Wood_box_rs.webp
+
+newmtl Mtl_PortA2_Wood_box_01_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Wood_box_01_rs.webp
+
+newmtl Mtl_PortA2_Wall_02_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Wall_02_rs.webp
+
+newmtl Mtl_PortA2_wood01.webp
+Kd 1 1 1
+map_Kd PortA2_wood01.webp
+
+newmtl Mtl_PortA2_Container_05_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Container_05_rs.webp
+
+newmtl Mtl_PortA2_BCrane_rs_02.webp
+Kd 1 1 1
+map_Kd PortA2_BCrane_rs_02.webp
+
+newmtl Mtl_PortA2_metalframe_01.webp
+Kd 1 1 1
+map_Kd PortA2_metalframe_01.webp
+
+newmtl Mtl_PortA2_Lamp.webp
+Kd 1 1 1
+map_Kd PortA2_Lamp.webp
+
+newmtl Mtl_PortA2_asphalt_02_rs.webp
+Kd 1 1 1
+map_Kd PortA2_asphalt_02_rs.webp
+
+newmtl Mtl_PortA2_Container_Inside_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Container_Inside_rs.webp
+
+newmtl Mtl_PortA2_Container_04_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Container_04_rs.webp
+
+newmtl Mtl_PortA2_cloth_rs_01.webp
+Kd 1 1 1
+map_Kd PortA2_cloth_rs_01.webp
+
+newmtl Mtl_PortA2_Box_02_rs.webp
+Kd 1 1 1
+map_Kd PortA2_Box_02_rs.webp
+

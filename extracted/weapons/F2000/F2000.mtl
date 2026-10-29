@@ -1,0 +1,5 @@
+# Materials for F2000 Ext.
+newmtl Mtl_F2000_Diff.webp
+Kd 1 1 1
+map_Kd F2000_Diff.webp
+

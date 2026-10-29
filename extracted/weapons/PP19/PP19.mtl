@@ -1,0 +1,9 @@
+# Materials for PP-19 Bizon
+newmtl Mtl_P90EXT_Diff.webp
+Kd 1 1 1
+map_Kd P90EXT_Diff.webp
+
+newmtl Mtl_PP19-BIZON_DIFF.webp
+Kd 1 1 1
+map_Kd PP19-BIZON_DIFF.webp
+

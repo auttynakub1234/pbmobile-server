@@ -1,0 +1,121 @@
+# Materials for MachuPichu
+newmtl Mtl_cabinet_big.webp
+Kd 1 1 1
+map_Kd cabinet_big.webp
+
+newmtl Mtl_Cabinet_02.webp
+Kd 1 1 1
+map_Kd Cabinet_02.webp
+
+newmtl Mtl_Mortar_Shell_Box.webp
+Kd 1 1 1
+map_Kd Mortar_Shell_Box.webp
+
+newmtl Mtl_MissileController_01.webp
+Kd 1 1 1
+map_Kd MissileController_01.webp
+
+newmtl Mtl_Machu_Bottom_a.webp
+Kd 1 1 1
+map_Kd Machu_Bottom_a.webp
+
+newmtl Mtl_Cartridge.webp
+Kd 1 1 1
+map_Kd Cartridge.webp
+
+newmtl Mtl_Machu_Bottom_c.webp
+Kd 1 1 1
+map_Kd Machu_Bottom_c.webp
+
+newmtl Mtl_steeldesk.webp
+Kd 1 1 1
+map_Kd steeldesk.webp
+
+newmtl Mtl_metalchair.webp
+Kd 1 1 1
+map_Kd metalchair.webp
+
+newmtl Mtl_antena.webp
+Kd 1 1 1
+map_Kd antena.webp
+
+newmtl Mtl_Machu_BottenWall01.webp
+Kd 1 1 1
+map_Kd Machu_BottenWall01.webp
+
+newmtl Mtl_perscomwhite.webp
+Kd 1 1 1
+map_Kd perscomwhite.webp
+
+newmtl Mtl_Machu_RWall05_01.webp
+Kd 1 1 1
+map_Kd Machu_RWall05_01.webp
+
+newmtl Mtl_Machu_RWall02_01.webp
+Kd 1 1 1
+map_Kd Machu_RWall02_01.webp
+
+newmtl Mtl_wood_07.webp
+Kd 1 1 1
+map_Kd wood_07.webp
+
+newmtl Mtl_MissileController_02.webp
+Kd 1 1 1
+map_Kd MissileController_02.webp
+
+newmtl Mtl_Machu_Mt.webp
+Kd 1 1 1
+map_Kd Machu_Mt.webp
+
+newmtl Mtl_missile_1.webp
+Kd 1 1 1
+map_Kd missile_1.webp
+
+newmtl Mtl_Camouflage_02.webp
+Kd 1 1 1
+map_Kd Camouflage_02.webp
+
+newmtl Mtl_Machu_RWall01_01.webp
+Kd 1 1 1
+map_Kd Machu_RWall01_01.webp
+
+newmtl Mtl_MissileController_out.webp
+Kd 1 1 1
+map_Kd MissileController_out.webp
+
+newmtl Mtl_MissileController_03.webp
+Kd 1 1 1
+map_Kd MissileController_03.webp
+
+newmtl Mtl_wood_tableA.webp
+Kd 1 1 1
+map_Kd wood_tableA.webp
+
+newmtl Mtl_Sandstorm_world_32.webp
+Kd 1 1 1
+map_Kd Sandstorm_world_32.webp
+
+newmtl Mtl_XPC_Diff.webp
+Kd 1 1 1
+map_Kd XPC_Diff.webp
+
+newmtl Mtl_Machu_stair.webp
+Kd 1 1 1
+map_Kd Machu_stair.webp
+
+newmtl Mtl_Machu_rock.webp
+Kd 1 1 1
+map_Kd Machu_rock.webp
+
+newmtl Mtl_missile_2.webp
+Kd 1 1 1
+map_Kd missile_2.webp
+
+newmtl Mtl_Machu_Bottom_b.webp
+Kd 1 1 1
+map_Kd Machu_Bottom_b.webp
+
+newmtl Mtl_Machu_RWall02_02.webp
+Kd 1 1 1
+map_Kd Machu_RWall02_02.webp
+

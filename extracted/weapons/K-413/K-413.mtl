@@ -1,0 +1,5 @@
+# Materials for K-413 granada
+newmtl Mtl_k-413_Diff.webp
+Kd 1 1 1
+map_Kd k-413_Diff.webp
+

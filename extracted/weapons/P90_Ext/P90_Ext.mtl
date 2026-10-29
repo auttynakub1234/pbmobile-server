@@ -1,0 +1,9 @@
+# Materials for P90 Ext.
+newmtl Mtl_P90MC_Diff.webp
+Kd 1 1 1
+map_Kd P90MC_Diff.webp
+
+newmtl Mtl_P90EXT_Diff.webp
+Kd 1 1 1
+map_Kd P90EXT_Diff.webp
+

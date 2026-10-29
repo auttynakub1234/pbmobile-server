@@ -1,0 +1,5 @@
+# Materials for WP Smoke
+newmtl Mtl_WP_Smoke_grenade.webp
+Kd 1 1 1
+map_Kd WP_Smoke_grenade.webp
+

@@ -1,0 +1,21 @@
+# Materials for HK-417
+newmtl Mtl_HK417_12.I3S#64
+Kd 1 1 1
+map_Kd HK417_12.I3S#64
+
+newmtl Mtl_HK417_12.I3S#96
+Kd 1 1 1
+map_Kd HK417_12.I3S#96
+
+newmtl Mtl_HK417_12.I3S#26
+Kd 1 1 1
+map_Kd HK417_12.I3S#26
+
+newmtl Mtl_HK417_12.I3S#45
+Kd 1 1 1
+map_Kd HK417_12.I3S#45
+
+newmtl Mtl_HK417_12.I3S#7
+Kd 1 1 1
+map_Kd HK417_12.I3S#7
+

@@ -1,0 +1,16 @@
+[Unit]
+Description=Point Blank Mobile Dedicated Game Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/pbmobile_analysis
+ExecStart=/usr/bin/node /root/pbmobile_analysis/pb_server.js
+Restart=always
+RestartSec=5
+Environment=PORT=3000
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

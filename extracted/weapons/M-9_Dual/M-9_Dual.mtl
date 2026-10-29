@@ -1,0 +1,5 @@
+# Materials for Dual Knife
+newmtl Mtl_M-9.webp
+Kd 1 1 1
+map_Kd M-9.webp
+

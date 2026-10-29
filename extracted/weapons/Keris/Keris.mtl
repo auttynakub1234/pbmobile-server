@@ -1,0 +1,5 @@
+# Materials for Keris
+newmtl Mtl_Keris_diff.webp
+Kd 1 1 1
+map_Kd Keris_diff.webp
+

@@ -1,0 +1,5 @@
+# Materials for VSK94
+newmtl Mtl_VSK_94_Diff.webp
+Kd 1 1 1
+map_Kd VSK_94_Diff.webp
+

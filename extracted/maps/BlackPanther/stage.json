@@ -1,0 +1,6344 @@
+{
+  "stage": {
+    "name": "BlackPanther",
+    "world": "World/BlackPanther/BlackPanther_World.i3s",
+    "sky": "World/BlackPanther/BlackPanther_Sky.i3s",
+    "cols": {
+      "hero": "World/BlackPanther/BlackPanther_Col_Hero.I3S",
+      "hit": "World/BlackPanther/BlackPanther_Col_Hit.I3S",
+      "light": "World/BlackPanther/BlackPanther_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/BlackPanther/BlackPanther_World.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/BlackPanther/BlackPanther_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/BlackPanther/BlackPanther_Col_Hero.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/BlackPanther/BlackPanther_Col_Hit.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/BlackPanther/BlackPanther_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/BlackPanther/BlackPanther.i3wrd",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/rpg7_box.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/RPG7Box.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/RPG7Box.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "World/Blackpanther/Light/Blackpanther_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Sound/Object/Explosion/OB_Exp_ch47_Ambient_in.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "Object/moving/Model_Ch47LightingMap.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/moving/Ch-47.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/moving/Ch-47_inside.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/moving/Ch-47_Glass .i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/moving/Ch-47_Glass_mask.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/moving/CH47_Idle.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/moving/helicopter_ch47.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/Armoring_green.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/Car_BlackPanther_caterpillar.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/Car_BlackPanther_wheel.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/Car_k2_BlackPanther_green.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/armerd_Tank_01.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/Armoring_break.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/Car_BlackPanther_caterpillar_break.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/Car_BlackPanther_wheel_break.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/Car_k2_BlackPanther_green_ break.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/armerd_Tank_02.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/Car_k2_BlackPanther_green_ break_2.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/armerd_Tank_03.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/armerd_Tank.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Barricade_Stone_02.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/break_1.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/blackpanther_bari_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/blackpanther_bari_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/blackpanther_bari_03.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/baricate_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/normal_Tank_01.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/normal_Tank_02.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/Tank/normal_Tank.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Glass_BlackPanther_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/blackpanther_glass_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Glass_BlackPanther_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/Glass_BlackPanther_02_break.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/glass/blackpanther_glass_02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/physx/VentOpeningDoor_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/physx/air_cap_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/physx/air_cap_02_Death.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/physx/air_cap_02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Metal_Door_01.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Blackpanther_door_01.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Blackpanther_door_01_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/blackpanther_door_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Blackpanther_door_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Blackpanther_door_02_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/blackpanther_door_02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Blackpanther_door_03.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Blackpanther_door_03_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/blackpanther_door_03.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Blackpanther_door_04.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Blackpanther_door_04_02.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/blackpanther_door_04.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_43.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_44.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_45.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_450.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_46.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_47.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_05.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_48.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_06.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_49.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_490.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_08.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_50.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_500.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_09.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_51.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_510.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_5100.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_480.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_52.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_53.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_54.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_491.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_4910.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_sector_13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_55.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_550.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_5500.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_56.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_560.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Blackpanther_section_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_57.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_570.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Blackpanther/_Generated/Box_5700.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      }
+    ],
+    "ins_version": 3,
+    "layers": [],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/BlackPanther/Textures/Blackpanther_StageObjectLightingMap.i3i",
+        "name": "Blackpanther_StageObjectLightingMap"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Grat_1.i3i",
+        "name": "Grat_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Blackpanther_ObjectLightingMap.i3i",
+        "name": "Blackpanther_ObjectLightingMap"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Box_Paper_Blue_01.i3i",
+        "name": "Box_Paper_Blue_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Box_Wood_01.i3i",
+        "name": "Box_Wood_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Cabinet_02.i3i",
+        "name": "Cabinet_02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/CableDrum_01.i3i",
+        "name": "CableDrum_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Camouflage_02.i3i",
+        "name": "Camouflage_02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Car_BRKT_01_Army_01.i3i",
+        "name": "Car_BRKT_01_Army_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Car_Forklift_01.i3i",
+        "name": "Car_Forklift_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Chair.i3i",
+        "name": "Chair"
+      },
+      {
+        "path": "World/BlackPanther/Textures/computer.i3i",
+        "name": "computer"
+      },
+      {
+        "path": "World/BlackPanther/Textures/controler_01.i3i",
+        "name": "controler_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/crane.i3i",
+        "name": "crane"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Crane_3.i3i",
+        "name": "Crane_3"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Desk.i3i",
+        "name": "Desk"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Drum_1.i3i",
+        "name": "Drum_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/H_Steel_01.i3i",
+        "name": "H_Steel_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/interior_2.i3i",
+        "name": "interior_2"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Ladder_01_01.i3i",
+        "name": "Ladder_01_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Metal Shelf.i3i",
+        "name": "Metal Shelf"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Numbering.i3i",
+        "name": "Numbering"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Palette_Wood_01.i3i",
+        "name": "Palette_Wood_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Pipe_01.i3i",
+        "name": "Pipe_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Pipe_02.i3i",
+        "name": "Pipe_02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Remnant_02_01.i3i",
+        "name": "Remnant_02_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/rpg7_box.i3i",
+        "name": "rpg7_box"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Sign_Danger_01.i3i",
+        "name": "Sign_Danger_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Tile_03_1.i3i",
+        "name": "Tile_03_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/ventilation_04.i3i",
+        "name": "ventilation_04"
+      },
+      {
+        "path": "World/BlackPanther/Textures/VentOpening.i3i",
+        "name": "VentOpening"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Wall_01.i3i",
+        "name": "Wall_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/yellow.i3i",
+        "name": "yellow"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Blackpanther_WorldLightingMap.i3i",
+        "name": "Blackpanther_WorldLightingMap"
+      },
+      {
+        "path": "World/BlackPanther/Textures/A_Wall_07.i3i",
+        "name": "A_Wall_07"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Base_02.i3i",
+        "name": "Base_02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/base_1.i3i",
+        "name": "base_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/base_1_2.i3i",
+        "name": "base_1_2"
+      },
+      {
+        "path": "World/BlackPanther/Textures/basesand.i3i",
+        "name": "basesand"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Billboard_02.i3i",
+        "name": "Billboard_02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Building_wall_01.i3i",
+        "name": "Building_wall_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Building_wall_04.i3i",
+        "name": "Building_wall_04"
+      },
+      {
+        "path": "World/BlackPanther/Textures/cliff_01.i3i",
+        "name": "cliff_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/cliff_01_Normalmap.i3i",
+        "name": "cliff_01_Normalmap"
+      },
+      {
+        "path": "World/BlackPanther/Textures/cliff_06.i3i",
+        "name": "cliff_06"
+      },
+      {
+        "path": "World/BlackPanther/Textures/cliff_06_normalmap.i3i",
+        "name": "cliff_06_normalmap"
+      },
+      {
+        "path": "World/BlackPanther/Textures/EmergencyStaircase.i3i",
+        "name": "EmergencyStaircase"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Exit_On.i3i",
+        "name": "Exit_On"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Floor_03.i3i",
+        "name": "Floor_03"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Lamp.i3i",
+        "name": "Lamp"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Lighting.i3i",
+        "name": "Lighting"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Oil_04.i3i",
+        "name": "Oil_04"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Oil_06.i3i",
+        "name": "Oil_06"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road02_bottom_passage_02.i3i",
+        "name": "road02_bottom_passage_02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road02_bottom_passage_03.i3i",
+        "name": "road02_bottom_passage_03"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road02_passage_01.i3i",
+        "name": "road02_passage_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road02_top_passage_01.i3i",
+        "name": "road02_top_passage_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road02_top_passage_04.i3i",
+        "name": "road02_top_passage_04"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road02_top_passage_05.i3i",
+        "name": "road02_top_passage_05"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Road_04.i3i",
+        "name": "Road_04"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Road_04_01.i3i",
+        "name": "Road_04_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Road_04_02.i3i",
+        "name": "Road_04_02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road_bottom_passage_01.i3i",
+        "name": "road_bottom_passage_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road_bottom_passage_01_blue.i3i",
+        "name": "road_bottom_passage_01_blue"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road_bottom_passage_01_gray.i3i",
+        "name": "road_bottom_passage_01_gray"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road_passage_01.i3i",
+        "name": "road_passage_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road_passage_01_02.i3i",
+        "name": "road_passage_01_02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road_top_passage_01.i3i",
+        "name": "road_top_passage_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/road_wall_06.i3i",
+        "name": "road_wall_06"
+      },
+      {
+        "path": "World/BlackPanther/Textures/stair_01.i3i",
+        "name": "stair_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Tile_01.i3i",
+        "name": "Tile_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Tile_02_02.i3i",
+        "name": "Tile_02_02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Tile_02_03.i3i",
+        "name": "Tile_02_03"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Tile_02_04.i3i",
+        "name": "Tile_02_04"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Tile_12.i3i",
+        "name": "Tile_12"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Tile_12_01.i3i",
+        "name": "Tile_12_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/top_01.i3i",
+        "name": "top_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/top_03.i3i",
+        "name": "top_03"
+      },
+      {
+        "path": "World/BlackPanther/Textures/wall_06_1.i3i",
+        "name": "wall_06_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/wall_09_01.i3i",
+        "name": "wall_09_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/wall_3_up_Jack02.i3i",
+        "name": "wall_3_up_Jack02"
+      },
+      {
+        "path": "World/BlackPanther/Textures/wall_A_1.i3i",
+        "name": "wall_A_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/wall_A_2.i3i",
+        "name": "wall_A_2"
+      },
+      {
+        "path": "World/BlackPanther/Textures/wall_B_1.i3i",
+        "name": "wall_B_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/wall_C_1.i3i",
+        "name": "wall_C_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/wall_C_2.i3i",
+        "name": "wall_C_2"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Billboard_01_1.i3i",
+        "name": "Billboard_01_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Bridge_01.i3i",
+        "name": "Bridge_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/emergency exit_1.i3i",
+        "name": "emergency exit_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/EmergencyStaircase_gray.i3i",
+        "name": "EmergencyStaircase_gray"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Metal Door_01.i3i",
+        "name": "Metal Door_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Prop_1.i3i",
+        "name": "Prop_1"
+      },
+      {
+        "path": "World/BlackPanther/Textures/shutter_2.i3i",
+        "name": "shutter_2"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Sign_01.i3i",
+        "name": "Sign_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Tile_03_6.i3i",
+        "name": "Tile_03_6"
+      },
+      {
+        "path": "World/BlackPanther/Textures/WireEntanglement_01.i3i",
+        "name": "WireEntanglement_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/Light_01.i3i",
+        "name": "Light_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/febric_01.i3i",
+        "name": "febric_01"
+      },
+      {
+        "path": "World/BlackPanther/Textures/WireEntanglement_03.i3i",
+        "name": "WireEntanglement_03"
+      },
+      {
+        "path": "World/BlackPanther/Textures/WireEntanglement_02.i3i",
+        "name": "WireEntanglement_02"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          2225539060,
+          2203554449,
+          3864133003,
+          2321273269
+        ],
+        "respath": "World/BlackPanther/BlackPanther.i3wrd",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -18.133804321289062,
+        1.1332980394363403,
+        43.236846923828125
+      ],
+      "rot": [
+        0,
+        136.0135592641329,
+        0
+      ],
+      "quat": [
+        0,
+        0.9272281527519226,
+        0,
+        0.37449684739112854
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -18.133804321289062,
+        1.1332980394363403,
+        45.02543258666992
+      ],
+      "rot": [
+        0,
+        136.0135592641329,
+        0
+      ],
+      "quat": [
+        0,
+        0.9272281527519226,
+        0,
+        0.37449684739112854
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -15.301284790039062,
+        1.1332980394363403,
+        43.236846923828125
+      ],
+      "rot": [
+        0,
+        136.0135592641329,
+        0
+      ],
+      "quat": [
+        0,
+        0.9272281527519226,
+        0,
+        0.37449684739112854
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -15.301284790039062,
+        1.1332980394363403,
+        45.02543258666992
+      ],
+      "rot": [
+        0,
+        136.0135592641329,
+        0
+      ],
+      "quat": [
+        0,
+        0.9272281527519226,
+        0,
+        0.37449684739112854
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -23.56014060974121,
+        1.1332980394363403,
+        39.17523956298828
+      ],
+      "rot": [
+        0,
+        136.0135592641329,
+        0
+      ],
+      "quat": [
+        0,
+        0.9272281527519226,
+        0,
+        0.37449684739112854
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -23.56014060974121,
+        1.1332980394363403,
+        40.96382522583008
+      ],
+      "rot": [
+        0,
+        136.0135592641329,
+        0
+      ],
+      "quat": [
+        0,
+        0.9272281527519226,
+        0,
+        0.37449684739112854
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -20.72762107849121,
+        1.1332980394363403,
+        39.17523956298828
+      ],
+      "rot": [
+        0,
+        136.0135592641329,
+        0
+      ],
+      "quat": [
+        0,
+        0.9272281527519226,
+        0,
+        0.37449684739112854
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -20.72762107849121,
+        1.1332980394363403,
+        40.96382522583008
+      ],
+      "rot": [
+        0,
+        136.0135592641329,
+        0
+      ],
+      "quat": [
+        0,
+        0.9272281527519226,
+        0,
+        0.37449684739112854
+      ],
+      "scale": [
+        0.9999997615814209,
+        1,
+        0.9999997615814209
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        16.389671325683594,
+        0.9765269756317139,
+        -44.416656494140625
+      ],
+      "rot": [
+        0,
+        30.021651470665816,
+        0
+      ],
+      "quat": [
+        0,
+        0.25900155305862427,
+        0,
+        0.9658768773078918
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        16.389671325683594,
+        0.9765269756317139,
+        -42.62807083129883
+      ],
+      "rot": [
+        0,
+        30.021651470665816,
+        0
+      ],
+      "quat": [
+        0,
+        0.25900155305862427,
+        0,
+        0.9658768773078918
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        16.307880401611328,
+        1.1014080047607422,
+        -40.27967834472656
+      ],
+      "rot": [
+        0,
+        30.021651470665816,
+        0
+      ],
+      "quat": [
+        0,
+        0.25900155305862427,
+        0,
+        0.9658768773078918
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        19.22218894958496,
+        0.9765269756317139,
+        -42.62807083129883
+      ],
+      "rot": [
+        0,
+        30.021651470665816,
+        0
+      ],
+      "quat": [
+        0,
+        0.25900155305862427,
+        0,
+        0.9658768773078918
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        10.804232597351074,
+        0.9765269756317139,
+        -47.10785675048828
+      ],
+      "rot": [
+        0,
+        -84.9337809199184,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6751640439033508,
+        0,
+        0.7376676201820374
+      ],
+      "scale": [
+        0.9999996423721313,
+        1,
+        0.9999996423721313
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        10.96333122253418,
+        0.9765269756317139,
+        -45.319271087646484
+      ],
+      "rot": [
+        0,
+        -84.9337809199184,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6751640439033508,
+        0,
+        0.7376676201820374
+      ],
+      "scale": [
+        0.9999996423721313,
+        1,
+        0.9999996423721313
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        13.795854568481445,
+        0.9765269756317139,
+        -44.416656494140625
+      ],
+      "rot": [
+        0,
+        -84.9337809199184,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6751640439033508,
+        0,
+        0.7376676201820374
+      ],
+      "scale": [
+        0.9999996423721313,
+        1,
+        0.9999996423721313
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        13.795854568481445,
+        0.9765269756317139,
+        -42.62807083129883
+      ],
+      "rot": [
+        0,
+        -84.9337809199184,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6751640439033508,
+        0,
+        0.7376676201820374
+      ],
+      "scale": [
+        0.9999996423721313,
+        1,
+        0.9999996423721313
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "unknown",
+      "name": "RPG7Box00",
+      "res": null,
+      "obj": null,
+      "pos": [
+        34.87567138671875,
+        -9.592292785644531,
+        -11.677495956420898
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2930659639,
+        "clsname": "0xAEAE5137",
+        "res": [
+          883726750,
+          3430376144,
+          312556268,
+          2527365053
+        ],
+        "respath": "Object/cgame/RPG7Box.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000007042000000000000000000000000000000000000000000000000",
+        "name": "RPG7Box00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "unknown",
+      "name": "RPG7Box000",
+      "res": null,
+      "obj": null,
+      "pos": [
+        34.644962310791016,
+        -9.616743087768555,
+        -7.390212059020996
+      ],
+      "rot": [
+        0,
+        0,
+        0.8765450714463167
+      ],
+      "quat": [
+        0,
+        0,
+        0.007649224251508713,
+        0.9999707341194153
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2930659639,
+        "clsname": "0xAEAE5137",
+        "res": [
+          883726750,
+          3430376144,
+          312556268,
+          2527365053
+        ],
+        "respath": "Object/cgame/RPG7Box.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000007042020000000000000000000000000000000000000000000000",
+        "name": "RPG7Box000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "unknown",
+      "name": "RPG7Box0000",
+      "res": null,
+      "obj": null,
+      "pos": [
+        34.87567138671875,
+        -9.592292785644531,
+        -2.9778308868408203
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2930659639,
+        "clsname": "0xAEAE5137",
+        "res": [
+          883726750,
+          3430376144,
+          312556268,
+          2527365053
+        ],
+        "respath": "Object/cgame/RPG7Box.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000007042010000000000000000000000000000000000000000000000",
+        "name": "RPG7Box0000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "unknown",
+      "name": "RPG7Box001",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -41.657840728759766,
+        -4.686967849731445,
+        -28.397764205932617
+      ],
+      "rot": [
+        0,
+        27.13579767667568,
+        0
+      ],
+      "quat": [
+        0,
+        0.23459751904010773,
+        0,
+        0.9720925688743591
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2930659639,
+        "clsname": "0xAEAE5137",
+        "res": [
+          883726750,
+          3430376144,
+          312556268,
+          2527365053
+        ],
+        "respath": "Object/cgame/RPG7Box.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000007042040000000000000000000000000000000000000000000000",
+        "name": "RPG7Box001",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "unknown",
+      "name": "RPG7Box0001",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -42.34125900268555,
+        -4.686967849731445,
+        -25.068687438964844
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2930659639,
+        "clsname": "0xAEAE5137",
+        "res": [
+          883726750,
+          3430376144,
+          312556268,
+          2527365053
+        ],
+        "respath": "Object/cgame/RPG7Box.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000007042030000000000000000000000000000000000000000000000",
+        "name": "RPG7Box0001",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "unknown",
+      "name": "RPG7Box00000",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -41.657840728759766,
+        -4.686967849731445,
+        -22.471172332763672
+      ],
+      "rot": [
+        0,
+        -35.15232733412002,
+        0
+      ],
+      "quat": [
+        0,
+        -0.3019733130931854,
+        0,
+        0.9533163905143738
+      ],
+      "scale": [
+        0.9999996423721313,
+        1,
+        0.9999996423721313
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2930659639,
+        "clsname": "0xAEAE5137",
+        "res": [
+          883726750,
+          3430376144,
+          312556268,
+          2527365053
+        ],
+        "respath": "Object/cgame/RPG7Box.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000007042050000000000000000000000000000000000000000000000",
+        "name": "RPG7Box00000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "unknown",
+      "name": "RPG7Box000000",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -33.494503021240234,
+        -4.642552852630615,
+        -23.670297622680664
+      ],
+      "rot": [
+        0,
+        -17.988195306042957,
+        0
+      ],
+      "quat": [
+        0,
+        -0.15633271634578705,
+        0,
+        0.9877044558525085
+      ],
+      "scale": [
+        0.9999998211860657,
+        1,
+        0.9999998211860657
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2930659639,
+        "clsname": "0xAEAE5137",
+        "res": [
+          883726750,
+          3430376144,
+          312556268,
+          2527365053
+        ],
+        "respath": "Object/cgame/RPG7Box.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000007042060000000200000000000000000000000000000000000000",
+        "name": "RPG7Box000000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "unknown",
+      "name": "RPG7Box0000000",
+      "res": null,
+      "obj": null,
+      "pos": [
+        41.68210983276367,
+        -9.617704391479492,
+        -5.798842906951904
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2930659639,
+        "clsname": "0xAEAE5137",
+        "res": [
+          883726750,
+          3430376144,
+          312556268,
+          2527365053
+        ],
+        "respath": "Object/cgame/RPG7Box.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000007042070000000200000000000000000000000000000000000000",
+        "name": "RPG7Box0000000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "unknown",
+      "name": "Blackpanther_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -54.10613250732422,
+        44.43260955810547,
+        -12.988475799560547
+      ],
+      "rot": [
+        -68.20456060757006,
+        -109.68083947694346,
+        31.80171568605476
+      ],
+      "quat": [
+        -0.4959825575351715,
+        -0.5626042485237122,
+        -0.31020036339759827,
+        0.5841690301895142
+      ],
+      "scale": [
+        1,
+        1.000000238418579,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          3322325390,
+          3187013838,
+          3801511362,
+          1453061659
+        ],
+        "respath": "World/Blackpanther/Light/Blackpanther_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Blackpanther_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "prop",
+      "name": "helicopter_ch47",
+      "res": "Object/moving/CH47_Idle.i3s",
+      "obj": "Object/moving/helicopter_ch47.i3Obj",
+      "pos": [
+        -30.84998321533203,
+        8.61656665802002,
+        49.765865325927734
+      ],
+      "rot": [
+        0,
+        -70.35928686382145,
+        0
+      ],
+      "quat": [
+        0,
+        -0.5761419534683228,
+        0,
+        0.8173496723175049
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2495885315,
+          451753035,
+          2476150109,
+          2826821268
+        ],
+        "respath": "Object/moving/helicopter_ch47.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "helicopter_ch47",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "prop",
+      "name": "armerd_Tank",
+      "res": "Object/cgame/Tank/armerd_Tank_01.I3S",
+      "obj": "Object/cgame/Tank/armerd_Tank.i3Obj",
+      "pos": [
+        -16.94586944580078,
+        -1.7542699575424194,
+        -46.02043533325195
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2540635292,
+          1636248702,
+          2564446085,
+          14630731
+        ],
+        "respath": "Object/cgame/Tank/armerd_Tank.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "armerd_Tank",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "prop",
+      "name": "baricate_01",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        23.39104652404785,
+        -8.165730476379395,
+        6.85328483581543
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "prop",
+      "name": "baricate_010",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        21.425474166870117,
+        -8.165730476379395,
+        7.4575982093811035
+      ],
+      "rot": [
+        0,
+        -32.842457996552774,
+        0
+      ],
+      "quat": [
+        0,
+        -0.2826968729496002,
+        0,
+        0.9592093229293823
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_010",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "prop",
+      "name": "baricate_0100",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        26.337434768676758,
+        -8.165730476379395,
+        7.222853183746338
+      ],
+      "rot": [
+        0,
+        35.49747843420451,
+        0
+      ],
+      "quat": [
+        0,
+        0.30484333634376526,
+        0,
+        0.9524025321006775
+      ],
+      "scale": [
+        0.9999998211860657,
+        1,
+        0.9999998211860657
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_0100",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "prop",
+      "name": "baricate_01000",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        27.68294334411621,
+        -8.165730476379395,
+        4.897139072418213
+      ],
+      "rot": [
+        0,
+        70.7158738215661,
+        0
+      ],
+      "quat": [
+        0,
+        0.5786826014518738,
+        0,
+        0.815552830696106
+      ],
+      "scale": [
+        1.0000004768371582,
+        1,
+        1.0000004768371582
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_01000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "prop",
+      "name": "baricate_010000",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        20.636798858642578,
+        -8.165730476379395,
+        4.765869140625
+      ],
+      "rot": [
+        0,
+        99.20736034990149,
+        0
+      ],
+      "quat": [
+        0,
+        0.7615799307823181,
+        0,
+        0.6480709314346313
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_010000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "prop",
+      "name": "baricate_0100000",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        -16.82093620300293,
+        -3.660011053085327,
+        -37.892005920410156
+      ],
+      "rot": [
+        0,
+        -179.64367532067556,
+        0
+      ],
+      "quat": [
+        0,
+        0.9999951720237732,
+        0,
+        -0.00310951448045671
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_0100000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "prop",
+      "name": "baricate_01000000",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        -21.77350616455078,
+        -3.660011053085327,
+        -37.892005920410156
+      ],
+      "rot": [
+        0,
+        141.4669570269747,
+        0
+      ],
+      "quat": [
+        0,
+        0.9439939260482788,
+        0,
+        0.3299628794193268
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_01000000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "prop",
+      "name": "baricate_010000000",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        -12.216856956481934,
+        -3.660011053085327,
+        -37.892005920410156
+      ],
+      "rot": [
+        0,
+        -145.67150245689243,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9554626941680908,
+        0,
+        0.29511192440986633
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_010000000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "prop",
+      "name": "baricate_01000001",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        -19.35885238647461,
+        -3.660011053085327,
+        -39.78826904296875
+      ],
+      "rot": [
+        0,
+        -179.64367532067556,
+        0
+      ],
+      "quat": [
+        0,
+        0.9999951720237732,
+        0,
+        -0.00310951448045671
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_01000001",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "prop",
+      "name": "baricate_010000001",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        -22.063392639160156,
+        -3.660011053085327,
+        -41.504432678222656
+      ],
+      "rot": [
+        0,
+        105.5787801877402,
+        0
+      ],
+      "quat": [
+        0,
+        0.7964179515838623,
+        0,
+        0.6047466397285461
+      ],
+      "scale": [
+        0.9999998807907104,
+        1,
+        0.9999998807907104
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_010000001",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "prop",
+      "name": "baricate_0100000000",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        -11.87674331665039,
+        -3.660011053085327,
+        -41.504432678222656
+      ],
+      "rot": [
+        0,
+        -110.55198724600612,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8219054341316223,
+        0,
+        0.5696238875389099
+      ],
+      "scale": [
+        0.9999998807907104,
+        1,
+        0.9999998807907104
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_0100000000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "prop",
+      "name": "baricate_010000010",
+      "res": "Object/break/blackpanther_bari_01.i3s",
+      "obj": "Object/break/baricate_01.i3Obj",
+      "pos": [
+        -14.60988998413086,
+        -3.660011053085327,
+        -39.78826904296875
+      ],
+      "rot": [
+        0,
+        -179.64367532067556,
+        0
+      ],
+      "quat": [
+        0,
+        0.9999951720237732,
+        0,
+        -0.00310951448045671
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4169186607,
+          1762683917,
+          3991766373,
+          906981821
+        ],
+        "respath": "Object/break/baricate_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "baricate_010000010",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "prop",
+      "name": "normal_Tank",
+      "res": "Object/cgame/Tank/normal_Tank_01.I3S",
+      "obj": "Object/cgame/Tank/normal_Tank.i3Obj",
+      "pos": [
+        23.868824005126953,
+        -6.206809043884277,
+        2.337246894836426
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2454335139,
+          3732607872,
+          1466061387,
+          3462071429
+        ],
+        "respath": "Object/cgame/Tank/normal_Tank.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "normal_Tank",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "prop",
+      "name": "blackpanther_glass_01",
+      "res": "Object/glass/Glass_BlackPanther_01.i3s",
+      "obj": "Object/glass/blackpanther_glass_01.i3Obj",
+      "pos": [
+        0.014914999715983868,
+        0.0213639996945858,
+        0.037324000149965286
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4104841436,
+          1007037594,
+          972878726,
+          3740697264
+        ],
+        "respath": "Object/glass/blackpanther_glass_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "blackpanther_glass_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "prop",
+      "name": "blackpanther_glass_02",
+      "res": "Object/glass/Glass_BlackPanther_02.i3s",
+      "obj": "Object/glass/blackpanther_glass_02.i3Obj",
+      "pos": [
+        -21.322654724121094,
+        -1.8976819515228271,
+        -6.4166741371154785
+      ],
+      "rot": [
+        0,
+        89.66389123192857,
+        0
+      ],
+      "quat": [
+        0,
+        0.7050297260284424,
+        0,
+        0.7091777324676514
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4102868192,
+          3216489294,
+          4240909454,
+          2459785453
+        ],
+        "respath": "Object/glass/blackpanther_glass_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "blackpanther_glass_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "unknown",
+      "name": "blackpanther_Vent",
+      "res": null,
+      "obj": null,
+      "pos": [
+        34.98705291748047,
+        -8.604870796203613,
+        -13.465166091918945
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4294967295,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "blackpanther_Vent",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i44",
+      "kind": "prop",
+      "name": "air_cap_02",
+      "res": "Object/physx/air_cap_02.i3s",
+      "obj": "Object/physx/air_cap_02.i3Obj",
+      "pos": [
+        38.90412902832031,
+        -8.549276351928711,
+        -13.429216384887695
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0173799991607666,
+        0.9556019902229309,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3100086949,
+          9996044,
+          3840078659,
+          2074949664
+        ],
+        "respath": "Object/physx/air_cap_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "air_cap_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i45",
+      "kind": "prop",
+      "name": "blackpanther_door_01",
+      "res": "Object/break/Blackpanther_door_01.i3s",
+      "obj": "Object/break/blackpanther_door_01.i3Obj",
+      "pos": [
+        35.71700668334961,
+        -9.519651412963867,
+        2.964514970779419
+      ],
+      "rot": [
+        0,
+        -90.80291085104513,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7120438814163208,
+        0,
+        0.702134907245636
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          604194339,
+          2183659007,
+          4139440442,
+          2433096026
+        ],
+        "respath": "Object/break/blackpanther_door_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "blackpanther_door_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i46",
+      "kind": "prop",
+      "name": "blackpanther_door_02",
+      "res": "Object/break/Blackpanther_door_02.i3s",
+      "obj": "Object/break/blackpanther_door_02.i3Obj",
+      "pos": [
+        -26.012155532836914,
+        0.6556320190429688,
+        -21.88274574279785
+      ],
+      "rot": [
+        0,
+        1.0750464767501433,
+        0
+      ],
+      "quat": [
+        0,
+        0.009381412528455257,
+        0,
+        0.9999560117721558
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3934048315,
+          2454159278,
+          2952822559,
+          717237151
+        ],
+        "respath": "Object/break/blackpanther_door_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "blackpanther_door_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i47",
+      "kind": "prop",
+      "name": "blackpanther_door_03",
+      "res": "Object/break/Blackpanther_door_03.i3s",
+      "obj": "Object/break/blackpanther_door_03.i3Obj",
+      "pos": [
+        -34.30643844604492,
+        -6.223806858062744,
+        -16.818269729614258
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2328626826,
+          3326977525,
+          460466380,
+          1005570641
+        ],
+        "respath": "Object/break/blackpanther_door_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "blackpanther_door_03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i48",
+      "kind": "prop",
+      "name": "blackpanther_door_04",
+      "res": "Object/break/Blackpanther_door_04.i3s",
+      "obj": "Object/break/blackpanther_door_04.i3Obj",
+      "pos": [
+        -36.748329162597656,
+        -3.462968111038208,
+        -32.10932922363281
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          732360832,
+          3824469721,
+          2735836162,
+          3760870980
+        ],
+        "respath": "Object/break/blackpanther_door_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "blackpanther_door_04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i49",
+      "kind": "prop",
+      "name": "blackpanther_door_040",
+      "res": "Object/break/Blackpanther_door_04.i3s",
+      "obj": "Object/break/blackpanther_door_04.i3Obj",
+      "pos": [
+        -36.748329162597656,
+        -3.462968111038208,
+        -32.10932922363281
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          732360832,
+          3824469721,
+          2735836162,
+          3760870980
+        ],
+        "respath": "Object/break/blackpanther_door_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "blackpanther_door_040",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i50",
+      "kind": "prop",
+      "name": "blackpanther_door_030",
+      "res": "Object/break/Blackpanther_door_03.i3s",
+      "obj": "Object/break/blackpanther_door_03.i3Obj",
+      "pos": [
+        -34.30643844604492,
+        -6.223806858062744,
+        -16.818269729614258
+      ],
+      "rot": [
+        0,
+        -89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2328626826,
+          3326977525,
+          460466380,
+          1005570641
+        ],
+        "respath": "Object/break/blackpanther_door_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "blackpanther_door_030",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i51",
+      "kind": "trigger",
+      "name": "Box_43",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        20.937646865844727,
+        -6.530195236206055,
+        4.3152642250061035
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        19.04055404663086,
+        16.465599060058594,
+        16.765974044799805
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          147119014,
+          1385350423,
+          1348947394,
+          1105321033
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_43",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i52",
+      "kind": "trigger",
+      "name": "Box_44",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -17.877357482910156,
+        5.9439849853515625,
+        41.3953971862793
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        21.093944549560547,
+        14.740922927856445,
+        20.649354934692383
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1188907134,
+          1636927565,
+          359449373,
+          2998353946
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_44",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i53",
+      "kind": "trigger",
+      "name": "Box_45",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        3.3276560306549072,
+        5.116512775421143,
+        37.979393005371094
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.49326515197754,
+        13.730594635009766,
+        8.599658012390137
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3483001393,
+          3660178824,
+          1515570491,
+          1183683682
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_45",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i54",
+      "kind": "trigger",
+      "name": "Box_450",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        19.048641204833984,
+        -1.265212059020996,
+        29.70863151550293
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        16.452011108398438,
+        19.420856475830078,
+        33.125953674316406
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3483001393,
+          3660178824,
+          1515570491,
+          1183683682
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "350000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_450",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i55",
+      "kind": "trigger",
+      "name": "Box_46",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        -12.043216705322266,
+        -1.8203999996185303,
+        14.397913932800293
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.044956207275391,
+        17.171192169189453,
+        32.68027114868164
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2659054827,
+          526989320,
+          1579484581,
+          1283686333
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_46",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i56",
+      "kind": "trigger",
+      "name": "Box_47",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.02440643310547,
+        2.461245059967041,
+        13.426212310791016
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.237028121948242,
+        11.440787315368652,
+        30.806251525878906
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2225981054,
+          2401639754,
+          918477083,
+          2500613371
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_47",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i57",
+      "kind": "trigger",
+      "name": "Box_48",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        -18.86968231201172,
+        -6.2509379386901855,
+        -6.3658127784729
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        23.861263275146484,
+        5.931562900543213,
+        8.864500999450684
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          823801159,
+          196907603,
+          3875426986,
+          1368001063
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_48",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i58",
+      "kind": "trigger",
+      "name": "Box_49",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.501598358154297,
+        -0.35914599895477295,
+        -6.725430965423584
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.71618366241455,
+        5.408843994140625,
+        9.15227222442627
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          385034768,
+          1084815329,
+          1857149118,
+          1199361723
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_49",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i59",
+      "kind": "trigger",
+      "name": "Box_490",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -32.29991912841797,
+        -3.210407018661499,
+        -6.725430965423584
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.5902719497680664,
+        5.408843994140625,
+        9.15227222442627
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          385034768,
+          1084815329,
+          1857149118,
+          1199361723
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "3a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_490",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i60",
+      "kind": "trigger",
+      "name": "Box_50",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        38.06013488769531,
+        -5.169825077056885,
+        -6.802028179168701
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.839096069335938,
+        9.601411819458008,
+        26.79318618774414
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          595269539,
+          3940850451,
+          433425611,
+          2489141813
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_50",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i61",
+      "kind": "trigger",
+      "name": "Box_500",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        32.513065338134766,
+        -5.169825077056885,
+        -16.051626205444336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.839096069335938,
+        9.601411819458008,
+        6.7114410400390625
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          595269539,
+          3940850451,
+          433425611,
+          2489141813
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "3c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_500",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i62",
+      "kind": "trigger",
+      "name": "Box_51",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        0.9657629728317261,
+        -5.435629844665527,
+        -1.290563941001892
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.65317153930664,
+        21.786060333251953,
+        69.29242706298828
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2727106562,
+          4276815088,
+          1242834969,
+          3000734204
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_51",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i63",
+      "kind": "trigger",
+      "name": "Box_510",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        2.350632905960083,
+        -5.435629844665527,
+        -1.290563941001892
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        17.59555435180664,
+        21.786060333251953,
+        18.341594696044922
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2727106562,
+          4276815088,
+          1242834969,
+          3000734204
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "3e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_510",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i64",
+      "kind": "trigger",
+      "name": "Box_5100",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        5.376922130584717,
+        -5.435629844665527,
+        -25.78360939025879
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        17.59555435180664,
+        21.786060333251953,
+        18.341594696044922
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2727106562,
+          4276815088,
+          1242834969,
+          3000734204
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "3e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_5100",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i65",
+      "kind": "trigger",
+      "name": "Box_480",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        -13.994380950927734,
+        -1.726565957069397,
+        -15.411908149719238
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        11.880151748657227,
+        10.736422538757324,
+        12.955595970153809
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          823801159,
+          196907603,
+          3875426986,
+          1368001063
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "390000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_480",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i66",
+      "kind": "trigger",
+      "name": "Box_52",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        19.714584350585938,
+        0.42899399995803833,
+        -21.013755798339844
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.371562957763672,
+        21.998085021972656,
+        33.4528694152832
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          195093453,
+          2778043855,
+          3760892588,
+          854435988
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_52",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i67",
+      "kind": "trigger",
+      "name": "Box_53",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_11.i3Evt",
+      "obj": null,
+      "pos": [
+        11.909648895263672,
+        4.292755126953125,
+        -45.25760269165039
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        35.44200897216797,
+        18.939327239990234,
+        14.38581371307373
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1776944851,
+          2734081216,
+          3795645099,
+          3559296321
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_53",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i68",
+      "kind": "trigger",
+      "name": "Box_54",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_12.i3Evt",
+      "obj": null,
+      "pos": [
+        -17.126956939697266,
+        5.3004021644592285,
+        -38.008121490478516
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        22.09601593017578,
+        28.469097137451172,
+        31.800745010375977
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3106704160,
+          2362541053,
+          551197995,
+          1800078921
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_54",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i69",
+      "kind": "trigger",
+      "name": "Box_491",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -25.85673713684082,
+        2.6937270164489746,
+        -16.421550750732422
+      ],
+      "rot": [
+        1.3232422407514164,
+        0,
+        0
+      ],
+      "quat": [
+        0.01154721062630415,
+        0,
+        0,
+        0.9999333024024963
+      ],
+      "scale": [
+        3.920290946960449,
+        5.408843517303467,
+        10.80348014831543
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          385034768,
+          1084815329,
+          1857149118,
+          1199361723
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "3a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_491",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i70",
+      "kind": "trigger",
+      "name": "Box_4910",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -25.85673713684082,
+        0.7547749876976013,
+        -15.263866424560547
+      ],
+      "rot": [
+        21.60148250923987,
+        0,
+        0
+      ],
+      "quat": [
+        0.18739400804042816,
+        0,
+        0,
+        0.9822849035263062
+      ],
+      "scale": [
+        3.920290946960449,
+        5.408843517303467,
+        10.803479194641113
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          385034768,
+          1084815329,
+          1857149118,
+          1199361723
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "3a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_4910",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i71",
+      "kind": "trigger",
+      "name": "Box_55",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_13.i3Evt",
+      "obj": null,
+      "pos": [
+        -37.644737243652344,
+        -2.9325709342956543,
+        -26.231950759887695
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        18.080703735351562,
+        10.127038955688477,
+        22.60669708251953
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1652179149,
+          1334460068,
+          2594302300,
+          3922889548
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_55",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i72",
+      "kind": "trigger",
+      "name": "Box_550",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_13.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.29468536376953,
+        -7.56024694442749,
+        -14.465030670166016
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.265525817871094,
+        7.2980780601501465,
+        6.8287482261657715
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1652179149,
+          1334460068,
+          2594302300,
+          3922889548
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "470000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_550",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i73",
+      "kind": "trigger",
+      "name": "Box_5500",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_sector_13.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.29468536376953,
+        -5.906865119934082,
+        -16.199932098388672
+      ],
+      "rot": [
+        23.307576529892124,
+        0,
+        0
+      ],
+      "quat": [
+        0.20199744403362274,
+        0,
+        0,
+        0.979386031627655
+      ],
+      "scale": [
+        4.265525817871094,
+        7.29807710647583,
+        6.828747749328613
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1652179149,
+          1334460068,
+          2594302300,
+          3922889548
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_sector_13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "470000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_5500",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i74",
+      "kind": "trigger",
+      "name": "Box_56",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -26.9522762298584,
+        -0.4874649941921234,
+        -6.478909015655518
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.52468204498291,
+        5.635128974914551,
+        8.830986976623535
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3256174695,
+          2392243171,
+          95942846,
+          1894231045
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_56",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i75",
+      "kind": "trigger",
+      "name": "Box_560",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -32.82225036621094,
+        -3.311099052429199,
+        -6.478909015655518
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3.7920620441436768,
+        5.635128974914551,
+        8.830986976623535
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3256174695,
+          2392243171,
+          95942846,
+          1894231045
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "4a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_560",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i76",
+      "kind": "trigger",
+      "name": "Box_57",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_section_02.i3Evt",
+      "obj": null,
+      "pos": [
+        -17.106727600097656,
+        2.7061779499053955,
+        -53.053199768066406
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        22.48749542236328,
+        4.479307174682617,
+        2.4454920291900635
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          107239358,
+          4121510629,
+          744539017,
+          1102425960
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_section_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_57",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i77",
+      "kind": "trigger",
+      "name": "Box_570",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_section_02.i3Evt",
+      "obj": null,
+      "pos": [
+        -26.760818481445312,
+        2.7061779499053955,
+        -37.65492248535156
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.111370086669922,
+        4.479307174682617,
+        31.044042587280273
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          107239358,
+          4121510629,
+          744539017,
+          1102425960
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_section_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "4c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_570",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i78",
+      "kind": "trigger",
+      "name": "Box_5700",
+      "res": "Scene/BlackPanther/_Generated/Blackpanther_section_02.i3Evt",
+      "obj": null,
+      "pos": [
+        -7.566133975982666,
+        2.7061779499053955,
+        -44.40886688232422
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3.2879440784454346,
+        4.479307174682617,
+        20.423049926757812
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          107239358,
+          4121510629,
+          744539017,
+          1102425960
+        ],
+        "respath": "Scene/Blackpanther/_Generated/Blackpanther_section_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "4c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_5700",
+        "layer": 0
+      }
+    }
+  ]
+}

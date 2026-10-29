@@ -1,0 +1,9 @@
+# Materials for Tactilite T2
+newmtl Mtl_Taclite-T2_Diff.webp
+Kd 1 1 1
+map_Kd Taclite-T2_Diff.webp
+
+newmtl Mtl_PSG-1_diff.webp
+Kd 1 1 1
+map_Kd PSG-1_diff.webp
+

@@ -1,0 +1,5 @@
+# Materials for FAMAS G2
+newmtl Mtl_famas_G2_diff.webp
+Kd 1 1 1
+map_Kd famas_G2_diff.webp
+

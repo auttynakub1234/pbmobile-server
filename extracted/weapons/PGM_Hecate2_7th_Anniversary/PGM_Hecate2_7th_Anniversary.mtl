@@ -1,0 +1,9 @@
+# Materials for PGM Hecate2 PBBR7
+newmtl Mtl_PSG-1_diff.webp
+Kd 1 1 1
+map_Kd PSG-1_diff.webp
+
+newmtl Mtl_PGM-Hecate2_Diff.webp
+Kd 1 1 1
+map_Kd PGM-Hecate2_Diff.webp
+

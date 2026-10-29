@@ -1,0 +1,5 @@
+# Materials for C-5
+newmtl Mtl_C5.webp
+Kd 1 1 1
+map_Kd C5.webp
+

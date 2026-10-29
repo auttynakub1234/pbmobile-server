@@ -1,0 +1,9 @@
+# Materials for SC-2010 PBBR7
+newmtl Mtl_APoint_dot_sight_Diff.webp
+Kd 1 1 1
+map_Kd APoint_dot_sight_Diff.webp
+
+newmtl Mtl_SC-2010_Diff.webp
+Kd 1 1 1
+map_Kd SC-2010_Diff.webp
+

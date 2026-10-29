@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<link rel="manifest" href="/static/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/static/icon-180.png">
+<link rel="icon" href="/static/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="PB Mobile">
+<meta name="theme-color" content="#000000">
+<title>Piercing Blow Web</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #000; color: #fff; font: 14px "Segoe UI", system-ui, sans-serif; user-select: none; }
+  canvas { display: block; }
+  .hud { position: absolute; pointer-events: none; text-shadow: 0 1px 2px #000; }
+  #hp { left: 18px; bottom: 14px; font-size: 34px; font-weight: 700; }
+  #hp small, #ammo small { font-size: 14px; opacity: .8; font-weight: 400; margin-left: 4px; }
+  #hpbar { left: 18px; bottom: 8px; width: 220px; height: 5px; background: #0008; }
+  #hpbar i { display: block; height: 100%; width: 100%; background: #e8e8e8; }
+  #ammo { right: 22px; bottom: 14px; font-size: 34px; font-weight: 700; text-align: right; }
+  #wname { right: 22px; bottom: 58px; font-size: 13px; opacity: .85; }
+  #score { left: 50%; top: 10px; transform: translateX(-50%); display: flex; gap: 6px; font-size: 22px; font-weight: 700; }
+  #score b { padding: 2px 18px; border-radius: 3px; }
+  #score .r { background: linear-gradient(90deg, #7a0d0d, #e02020); } #score .b { background: linear-gradient(90deg, #1450d0, #0a2a7a); }
+  #feed { right: 16px; top: 60px; font-size: 13px; text-align: right; line-height: 1.6; }
+  #feed div { background: #0007; padding: 1px 8px; margin-bottom: 2px; border-radius: 2px; }
+  #info { left: 8px; top: 8px; font-size: 11px; opacity: .75; white-space: pre; }
+  #cross { left: 50%; top: 50%; }
+  #cross i { position: absolute; background: #3f3; box-shadow: 0 0 1px #000; }
+  #hit { left: 50%; top: 50%; width: 22px; height: 22px; margin: -11px; opacity: 0; transition: opacity .15s; }
+  #hit:before, #hit:after { content: ''; position: absolute; left: 10px; top: -2px; width: 2px; height: 26px; background: #fff; transform: rotate(45deg); }
+  #hit:after { transform: rotate(-45deg); }
+  #dmg { inset: 0; background: radial-gradient(transparent 55%, #c00a 100%); opacity: 0; transition: opacity .3s; }
+  /* avisos no meio da tela: pequenos e acima da mira (26px no meio atrapalhava mirar, dono 14/10) */
+  #center { left: 50%; top: 27%; transform: translate(-50%, -50%); font-size: 15px; font-weight: 700; text-align: center; max-width: 60vw; text-shadow: 0 1px 2px #000, 0 0 4px #000; pointer-events: none; }
+  @media (pointer: coarse) { #center { font-size: 12px; top: 20%; } }
+  #timer { font-size: 18px; padding: 4px 10px; background: #0008; border-radius: 3px; }
+  #board { left: 50%; top: 70px; transform: translateX(-50%); background: #000c; padding: 12px; display: none; border: 1px solid #456; }
+  #result { position: absolute; inset: 0; display: none; flex-direction: column; align-items: center; justify-content: center; gap: 14px; background: #000c; }
+  #result h2 { margin: 0; font-size: 46px; letter-spacing: 3px; font-style: italic; }
+  .tms { display: flex; gap: 16px; }
+  .tm { min-width: 330px; } .tm h3 { margin: 0 0 6px; padding: 4px 10px; font-size: 16px; display: flex; justify-content: space-between; }
+  .tm.t0 h3 { background: linear-gradient(90deg, #7a0d0d, #e02020); } .tm.t1 h3 { background: linear-gradient(90deg, #1450d0, #0a2a7a); }
+  .tm table { width: 100%; border-collapse: collapse; font-size: 13px; } .tm td, .tm th { padding: 3px 8px; text-align: left; border-bottom: 1px solid #fff2; }
+  .tm th { opacity: .6; font-weight: 400; } .tm tr.me td { color: #ffd34a; font-weight: 700; }
+  #result button { font: 600 16px "Segoe UI"; padding: 10px 30px; background: #2a4f86; color: #fff; border: 1px solid #6b9be0; border-radius: 3px; cursor: pointer; }
+  #start { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 10px; background: #000a; cursor: pointer; }
+  #start h1 { margin: 0; font-size: 42px; letter-spacing: 2px; font-style: italic; }
+  #start p { margin: 0; opacity: .8; }
+  #start .keys { font-size: 12px; opacity: .65; text-align: center; line-height: 1.7; }
+  /* HUD V37: recortes do atlas Gui/Ingame/Hud.i3i (static/v37/atlas/hud.png) */
+  .spr { display: inline-block; background-image: url("/static/v37/atlas/hud.png"); background-repeat: no-repeat; vertical-align: bottom; }
+  #hp, #ammo { display: flex; align-items: flex-end; gap: 4px; }
+  #hp .spr, #ammo .spr { transform-origin: left bottom; }
+  #score { gap: 0; align-items: center; }
+  #score .panel { position: relative; width: 266px; height: 44px; }
+  #score .panel b { position: absolute; top: 9px; width: 70px; text-align: center; background: none; padding: 0; font: 700 22px "Segoe UI"; }
+  #score .panel .r { left: 14px; } #score .panel .b { right: 14px; }
+  #score .panel #timer { position: absolute; left: 50%; top: 11px; transform: translateX(-50%); background: none; padding: 0; font-size: 16px; }
+  #banner { z-index: 10; left: 50%; top: 22%; transform: translateX(-50%); display: none; white-space: nowrap; filter: drop-shadow(0 2px 4px #000); }
+  #hs { left: 50%; top: 34%; transform: translateX(-50%) scale(1.6); opacity: 0; transition: opacity .2s; }
+  #hint { position: fixed; left: 50%; top: 66%; transform: translateX(-50%); color: #fff; font: 13px Tahoma; text-align: center; text-shadow: 0 1px 2px #000; z-index: 6; white-space: pre-line; }
+  #actbar { position: fixed; left: 50%; top: 62%; width: 260px; height: 10px; margin-left: -130px; border: 1px solid #ffffffaa; background: #0008; display: none; z-index: 6; }
+  #actbar i { display: block; height: 100%; width: 0; background: linear-gradient(#ffd34a, #ff8a00); }
+  /* janela de Opcoes da V37 (static/v37/option.js) no palco 1024x768 esticado -- mesmas regras do client.html */
+  #v37 { position: fixed; left: 0; top: 0; width: 1024px; height: 768px; transform-origin: 0 0; z-index: 40; display: none; font: 12px Tahoma, "Segoe UI", sans-serif; color: #d6dbe2; }
+  #v37scrim { position: fixed; inset: 0; background: #0009; z-index: 39; display: none; }
+  .v37, .v37 .c { position: absolute; }
+  .v37 { left: 0; top: 0; width: 1024px; height: 768px; pointer-events: none; }
+  .v37 .c { pointer-events: auto; }
+  .v37 .c.Window, .v37 .c.Static, .v37 .c.List { pointer-events: none; }
+  .v37 .c.Static > .c { pointer-events: auto; }
+  .v37 .c.Static > .c.List, .v37 .c.List { pointer-events: none; }
+  .v37 .off { display: none !important; }
+  .v37 .s { position: absolute; background-repeat: no-repeat; pointer-events: none; }
+  .v37 .Button > .s:not(.k0), .v37 .CheckBox > .s:not(.k0) { display: none; }
+  .v37 .Button:hover > .s.k1 { display: block; } .v37 .Button:hover > .s.k0.has1 { display: none; }
+  .v37 .Button:active > .s.k2 { display: block; }
+  .v37 .CheckBox.on > .s.k4 { display: block; }
+  .v37 .CheckBox:hover > .s.k1 { display: block; }
+  .v37 .RadioButton > .s:not(.k0), .v37 .Radio > .s:not(.k0) { display: none; }
+  .v37 .RadioButton.on > .s.k1, .v37 .Radio.on > .s.k1 { display: block; }
+  .v37 .Button.on > .s.k2 { display: block; }
+  .v37 .click { cursor: pointer; }
+  .v37 .t { position: absolute; inset: 0; display: flex; align-items: center; padding: 0 4px; white-space: nowrap; overflow: hidden; pointer-events: none; color: #d7d7d7; text-shadow: none; }
+  .v37 .t.c { justify-content: center; }
+  .v37 .lbl { white-space: pre-line; text-align: center; line-height: 13px; }
+  .v37 [data-n$="Caption"] > .t { color: #e6e6e6; }
+</style>
+</head>
+<body>
+<div class="hud" id="info"></div>
+<div class="hud" id="score"><div class="panel spr" style="background-position:-4px -115px"><b class="r" id="scR">0</b><span id="timer">0:00</span><b class="b" id="scB">0</b></div></div>
+<div class="hud" id="banner"></div>
+<div class="hud spr" id="hs" style="width:55px;height:38px;background-position:-183px -204px"></div>
+<div class="hud" id="board"></div>
+<div id="result"></div>
+<div class="hud" id="feed"></div>
+<div class="hud" id="cross"></div>
+<div id="actbar"><i></i></div>
+<div id="hint"></div>
+<div class="hud" id="hit"></div>
+<div class="hud" id="dmg"></div>
+<div class="hud" id="center"></div>
+<div class="hud" id="hp"></div>
+<div class="hud" id="hpbar"><i></i></div>
+<div class="hud" id="wname">M4A1</div>
+<div class="hud" id="ammo"></div>
+<div id="v37scrim"></div><div id="v37"></div>
+<div id="start"><h1>PB MOBILE</h1><p id="startMsg">Carregando…</p>
+  <div class="keys">WASD andar · Shift andar devagar · Ctrl agachar · Espaço pular<br>Mouse atirar · Botão direito mira · R recarregar · V 1ª/3ª pessoa · Esc pausa</div></div>
+<script>try { if (document.referrer.indexOf('android-app://') === 0 || matchMedia('(display-mode: standalone), (display-mode: fullscreen)').matches) document.cookie = 'pbapp=1; max-age=31536000; path=/; secure; samesite=lax'; } catch (e) { }</script><script src="/cc.js"></script><script src="/static/i18n.js?v=202610262100"></script>
+<script src="/static/game/bundle.js?v=202610272030"></script>
+</body>
+</html>

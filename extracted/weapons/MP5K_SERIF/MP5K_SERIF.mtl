@@ -1,0 +1,9 @@
+# Materials for MP5K G.
+newmtl Mtl_Silencer_Serif.webp
+Kd 1 1 1
+map_Kd Silencer_Serif.webp
+
+newmtl Mtl_MP5K_Serif.webp
+Kd 1 1 1
+map_Kd MP5K_Serif.webp
+

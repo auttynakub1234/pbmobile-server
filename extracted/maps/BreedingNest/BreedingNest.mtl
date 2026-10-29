@@ -1,0 +1,121 @@
+# Materials for BreedingNest
+newmtl Mtl_BN_Lab_in_Ceiling_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Ceiling_01.webp
+
+newmtl Mtl_BN_Lab_in_Cylinder_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Cylinder_01.webp
+
+newmtl Mtl_BN_Lab_in_H_Steel_Gray.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_H_Steel_Gray.webp
+
+newmtl Mtl_BN_Lab_in_Controller_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Controller_01.webp
+
+newmtl Mtl_BN_Lab_in_Controller_03.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Controller_03.webp
+
+newmtl Mtl_BN_Lab_in_Fumehood_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Fumehood_01.webp
+
+newmtl Mtl_BN_Lab_in_MissileController_02.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_MissileController_02.webp
+
+newmtl Mtl_BN_Lab_in_controler_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_controler_01.webp
+
+newmtl Mtl_BN_Lab_in_Window_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Window_01.webp
+
+newmtl Mtl_BN_Lab_in_Wall_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Wall_01.webp
+
+newmtl Mtl_BN_Lab_in_MissileController_03.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_MissileController_03.webp
+
+newmtl Mtl_BN_Lab_out_wall_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_out_wall_01.webp
+
+newmtl Mtl_BN_Lab_in_Wall_02.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Wall_02.webp
+
+newmtl Mtl_BN_Lab_out_wall_01_03.webp
+Kd 1 1 1
+map_Kd BN_Lab_out_wall_01_03.webp
+
+newmtl Mtl_BN_Lab_in_ventilation_04.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_ventilation_04.webp
+
+newmtl Mtl_BN_Lab_in_pipe_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_pipe_01.webp
+
+newmtl Mtl_BN_Lab_in_Chair.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Chair.webp
+
+newmtl Mtl_BN_Lab_in_Cctv.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Cctv.webp
+
+newmtl Mtl_BN_Lab_in_floor_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_floor_01.webp
+
+newmtl Mtl_BN_Lab_in_Conroller_VTR_2.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Conroller_VTR_2.webp
+
+newmtl Mtl_BN_Lab_in_Corridor_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Corridor_01.webp
+
+newmtl Mtl_BN_Lab_in_TV.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_TV.webp
+
+newmtl Mtl_BN_Lab_in_Conroller_VTR_1.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Conroller_VTR_1.webp
+
+newmtl Mtl_BN_Lab_in_LCD TV_Diff.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_LCD TV_Diff.webp
+
+newmtl Mtl_BN_Lab_in_Movingwalk_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Movingwalk_01.webp
+
+newmtl Mtl_BN_Lab_in_MissileController_out.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_MissileController_out.webp
+
+newmtl Mtl_BN_Lab_in_Controller_02.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Controller_02.webp
+
+newmtl Mtl_BN_Lab_in_Door_01.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Door_01.webp
+
+newmtl Mtl_BN_Lab_in_Door_02.webp
+Kd 1 1 1
+map_Kd BN_Lab_in_Door_02.webp
+
+newmtl Mtl_BN_Lab_out_wall_01_02.webp
+Kd 1 1 1
+map_Kd BN_Lab_out_wall_01_02.webp
+

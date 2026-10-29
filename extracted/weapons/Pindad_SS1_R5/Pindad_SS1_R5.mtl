@@ -1,0 +1,9 @@
+# Materials for SS1-R5 Carbine
+newmtl Mtl_SS1-V5_Carbine_diff.webp
+Kd 1 1 1
+map_Kd SS1-V5_Carbine_diff.webp
+
+newmtl Mtl_M7_SS1-V5_diff.webp
+Kd 1 1 1
+map_Kd M7_SS1-V5_diff.webp
+

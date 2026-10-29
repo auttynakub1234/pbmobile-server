@@ -1,0 +1,17 @@
+# Materials for MP9 Ext
+newmtl Mtl_MP9_EXT_LaserSight_Diff.webp
+Kd 1 1 1
+map_Kd MP9_EXT_LaserSight_Diff.webp
+
+newmtl Mtl_MP9_EXT_Silencer_Diff.webp
+Kd 1 1 1
+map_Kd MP9_EXT_Silencer_Diff.webp
+
+newmtl Mtl_MP9_EXT_Diff.webp
+Kd 1 1 1
+map_Kd MP9_EXT_Diff.webp
+
+newmtl Mtl_MP9_EXT_APoint-Dot-Sight_Diff.webp
+Kd 1 1 1
+map_Kd MP9_EXT_APoint-Dot-Sight_Diff.webp
+

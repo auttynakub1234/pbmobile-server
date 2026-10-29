@@ -1,0 +1,5 @@
+# Materials for Spectre Ext.
+newmtl Mtl_Spectre.webp
+Kd 1 1 1
+map_Kd Spectre.webp
+

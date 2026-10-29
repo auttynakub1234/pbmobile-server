@@ -1,0 +1,5 @@
+# Materials for Medical Kit NewYear2026
+newmtl Mtl_Medical_Kit_Diff.webp
+Kd 1 1 1
+map_Kd Medical_Kit_Diff.webp
+

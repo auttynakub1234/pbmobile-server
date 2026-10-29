@@ -1,0 +1,121 @@
+# Materials for SafeHouse
+newmtl Mtl_Safe_metal_01_B.webp
+Kd 1 1 1
+map_Kd Safe_metal_01_B.webp
+
+newmtl Mtl_Safe_door_04_B.webp
+Kd 1 1 1
+map_Kd Safe_door_04_B.webp
+
+newmtl Mtl_Safe_wall_14_B.webp
+Kd 1 1 1
+map_Kd Safe_wall_14_B.webp
+
+newmtl Mtl_Safe_wall_09_B.webp
+Kd 1 1 1
+map_Kd Safe_wall_09_B.webp
+
+newmtl Mtl_Safe_con_green_hs_03.webp
+Kd 1 1 1
+map_Kd Safe_con_green_hs_03.webp
+
+newmtl Mtl_Safe_Ground_wood_hs_01.webp
+Kd 1 1 1
+map_Kd Safe_Ground_wood_hs_01.webp
+
+newmtl Mtl_Safe_bottom_02_B.webp
+Kd 1 1 1
+map_Kd Safe_bottom_02_B.webp
+
+newmtl Mtl_Safe_corrugated_roof_hs_01.webp
+Kd 1 1 1
+map_Kd Safe_corrugated_roof_hs_01.webp
+
+newmtl Mtl_Safe_door_02_B.webp
+Kd 1 1 1
+map_Kd Safe_door_02_B.webp
+
+newmtl Mtl_Safe_slate_01_HR.webp
+Kd 1 1 1
+map_Kd Safe_slate_01_HR.webp
+
+newmtl Mtl_safe_ground_bar_01.webp
+Kd 1 1 1
+map_Kd safe_ground_bar_01.webp
+
+newmtl Mtl_Safe_door_03_B.webp
+Kd 1 1 1
+map_Kd Safe_door_03_B.webp
+
+newmtl Mtl_Safe_bottom_04_B.webp
+Kd 1 1 1
+map_Kd Safe_bottom_04_B.webp
+
+newmtl Mtl_Safe_door_01_B.webp
+Kd 1 1 1
+map_Kd Safe_door_01_B.webp
+
+newmtl Mtl_Safe_break_con_hs_01.webp
+Kd 1 1 1
+map_Kd Safe_break_con_hs_01.webp
+
+newmtl Mtl_Safe_wood_02_B.webp
+Kd 1 1 1
+map_Kd Safe_wood_02_B.webp
+
+newmtl Mtl_Safe_ventilation_hs_01.webp
+Kd 1 1 1
+map_Kd Safe_ventilation_hs_01.webp
+
+newmtl Mtl_Safe_drainage_01.webp
+Kd 1 1 1
+map_Kd Safe_drainage_01.webp
+
+newmtl Mtl_Safe_window_hs_05.webp
+Kd 1 1 1
+map_Kd Safe_window_hs_05.webp
+
+newmtl Mtl_Safe_con_hs_04.webp
+Kd 1 1 1
+map_Kd Safe_con_hs_04.webp
+
+newmtl Mtl_Safe_corrugated_roof_hs_02.webp
+Kd 1 1 1
+map_Kd Safe_corrugated_roof_hs_02.webp
+
+newmtl Mtl_Safe_Ground_dirt_hs_02.webp
+Kd 1 1 1
+map_Kd Safe_Ground_dirt_hs_02.webp
+
+newmtl Mtl_Safe_wall_21_B.webp
+Kd 1 1 1
+map_Kd Safe_wall_21_B.webp
+
+newmtl Mtl_Safe_bar_conmetal_hs_01.webp
+Kd 1 1 1
+map_Kd Safe_bar_conmetal_hs_01.webp
+
+newmtl Mtl_Safe_ladder_02_B.webp
+Kd 1 1 1
+map_Kd Safe_ladder_02_B.webp
+
+newmtl Mtl_Safe_bottom_01_B.webp
+Kd 1 1 1
+map_Kd Safe_bottom_01_B.webp
+
+newmtl Mtl_Safe_window_hs_04.webp
+Kd 1 1 1
+map_Kd Safe_window_hs_04.webp
+
+newmtl Mtl_Safe_wall_07_B.webp
+Kd 1 1 1
+map_Kd Safe_wall_07_B.webp
+
+newmtl Mtl_Safe_roof_01_B.webp
+Kd 1 1 1
+map_Kd Safe_roof_01_B.webp
+
+newmtl Mtl_Safe_Ground_gravel_hs_01.webp
+Kd 1 1 1
+map_Kd Safe_Ground_gravel_hs_01.webp
+

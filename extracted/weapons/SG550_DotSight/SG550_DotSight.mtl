@@ -1,0 +1,13 @@
+# Materials for SG 550 Ext.
+newmtl Mtl_DotSight.webp
+Kd 1 1 1
+map_Kd DotSight.webp
+
+newmtl Mtl_Rail.webp
+Kd 1 1 1
+map_Kd Rail.webp
+
+newmtl Mtl_SG550.webp
+Kd 1 1 1
+map_Kd SG550.webp
+

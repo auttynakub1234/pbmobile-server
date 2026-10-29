@@ -1,0 +1,121 @@
+# Materials for Downtown
+newmtl Mtl_Car_TopCar_01_Khaki_01.webp
+Kd 1 1 1
+map_Kd Car_TopCar_01_Khaki_01.webp
+
+newmtl Mtl_Telephone_01.webp
+Kd 1 1 1
+map_Kd Telephone_01.webp
+
+newmtl Mtl_Vending_02.webp
+Kd 1 1 1
+map_Kd Vending_02.webp
+
+newmtl Mtl_TelephoneBox_Small_01.webp
+Kd 1 1 1
+map_Kd TelephoneBox_Small_01.webp
+
+newmtl Mtl_box.webp
+Kd 1 1 1
+map_Kd box.webp
+
+newmtl Mtl_GasBottle_01.webp
+Kd 1 1 1
+map_Kd GasBottle_01.webp
+
+newmtl Mtl_Vending_01.webp
+Kd 1 1 1
+map_Kd Vending_01.webp
+
+newmtl Mtl_handrail_02.webp
+Kd 1 1 1
+map_Kd handrail_02.webp
+
+newmtl Mtl_awning_3.webp
+Kd 1 1 1
+map_Kd awning_3.webp
+
+newmtl Mtl_building_Cafe_in_A_04.webp
+Kd 1 1 1
+map_Kd building_Cafe_in_A_04.webp
+
+newmtl Mtl_Cone_01.webp
+Kd 1 1 1
+map_Kd Cone_01.webp
+
+newmtl Mtl_Car_BRKT_01_Police_01.webp
+Kd 1 1 1
+map_Kd Car_BRKT_01_Police_01.webp
+
+newmtl Mtl_signboard_03.webp
+Kd 1 1 1
+map_Kd signboard_03.webp
+
+newmtl Mtl_Barricade_Stone_01.webp
+Kd 1 1 1
+map_Kd Barricade_Stone_01.webp
+
+newmtl Mtl_GarbageCan_Middle_01.webp
+Kd 1 1 1
+map_Kd GarbageCan_Middle_01.webp
+
+newmtl Mtl_Dustbin_01.webp
+Kd 1 1 1
+map_Kd Dustbin_01.webp
+
+newmtl Mtl_awning_1.webp
+Kd 1 1 1
+map_Kd awning_1.webp
+
+newmtl Mtl_signboard_01.webp
+Kd 1 1 1
+map_Kd signboard_01.webp
+
+newmtl Mtl_Drum_Black_01.webp
+Kd 1 1 1
+map_Kd Drum_Black_01.webp
+
+newmtl Mtl_building_store_A_01.webp
+Kd 1 1 1
+map_Kd building_store_A_01.webp
+
+newmtl Mtl_building_store_A_03.webp
+Kd 1 1 1
+map_Kd building_store_A_03.webp
+
+newmtl Mtl_TelephoneBox_Large_01.webp
+Kd 1 1 1
+map_Kd TelephoneBox_Large_01.webp
+
+newmtl Mtl_box_wood_01.webp
+Kd 1 1 1
+map_Kd box_wood_01.webp
+
+newmtl Mtl_GarbageCan_Large_01.webp
+Kd 1 1 1
+map_Kd GarbageCan_Large_01.webp
+
+newmtl Mtl_NewspaperVendingMachine_01.webp
+Kd 1 1 1
+map_Kd NewspaperVendingMachine_01.webp
+
+newmtl Mtl_Condensor_01.webp
+Kd 1 1 1
+map_Kd Condensor_01.webp
+
+newmtl Mtl_GarbageCan_Small_01.webp
+Kd 1 1 1
+map_Kd GarbageCan_Small_01.webp
+
+newmtl Mtl_signboard_02.webp
+Kd 1 1 1
+map_Kd signboard_02.webp
+
+newmtl Mtl_TelegraphPole_01.webp
+Kd 1 1 1
+map_Kd TelegraphPole_01.webp
+
+newmtl Mtl_awning_2.webp
+Kd 1 1 1
+map_Kd awning_2.webp
+

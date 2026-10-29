@@ -1,0 +1,5 @@
+# Materials for SPAS-15
+newmtl Mtl_SPAS15.webp
+Kd 1 1 1
+map_Kd SPAS15.webp
+

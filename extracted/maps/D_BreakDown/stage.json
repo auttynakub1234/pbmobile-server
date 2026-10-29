@@ -1,0 +1,3510 @@
+{
+  "stage": {
+    "name": "D_BreakDown",
+    "world": "World/D_Breakdown/D_Breakdown_World.i3s",
+    "sky": "World/Breakdown/Breakdown_Sky.i3s",
+    "cols": {
+      "hero": "World/D_Breakdown/D_Breakdown_Col_Hero.I3S",
+      "hit": "World/D_Breakdown/D_Breakdown_Col_Hit.I3S",
+      "light": "World/D_Breakdown/D_Breakdown_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/D_Breakdown/D_Breakdown_World.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Breakdown/Breakdown_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/D_Breakdown/D_Breakdown_Col_Hero.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/D_Breakdown/D_Breakdown_Col_Hit.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/D_Breakdown/D_Breakdown_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/D_Breakdown/D_Breakdown.i3wrd",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/BN_Potal.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/cgame/BN_potal.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "World/D_Breakdown/Light/D_Breakdown_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdonw_sector_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_29.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_30.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_31.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_33.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_05.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_34.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_35.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_06.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_310.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_36.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_360.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_3600.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_09.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_37.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_38.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_380.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_08.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_39.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_40.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_41.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_400.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_311.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_3601.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_42.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_350.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_43.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box_44.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/D_Breakdown_section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/D_Breakdown/_Generated/Box0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/effect/BN_arrow_Green_non.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/effect/BN_arrow_Green_non.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      }
+    ],
+    "ins_version": 4,
+    "layers": [
+      "Default",
+      "Layer",
+      "Layer1"
+    ],
+    "source": "pack",
+    "textures": []
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          505405115,
+          416807930,
+          3592317192,
+          3977217308
+        ],
+        "respath": "World/D_Breakdown/D_Breakdown.i3wrd",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        46.6834602355957,
+        0.0020020001102238894,
+        -9.212639808654785
+      ],
+      "rot": [
+        0,
+        -86.92742005043434,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6878949999809265,
+        0,
+        0.7258102297782898
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "Respawn1",
+      "res": null,
+      "obj": null,
+      "pos": [
+        46.6834602355957,
+        0.0020020001102238894,
+        -7.697360038757324
+      ],
+      "rot": [
+        0,
+        -86.92742005043434,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6878949999809265,
+        0,
+        0.7258102297782898
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "Respawn2",
+      "res": null,
+      "obj": null,
+      "pos": [
+        46.6834602355957,
+        0.0020020001102238894,
+        -5.882795810699463
+      ],
+      "rot": [
+        0,
+        -86.92742005043434,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6878949999809265,
+        0,
+        0.7258102297782898
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "Respawn3",
+      "res": null,
+      "obj": null,
+      "pos": [
+        46.6834602355957,
+        0.0020020001102238894,
+        -4.367516994476318
+      ],
+      "rot": [
+        0,
+        -86.92742005043434,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6878949999809265,
+        0,
+        0.7258102297782898
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "Respawn4",
+      "res": null,
+      "obj": null,
+      "pos": [
+        48.73880386352539,
+        0.0020020001102238894,
+        -9.212639808654785
+      ],
+      "rot": [
+        0,
+        -86.92742005043434,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6878949999809265,
+        0,
+        0.7258102297782898
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "Respawn5",
+      "res": null,
+      "obj": null,
+      "pos": [
+        48.73880386352539,
+        0.0020020001102238894,
+        -7.697360038757324
+      ],
+      "rot": [
+        0,
+        -86.92742005043434,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6878949999809265,
+        0,
+        0.7258102297782898
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "Respawn6",
+      "res": null,
+      "obj": null,
+      "pos": [
+        48.73880386352539,
+        0.0020020001102238894,
+        -5.882795810699463
+      ],
+      "rot": [
+        0,
+        -86.92742005043434,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6878949999809265,
+        0,
+        0.7258102297782898
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "Respawn7",
+      "res": null,
+      "obj": null,
+      "pos": [
+        48.73880386352539,
+        0.0020020001102238894,
+        -4.367516994476318
+      ],
+      "rot": [
+        0,
+        -86.92742005043434,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6878949999809265,
+        0,
+        0.7258102297782898
+      ],
+      "scale": [
+        0.9999995231628418,
+        1,
+        0.9999995231628418
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "Respawn8",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -46.14481735229492,
+        0.0020020001102238894,
+        -2.7081170082092285
+      ],
+      "rot": [
+        0,
+        91.22359286475772,
+        0
+      ],
+      "quat": [
+        0,
+        0.7146167159080505,
+        0,
+        0.699516236782074
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "Respawn9",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -46.14481735229492,
+        0.0020020001102238894,
+        -1.1928379535675049
+      ],
+      "rot": [
+        0,
+        91.22359286475772,
+        0
+      ],
+      "quat": [
+        0,
+        0.7146167159080505,
+        0,
+        0.699516236782074
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "Respawn10",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -46.14481735229492,
+        0.0020020001102238894,
+        0.6217259764671326
+      ],
+      "rot": [
+        0,
+        91.22359286475772,
+        0
+      ],
+      "quat": [
+        0,
+        0.7146167159080505,
+        0,
+        0.699516236782074
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "Respawn11",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -46.14481735229492,
+        0.0020020001102238894,
+        2.1370060443878174
+      ],
+      "rot": [
+        0,
+        91.22359286475772,
+        0
+      ],
+      "quat": [
+        0,
+        0.7146167159080505,
+        0,
+        0.699516236782074
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "Respawn12",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -44.089473724365234,
+        0.0020020001102238894,
+        -2.7081170082092285
+      ],
+      "rot": [
+        0,
+        91.22359286475772,
+        0
+      ],
+      "quat": [
+        0,
+        0.7146167159080505,
+        0,
+        0.699516236782074
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "Respawn13",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -44.089473724365234,
+        0.0020020001102238894,
+        -1.1928379535675049
+      ],
+      "rot": [
+        0,
+        91.22359286475772,
+        0
+      ],
+      "quat": [
+        0,
+        0.7146167159080505,
+        0,
+        0.699516236782074
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "Respawn14",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -44.089473724365234,
+        0.0020020001102238894,
+        0.6217259764671326
+      ],
+      "rot": [
+        0,
+        91.22359286475772,
+        0
+      ],
+      "quat": [
+        0,
+        0.7146167159080505,
+        0,
+        0.699516236782074
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn14",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "Respawn15",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -44.089473724365234,
+        0.0020020001102238894,
+        2.1370060443878174
+      ],
+      "rot": [
+        0,
+        91.22359286475772,
+        0
+      ],
+      "quat": [
+        0,
+        0.7146167159080505,
+        0,
+        0.699516236782074
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn15",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "unknown",
+      "name": "BN_potal0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -86.31140899658203,
+        1.0949180126190186,
+        1.9596539735794067
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2305445303,
+        "clsname": "0x896A4DB7",
+        "res": [
+          1137709830,
+          3040788121,
+          2480879864,
+          20624169
+        ],
+        "respath": "Object/cgame/BN_potal.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000000000000000000000000000000000000000000000000000000000",
+        "name": "BN_potal0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "unknown",
+      "name": "BN_potal1",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -86.31140899658203,
+        1.3621779680252075,
+        0.10607299953699112
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2305445303,
+        "clsname": "0x896A4DB7",
+        "res": [
+          1137709830,
+          3040788121,
+          2480879864,
+          20624169
+        ],
+        "respath": "Object/cgame/BN_potal.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000000000000000000000000000000000000000000000000000000000",
+        "name": "BN_potal1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "unknown",
+      "name": "BN_potal2",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -86.31140899658203,
+        1.3621779680252075,
+        -1.6582159996032715
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2305445303,
+        "clsname": "0x896A4DB7",
+        "res": [
+          1137709830,
+          3040788121,
+          2480879864,
+          20624169
+        ],
+        "respath": "Object/cgame/BN_potal.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "6500000000000000000000000000000000000000000000000000000000000000",
+        "name": "BN_potal2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "unknown",
+      "name": "D_Breakdown_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        47.112552642822266,
+        34.4642219543457,
+        1.311079978942871
+      ],
+      "rot": [
+        -45.47454710533103,
+        129.14571885138912,
+        51.83620147189596
+      ],
+      "quat": [
+        0.21480926871299744,
+        0.8217039108276367,
+        0.48704108595848083,
+        0.2035948485136032
+      ],
+      "scale": [
+        1.0000003576278687,
+        0.9999999403953552,
+        0.9999998807907104
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          1480405603,
+          3651171382,
+          2880538118,
+          1053300797
+        ],
+        "respath": "World/D_Breakdown/Light/D_Breakdown_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "D_Breakdown_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "trigger",
+      "name": "Box_29",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdonw_sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        67.7196273803711,
+        0.0019990000873804092,
+        -14.777837753295898
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        45.249061584472656,
+        11.598410606384277,
+        29.694618225097656
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2183949573,
+          455302655,
+          3625371125,
+          215025084
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdonw_sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_29",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "trigger",
+      "name": "Box_30",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdonw_sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        61.04390335083008,
+        1.606482982635498,
+        13.805448532104492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        31.900442123413086,
+        10.168828964233398,
+        27.314544677734375
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2183949573,
+          455302655,
+          3625371125,
+          215025084
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdonw_sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_30",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "trigger",
+      "name": "Box_31",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        26.042633056640625,
+        6.6830830574035645,
+        -20.694679260253906
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.670616149902344,
+        13.564531326293945,
+        6.490108013153076
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3311287804,
+          1094453415,
+          2156214658,
+          3262703975
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_31",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "trigger",
+      "name": "Box_33",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdonw_sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        38.32014465332031,
+        0.0019990000873804092,
+        5.231264114379883
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.42783260345459,
+        12.562536239624023,
+        58.196956634521484
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2183949573,
+          455302655,
+          3625371125,
+          215025084
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdonw_sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_33",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "trigger",
+      "name": "Box_34",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        -3.304811954498291,
+        3.488395929336548,
+        -12.299369812011719
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        27.85636329650879,
+        5.742496013641357,
+        23.357669830322266
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3216551587,
+          2429971514,
+          3422357479,
+          920517228
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_34",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "trigger",
+      "name": "Box_35",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        0.18206700682640076,
+        4.435947895050049,
+        10.72182846069336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.937644958496094,
+        7.285536766052246,
+        22.404272079467773
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          179050625,
+          840694420,
+          3820128261,
+          1989334119
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_35",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "trigger",
+      "name": "Box_310",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -33.64826965332031,
+        6.6830830574035645,
+        -20.6845760345459
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        18.156646728515625,
+        13.564531326293945,
+        6.490108013153076
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3630447590,
+          3886817321,
+          592560304,
+          4070912339
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_310",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "trigger",
+      "name": "Box_36",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        -20.92690658569336,
+        3.893009901046753,
+        1.5321799516677856
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.048379898071289,
+        9.150568962097168,
+        50.992305755615234
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2624087715,
+          4013496883,
+          4260428369,
+          3463678982
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_36",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "trigger",
+      "name": "Box_360",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        -31.44708824157715,
+        2.904810905456543,
+        10.481464385986328
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.917611122131348,
+        8.227582931518555,
+        6.563436031341553
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2624087715,
+          4013496883,
+          4260428369,
+          3463678982
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "1c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_360",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "trigger",
+      "name": "Box_3600",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        -13.833462715148926,
+        2.4912960529327393,
+        10.481464385986328
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.048809051513672,
+        6.034424781799316,
+        6.563436031341553
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2624087715,
+          4013496883,
+          4260428369,
+          3463678982
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "1c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_3600",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "trigger",
+      "name": "Box_37",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        -31.454477310180664,
+        2.102735996246338,
+        0.4265179932117462
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.936312675476074,
+        7.848825931549072,
+        13.367240905761719
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          201723450,
+          994978423,
+          3099453043,
+          255368273
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_37",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "trigger",
+      "name": "Box_38",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        -45.23420715332031,
+        4.747478008270264,
+        5.104314804077148
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.559955596923828,
+        10.488042831420898,
+        44.938758850097656
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2624087715,
+          4013496883,
+          4260428369,
+          3463678982
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_38",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "trigger",
+      "name": "Box_380",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        -47.399696350097656,
+        2.708498001098633,
+        -20.692983627319336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.251773834228516,
+        6.012718200683594,
+        6.560545921325684
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2624087715,
+          4013496883,
+          4260428369,
+          3463678982
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_380",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "trigger",
+      "name": "Box_39",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        -64.09599304199219,
+        7.112483024597168,
+        -4.987174034118652
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        23.964597702026367,
+        6.0713348388671875,
+        30.874317169189453
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2452475471,
+          2545143864,
+          1822440291,
+          885644490
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_39",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "trigger",
+      "name": "Box_40",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        -80.9849624633789,
+        4.226683139801025,
+        -8.319217681884766
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.60345458984375,
+        8.815403938293457,
+        23.76770782470703
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2452475471,
+          2545143864,
+          1822440291,
+          885644490
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_40",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "trigger",
+      "name": "Box_41",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        -69.31355285644531,
+        5.0712080001831055,
+        26.2994441986084
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        34.516849517822266,
+        12.430994987487793,
+        31.638263702392578
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2452475471,
+          2545143864,
+          1822440291,
+          885644490
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_41",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "trigger",
+      "name": "Box_400",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        -64.08895874023438,
+        1.3763010501861572,
+        0.22846199572086334
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        23.727048873901367,
+        2.476067066192627,
+        7.035109043121338
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2452475471,
+          2545143864,
+          1822440291,
+          885644490
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_400",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "trigger",
+      "name": "Box_311",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        33.10405349731445,
+        9.071030616760254,
+        -20.694679260253906
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.255970001220703,
+        5.439868927001953,
+        6.490108013153076
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3311287804,
+          1094453415,
+          2156214658,
+          3262703975
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_311",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "trigger",
+      "name": "Box_3601",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        -31.44708824157715,
+        2.904810905456543,
+        -9.586413383483887
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.917611122131348,
+        8.227582931518555,
+        6.563436031341553
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2624087715,
+          4013496883,
+          4260428369,
+          3463678982
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "1c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_3601",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "trigger",
+      "name": "Box_42",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        24.874868392944336,
+        16.15443229675293,
+        -5.047523021697998
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        17.490739822387695,
+        16.05956268310547,
+        24.262165069580078
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          965561851,
+          1176665134,
+          2668901085,
+          2551748743
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_42",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "trigger",
+      "name": "Box_350",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        21.13306427001953,
+        4.435947895050049,
+        10.843549728393555
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.730928421020508,
+        7.285536766052246,
+        6.968573093414307
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          179050625,
+          840694420,
+          3820128261,
+          1989334119
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_350",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "trigger",
+      "name": "Box_43",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        17.704511642456055,
+        13.87021255493164,
+        -5.047523021697998
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3.299437999725342,
+        16.05956268310547,
+        24.262165069580078
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          965561851,
+          1176665134,
+          2668901085,
+          2551748743
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_43",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "trigger",
+      "name": "Box_44",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        14.842325210571289,
+        2.4306468963623047,
+        -9.031881332397461
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.698633193969727,
+        6.265453815460205,
+        32.4007682800293
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3216551587,
+          2429971514,
+          3422357479,
+          920517228
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_44",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i44",
+      "kind": "trigger",
+      "name": "Box0",
+      "res": "Scene/D_Breakdown/_Generated/D_Breakdown_section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -63.51348114013672,
+        0.9771639704704285,
+        0.18730400502681732
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        22.782958984375,
+        4.657142162322998,
+        8.12863540649414
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1166220025,
+          3237366292,
+          2221553733,
+          3742268609
+        ],
+        "respath": "Scene/D_Breakdown/_Generated/D_Breakdown_section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i45",
+      "kind": "prop",
+      "name": "BN_arrow_Green_non0",
+      "res": "Object/effect/BN_arrow_Green_non.I3S",
+      "obj": "Object/effect/BN_arrow_Green_non.i3Obj",
+      "pos": [
+        -86.89704132080078,
+        0.16997699439525604,
+        2.107135057449341
+      ],
+      "rot": [
+        0,
+        92.42830298946043,
+        0
+      ],
+      "quat": [
+        0,
+        0.7219311594963074,
+        0,
+        0.6919649243354797
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3503560417,
+          2179246217,
+          1505644064,
+          1596895952
+        ],
+        "respath": "Object/effect/BN_arrow_Green_non.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "BN_arrow_Green_non0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i46",
+      "kind": "prop",
+      "name": "BN_arrow_Green_non1",
+      "res": "Object/effect/BN_arrow_Green_non.I3S",
+      "obj": "Object/effect/BN_arrow_Green_non.i3Obj",
+      "pos": [
+        -86.89704132080078,
+        0.16997699439525604,
+        0.26819100975990295
+      ],
+      "rot": [
+        0,
+        92.42830298946043,
+        0
+      ],
+      "quat": [
+        0,
+        0.7219311594963074,
+        0,
+        0.6919649243354797
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3503560417,
+          2179246217,
+          1505644064,
+          1596895952
+        ],
+        "respath": "Object/effect/BN_arrow_Green_non.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "BN_arrow_Green_non1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i47",
+      "kind": "prop",
+      "name": "BN_arrow_Green_non2",
+      "res": "Object/effect/BN_arrow_Green_non.I3S",
+      "obj": "Object/effect/BN_arrow_Green_non.i3Obj",
+      "pos": [
+        -86.89704132080078,
+        0.16997699439525604,
+        -1.5239969491958618
+      ],
+      "rot": [
+        0,
+        92.42830298946043,
+        0
+      ],
+      "quat": [
+        0,
+        0.7219311594963074,
+        0,
+        0.6919649243354797
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3503560417,
+          2179246217,
+          1505644064,
+          1596895952
+        ],
+        "respath": "Object/effect/BN_arrow_Green_non.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "BN_arrow_Green_non2",
+        "layer": 0
+      }
+    }
+  ]
+}

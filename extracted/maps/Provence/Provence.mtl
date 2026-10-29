@@ -1,0 +1,121 @@
+# Materials for Provence
+newmtl Mtl_Provence_Bench_01_B.webp
+Kd 1 1 1
+map_Kd Provence_Bench_01_B.webp
+
+newmtl Mtl_Provence_concrete_03.webp
+Kd 1 1 1
+map_Kd Provence_concrete_03.webp
+
+newmtl Mtl_Provence_Box_01_rs.webp
+Kd 1 1 1
+map_Kd Provence_Box_01_rs.webp
+
+newmtl Mtl_Provence_Door_06.webp
+Kd 1 1 1
+map_Kd Provence_Door_06.webp
+
+newmtl Mtl_Provence_bottom_03.webp
+Kd 1 1 1
+map_Kd Provence_bottom_03.webp
+
+newmtl Mtl_Provence_bottom_02.webp
+Kd 1 1 1
+map_Kd Provence_bottom_02.webp
+
+newmtl Mtl_Provence_Floor_01.webp
+Kd 1 1 1
+map_Kd Provence_Floor_01.webp
+
+newmtl Mtl_Provence_concrete_02.webp
+Kd 1 1 1
+map_Kd Provence_concrete_02.webp
+
+newmtl Mtl_Provence_Etc_01.webp
+Kd 1 1 1
+map_Kd Provence_Etc_01.webp
+
+newmtl Mtl_Provence_con_lc_01_13.webp
+Kd 1 1 1
+map_Kd Provence_con_lc_01_13.webp
+
+newmtl Mtl_Provence_Door_01.webp
+Kd 1 1 1
+map_Kd Provence_Door_01.webp
+
+newmtl Mtl_Provence_Door_04.webp
+Kd 1 1 1
+map_Kd Provence_Door_04.webp
+
+newmtl Mtl_Provence_bottom_01.webp
+Kd 1 1 1
+map_Kd Provence_bottom_01.webp
+
+newmtl Mtl_Provence_Box_02_rs.webp
+Kd 1 1 1
+map_Kd Provence_Box_02_rs.webp
+
+newmtl Mtl_Provence_Floor_03.webp
+Kd 1 1 1
+map_Kd Provence_Floor_03.webp
+
+newmtl Mtl_Provence_con_lc_01_15.webp
+Kd 1 1 1
+map_Kd Provence_con_lc_01_15.webp
+
+newmtl Mtl_Provence_Door_07.webp
+Kd 1 1 1
+map_Kd Provence_Door_07.webp
+
+newmtl Mtl_Provence_Door_03.webp
+Kd 1 1 1
+map_Kd Provence_Door_03.webp
+
+newmtl Mtl_Provence_Door_05.webp
+Kd 1 1 1
+map_Kd Provence_Door_05.webp
+
+newmtl Mtl_Provence_carpets_01_B.webp
+Kd 1 1 1
+map_Kd Provence_carpets_01_B.webp
+
+newmtl Mtl_Provence_Door_08.webp
+Kd 1 1 1
+map_Kd Provence_Door_08.webp
+
+newmtl Mtl_Provence_Door_02.webp
+Kd 1 1 1
+map_Kd Provence_Door_02.webp
+
+newmtl Mtl_Provence_bottom_04.webp
+Kd 1 1 1
+map_Kd Provence_bottom_04.webp
+
+newmtl Mtl_Provence_cement_01.webp
+Kd 1 1 1
+map_Kd Provence_cement_01.webp
+
+newmtl Mtl_Provence_Floor_07.webp
+Kd 1 1 1
+map_Kd Provence_Floor_07.webp
+
+newmtl Mtl_Provence_Floor_04.webp
+Kd 1 1 1
+map_Kd Provence_Floor_04.webp
+
+newmtl Mtl_Provence_cloth_01_B.webp
+Kd 1 1 1
+map_Kd Provence_cloth_01_B.webp
+
+newmtl Mtl_Provence_Crate_01.webp
+Kd 1 1 1
+map_Kd Provence_Crate_01.webp
+
+newmtl Mtl_Provence_bottom_06_B.webp
+Kd 1 1 1
+map_Kd Provence_bottom_06_B.webp
+
+newmtl Mtl_GarbageCan_Middle_01.webp
+Kd 1 1 1
+map_Kd GarbageCan_Middle_01.webp
+

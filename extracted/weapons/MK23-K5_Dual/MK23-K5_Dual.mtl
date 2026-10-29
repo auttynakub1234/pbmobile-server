@@ -1,0 +1,9 @@
+# Materials for Dual Handgun
+newmtl Mtl_MK23_Diff.webp
+Kd 1 1 1
+map_Kd MK23_Diff.webp
+
+newmtl Mtl_Silencer.webp
+Kd 1 1 1
+map_Kd Silencer.webp
+

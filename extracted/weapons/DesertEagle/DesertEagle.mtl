@@ -1,0 +1,5 @@
+# Materials for Desert Eagle
+newmtl Mtl_Desert_Eagle.webp
+Kd 1 1 1
+map_Kd Desert_Eagle.webp
+

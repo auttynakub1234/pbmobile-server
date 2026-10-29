@@ -1,0 +1,5 @@
+# Materials for Hk45 Dual
+newmtl Mtl_HK45_Dual_diff.webp
+Kd 1 1 1
+map_Kd HK45_Dual_diff.webp
+

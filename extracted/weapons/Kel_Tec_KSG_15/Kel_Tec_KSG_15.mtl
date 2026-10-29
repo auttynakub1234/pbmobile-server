@@ -1,0 +1,9 @@
+# Materials for Kel-Tec KSG-15
+newmtl Mtl_kel_tec_KSG_15_diff.webp
+Kd 1 1 1
+map_Kd kel_tec_KSG_15_diff.webp
+
+newmtl Mtl_870MCS_Vol.webp
+Kd 1 1 1
+map_Kd 870MCS_Vol.webp
+

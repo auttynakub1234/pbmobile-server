@@ -1,0 +1,13 @@
+# Materials for Winchester M70
+newmtl Mtl_M70_scope_diff.webp
+Kd 1 1 1
+map_Kd M70_scope_diff.webp
+
+newmtl Mtl_M70_gunbarrel_diff.webp
+Kd 1 1 1
+map_Kd M70_gunbarrel_diff.webp
+
+newmtl Mtl_M70_diff.webp
+Kd 1 1 1
+map_Kd M70_diff.webp
+

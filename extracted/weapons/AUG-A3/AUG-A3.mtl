@@ -1,0 +1,9 @@
+# Materials for AUG A3
+newmtl Mtl_DotSight_AUG_A3.webp
+Kd 1 1 1
+map_Kd DotSight_AUG_A3.webp
+
+newmtl Mtl_AUG_A3.webp
+Kd 1 1 1
+map_Kd AUG_A3.webp
+

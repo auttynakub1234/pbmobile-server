@@ -1,0 +1,121 @@
+# Materials for NPort
+newmtl Mtl_Asphalt_A_1_new.webp
+Kd 1 1 1
+map_Kd Asphalt_A_1_new.webp
+
+newmtl Mtl_Asphalt_A_2_new.webp
+Kd 1 1 1
+map_Kd Asphalt_A_2_new.webp
+
+newmtl Mtl_Container_Out.webp
+Kd 1 1 1
+map_Kd Container_Out.webp
+
+newmtl Mtl_Crain_A.webp
+Kd 1 1 1
+map_Kd Crain_A.webp
+
+newmtl Mtl_frame_metal.webp
+Kd 1 1 1
+map_Kd frame_metal.webp
+
+newmtl Mtl_Nport_bumper.webp
+Kd 1 1 1
+map_Kd Nport_bumper.webp
+
+newmtl Mtl_Nport_window.webp
+Kd 1 1 1
+map_Kd Nport_window.webp
+
+newmtl Mtl_bottom_rail_02.webp
+Kd 1 1 1
+map_Kd bottom_rail_02.webp
+
+newmtl Mtl_bottom_rail_01.webp
+Kd 1 1 1
+map_Kd bottom_rail_01.webp
+
+newmtl Mtl_roof_metal.webp
+Kd 1 1 1
+map_Kd roof_metal.webp
+
+newmtl Mtl_Stairs_Concrete.webp
+Kd 1 1 1
+map_Kd Stairs_Concrete.webp
+
+newmtl Mtl_Street_Lamp_002_D.webp
+Kd 1 1 1
+map_Kd Street_Lamp_002_D.webp
+
+newmtl Mtl_Wall_B_1_new.webp
+Kd 1 1 1
+map_Kd Wall_B_1_new.webp
+
+newmtl Mtl_Wall_B_2_new.webp
+Kd 1 1 1
+map_Kd Wall_B_2_new.webp
+
+newmtl Mtl_Wall_in_Red.webp
+Kd 1 1 1
+map_Kd Wall_in_Red.webp
+
+newmtl Mtl_Wall_Out_02.webp
+Kd 1 1 1
+map_Kd Wall_Out_02.webp
+
+newmtl Mtl_Wall_Out_01.webp
+Kd 1 1 1
+map_Kd Wall_Out_01.webp
+
+newmtl Mtl_Box_Covered.webp
+Kd 1 1 1
+map_Kd Box_Covered.webp
+
+newmtl Mtl_Container_blue_01_new.webp
+Kd 1 1 1
+map_Kd Container_blue_01_new.webp
+
+newmtl Mtl_Container_A_red.webp
+Kd 1 1 1
+map_Kd Container_A_red.webp
+
+newmtl Mtl_Asphalt_A_3_new.webp
+Kd 1 1 1
+map_Kd Asphalt_A_3_new.webp
+
+newmtl Mtl_Footpath_A_1_new.webp
+Kd 1 1 1
+map_Kd Footpath_A_1_new.webp
+
+newmtl Mtl_Crane_3.webp
+Kd 1 1 1
+map_Kd Crane_3.webp
+
+newmtl Mtl_NPort_Shutter.webp
+Kd 1 1 1
+map_Kd NPort_Shutter.webp
+
+newmtl Mtl_Wall_in_Blue.webp
+Kd 1 1 1
+map_Kd Wall_in_Blue.webp
+
+newmtl Mtl_wall_metal_01.webp
+Kd 1 1 1
+map_Kd wall_metal_01.webp
+
+newmtl Mtl_Container_A.webp
+Kd 1 1 1
+map_Kd Container_A.webp
+
+newmtl Mtl_Container_Cover.webp
+Kd 1 1 1
+map_Kd Container_Cover.webp
+
+newmtl Mtl_wall_stair_1_new.webp
+Kd 1 1 1
+map_Kd wall_stair_1_new.webp
+
+newmtl Mtl_crain_B.webp
+Kd 1 1 1
+map_Kd crain_B.webp
+

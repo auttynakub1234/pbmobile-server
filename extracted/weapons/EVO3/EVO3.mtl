@@ -1,0 +1,17 @@
+# Materials for EVO 3
+newmtl Mtl_EVO-3_DotSight_Diff.webp
+Kd 1 1 1
+map_Kd EVO-3_DotSight_Diff.webp
+
+newmtl Mtl_Grenade.webp
+Kd 1 1 1
+map_Kd Grenade.webp
+
+newmtl Mtl_Ris_M203.webp
+Kd 1 1 1
+map_Kd Ris_M203.webp
+
+newmtl Mtl_EVO-3_Diff.webp
+Kd 1 1 1
+map_Kd EVO-3_Diff.webp
+

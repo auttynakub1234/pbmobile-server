@@ -1,0 +1,121 @@
+# Materials for Luxville
+newmtl Mtl_MissileController_03.webp
+Kd 1 1 1
+map_Kd MissileController_03.webp
+
+newmtl Mtl_show_tableD.webp
+Kd 1 1 1
+map_Kd show_tableD.webp
+
+newmtl Mtl_stair_wall_1D.webp
+Kd 1 1 1
+map_Kd stair_wall_1D.webp
+
+newmtl Mtl_wall_window_2D.webp
+Kd 1 1 1
+map_Kd wall_window_2D.webp
+
+newmtl Mtl_wall_window_1D.webp
+Kd 1 1 1
+map_Kd wall_window_1D.webp
+
+newmtl Mtl_ceiling_3D.webp
+Kd 1 1 1
+map_Kd ceiling_3D.webp
+
+newmtl Mtl_handrail_1D.webp
+Kd 1 1 1
+map_Kd handrail_1D.webp
+
+newmtl Mtl_radiator_1.webp
+Kd 1 1 1
+map_Kd radiator_1.webp
+
+newmtl Mtl_wall1_1D.webp
+Kd 1 1 1
+map_Kd wall1_1D.webp
+
+newmtl Mtl_paper1.webp
+Kd 1 1 1
+map_Kd paper1.webp
+
+newmtl Mtl_MissileController_02.webp
+Kd 1 1 1
+map_Kd MissileController_02.webp
+
+newmtl Mtl_base_10D.webp
+Kd 1 1 1
+map_Kd base_10D.webp
+
+newmtl Mtl_base_2D.webp
+Kd 1 1 1
+map_Kd base_2D.webp
+
+newmtl Mtl_light.webp
+Kd 1 1 1
+map_Kd light.webp
+
+newmtl Mtl_MissileController_01.webp
+Kd 1 1 1
+map_Kd MissileController_01.webp
+
+newmtl Mtl_Door_1D.webp
+Kd 1 1 1
+map_Kd Door_1D.webp
+
+newmtl Mtl_paper2.webp
+Kd 1 1 1
+map_Kd paper2.webp
+
+newmtl Mtl_book_1D.webp
+Kd 1 1 1
+map_Kd book_1D.webp
+
+newmtl Mtl_handrail_ceiling_2D_2.webp
+Kd 1 1 1
+map_Kd handrail_ceiling_2D_2.webp
+
+newmtl Mtl_outside_wall_2.webp
+Kd 1 1 1
+map_Kd outside_wall_2.webp
+
+newmtl Mtl_ceiling_2D.webp
+Kd 1 1 1
+map_Kd ceiling_2D.webp
+
+newmtl Mtl_Roof_1.webp
+Kd 1 1 1
+map_Kd Roof_1.webp
+
+newmtl Mtl_wall1_2D.webp
+Kd 1 1 1
+map_Kd wall1_2D.webp
+
+newmtl Mtl_Door_wall_1D.webp
+Kd 1 1 1
+map_Kd Door_wall_1D.webp
+
+newmtl Mtl_Desk_01.webp
+Kd 1 1 1
+map_Kd Desk_01.webp
+
+newmtl Mtl_base_2B.webp
+Kd 1 1 1
+map_Kd base_2B.webp
+
+newmtl Mtl_handrail_ceiling_1D.webp
+Kd 1 1 1
+map_Kd handrail_ceiling_1D.webp
+
+newmtl Mtl_bookcase_1D.webp
+Kd 1 1 1
+map_Kd bookcase_1D.webp
+
+newmtl Mtl_interior_2.webp
+Kd 1 1 1
+map_Kd interior_2.webp
+
+newmtl Mtl_MissileController_out.webp
+Kd 1 1 1
+map_Kd MissileController_out.webp
+

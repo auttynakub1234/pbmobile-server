@@ -1,0 +1,5 @@
+# Materials for Kriss Vector SDP
+newmtl Mtl_Kriss_Vector_diff.webp
+Kd 1 1 1
+map_Kd Kriss_Vector_diff.webp
+

@@ -1,0 +1,8096 @@
+{
+  "stage": {
+    "name": "TinyTown",
+    "world": "World/TinyTown/TinyTown_world.i3s",
+    "sky": "World/TinyTown/TinyTown_Sky.i3s",
+    "cols": {
+      "hero": "World/TinyTown/TinyTown_Col_Hero.i3s",
+      "hit": "World/TinyTown/TinyTown_Col_Hit.i3s",
+      "light": "World/TinyTown/TinyTown_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/TinyTown/TinyTown_world.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/TinyTown_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/TinyTown_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/TinyTown_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/TinyTown_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/TinyTown.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector8.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector14.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector14.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector15.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector16.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector17.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector17.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector18.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector18.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector19.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector19.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector20.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector20.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Light/TinyTown_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Section1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Section1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box37_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment0.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box38_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box39_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box40_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box41_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box43_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector14.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box45_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box46_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box47_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment8.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box47_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box49_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box49_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box52_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box52_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box54_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment14.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box54_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment15.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box55_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment16.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box56_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment17.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box57_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment18.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box58_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment19.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box46_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment20.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box45_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment21.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box61_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment22.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Sector7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box12_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment23.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box73_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment24.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Ref19.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Ref19.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box76_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment25.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box76_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment26.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box79_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment27.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box79_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment28.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box80_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment29.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box80_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment30.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box82_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment31.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "World/TinyTown/Environment/TinyTown_Box83_Ref.i3i",
+        "type": 2,
+        "tname": "TEXTURE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TinyTown/_Generated/Environment32.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      }
+    ],
+    "ins_version": 4,
+    "layers": [
+      "Default",
+      "HitMap",
+      "Respawn",
+      "Sector_Out",
+      "Sector_In",
+      "Light",
+      "Section",
+      "Enviroment"
+    ],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/TinyTown/Textures/Town_In_Ground_LightingMap.i3i",
+        "name": "Town_In_Ground_LightingMap"
+      },
+      {
+        "path": "World/TinyTown/Textures/Road_Y_02.i3i",
+        "name": "Road_Y_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_asphalt_01.i3i",
+        "name": "town_asphalt_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_asphalt_02.i3i",
+        "name": "town_asphalt_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_bottom_tile_01.i3i",
+        "name": "town_bottom_tile_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_bottom_tile_02.i3i",
+        "name": "town_bottom_tile_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_carpet_03.i3i",
+        "name": "town_carpet_03"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_carpet_04.i3i",
+        "name": "town_carpet_04"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_carport_ceiling.i3i",
+        "name": "town_carport_ceiling"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_ceiling_01.i3i",
+        "name": "town_ceiling_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_concret_wall_01.i3i",
+        "name": "town_concret_wall_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_door_frame_05.i3i",
+        "name": "town_door_frame_05"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_ground_grass_01.i3i",
+        "name": "town_ground_grass_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_stair_01.i3i",
+        "name": "town_stair_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_stair_02.i3i",
+        "name": "town_stair_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_stair_05.i3i",
+        "name": "town_stair_05"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_stair_white.i3i",
+        "name": "town_stair_white"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_stair_white_02.i3i",
+        "name": "town_stair_white_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tile_kitchen_01.i3i",
+        "name": "town_tile_kitchen_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_05.i3i",
+        "name": "town_wall_05"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_05_R.i3i",
+        "name": "town_wall_05_R"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_paper_01.i3i",
+        "name": "town_wall_paper_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_paper_02.i3i",
+        "name": "town_wall_paper_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_paper_03.i3i",
+        "name": "town_wall_paper_03"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_paper_04.i3i",
+        "name": "town_wall_paper_04"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_paper_05.i3i",
+        "name": "town_wall_paper_05"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_paper_06.i3i",
+        "name": "town_wall_paper_06"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_paper_07.i3i",
+        "name": "town_wall_paper_07"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_wood_01.i3i",
+        "name": "town_wall_wood_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wall_wood_02.i3i",
+        "name": "town_wall_wood_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wood_floor_01.i3i",
+        "name": "town_wood_floor_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/TinyTown_Lamp_Lightmap.i3i",
+        "name": "TinyTown_Lamp_Lightmap"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_lamp_in.i3i",
+        "name": "town_lamp_in"
+      },
+      {
+        "path": "World/TinyTown/Textures/Twon_Object_LightingMap.i3i",
+        "name": "Twon_Object_LightingMap"
+      },
+      {
+        "path": "World/TinyTown/Textures/Barricade_01.i3i",
+        "name": "Barricade_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/Box_Wood_01.i3i",
+        "name": "Box_Wood_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/Car_Bus_01_Indoor_Diffuse.i3i",
+        "name": "Car_Bus_01_Indoor_Diffuse"
+      },
+      {
+        "path": "World/TinyTown/Textures/Car_Bus_01_Outdoor_B.i3i",
+        "name": "Car_Bus_01_Outdoor_B"
+      },
+      {
+        "path": "World/TinyTown/Textures/Car_Bus_01_Outdoor_Diffuse.i3i",
+        "name": "Car_Bus_01_Outdoor_Diffuse"
+      },
+      {
+        "path": "World/TinyTown/Textures/Fireplug_01.i3i",
+        "name": "Fireplug_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/Fridge_01.i3i",
+        "name": "Fridge_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/Furniture_Chess_Chair_01.i3i",
+        "name": "Furniture_Chess_Chair_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/Furniture_Chess_Table_01.i3i",
+        "name": "Furniture_Chess_Table_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_Bed_01_01.i3i",
+        "name": "town_Bed_01_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_Bed_01_02.i3i",
+        "name": "town_Bed_01_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_books.i3i",
+        "name": "town_books"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_Carpet_02.i3i",
+        "name": "town_Carpet_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_carpet_05.i3i",
+        "name": "town_carpet_05"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_carport_door.i3i",
+        "name": "town_carport_door"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_carport_door_01.i3i",
+        "name": "town_carport_door_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/Town_curtain.i3i",
+        "name": "Town_curtain"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_Curtain_01.i3i",
+        "name": "town_Curtain_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_curtain_02.i3i",
+        "name": "town_curtain_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/Town_curtain_blue.i3i",
+        "name": "Town_curtain_blue"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_door_frame_02.i3i",
+        "name": "town_door_frame_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_door_frame_06.i3i",
+        "name": "town_door_frame_06"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_furniture_02.i3i",
+        "name": "town_furniture_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_furniture_03.i3i",
+        "name": "town_furniture_03"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_furniture_04.i3i",
+        "name": "town_furniture_04"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_kitchen.i3i",
+        "name": "town_kitchen"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_lamp_out_01.i3i",
+        "name": "town_lamp_out_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_object_etc_01.i3i",
+        "name": "town_object_etc_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_object_etc_02.i3i",
+        "name": "town_object_etc_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_object_etc_03.i3i",
+        "name": "town_object_etc_03"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_object_etc_04.i3i",
+        "name": "town_object_etc_04"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_object_etc_05.i3i",
+        "name": "town_object_etc_05"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_oven.i3i",
+        "name": "town_oven"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_picture_frame.i3i",
+        "name": "town_picture_frame"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_sign_01.i3i",
+        "name": "town_sign_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_sign_02.i3i",
+        "name": "town_sign_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_sofa_01.i3i",
+        "name": "town_sofa_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_table.i3i",
+        "name": "town_table"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_table_food.i3i",
+        "name": "town_table_food"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tv.i3i",
+        "name": "town_tv"
+      },
+      {
+        "path": "World/TinyTown/Textures/Vehicle_truck_001_D.i3i",
+        "name": "Vehicle_truck_001_D"
+      },
+      {
+        "path": "World/TinyTown/Textures/Town_Out_LightingMap.i3i",
+        "name": "Town_Out_LightingMap"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_brick_01.i3i",
+        "name": "town_brick_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_concret_wall_03.i3i",
+        "name": "town_concret_wall_03"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_door_01.i3i",
+        "name": "town_door_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_door_02.i3i",
+        "name": "town_door_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_door_frame_01.i3i",
+        "name": "town_door_frame_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_door_frame_03.i3i",
+        "name": "town_door_frame_03"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_door_frame_04.i3i",
+        "name": "town_door_frame_04"
+      },
+      {
+        "path": "World/TinyTown/Textures/Town_fence_01.i3i",
+        "name": "Town_fence_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/Town_fence_02.i3i",
+        "name": "Town_fence_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_out_wall_01_A.i3i",
+        "name": "town_out_wall_01_A"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_out_wall_01_B.i3i",
+        "name": "town_out_wall_01_B"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_roof_01.i3i",
+        "name": "town_roof_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_roof_02.i3i",
+        "name": "town_roof_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_stair_03.i3i",
+        "name": "town_stair_03"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_stair_04.i3i",
+        "name": "town_stair_04"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tree_bark.i3i",
+        "name": "town_tree_bark"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tree_bark_01.i3i",
+        "name": "town_tree_bark_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_Window_01.i3i",
+        "name": "town_Window_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_Window_02.i3i",
+        "name": "town_Window_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wood_tile_03.i3i",
+        "name": "town_wood_tile_03"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wood_tile_04.i3i",
+        "name": "town_wood_tile_04"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wood_tile_05.i3i",
+        "name": "town_wood_tile_05"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wood_wall_01.i3i",
+        "name": "town_wood_wall_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_wood_wall_02.i3i",
+        "name": "town_wood_wall_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_WoodDoor_01.i3i",
+        "name": "town_WoodDoor_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_WoodDoor_02.i3i",
+        "name": "town_WoodDoor_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_out_wall_02.i3i",
+        "name": "town_out_wall_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/wall_trim_02.i3i",
+        "name": "wall_trim_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/Town_Alpa_LightingMap.i3i",
+        "name": "Town_Alpa_LightingMap"
+      },
+      {
+        "path": "World/TinyTown/Textures/Exterior_Nature_Flower04.i3i",
+        "name": "Exterior_Nature_Flower04"
+      },
+      {
+        "path": "World/TinyTown/Textures/Exterior_Nature_Flower04_w.i3i",
+        "name": "Exterior_Nature_Flower04_w"
+      },
+      {
+        "path": "World/TinyTown/Textures/Exterior_Nature_Ivy01.i3i",
+        "name": "Exterior_Nature_Ivy01"
+      },
+      {
+        "path": "World/TinyTown/Textures/GlassFragments_1.i3i",
+        "name": "GlassFragments_1"
+      },
+      {
+        "path": "World/TinyTown/Textures/GlassFragments_1_RefMask.i3i",
+        "name": "GlassFragments_1_RefMask"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_flower.i3i",
+        "name": "town_flower"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_glass_break.i3i",
+        "name": "town_glass_break"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_grass_01.i3i",
+        "name": "town_grass_01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_grass_03.i3i",
+        "name": "town_grass_03"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_ground_alpa.i3i",
+        "name": "town_ground_alpa"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_ground_Leaves.i3i",
+        "name": "town_ground_Leaves"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tree_02.i3i",
+        "name": "town_tree_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tree_back_02.i3i",
+        "name": "town_tree_back_02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tree_branches.i3i",
+        "name": "town_tree_branches"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tree_Leaf01.i3i",
+        "name": "town_tree_Leaf01"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tree_Leaf02.i3i",
+        "name": "town_tree_Leaf02"
+      },
+      {
+        "path": "World/TinyTown/Textures/town_tree_Leaves02.i3i",
+        "name": "town_tree_Leaves02"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          218216055,
+          1594042644,
+          1864176121,
+          1200207202
+        ],
+        "respath": "World/TinyTown/TinyTown.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -40.70646667480469,
+        0.4000000059604645,
+        9.476112365722656
+      ],
+      "rot": [
+        0,
+        93.00001454564467,
+        0
+      ],
+      "quat": [
+        0,
+        0.7253744602203369,
+        0,
+        0.6883545517921448
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "Respawn1",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -39.36260986328125,
+        0.4000000059604645,
+        14.486368179321289
+      ],
+      "rot": [
+        0,
+        124.00003521336811,
+        0
+      ],
+      "quat": [
+        0,
+        0.8829477429389954,
+        0,
+        0.4694713056087494
+      ],
+      "scale": [
+        0.9999995827674866,
+        1,
+        0.9999995827674866
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "Respawn2",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -41.35320281982422,
+        0.4000000059604645,
+        7.373722076416016
+      ],
+      "rot": [
+        0,
+        93.00001454564467,
+        0
+      ],
+      "quat": [
+        0,
+        0.7253744602203369,
+        0,
+        0.6883545517921448
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "Respawn3",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -38.7794303894043,
+        0.4000000059604645,
+        16.48303985595703
+      ],
+      "rot": [
+        0,
+        124.00003521336811,
+        0
+      ],
+      "quat": [
+        0,
+        0.8829477429389954,
+        0,
+        0.4694713056087494
+      ],
+      "scale": [
+        0.9999995827674866,
+        1,
+        0.9999995827674866
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "Respawn4",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -42.67607879638672,
+        0.4000000059604645,
+        9.899134635925293
+      ],
+      "rot": [
+        0,
+        93.00001454564467,
+        0
+      ],
+      "quat": [
+        0,
+        0.7253744602203369,
+        0,
+        0.6883545517921448
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "Respawn5",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -41.319679260253906,
+        0.4000000059604645,
+        14.9482421875
+      ],
+      "rot": [
+        0,
+        119.99999185842373,
+        0
+      ],
+      "quat": [
+        0,
+        0.8660253882408142,
+        0,
+        0.5000001192092896
+      ],
+      "scale": [
+        1.0000004768371582,
+        1,
+        1.0000004768371582
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "Respawn6",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -43.298336029052734,
+        0.4000000059604645,
+        7.6820387840271
+      ],
+      "rot": [
+        0,
+        93.00001454564467,
+        0
+      ],
+      "quat": [
+        0,
+        0.7253744602203369,
+        0,
+        0.6883545517921448
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "Respawn7",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -40.7654914855957,
+        0.4000000059604645,
+        17.05108070373535
+      ],
+      "rot": [
+        0,
+        118.00001743487339,
+        0
+      ],
+      "quat": [
+        0,
+        0.8571673631668091,
+        0,
+        0.5150378942489624
+      ],
+      "scale": [
+        1.0000004768371582,
+        1,
+        1.0000004768371582
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "Respawn8",
+      "res": null,
+      "obj": null,
+      "pos": [
+        41.06175994873047,
+        0.4000000059604645,
+        9.476112365722656
+      ],
+      "rot": [
+        0,
+        -87.99998571536109,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6946582794189453,
+        0,
+        0.7193399667739868
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "Respawn9",
+      "res": null,
+      "obj": null,
+      "pos": [
+        39.62816619873047,
+        0.41558098793029785,
+        14.2365140914917
+      ],
+      "rot": [
+        0,
+        -119.99999185842373,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8660253882408142,
+        0,
+        0.5000001192092896
+      ],
+      "scale": [
+        1.0000004768371582,
+        1,
+        1.0000004768371582
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "Respawn10",
+      "res": null,
+      "obj": null,
+      "pos": [
+        41.41081619262695,
+        0.4000000059604645,
+        7.1260600090026855
+      ],
+      "rot": [
+        0,
+        -87.99998571536109,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6946582794189453,
+        0,
+        0.7193399667739868
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "Respawn11",
+      "res": null,
+      "obj": null,
+      "pos": [
+        38.83681106567383,
+        0.4000000059604645,
+        16.51152801513672
+      ],
+      "rot": [
+        0,
+        -119.99999185842373,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8660253882408142,
+        0,
+        0.5000001192092896
+      ],
+      "scale": [
+        1.0000004768371582,
+        1,
+        1.0000004768371582
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "Respawn12",
+      "res": null,
+      "obj": null,
+      "pos": [
+        42.967529296875,
+        0.4000000059604645,
+        9.856892585754395
+      ],
+      "rot": [
+        0,
+        -87.99998571536109,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6946582794189453,
+        0,
+        0.7193399667739868
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "Respawn13",
+      "res": null,
+      "obj": null,
+      "pos": [
+        41.644264221191406,
+        0.41558098793029785,
+        14.827994346618652
+      ],
+      "rot": [
+        0,
+        -119.99999185842373,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8660253882408142,
+        0,
+        0.5000001192092896
+      ],
+      "scale": [
+        1.0000004768371582,
+        1,
+        1.0000004768371582
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "Respawn14",
+      "res": null,
+      "obj": null,
+      "pos": [
+        43.53813552856445,
+        0.4000000059604645,
+        7.57305908203125
+      ],
+      "rot": [
+        0,
+        -87.99998571536109,
+        0
+      ],
+      "quat": [
+        0,
+        -0.6946582794189453,
+        0,
+        0.7193399667739868
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn14",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "Respawn15",
+      "res": null,
+      "obj": null,
+      "pos": [
+        40.937808990478516,
+        0.4000000059604645,
+        17.183753967285156
+      ],
+      "rot": [
+        0,
+        -119.99999185842373,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8660253882408142,
+        0,
+        0.5000001192092896
+      ],
+      "scale": [
+        1.0000004768371582,
+        1,
+        1.0000004768371582
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn15",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "trigger",
+      "name": "Box0",
+      "res": "Scene/TinyTown/_Generated/Sector.i3Evt",
+      "obj": null,
+      "pos": [
+        -38.418487548828125,
+        1.8422679901123047,
+        11.681221961975098
+      ],
+      "rot": [
+        0,
+        15.999997656997259,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917307555675507,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        8.303792953491211,
+        2.907320976257324,
+        12.436939239501953
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2147383171,
+          3429352922,
+          896497149,
+          1999311384
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box0",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "trigger",
+      "name": "Box1",
+      "res": "Scene/TinyTown/_Generated/Sector2.i3Evt",
+      "obj": null,
+      "pos": [
+        38.92789840698242,
+        1.8422679901123047,
+        11.699125289916992
+      ],
+      "rot": [
+        0,
+        -15.000003009112582,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052621483802795,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        8.303791999816895,
+        2.907320976257324,
+        12.436938285827637
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1822838604,
+          2613733175,
+          2925074700,
+          3853020258
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box1",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "trigger",
+      "name": "Box2",
+      "res": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.85745620727539,
+        1.8422679901123047,
+        12.984822273254395
+      ],
+      "rot": [
+        0,
+        15.999997656997259,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917307555675507,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        11.333693504333496,
+        2.9059219360351562,
+        6.730992794036865
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2241638846,
+          3061566753,
+          2787984990,
+          3688349644
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box2",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "trigger",
+      "name": "Box3",
+      "res": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+      "obj": null,
+      "pos": [
+        -31.703031539916992,
+        3.645117998123169,
+        4.982728004455566
+      ],
+      "rot": [
+        0,
+        16.00000032718534,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917309045791626,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        7.730099678039551,
+        7.75419282913208,
+        11.608487129211426
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2241638846,
+          3061566753,
+          2787984990,
+          3688349644
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box3",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "trigger",
+      "name": "Box4",
+      "res": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+      "obj": null,
+      "pos": [
+        -19.891342163085938,
+        1.8422679901123047,
+        16.41567611694336
+      ],
+      "rot": [
+        0,
+        15.999999413430611,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917309045791626,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        21.745086669921875,
+        2.9059219360351562,
+        4.3093132972717285
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3443644456,
+          429070709,
+          936065150,
+          3700308930
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box4",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "trigger",
+      "name": "Box5",
+      "res": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+      "obj": null,
+      "pos": [
+        -13.033026695251465,
+        1.8422679901123047,
+        8.817953109741211
+      ],
+      "rot": [
+        0,
+        16.000002083618796,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        4.0672149658203125,
+        2.9059219360351562,
+        6.669128894805908
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3443644456,
+          429070709,
+          936065150,
+          3700308930
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box5",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "trigger",
+      "name": "Box6",
+      "res": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+      "obj": null,
+      "pos": [
+        32.164127349853516,
+        3.645117998123169,
+        4.722039222717285
+      ],
+      "rot": [
+        0,
+        74.99999353521439,
+        0
+      ],
+      "quat": [
+        0,
+        0.6087613701820374,
+        0,
+        0.7933534979820251
+      ],
+      "scale": [
+        11.363795280456543,
+        7.75419282913208,
+        7.082866191864014
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2999051484,
+          1762433443,
+          3820924449,
+          2829127782
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box6",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "trigger",
+      "name": "Box7",
+      "res": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+      "obj": null,
+      "pos": [
+        28.259916305541992,
+        1.8422679901123047,
+        12.878456115722656
+      ],
+      "rot": [
+        0,
+        74.9999913828974,
+        0
+      ],
+      "quat": [
+        0,
+        0.6087613701820374,
+        0,
+        0.7933533787727356
+      ],
+      "scale": [
+        6.669650077819824,
+        2.9059219360351562,
+        11.267101287841797
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2999051484,
+          1762433443,
+          3820924449,
+          2829127782
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box7",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "trigger",
+      "name": "Box8",
+      "res": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+      "obj": null,
+      "pos": [
+        20.673398971557617,
+        1.8422679901123047,
+        16.430072784423828
+      ],
+      "rot": [
+        0,
+        -15.000002119628912,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052619993686676,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        21.745086669921875,
+        2.9059219360351562,
+        4.3093132972717285
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1026234358,
+          721725491,
+          2241499931,
+          4250540334
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box8",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "trigger",
+      "name": "Box9",
+      "res": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+      "obj": null,
+      "pos": [
+        13.635932922363281,
+        1.8422679901123047,
+        8.897144317626953
+      ],
+      "rot": [
+        0,
+        -15.00000562087818,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052622973918915,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        4.0672149658203125,
+        2.9059219360351562,
+        6.669129371643066
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1026234358,
+          721725491,
+          2241499931,
+          4250540334
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box9",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "trigger",
+      "name": "Box10",
+      "res": "Scene/TinyTown/_Generated/Sector7.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.206571578979492,
+        1.8422679901123047,
+        -5.309270858764648
+      ],
+      "rot": [
+        0,
+        16.000002083618796,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        20.701858520507812,
+        2.9059219360351562,
+        5.397459983825684
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3043006634,
+          1017060875,
+          2824243076,
+          1088314889
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box10",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "trigger",
+      "name": "Box11",
+      "res": "Scene/TinyTown/_Generated/Sector8.i3Evt",
+      "obj": null,
+      "pos": [
+        27.770788192749023,
+        1.8422679901123047,
+        -5.469612121582031
+      ],
+      "rot": [
+        0,
+        -14.999999507863524,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052618503570557,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        20.701858520507812,
+        2.9059219360351562,
+        5.397459506988525
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1796136133,
+          188668698,
+          3245887633,
+          1762561258
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box11",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "trigger",
+      "name": "Box13",
+      "res": "Scene/TinyTown/_Generated/Sector9.i3Evt",
+      "obj": null,
+      "pos": [
+        -18.7012996673584,
+        1.7737319469451904,
+        10.255316734313965
+      ],
+      "rot": [
+        0,
+        16.000002083618796,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        6.791471004486084,
+        2.9059219360351562,
+        6.669128894805908
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1988564857,
+          984526874,
+          1633094122,
+          1710679121
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box13",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "trigger",
+      "name": "Box14",
+      "res": "Scene/TinyTown/_Generated/Sector10.i3Evt",
+      "obj": null,
+      "pos": [
+        19.168132781982422,
+        1.7737319469451904,
+        10.334712028503418
+      ],
+      "rot": [
+        0,
+        -15.000002119628912,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052619993686676,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        6.7914719581604,
+        2.9059219360351562,
+        6.669129371643066
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4284289453,
+          162660126,
+          1980384596,
+          259788341
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box14",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "trigger",
+      "name": "Box15",
+      "res": "Scene/TinyTown/_Generated/Sector11.i3Evt",
+      "obj": null,
+      "pos": [
+        -25.74420738220215,
+        1.9140440225601196,
+        3.1356379985809326
+      ],
+      "rot": [
+        0,
+        15.99999590056392,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917306065559387,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        4.439381122589111,
+        3.052570104598999,
+        10.662076950073242
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          682338429,
+          2953018603,
+          1543848210,
+          3923005331
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box15",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "trigger",
+      "name": "Box16",
+      "res": "Scene/TinyTown/_Generated/Sector12.i3Evt",
+      "obj": null,
+      "pos": [
+        26.348047256469727,
+        1.9140440225601196,
+        3.015536069869995
+      ],
+      "rot": [
+        0,
+        -15.000010872752176,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052627444267273,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        4.4393815994262695,
+        3.052570104598999,
+        10.662076950073242
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3641901917,
+          3843721918,
+          3178265769,
+          852091040
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box16",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "trigger",
+      "name": "Box17",
+      "res": "Scene/TinyTown/_Generated/Sector13.i3Evt",
+      "obj": null,
+      "pos": [
+        -19.504453659057617,
+        1.9140440225601196,
+        3.4940319061279297
+      ],
+      "rot": [
+        0,
+        15.999999413430611,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917309045791626,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        6.3069047927856445,
+        3.052570104598999,
+        6.488429546356201
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2655566886,
+          4111593547,
+          4169603831,
+          3123270049
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box17",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "trigger",
+      "name": "Box18",
+      "res": "Scene/TinyTown/_Generated/Sector13.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.603148460388184,
+        1.9140440225601196,
+        0.34812501072883606
+      ],
+      "rot": [
+        0,
+        15.999999413430611,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917309045791626,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        2.9661943912506104,
+        3.052570104598999,
+        10.520461082458496
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2655566886,
+          4111593547,
+          4169603831,
+          3123270049
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box18",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "trigger",
+      "name": "Box19",
+      "res": "Scene/TinyTown/_Generated/Sector14.i3Evt",
+      "obj": null,
+      "pos": [
+        20.401395797729492,
+        1.9140440225601196,
+        3.4121320247650146
+      ],
+      "rot": [
+        0,
+        166.0000352487146,
+        0
+      ],
+      "quat": [
+        0,
+        0.9925462603569031,
+        0,
+        0.12186906486749649
+      ],
+      "scale": [
+        6.3069047927856445,
+        3.052570104598999,
+        6.488428592681885
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2341990241,
+          4154661591,
+          1702875676,
+          333120278
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector14.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box19",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "trigger",
+      "name": "Box20",
+      "res": "Scene/TinyTown/_Generated/Sector14.i3Evt",
+      "obj": null,
+      "pos": [
+        16.25392723083496,
+        1.9140440225601196,
+        0.2487799972295761
+      ],
+      "rot": [
+        0,
+        166.0000368931907,
+        0
+      ],
+      "quat": [
+        0,
+        0.9925462603569031,
+        0,
+        0.1218690499663353
+      ],
+      "scale": [
+        2.9661946296691895,
+        3.052570104598999,
+        10.52046012878418
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2341990241,
+          4154661591,
+          1702875676,
+          333120278
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector14.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box20",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "trigger",
+      "name": "Box21",
+      "res": "Scene/TinyTown/_Generated/Sector15.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.36227035522461,
+        4.113789081573486,
+        -1.7769720554351807
+      ],
+      "rot": [
+        0,
+        -166.0000015254964,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9925461411476135,
+        0,
+        0.12186932563781738
+      ],
+      "scale": [
+        6.306905269622803,
+        7.159832954406738,
+        3.68684720993042
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1996897234,
+          2955790779,
+          1702061714,
+          256465515
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector15.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box21",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "trigger",
+      "name": "Box22",
+      "res": "Scene/TinyTown/_Generated/Sector16.i3Evt",
+      "obj": null,
+      "pos": [
+        21.882808685302734,
+        2.8195559978485107,
+        -1.7665899991989136
+      ],
+      "rot": [
+        0,
+        166.0000196147359,
+        0
+      ],
+      "quat": [
+        0,
+        0.9925461411476135,
+        0,
+        0.12186916172504425
+      ],
+      "scale": [
+        6.3069047927856445,
+        8.339795112609863,
+        3.686846971511841
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          338396963,
+          3005970990,
+          115349328,
+          3786392473
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector16.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box22",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "trigger",
+      "name": "Box23",
+      "res": "Scene/TinyTown/_Generated/Sector17.i3Evt",
+      "obj": null,
+      "pos": [
+        -22.780061721801758,
+        5.283580780029297,
+        4.492009162902832
+      ],
+      "rot": [
+        0,
+        14.999997757239012,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052617013454437,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        9.593061447143555,
+        2.9870738983154297,
+        6.606888294219971
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3538847536,
+          995858494,
+          3198160026,
+          1258849114
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector17.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box23",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "trigger",
+      "name": "Box24",
+      "res": "Scene/TinyTown/_Generated/Sector17.i3Evt",
+      "obj": null,
+      "pos": [
+        -26.706174850463867,
+        5.422033786773682,
+        0.7760869860649109
+      ],
+      "rot": [
+        0,
+        15.000003009112582,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052621483802795,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        3.74320387840271,
+        2.9870738983154297,
+        6.150503158569336
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3538847536,
+          995858494,
+          3198160026,
+          1258849114
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector17.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box24",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "trigger",
+      "name": "Box25",
+      "res": "Scene/TinyTown/_Generated/Sector18.i3Evt",
+      "obj": null,
+      "pos": [
+        23.353004455566406,
+        5.283580780029297,
+        4.399634838104248
+      ],
+      "rot": [
+        0,
+        165.00002476248096,
+        0
+      ],
+      "quat": [
+        0,
+        0.9914448857307434,
+        0,
+        0.13052597641944885
+      ],
+      "scale": [
+        9.593061447143555,
+        2.9870738983154297,
+        6.606888294219971
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          805711854,
+          4235455274,
+          2762832871,
+          1379624542
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector18.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box25",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "trigger",
+      "name": "Box26",
+      "res": "Scene/TinyTown/_Generated/Sector18.i3Evt",
+      "obj": null,
+      "pos": [
+        27.075164794921875,
+        5.422033786773682,
+        1.3274489641189575
+      ],
+      "rot": [
+        0,
+        165.00003130349614,
+        0
+      ],
+      "quat": [
+        0,
+        0.9914448857307434,
+        0,
+        0.13052591681480408
+      ],
+      "scale": [
+        3.743204116821289,
+        2.9870738983154297,
+        6.150503158569336
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          805711854,
+          4235455274,
+          2762832871,
+          1379624542
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector18.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box26",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "trigger",
+      "name": "Box27",
+      "res": "Scene/TinyTown/_Generated/Sector19.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.854598999023438,
+        5.283580780029297,
+        2.295980930328369
+      ],
+      "rot": [
+        0,
+        14.999997757239012,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052617013454437,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        4.727982521057129,
+        2.9870738983154297,
+        6.270166873931885
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2832389135,
+          1149784786,
+          2225755302,
+          1485086424
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector19.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box27",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i44",
+      "kind": "trigger",
+      "name": "Box28",
+      "res": "Scene/TinyTown/_Generated/Sector19.i3Evt",
+      "obj": null,
+      "pos": [
+        -16.216312408447266,
+        5.422033786773682,
+        -2.1171250343322754
+      ],
+      "rot": [
+        0,
+        14.999996006614516,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052615523338318,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        3.112668752670288,
+        2.9870738983154297,
+        5.8698649406433105
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2832389135,
+          1149784786,
+          2225755302,
+          1485086424
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector19.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box28",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i45",
+      "kind": "trigger",
+      "name": "Box29",
+      "res": "Scene/TinyTown/_Generated/Sector20.i3Evt",
+      "obj": null,
+      "pos": [
+        16.51128387451172,
+        5.283580780029297,
+        2.341073989868164
+      ],
+      "rot": [
+        0,
+        -15.000003009112582,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052621483802795,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        4.727982521057129,
+        2.9870738983154297,
+        6.270165920257568
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1612637170,
+          2229093547,
+          1649992223,
+          3825038058
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector20.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box29",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i46",
+      "kind": "trigger",
+      "name": "Box30",
+      "res": "Scene/TinyTown/_Generated/Sector20.i3Evt",
+      "obj": null,
+      "pos": [
+        16.865577697753906,
+        5.422033786773682,
+        -1.7082899808883667
+      ],
+      "rot": [
+        0,
+        -14.999992505365558,
+        0
+      ],
+      "quat": [
+        0,
+        -0.1305261254310608,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        3.11266827583313,
+        2.9870738983154297,
+        5.869863986968994
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1612637170,
+          2229093547,
+          1649992223,
+          3825038058
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector20.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box30",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i47",
+      "kind": "trigger",
+      "name": "Box31",
+      "res": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+      "obj": null,
+      "pos": [
+        -4.925295829772949,
+        3.8819069862365723,
+        0.1734820008277893
+      ],
+      "rot": [
+        0,
+        16.000001169863975,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        16.937747955322266,
+        6.719390869140625,
+        35.0693473815918
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          406505326,
+          445712976,
+          1380034826,
+          4069133611
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box31",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i48",
+      "kind": "trigger",
+      "name": "Box32",
+      "res": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+      "obj": null,
+      "pos": [
+        5.286750793457031,
+        3.713818073272705,
+        0.6780110001564026
+      ],
+      "rot": [
+        0,
+        -17.000000807582822,
+        0
+      ],
+      "quat": [
+        0,
+        -0.14780941605567932,
+        0,
+        0.9890158772468567
+      ],
+      "scale": [
+        16.937747955322266,
+        6.719390869140625,
+        35.06935119628906
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          406505326,
+          445712976,
+          1380034826,
+          4069133611
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box32",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i49",
+      "kind": "trigger",
+      "name": "Box33",
+      "res": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+      "obj": null,
+      "pos": [
+        16.5919246673584,
+        3.8819069862365723,
+        -8.93430233001709
+      ],
+      "rot": [
+        0,
+        -14.000003885039586,
+        0
+      ],
+      "quat": [
+        0,
+        -0.12186937779188156,
+        0,
+        0.9925461411476135
+      ],
+      "scale": [
+        2.518951892852783,
+        6.719390869140625,
+        6.420643329620361
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          406505326,
+          445712976,
+          1380034826,
+          4069133611
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box33",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i50",
+      "kind": "trigger",
+      "name": "Box34",
+      "res": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+      "obj": null,
+      "pos": [
+        -16.945526123046875,
+        3.8819069862365723,
+        -9.394501686096191
+      ],
+      "rot": [
+        0,
+        16.000002012542435,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917312026023865,
+        0,
+        0.9902680516242981
+      ],
+      "scale": [
+        1.0807899236679077,
+        6.719390869140625,
+        7.670786380767822
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          406505326,
+          445712976,
+          1380034826,
+          4069133611
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector21.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box34",
+        "layer": 4
+      }
+    },
+    {
+      "id": "i51",
+      "kind": "unknown",
+      "name": "TinyTown_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -20.402254104614258,
+        16.086002349853516,
+        16.86993408203125
+      ],
+      "rot": [
+        -63.439021137490904,
+        -18.766021788088107,
+        0.000011122833738044954
+      ],
+      "quat": [
+        -0.5187269449234009,
+        -0.13868141174316406,
+        -0.08571658283472061,
+        0.8392511606216431
+      ],
+      "scale": [
+        0.9999997019767761,
+        1.0000001192092896,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 5,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          721768784,
+          1396823268,
+          3605100443,
+          519766086
+        ],
+        "respath": "World/TinyTown/Light/TinyTown_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "TinyTown_Light0",
+        "layer": 5
+      }
+    },
+    {
+      "id": "i52",
+      "kind": "trigger",
+      "name": "Box35",
+      "res": "Scene/TinyTown/_Generated/Section1.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.671005249023438,
+        5.528882026672363,
+        2.0048201084136963
+      ],
+      "rot": [
+        0,
+        14.999999507863524,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052618503570557,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        22.89607048034668,
+        3.4457759857177734,
+        11.11831283569336
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 6,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2016974299,
+          1921198757,
+          2123029476,
+          1809087509
+        ],
+        "respath": "Scene/TinyTown/_Generated/Section1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box35",
+        "layer": 6
+      }
+    },
+    {
+      "id": "i53",
+      "kind": "trigger",
+      "name": "Box36",
+      "res": "Scene/TinyTown/_Generated/Section1.i3Evt",
+      "obj": null,
+      "pos": [
+        22.740554809570312,
+        5.528882026672363,
+        1.9991987943649292
+      ],
+      "rot": [
+        0,
+        -14.999999507863524,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052618503570557,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        23.035953521728516,
+        3.4457759857177734,
+        11.11831283569336
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 6,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2016974299,
+          1921198757,
+          2123029476,
+          1809087509
+        ],
+        "respath": "Scene/TinyTown/_Generated/Section1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box36",
+        "layer": 6
+      }
+    },
+    {
+      "id": "i54",
+      "kind": "trigger",
+      "name": "Box37",
+      "res": "Scene/TinyTown/_Generated/Environment0.i3Evt",
+      "obj": null,
+      "pos": [
+        -18.7012996673584,
+        1.736909031867981,
+        10.255316734313965
+      ],
+      "rot": [
+        0,
+        16.000002083618796,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        6.791471004486084,
+        2.9059219360351562,
+        6.669128894805908
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1202104910,
+          3980106062,
+          2617782948,
+          14270588
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment0.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box37",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i55",
+      "kind": "trigger",
+      "name": "Box38",
+      "res": "Scene/TinyTown/_Generated/Environment1.i3Evt",
+      "obj": null,
+      "pos": [
+        19.168132781982422,
+        1.736909031867981,
+        10.334712028503418
+      ],
+      "rot": [
+        0,
+        -15.000002119628912,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052619993686676,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        6.7914719581604,
+        2.9059219360351562,
+        6.669129371643066
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2149787947,
+          1636362391,
+          1033328417,
+          3342216346
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box38",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i56",
+      "kind": "trigger",
+      "name": "Box39",
+      "res": "Scene/TinyTown/_Generated/Environment2.i3Evt",
+      "obj": null,
+      "pos": [
+        -25.74420738220215,
+        1.8772209882736206,
+        3.1356379985809326
+      ],
+      "rot": [
+        0,
+        15.99999590056392,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917306065559387,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        4.439381122589111,
+        3.052570104598999,
+        10.662076950073242
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3052270564,
+          1861275969,
+          2441055254,
+          3378859945
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box39",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i57",
+      "kind": "trigger",
+      "name": "Box40",
+      "res": "Scene/TinyTown/_Generated/Environment3.i3Evt",
+      "obj": null,
+      "pos": [
+        26.348047256469727,
+        1.8772209882736206,
+        3.015536069869995
+      ],
+      "rot": [
+        0,
+        -15.000010872752176,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052627444267273,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        4.4393815994262695,
+        3.052570104598999,
+        10.662076950073242
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1738019815,
+          4037285181,
+          3419821124,
+          334998074
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box40",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i58",
+      "kind": "trigger",
+      "name": "Box41",
+      "res": "Scene/TinyTown/_Generated/Environment4.i3Evt",
+      "obj": null,
+      "pos": [
+        -19.504453659057617,
+        1.8772209882736206,
+        3.4940319061279297
+      ],
+      "rot": [
+        0,
+        15.999999413430611,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917309045791626,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        6.3069047927856445,
+        3.052570104598999,
+        6.488429546356201
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1573878346,
+          2423110492,
+          3356368875,
+          4131674054
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box41",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i59",
+      "kind": "trigger",
+      "name": "Box42",
+      "res": "Scene/TinyTown/_Generated/Sector13.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.603148460388184,
+        1.8772209882736206,
+        0.34812501072883606
+      ],
+      "rot": [
+        0,
+        15.999999413430611,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917309045791626,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        2.9661943912506104,
+        3.052570104598999,
+        10.520461082458496
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2655566886,
+          4111593547,
+          4169603831,
+          3123270049
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box42",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i60",
+      "kind": "trigger",
+      "name": "Box43",
+      "res": "Scene/TinyTown/_Generated/Environment5.i3Evt",
+      "obj": null,
+      "pos": [
+        20.401395797729492,
+        1.8772209882736206,
+        3.4121320247650146
+      ],
+      "rot": [
+        0,
+        166.0000352487146,
+        0
+      ],
+      "quat": [
+        0,
+        0.9925462603569031,
+        0,
+        0.12186906486749649
+      ],
+      "scale": [
+        6.3069047927856445,
+        3.052570104598999,
+        6.488428592681885
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1374138973,
+          1038374282,
+          3438831829,
+          3898590862
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box43",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i61",
+      "kind": "trigger",
+      "name": "Box44",
+      "res": "Scene/TinyTown/_Generated/Sector14.i3Evt",
+      "obj": null,
+      "pos": [
+        16.25392723083496,
+        1.8772209882736206,
+        0.2487799972295761
+      ],
+      "rot": [
+        0,
+        166.0000368931907,
+        0
+      ],
+      "quat": [
+        0,
+        0.9925462603569031,
+        0,
+        0.1218690499663353
+      ],
+      "scale": [
+        2.9661946296691895,
+        3.052570104598999,
+        10.52046012878418
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2341990241,
+          4154661591,
+          1702875676,
+          333120278
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector14.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box44",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i62",
+      "kind": "trigger",
+      "name": "Box45",
+      "res": "Scene/TinyTown/_Generated/Environment6.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.605253219604492,
+        4.076965808868408,
+        -2.7870240211486816
+      ],
+      "rot": [
+        0,
+        -166.00001386479818,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9925462007522583,
+        0,
+        0.12186923623085022
+      ],
+      "scale": [
+        6.306905269622803,
+        7.159832954406738,
+        1.6805164813995361
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2955464972,
+          2425256989,
+          1602378058,
+          3335303733
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box45",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i63",
+      "kind": "trigger",
+      "name": "Box46",
+      "res": "Scene/TinyTown/_Generated/Environment7.i3Evt",
+      "obj": null,
+      "pos": [
+        22.124481201171875,
+        3.4862780570983887,
+        -2.632301092147827
+      ],
+      "rot": [
+        0,
+        166.00000810340134,
+        0
+      ],
+      "quat": [
+        0,
+        0.9925461411476135,
+        0,
+        0.12186926603317261
+      ],
+      "scale": [
+        6.3069047927856445,
+        6.4944658279418945,
+        1.7293511629104614
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1089324651,
+          1462292453,
+          2629536553,
+          3487085624
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box46",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i64",
+      "kind": "trigger",
+      "name": "Box47",
+      "res": "Scene/TinyTown/_Generated/Environment8.i3Evt",
+      "obj": null,
+      "pos": [
+        -22.780061721801758,
+        5.246757984161377,
+        4.492009162902832
+      ],
+      "rot": [
+        0,
+        14.999997757239012,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052617013454437,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        9.593061447143555,
+        2.9870738983154297,
+        6.606888294219971
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3694323656,
+          3320994744,
+          2008589498,
+          1923002031
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box47",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i65",
+      "kind": "trigger",
+      "name": "Box48",
+      "res": "Scene/TinyTown/_Generated/Environment9.i3Evt",
+      "obj": null,
+      "pos": [
+        -26.706174850463867,
+        5.385210990905762,
+        0.7760869860649109
+      ],
+      "rot": [
+        0,
+        15.000003009112582,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052621483802795,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        3.74320387840271,
+        2.9870738983154297,
+        6.150503158569336
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1418117137,
+          1132419230,
+          2103007003,
+          872000390
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box48",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i66",
+      "kind": "trigger",
+      "name": "Box49",
+      "res": "Scene/TinyTown/_Generated/Environment10.i3Evt",
+      "obj": null,
+      "pos": [
+        23.353004455566406,
+        5.246757984161377,
+        4.399634838104248
+      ],
+      "rot": [
+        0,
+        165.00002476248096,
+        0
+      ],
+      "quat": [
+        0,
+        0.9914448857307434,
+        0,
+        0.13052597641944885
+      ],
+      "scale": [
+        9.593061447143555,
+        2.9870738983154297,
+        6.606888294219971
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1030996691,
+          332654275,
+          2906591607,
+          1709662047
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box49",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i67",
+      "kind": "trigger",
+      "name": "Box50",
+      "res": "Scene/TinyTown/_Generated/Environment11.i3Evt",
+      "obj": null,
+      "pos": [
+        27.075164794921875,
+        5.385210990905762,
+        1.3274489641189575
+      ],
+      "rot": [
+        0,
+        165.00003130349614,
+        0
+      ],
+      "quat": [
+        0,
+        0.9914448857307434,
+        0,
+        0.13052591681480408
+      ],
+      "scale": [
+        3.743204116821289,
+        2.9870738983154297,
+        6.150503158569336
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1577867198,
+          2078533124,
+          2552461604,
+          691094736
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box50",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i68",
+      "kind": "trigger",
+      "name": "Box51",
+      "res": "Scene/TinyTown/_Generated/Environment12.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.854598999023438,
+        5.246757984161377,
+        2.295980930328369
+      ],
+      "rot": [
+        0,
+        14.999997757239012,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052617013454437,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        4.727982521057129,
+        2.9870738983154297,
+        6.270166873931885
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          254638389,
+          2786177951,
+          1093165287,
+          863993261
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box51",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i69",
+      "kind": "trigger",
+      "name": "Box52",
+      "res": "Scene/TinyTown/_Generated/Environment13.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.561720848083496,
+        5.385210990905762,
+        -0.04874800145626068
+      ],
+      "rot": [
+        0,
+        14.999996006614516,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052615523338318,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        3.112668752670288,
+        2.9870738983154297,
+        10.555337905883789
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4035929698,
+          28321161,
+          2113975203,
+          1192392213
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box52",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i70",
+      "kind": "trigger",
+      "name": "Box53",
+      "res": "Scene/TinyTown/_Generated/Environment14.i3Evt",
+      "obj": null,
+      "pos": [
+        16.51128387451172,
+        5.246757984161377,
+        2.341073989868164
+      ],
+      "rot": [
+        0,
+        -15.000003009112582,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052621483802795,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        4.727982521057129,
+        2.9870738983154297,
+        6.270165920257568
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1698434736,
+          1404576018,
+          2298796846,
+          2238684187
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment14.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box53",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i71",
+      "kind": "trigger",
+      "name": "Box54",
+      "res": "Scene/TinyTown/_Generated/Environment15.i3Evt",
+      "obj": null,
+      "pos": [
+        16.252273559570312,
+        5.385210990905762,
+        0.2282010018825531
+      ],
+      "rot": [
+        0,
+        -14.999992505365558,
+        0
+      ],
+      "quat": [
+        0,
+        -0.1305261254310608,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        3.11266827583313,
+        2.9870738983154297,
+        11.198179244995117
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          772997216,
+          1545664309,
+          3354634048,
+          4088674287
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment15.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box54",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i72",
+      "kind": "trigger",
+      "name": "Box55",
+      "res": "Scene/TinyTown/_Generated/Environment16.i3Evt",
+      "obj": null,
+      "pos": [
+        -8.163793563842773,
+        2.274019956588745,
+        -6.160336017608643
+      ],
+      "rot": [
+        0,
+        14.000003885039586,
+        0
+      ],
+      "quat": [
+        0,
+        0.12186937779188156,
+        0,
+        0.9925461411476135
+      ],
+      "scale": [
+        16.345333099365234,
+        3.138751983642578,
+        12.987010955810547
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          607514970,
+          383837753,
+          995604288,
+          2766674646
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment16.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box55",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i73",
+      "kind": "trigger",
+      "name": "Box56",
+      "res": "Scene/TinyTown/_Generated/Environment17.i3Evt",
+      "obj": null,
+      "pos": [
+        8.156965255737305,
+        2.105931043624878,
+        -5.899664878845215
+      ],
+      "rot": [
+        0,
+        -16.999999044999292,
+        0
+      ],
+      "quat": [
+        0,
+        -0.14780940115451813,
+        0,
+        0.9890158772468567
+      ],
+      "scale": [
+        17.2087345123291,
+        3.1387529373168945,
+        13.31142807006836
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1180733762,
+          3372178295,
+          3611154223,
+          1358529075
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment17.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box56",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i74",
+      "kind": "trigger",
+      "name": "Box57",
+      "res": "Scene/TinyTown/_Generated/Environment18.i3Evt",
+      "obj": null,
+      "pos": [
+        6.54312801361084,
+        2.274019956588745,
+        9.287212371826172
+      ],
+      "rot": [
+        0,
+        -17.00000706078677,
+        0
+      ],
+      "quat": [
+        0,
+        -0.1478094607591629,
+        0,
+        0.9890159368515015
+      ],
+      "scale": [
+        8.321081161499023,
+        3.138751983642578,
+        16.978044509887695
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3217770950,
+          2575368965,
+          3231732232,
+          903590801
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment18.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box57",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i75",
+      "kind": "trigger",
+      "name": "Box58",
+      "res": "Scene/TinyTown/_Generated/Environment19.i3Evt",
+      "obj": null,
+      "pos": [
+        -6.520409107208252,
+        2.274019956588745,
+        8.901687622070312
+      ],
+      "rot": [
+        0,
+        15.000003009112582,
+        0
+      ],
+      "quat": [
+        0,
+        0.13052621483802795,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        7.612495422363281,
+        3.132256031036377,
+        17.088743209838867
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          870085952,
+          187078718,
+          987186406,
+          80929936
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment19.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box58",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i76",
+      "kind": "trigger",
+      "name": "Box59",
+      "res": "Scene/TinyTown/_Generated/Environment20.i3Evt",
+      "obj": null,
+      "pos": [
+        21.65933609008789,
+        3.4862780570983887,
+        -0.8220630288124084
+      ],
+      "rot": [
+        0,
+        166.00000810340134,
+        0
+      ],
+      "quat": [
+        0,
+        0.9925461411476135,
+        0,
+        0.12186926603317261
+      ],
+      "scale": [
+        6.3069047927856445,
+        6.4944658279418945,
+        1.7293511629104614
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2979179978,
+          3754683407,
+          1768619393,
+          30484793
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment20.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box59",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i77",
+      "kind": "trigger",
+      "name": "Box60",
+      "res": "Scene/TinyTown/_Generated/Environment21.i3Evt",
+      "obj": null,
+      "pos": [
+        -21.190433502197266,
+        4.076965808868408,
+        -1.0983270406723022
+      ],
+      "rot": [
+        0,
+        -166.00001386479818,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9925462007522583,
+        0,
+        0.12186923623085022
+      ],
+      "scale": [
+        6.306905269622803,
+        7.159832954406738,
+        1.6805164813995361
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4043999333,
+          893232125,
+          4153048623,
+          331220268
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment21.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box60",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i78",
+      "kind": "trigger",
+      "name": "Box61",
+      "res": "Scene/TinyTown/_Generated/Environment22.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.534466028213501,
+        1.7688109874725342,
+        4.21701192855835
+      ],
+      "rot": [
+        0,
+        -3.9999986376838543,
+        0
+      ],
+      "quat": [
+        0,
+        -0.03489948436617851,
+        0,
+        0.9993908405303955
+      ],
+      "scale": [
+        9.428399085998535,
+        3.1087000370025635,
+        9.055296897888184
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          311659831,
+          118289438,
+          2002803929,
+          1485936430
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment22.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box61",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i79",
+      "kind": "trigger",
+      "name": "Box62",
+      "res": "Scene/TinyTown/_Generated/Sector.i3Evt",
+      "obj": null,
+      "pos": [
+        -38.418487548828125,
+        1.7551560401916504,
+        11.681221961975098
+      ],
+      "rot": [
+        0,
+        15.999997656997259,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917307555675507,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        8.303792953491211,
+        2.907320976257324,
+        12.436939239501953
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2147383171,
+          3429352922,
+          896497149,
+          1999311384
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box62",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i80",
+      "kind": "trigger",
+      "name": "Box63",
+      "res": "Scene/TinyTown/_Generated/Sector2.i3Evt",
+      "obj": null,
+      "pos": [
+        38.92789840698242,
+        1.7551560401916504,
+        11.699125289916992
+      ],
+      "rot": [
+        0,
+        -15.000003009112582,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052621483802795,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        8.303791999816895,
+        2.907320976257324,
+        12.436938285827637
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1822838604,
+          2613733175,
+          2925074700,
+          3853020258
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box63",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i81",
+      "kind": "trigger",
+      "name": "Box64",
+      "res": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.85745620727539,
+        1.7551560401916504,
+        12.984822273254395
+      ],
+      "rot": [
+        0,
+        15.999997656997259,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917307555675507,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        11.333693504333496,
+        2.9059219360351562,
+        6.730992794036865
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2241638846,
+          3061566753,
+          2787984990,
+          3688349644
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box64",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i82",
+      "kind": "trigger",
+      "name": "Box65",
+      "res": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+      "obj": null,
+      "pos": [
+        -31.703031539916992,
+        3.5580060482025146,
+        4.982728004455566
+      ],
+      "rot": [
+        0,
+        16.00000032718534,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917309045791626,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        7.730099678039551,
+        7.75419282913208,
+        11.608487129211426
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2241638846,
+          3061566753,
+          2787984990,
+          3688349644
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box65",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i83",
+      "kind": "trigger",
+      "name": "Box66",
+      "res": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+      "obj": null,
+      "pos": [
+        -19.891342163085938,
+        1.7551560401916504,
+        16.41567611694336
+      ],
+      "rot": [
+        0,
+        15.999999413430611,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917309045791626,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        21.745086669921875,
+        2.9059219360351562,
+        4.3093132972717285
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3443644456,
+          429070709,
+          936065150,
+          3700308930
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box66",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i84",
+      "kind": "trigger",
+      "name": "Box67",
+      "res": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+      "obj": null,
+      "pos": [
+        -13.033026695251465,
+        1.7551560401916504,
+        8.817953109741211
+      ],
+      "rot": [
+        0,
+        16.000002083618796,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        4.0672149658203125,
+        2.9059219360351562,
+        6.669128894805908
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3443644456,
+          429070709,
+          936065150,
+          3700308930
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box67",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i85",
+      "kind": "trigger",
+      "name": "Box68",
+      "res": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+      "obj": null,
+      "pos": [
+        32.164127349853516,
+        3.5580060482025146,
+        4.722039222717285
+      ],
+      "rot": [
+        0,
+        74.99999353521439,
+        0
+      ],
+      "quat": [
+        0,
+        0.6087613701820374,
+        0,
+        0.7933534979820251
+      ],
+      "scale": [
+        11.363795280456543,
+        7.75419282913208,
+        7.082866191864014
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2999051484,
+          1762433443,
+          3820924449,
+          2829127782
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box68",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i86",
+      "kind": "trigger",
+      "name": "Box69",
+      "res": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+      "obj": null,
+      "pos": [
+        28.259916305541992,
+        1.7551560401916504,
+        12.878456115722656
+      ],
+      "rot": [
+        0,
+        74.9999913828974,
+        0
+      ],
+      "quat": [
+        0,
+        0.6087613701820374,
+        0,
+        0.7933533787727356
+      ],
+      "scale": [
+        6.669650077819824,
+        2.9059219360351562,
+        11.267101287841797
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2999051484,
+          1762433443,
+          3820924449,
+          2829127782
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box69",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i87",
+      "kind": "trigger",
+      "name": "Box70",
+      "res": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+      "obj": null,
+      "pos": [
+        20.673398971557617,
+        1.7551560401916504,
+        16.430072784423828
+      ],
+      "rot": [
+        0,
+        -15.000002119628912,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052619993686676,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        21.745086669921875,
+        2.9059219360351562,
+        4.3093132972717285
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1026234358,
+          721725491,
+          2241499931,
+          4250540334
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box70",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i88",
+      "kind": "trigger",
+      "name": "Box71",
+      "res": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+      "obj": null,
+      "pos": [
+        13.635932922363281,
+        1.7551560401916504,
+        8.897144317626953
+      ],
+      "rot": [
+        0,
+        -15.00000562087818,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052622973918915,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        4.0672149658203125,
+        2.9059219360351562,
+        6.669129371643066
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1026234358,
+          721725491,
+          2241499931,
+          4250540334
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box71",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i89",
+      "kind": "trigger",
+      "name": "Box72",
+      "res": "Scene/TinyTown/_Generated/Sector7.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.206571578979492,
+        1.7551560401916504,
+        -5.309270858764648
+      ],
+      "rot": [
+        0,
+        16.000002083618796,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        20.701858520507812,
+        2.9059219360351562,
+        5.397459983825684
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3043006634,
+          1017060875,
+          2824243076,
+          1088314889
+        ],
+        "respath": "Scene/TinyTown/_Generated/Sector7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box72",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i90",
+      "kind": "trigger",
+      "name": "Box12",
+      "res": "Scene/TinyTown/_Generated/Environment23.i3Evt",
+      "obj": null,
+      "pos": [
+        -38.418487548828125,
+        1.9422600269317627,
+        11.681221961975098
+      ],
+      "rot": [
+        0,
+        15.999997656997259,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917307555675507,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        8.303792953491211,
+        2.907320976257324,
+        12.436939239501953
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2715593086,
+          1197953616,
+          3192190818,
+          3125381662
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment23.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box12",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i91",
+      "kind": "trigger",
+      "name": "Box73",
+      "res": "Scene/TinyTown/_Generated/Environment24.i3Evt",
+      "obj": null,
+      "pos": [
+        38.92789840698242,
+        1.9422600269317627,
+        11.699125289916992
+      ],
+      "rot": [
+        0,
+        -15.000003009112582,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052621483802795,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        8.303791999816895,
+        2.907320976257324,
+        12.436938285827637
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3778404645,
+          1213678623,
+          904454614,
+          509784908
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment24.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box73",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i92",
+      "kind": "trigger",
+      "name": "Box74",
+      "res": "Scene/TinyTown/_Generated/Ref19.i3Evt",
+      "obj": null,
+      "pos": [
+        -26.536108016967773,
+        1.9422600269317627,
+        12.408525466918945
+      ],
+      "rot": [
+        0,
+        15.999997656997259,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917307555675507,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        12.51919937133789,
+        2.9059219360351562,
+        6.730992794036865
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3048175819,
+          4097823947,
+          714495743,
+          2099751627
+        ],
+        "respath": "Scene/TinyTown/_Generated/Ref19.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box74",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i93",
+      "kind": "trigger",
+      "name": "Box75",
+      "res": "Scene/TinyTown/_Generated/Ref19.i3Evt",
+      "obj": null,
+      "pos": [
+        -31.680130004882812,
+        1.176542043685913,
+        4.852376937866211
+      ],
+      "rot": [
+        0,
+        16.000001169863975,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        7.730099678039551,
+        3.063493013381958,
+        11.252401351928711
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3048175819,
+          4097823947,
+          714495743,
+          2099751627
+        ],
+        "respath": "Scene/TinyTown/_Generated/Ref19.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box75",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i94",
+      "kind": "trigger",
+      "name": "Box76",
+      "res": "Scene/TinyTown/_Generated/Environment25.i3Evt",
+      "obj": null,
+      "pos": [
+        -19.891342163085938,
+        1.9422600269317627,
+        16.41567611694336
+      ],
+      "rot": [
+        0,
+        15.999999413430611,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917309045791626,
+        0,
+        0.9902681112289429
+      ],
+      "scale": [
+        21.745086669921875,
+        2.9059219360351562,
+        4.3093132972717285
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3160879425,
+          2788987961,
+          1462884475,
+          467734612
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment25.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box76",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i95",
+      "kind": "trigger",
+      "name": "Box77",
+      "res": "Scene/TinyTown/_Generated/Environment26.i3Evt",
+      "obj": null,
+      "pos": [
+        -13.033026695251465,
+        1.9422600269317627,
+        8.817953109741211
+      ],
+      "rot": [
+        0,
+        16.000002083618796,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        4.0672149658203125,
+        2.9059219360351562,
+        6.669128894805908
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1478067644,
+          2761359264,
+          321377006,
+          140376099
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment26.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box77",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i96",
+      "kind": "trigger",
+      "name": "Box78",
+      "res": "Scene/TinyTown/_Generated/Environment27.i3Evt",
+      "obj": null,
+      "pos": [
+        32.164127349853516,
+        3.2701098918914795,
+        4.722039222717285
+      ],
+      "rot": [
+        0,
+        74.99999353521439,
+        0
+      ],
+      "quat": [
+        0,
+        0.6087613701820374,
+        0,
+        0.7933534979820251
+      ],
+      "scale": [
+        11.363795280456543,
+        6.804193019866943,
+        7.082866191864014
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1480534744,
+          3441582038,
+          1237593662,
+          3611915394
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment27.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box78",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i97",
+      "kind": "trigger",
+      "name": "Box79",
+      "res": "Scene/TinyTown/_Generated/Environment28.i3Evt",
+      "obj": null,
+      "pos": [
+        28.259916305541992,
+        1.9422600269317627,
+        12.878456115722656
+      ],
+      "rot": [
+        0,
+        74.9999913828974,
+        0
+      ],
+      "quat": [
+        0,
+        0.6087613701820374,
+        0,
+        0.7933533787727356
+      ],
+      "scale": [
+        6.669650077819824,
+        2.9059219360351562,
+        11.267101287841797
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3159774410,
+          381933113,
+          3433696192,
+          1256434728
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment28.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box79",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i98",
+      "kind": "trigger",
+      "name": "Box80",
+      "res": "Scene/TinyTown/_Generated/Environment29.i3Evt",
+      "obj": null,
+      "pos": [
+        20.673398971557617,
+        1.9422600269317627,
+        16.430072784423828
+      ],
+      "rot": [
+        0,
+        -15.000002119628912,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052619993686676,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        21.745086669921875,
+        2.9059219360351562,
+        4.3093132972717285
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2979167395,
+          2678155929,
+          961415588,
+          2677920218
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment29.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box80",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i99",
+      "kind": "trigger",
+      "name": "Box81",
+      "res": "Scene/TinyTown/_Generated/Environment30.i3Evt",
+      "obj": null,
+      "pos": [
+        13.635932922363281,
+        1.9422600269317627,
+        8.897144317626953
+      ],
+      "rot": [
+        0,
+        -15.00000562087818,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052622973918915,
+        0,
+        0.9914449453353882
+      ],
+      "scale": [
+        4.0672149658203125,
+        2.9059219360351562,
+        6.669129371643066
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          958574523,
+          881670942,
+          2558861951,
+          2032838503
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment30.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box81",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i100",
+      "kind": "trigger",
+      "name": "Box82",
+      "res": "Scene/TinyTown/_Generated/Environment31.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.206571578979492,
+        1.9422600269317627,
+        -5.309270858764648
+      ],
+      "rot": [
+        0,
+        16.000002083618796,
+        0
+      ],
+      "quat": [
+        0,
+        0.13917310535907745,
+        0,
+        0.9902681708335876
+      ],
+      "scale": [
+        20.701858520507812,
+        2.9059219360351562,
+        5.397459983825684
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3981648818,
+          1330571655,
+          1295471695,
+          3574882699
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment31.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box82",
+        "layer": 7
+      }
+    },
+    {
+      "id": "i101",
+      "kind": "trigger",
+      "name": "Box83",
+      "res": "Scene/TinyTown/_Generated/Environment32.i3Evt",
+      "obj": null,
+      "pos": [
+        27.770788192749023,
+        1.9422600269317627,
+        -5.469612121582031
+      ],
+      "rot": [
+        0,
+        -14.999999507863524,
+        0
+      ],
+      "quat": [
+        0,
+        -0.13052618503570557,
+        0,
+        0.9914448857307434
+      ],
+      "scale": [
+        20.701858520507812,
+        2.9059219360351562,
+        5.397459506988525
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 7,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2174192591,
+          745971040,
+          809366027,
+          383295852
+        ],
+        "respath": "Scene/TinyTown/_Generated/Environment32.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box83",
+        "layer": 7
+      }
+    }
+  ]
+}

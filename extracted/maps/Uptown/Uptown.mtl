@@ -1,0 +1,121 @@
+# Materials for Uptown
+newmtl Mtl_building_wall_B_02.webp
+Kd 1 1 1
+map_Kd building_wall_B_02.webp
+
+newmtl Mtl_road_1.webp
+Kd 1 1 1
+map_Kd road_1.webp
+
+newmtl Mtl_road_sidewalk_03.webp
+Kd 1 1 1
+map_Kd road_sidewalk_03.webp
+
+newmtl Mtl_building_wall_C_03.webp
+Kd 1 1 1
+map_Kd building_wall_C_03.webp
+
+newmtl Mtl_road_7.webp
+Kd 1 1 1
+map_Kd road_7.webp
+
+newmtl Mtl_road_wall_03.webp
+Kd 1 1 1
+map_Kd road_wall_03.webp
+
+newmtl Mtl_road_sidewalk_01.webp
+Kd 1 1 1
+map_Kd road_sidewalk_01.webp
+
+newmtl Mtl_building_store_A_01.webp
+Kd 1 1 1
+map_Kd building_store_A_01.webp
+
+newmtl Mtl_road_wall_01.webp
+Kd 1 1 1
+map_Kd road_wall_01.webp
+
+newmtl Mtl_building_store_B_01.webp
+Kd 1 1 1
+map_Kd building_store_B_01.webp
+
+newmtl Mtl_building_wall_D_03.webp
+Kd 1 1 1
+map_Kd building_wall_D_03.webp
+
+newmtl Mtl_road_wall_02.webp
+Kd 1 1 1
+map_Kd road_wall_02.webp
+
+newmtl Mtl_building_store_A_02.webp
+Kd 1 1 1
+map_Kd building_store_A_02.webp
+
+newmtl Mtl_building_store_C_01.webp
+Kd 1 1 1
+map_Kd building_store_C_01.webp
+
+newmtl Mtl_building_wall_C_02.webp
+Kd 1 1 1
+map_Kd building_wall_C_02.webp
+
+newmtl Mtl_building_wall_D_02.webp
+Kd 1 1 1
+map_Kd building_wall_D_02.webp
+
+newmtl Mtl_building_wall_A_01.webp
+Kd 1 1 1
+map_Kd building_wall_A_01.webp
+
+newmtl Mtl_building_wall_C_01.webp
+Kd 1 1 1
+map_Kd building_wall_C_01.webp
+
+newmtl Mtl_road_sidewalk_02.webp
+Kd 1 1 1
+map_Kd road_sidewalk_02.webp
+
+newmtl Mtl_road_6.webp
+Kd 1 1 1
+map_Kd road_6.webp
+
+newmtl Mtl_building_store_A_03.webp
+Kd 1 1 1
+map_Kd building_store_A_03.webp
+
+newmtl Mtl_building_store_B_02.webp
+Kd 1 1 1
+map_Kd building_store_B_02.webp
+
+newmtl Mtl_building_wall_A_02.webp
+Kd 1 1 1
+map_Kd building_wall_A_02.webp
+
+newmtl Mtl_building_wall_D_01.webp
+Kd 1 1 1
+map_Kd building_wall_D_01.webp
+
+newmtl Mtl_building_store_C_02.webp
+Kd 1 1 1
+map_Kd building_store_C_02.webp
+
+newmtl Mtl_building_wall_B_01.webp
+Kd 1 1 1
+map_Kd building_wall_B_01.webp
+
+newmtl Mtl_road_2.webp
+Kd 1 1 1
+map_Kd road_2.webp
+
+newmtl Mtl_building_wall_A_03.webp
+Kd 1 1 1
+map_Kd building_wall_A_03.webp
+
+newmtl Mtl_road_alley_01.webp
+Kd 1 1 1
+map_Kd road_alley_01.webp
+
+newmtl Mtl_road_stair_01.webp
+Kd 1 1 1
+map_Kd road_stair_01.webp
+

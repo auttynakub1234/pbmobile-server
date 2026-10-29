@@ -1,0 +1,5 @@
+# Materials for Scorpion Vz.61 PBBR7
+newmtl Mtl_Scorpion_Vz61_Diff.webp
+Kd 1 1 1
+map_Kd Scorpion_Vz61_Diff.webp
+

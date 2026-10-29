@@ -1,0 +1,9 @@
+# Materials for TAR-21
+newmtl Mtl_tar-21_Diff.webp
+Kd 1 1 1
+map_Kd tar-21_Diff.webp
+
+newmtl Mtl_tar-21_DotSight_Diff.webp
+Kd 1 1 1
+map_Kd tar-21_DotSight_Diff.webp
+

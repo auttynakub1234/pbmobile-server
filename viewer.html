@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Point Blank Complete 3D Asset & Audio Explorer</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: radial-gradient(#1e2430, #0a0d14); color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    #canvas-container { width: 100vw; height: 100vh; display: block; }
+    #ui { position: absolute; top: 16px; left: 16px; background: rgba(12, 16, 24, 0.88); backdrop-filter: blur(12px); padding: 18px 22px; border-radius: 10px; border: 1px solid #344055; box-shadow: 0 8px 32px rgba(0,0,0,0.6); width: 310px; z-index: 10; max-height: 90vh; overflow-y: auto; }
+    h1 { margin: 0 0 12px 0; font-size: 19px; color: #ffd27a; letter-spacing: 1px; display: flex; align-items: center; gap: 8px; }
+    label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #8fa0ba; margin-top: 10px; display: block; font-weight: 600; }
+    select { width: 100%; padding: 8px 10px; margin-top: 4px; background: #151b26; border: 1px solid #3c4b63; border-radius: 6px; color: #fff; font-size: 13px; outline: none; }
+    select:focus { border-color: #ffd27a; }
+    .status { margin-top: 10px; font-size: 12px; color: #7be38a; font-weight: 500; }
+    .controls-hint { margin-top: 12px; font-size: 11px; color: #7f91a8; line-height: 1.6; border-top: 1px solid #232d3d; padding-top: 8px; }
+    .btn-row { display: flex; gap: 8px; margin-top: 10px; }
+    .btn { flex: 1; background: #24354f; border: 1px solid #44597b; color: #fff; padding: 7px; border-radius: 6px; cursor: pointer; font-size: 12px; }
+    .btn:hover { background: #354e75; }
+    .sound-btn { background: #2d233c; border: 1px solid #63438a; color: #e5bfff; padding: 5px 8px; border-radius: 4px; font-size: 11px; cursor: pointer; }
+    .sound-btn:hover { background: #4a3469; }
+    .sound-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 6px; }
+    #minimap-thumb { margin-top: 10px; width: 100%; height: 160px; object-fit: contain; background: #000; border-radius: 6px; border: 1px solid #2e3a4e; display: none; }
+    #loading-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 99; opacity: 0; pointer-events: none; transition: opacity 0.2s; font-size: 16px; color: #ffd27a; font-weight: bold; }
+    #loading-overlay.active { opacity: 1; pointer-events: auto; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/OBJLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/MTLLoader.js"></script>
+</head>
+<body>
+  <div id="loading-overlay">Loading 3D Model...</div>
+
+  <div id="ui">
+    <h1>🎯 Point Blank Studio</h1>
+
+    <label for="weapon-select">Weapons (119 in Shop):</label>
+    <select id="weapon-select">
+      <option value="">-- Choose Weapon --</option>
+    </select>
+
+    <label for="map-select">Maps (42 3D Worlds):</label>
+    <select id="map-select">
+      <option value="">-- Choose Map --</option>
+    </select>
+
+    <img id="minimap-thumb" alt="Radar Minimap" />
+
+    <div class="status" id="status-text">Ready</div>
+
+    <div class="btn-row">
+      <button class="btn" onclick="toggleWireframe()">Wireframe</button>
+      <button class="btn" onclick="resetCamera()">Reset View</button>
+    </div>
+
+    <label style="margin-top:14px;">🔊 Point Blank Soundboard:</label>
+    <div class="sound-grid">
+      <button class="sound-btn" onclick="playSound('/sounds/announcer/mv_ann_headshot.wav')">💀 HEADSHOT</button>
+      <button class="sound-btn" onclick="playSound('/sounds/announcer/mv_ann_double_kill.wav')">⚡ DOUBLE KILL</button>
+      <button class="sound-btn" onclick="playSound('/sounds/announcer/mv_ann_triple_kill.wav')">🔥 TRIPLE KILL</button>
+      <button class="sound-btn" onclick="playSound('/sounds/announcer/mv_ann_chain_killer.wav')">⚔️ CHAIN KILLER</button>
+      <button class="sound-btn" onclick="playSound('/sounds/announcer/mv_ann_masskill.wav')">💥 MASS KILL</button>
+      <button class="sound-btn" onclick="playSound('/sounds/combat/k400_explosion.wav')">💣 K-400 EXPLOSION</button>
+      <button class="sound-btn" onclick="playSound('/sounds/combat/change_assault.wav')">🔫 SWAP WEAPON</button>
+      <button class="sound-btn" onclick="playSound('/sounds/combat/head_hit_1.wav')">🎯 HEAD HIT DING</button>
+    </div>
+
+    <div class="controls-hint">
+      🖱️ <b>Rotate:</b> Left Click + Drag<br>
+      ✋ <b>Pan:</b> Right Click + Drag<br>
+      🔍 <b>Zoom:</b> Mouse Scroll
+    </div>
+  </div>
+
+  <div id="canvas-container"></div>
+
+  <script>
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.05, 500);
+    camera.position.set(0.6, 0.4, 0.9);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.outputEncoding = THREE.sRGBEncoding;
+    document.getElementById('canvas-container').appendChild(renderer.domElement);
+
+    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
+
+    // Lighting
+    const ambient = new THREE.AmbientLight(0xffffff, 0.9);
+    scene.add(ambient);
+
+    const dir1 = new THREE.DirectionalLight(0xffffff, 1.4);
+    dir1.position.set(5, 10, 7);
+    scene.add(dir1);
+
+    const dir2 = new THREE.DirectionalLight(0x7090ff, 0.7);
+    dir2.position.set(-5, -5, -5);
+    scene.add(dir2);
+
+    const grid = new THREE.GridHelper(5, 50, 0xffd27a, 0x334466);
+    grid.position.y = -0.3;
+    scene.add(grid);
+
+    let loadedObject = null;
+    const loaderOverlay = document.getElementById('loading-overlay');
+    const statusText = document.getElementById('status-text');
+    const minimapThumb = document.getElementById('minimap-thumb');
+
+    function playSound(path) {
+      const audio = new Audio(path);
+      audio.play().catch(e => console.log('Audio play error:', e));
+    }
+
+    function loadModel(basePath, objName, mtlName, isMap = false) {
+      loaderOverlay.classList.add('active');
+      statusText.textContent = `Loading ${objName}...`;
+
+      if (loadedObject) {
+        scene.remove(loadedObject);
+        loadedObject = null;
+      }
+
+      const mtlLoader = new THREE.MTLLoader();
+      mtlLoader.setPath(basePath);
+      mtlLoader.load(mtlName, (materials) => {
+        materials.preload();
+        const objLoader = new THREE.OBJLoader();
+        objLoader.setMaterials(materials);
+        objLoader.setPath(basePath);
+        objLoader.load(objName, (object) => {
+          loadedObject = object;
+
+          const box = new THREE.Box3().setFromObject(object);
+          const size = box.getSize(new THREE.Vector3());
+          const center = box.getCenter(new THREE.Vector3());
+          object.position.sub(center);
+
+          scene.add(object);
+
+          const maxDim = Math.max(size.x, size.y, size.z);
+          camera.position.set(maxDim * 0.8, maxDim * 0.5, maxDim * 1.2);
+          camera.lookAt(0, 0, 0);
+          controls.target.set(0, 0, 0);
+          controls.update();
+
+          loaderOverlay.classList.remove('active');
+          statusText.textContent = `Loaded: ${objName}`;
+        }, undefined, (err) => {
+          loaderOverlay.classList.remove('active');
+          statusText.textContent = `Error loading model`;
+        });
+      }, undefined, (err) => {
+        const objLoader = new THREE.OBJLoader();
+        objLoader.setPath(basePath);
+        objLoader.load(objName, (object) => {
+          loadedObject = object;
+          const box = new THREE.Box3().setFromObject(object);
+          const center = box.getCenter(new THREE.Vector3());
+          object.position.sub(center);
+          scene.add(object);
+          loaderOverlay.classList.remove('active');
+          statusText.textContent = `Loaded (Basic): ${objName}`;
+        });
+      });
+    }
+
+    // Populate drop down menus from server API
+    fetch('/api/assets')
+      .then(r => r.json())
+      .then(data => {
+        const wSelect = document.getElementById('weapon-select');
+        const mSelect = document.getElementById('map-select');
+
+        data.weapons.sort().forEach(w => {
+          const opt = document.createElement('option');
+          opt.value = w;
+          opt.textContent = w.replace(/_/g, ' ');
+          wSelect.appendChild(opt);
+        });
+
+        data.maps.sort().forEach(m => {
+          const opt = document.createElement('option');
+          opt.value = m;
+          opt.textContent = m;
+          mSelect.appendChild(opt);
+        });
+
+        if (data.weapons.length > 0) {
+          const defaultW = data.weapons.includes('AUG-A3') ? 'AUG-A3' : data.weapons[0];
+          wSelect.value = defaultW;
+          loadModel(`/extracted/weapons/${defaultW}/`, `${defaultW}.obj`, `${defaultW}.mtl`);
+        }
+      });
+
+    document.getElementById('weapon-select').addEventListener('change', (e) => {
+      const val = e.target.value;
+      if (!val) return;
+      document.getElementById('map-select').value = "";
+      minimapThumb.style.display = 'none';
+      loadModel(`/extracted/weapons/${val}/`, `${val}.obj`, `${val}.mtl`);
+    });
+
+    document.getElementById('map-select').addEventListener('change', (e) => {
+      const val = e.target.value;
+      if (!val) return;
+      document.getElementById('weapon-select').value = "";
+      minimapThumb.src = `/ui/minimaps/mini_${val}.png`;
+      minimapThumb.style.display = 'block';
+      minimapThumb.onerror = () => { minimapThumb.style.display = 'none'; };
+      loadModel(`/extracted/maps/${val}/`, `${val}_World.obj`, `${val}.mtl`, true);
+    });
+
+    let wireframe = false;
+    function toggleWireframe() {
+      if (!loadedObject) return;
+      wireframe = !wireframe;
+      loadedObject.traverse(child => {
+        if (child.isMesh && child.material) {
+          if (Array.isArray(child.material)) {
+            child.material.forEach(m => m.wireframe = wireframe);
+          } else {
+            child.material.wireframe = wireframe;
+          }
+        }
+      });
+    }
+
+    function resetCamera() {
+      if (!loadedObject) return;
+      const box = new THREE.Box3().setFromObject(loadedObject);
+      const size = box.getSize(new THREE.Vector3());
+      const maxDim = Math.max(size.x, size.y, size.z);
+      camera.position.set(maxDim * 0.8, maxDim * 0.5, maxDim * 1.2);
+      controls.target.set(0, 0, 0);
+      controls.update();
+    }
+
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    function animate() {
+      requestAnimationFrame(animate);
+      controls.update();
+      renderer.render(scene, camera);
+    }
+    animate();
+  </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+# Materials for Hospital
+newmtl Mtl_A_Wall_09.webp
+Kd 1 1 1
+map_Kd A_Wall_09.webp
+
+newmtl Mtl_B_Wall_16.webp
+Kd 1 1 1
+map_Kd B_Wall_16.webp
+
+newmtl Mtl_Wall_04.webp
+Kd 1 1 1
+map_Kd Wall_04.webp
+
+newmtl Mtl_TopTile01.webp
+Kd 1 1 1
+map_Kd TopTile01.webp
+
+newmtl Mtl_Wall_01.webp
+Kd 1 1 1
+map_Kd Wall_01.webp
+
+newmtl Mtl_sickroom_floor_Diff.webp
+Kd 1 1 1
+map_Kd sickroom_floor_Diff.webp
+
+newmtl Mtl_Floor_03.webp
+Kd 1 1 1
+map_Kd Floor_03.webp
+
+newmtl Mtl_Floor_01.webp
+Kd 1 1 1
+map_Kd Floor_01.webp
+
+newmtl Mtl_A_Wall_03.webp
+Kd 1 1 1
+map_Kd A_Wall_03.webp
+
+newmtl Mtl_Road_04.webp
+Kd 1 1 1
+map_Kd Road_04.webp
+
+newmtl Mtl_Floor_04.webp
+Kd 1 1 1
+map_Kd Floor_04.webp
+
+newmtl Mtl_sickroom_wall_Diff.webp
+Kd 1 1 1
+map_Kd sickroom_wall_Diff.webp
+
+newmtl Mtl_Stair floor_Diff.webp
+Kd 1 1 1
+map_Kd Stair floor_Diff.webp
+
+newmtl Mtl_Lobby Floor_Diff.webp
+Kd 1 1 1
+map_Kd Lobby Floor_Diff.webp
+
+newmtl Mtl_Stairs_Diff.webp
+Kd 1 1 1
+map_Kd Stairs_Diff.webp
+
+newmtl Mtl_Tile_01.webp
+Kd 1 1 1
+map_Kd Tile_01.webp
+
+newmtl Mtl_Wall_02.webp
+Kd 1 1 1
+map_Kd Wall_02.webp
+
+newmtl Mtl_Wall_03.webp
+Kd 1 1 1
+map_Kd Wall_03.webp
+
+newmtl Mtl_handle_Diff.webp
+Kd 1 1 1
+map_Kd handle_Diff.webp
+
+newmtl Mtl_Object_01.webp
+Kd 1 1 1
+map_Kd Object_01.webp
+
+newmtl Mtl_Tile_05.webp
+Kd 1 1 1
+map_Kd Tile_05.webp
+
+newmtl Mtl_building_wall_C_03.webp
+Kd 1 1 1
+map_Kd building_wall_C_03.webp
+
+newmtl Mtl_Ceiling_01.webp
+Kd 1 1 1
+map_Kd Ceiling_01.webp
+
+newmtl Mtl_elevator_out_Diff.webp
+Kd 1 1 1
+map_Kd elevator_out_Diff.webp
+
+newmtl Mtl_Object ER_01.webp
+Kd 1 1 1
+map_Kd Object ER_01.webp
+
+newmtl Mtl_Wheelchair.webp
+Kd 1 1 1
+map_Kd Wheelchair.webp
+
+newmtl Mtl_sickroom_etc_Diff.webp
+Kd 1 1 1
+map_Kd sickroom_etc_Diff.webp
+
+newmtl Mtl_Road_01.webp
+Kd 1 1 1
+map_Kd Road_01.webp
+
+newmtl Mtl_sickroom_ceiling_Diff.webp
+Kd 1 1 1
+map_Kd sickroom_ceiling_Diff.webp
+
+newmtl Mtl_A_Wall_13.webp
+Kd 1 1 1
+map_Kd A_Wall_13.webp
+

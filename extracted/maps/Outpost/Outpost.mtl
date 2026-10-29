@@ -1,0 +1,121 @@
+# Materials for Outpost
+newmtl Mtl_chandelier.webp
+Kd 1 1 1
+map_Kd chandelier.webp
+
+newmtl Mtl_ceiling_column_01.webp
+Kd 1 1 1
+map_Kd ceiling_column_01.webp
+
+newmtl Mtl_column_2.webp
+Kd 1 1 1
+map_Kd column_2.webp
+
+newmtl Mtl_wall_2_3_I.webp
+Kd 1 1 1
+map_Kd wall_2_3_I.webp
+
+newmtl Mtl_top_window_1.webp
+Kd 1 1 1
+map_Kd top_window_1.webp
+
+newmtl Mtl_ceiling_B_01.webp
+Kd 1 1 1
+map_Kd ceiling_B_01.webp
+
+newmtl Mtl_wall_2_3_F.webp
+Kd 1 1 1
+map_Kd wall_2_3_F.webp
+
+newmtl Mtl_skyscraper_Wall01.webp
+Kd 1 1 1
+map_Kd skyscraper_Wall01.webp
+
+newmtl Mtl_SmallLight_1.webp
+Kd 1 1 1
+map_Kd SmallLight_1.webp
+
+newmtl Mtl_LightGuard_1.webp
+Kd 1 1 1
+map_Kd LightGuard_1.webp
+
+newmtl Mtl_column_03.webp
+Kd 1 1 1
+map_Kd column_03.webp
+
+newmtl Mtl_Heliport_rail.webp
+Kd 1 1 1
+map_Kd Heliport_rail.webp
+
+newmtl Mtl_Elevator_1.webp
+Kd 1 1 1
+map_Kd Elevator_1.webp
+
+newmtl Mtl_Carpet_02.webp
+Kd 1 1 1
+map_Kd Carpet_02.webp
+
+newmtl Mtl_Carpet_03.webp
+Kd 1 1 1
+map_Kd Carpet_03.webp
+
+newmtl Mtl_ceiling_A_02.webp
+Kd 1 1 1
+map_Kd ceiling_A_02.webp
+
+newmtl Mtl_skyscraper_Wall02.webp
+Kd 1 1 1
+map_Kd skyscraper_Wall02.webp
+
+newmtl Mtl_ST_base_1_2.webp
+Kd 1 1 1
+map_Kd ST_base_1_2.webp
+
+newmtl Mtl_Door_B_1.webp
+Kd 1 1 1
+map_Kd Door_B_1.webp
+
+newmtl Mtl_Building_window_1.webp
+Kd 1 1 1
+map_Kd Building_window_1.webp
+
+newmtl Mtl_large window_1.webp
+Kd 1 1 1
+map_Kd large window_1.webp
+
+newmtl Mtl_stair_wallB_1.webp
+Kd 1 1 1
+map_Kd stair_wallB_1.webp
+
+newmtl Mtl_Ground_Tile_01.webp
+Kd 1 1 1
+map_Kd Ground_Tile_01.webp
+
+newmtl Mtl_wall_2_3_C.webp
+Kd 1 1 1
+map_Kd wall_2_3_C.webp
+
+newmtl Mtl_Prop_1.webp
+Kd 1 1 1
+map_Kd Prop_1.webp
+
+newmtl Mtl_crane.webp
+Kd 1 1 1
+map_Kd crane.webp
+
+newmtl Mtl_wall_2_3_G.webp
+Kd 1 1 1
+map_Kd wall_2_3_G.webp
+
+newmtl Mtl_wall_2_3_H.webp
+Kd 1 1 1
+map_Kd wall_2_3_H.webp
+
+newmtl Mtl_emergency exit_2.webp
+Kd 1 1 1
+map_Kd emergency exit_2.webp
+
+newmtl Mtl_handrail_stair_1.webp
+Kd 1 1 1
+map_Kd handrail_stair_1.webp
+

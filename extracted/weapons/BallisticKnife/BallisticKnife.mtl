@@ -1,0 +1,5 @@
+# Materials for Ballistic Knife
+newmtl Mtl_BallistecKnife_diff.webp
+Kd 1 1 1
+map_Kd BallistecKnife_diff.webp
+

@@ -1,0 +1,13 @@
+# Materials for R.B 454 SS2M
+newmtl Mtl_Taurus-454SS8M_diff.webp
+Kd 1 1 1
+map_Kd Taurus-454SS8M_diff.webp
+
+newmtl Mtl_ColtPpython_Holder.webp
+Kd 1 1 1
+map_Kd ColtPpython_Holder.webp
+
+newmtl Mtl_Taurus-454SS2M_diff.webp
+Kd 1 1 1
+map_Kd Taurus-454SS2M_diff.webp
+

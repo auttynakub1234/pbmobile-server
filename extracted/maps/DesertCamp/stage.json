@@ -1,0 +1,2050 @@
+{
+  "stage": {
+    "name": "DesertCamp",
+    "world": "World/DesertCamp/DesertCamp_world.i3s",
+    "sky": "World/DesertCamp/DesertCamp_Sky.i3s",
+    "cols": {
+      "hero": "World/DesertCamp/DesertCamp_Col_Hero.i3s",
+      "hit": "World/DesertCamp/DesertCamp_Col_Hit.i3s",
+      "light": "World/DesertCamp/Desertcamp_Col_Light.I3S"
+    },
+    "rsc": [
+      {
+        "path": "World/DesertCamp/DesertCamp_world.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/DesertCamp/DesertCamp_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/DesertCamp/DesertCamp_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/DesertCamp/DesertCamp_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/DesertCamp/Desertcamp_Col_Light.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/DesertCamp/DesertCamp.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "World/DesertCamp/Light/DesertCamp_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Sector_DesertCamp_center.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Box.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Box0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Sector_DesertCamp_RED_respown.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Box_0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Sector_DesertCamp_BLUE_respown.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Box_1.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Sector_DesertCamp_RED_hill.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Box_2.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Box_20.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Sector_DesertCamp_BLUE_hill.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Box_3.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Box_4.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/DesertCamp/_Generated/Box_40.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      }
+    ],
+    "ins_version": 3,
+    "layers": [],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/DesertCamp/Textures/IslandLightingMap_01.i3i",
+        "name": "IslandLightingMap_01"
+      },
+      {
+        "path": "World/DesertCamp/Textures/grass_02.i3i",
+        "name": "grass_02"
+      },
+      {
+        "path": "World/DesertCamp/Textures/rocks on.i3i",
+        "name": "rocks on"
+      },
+      {
+        "path": "World/DesertCamp/Textures/rocks on_01.i3i",
+        "name": "rocks on_01"
+      },
+      {
+        "path": "World/DesertCamp/Textures/rocks_01.i3i",
+        "name": "rocks_01"
+      },
+      {
+        "path": "World/DesertCamp/Textures/StageLightingMap_01.i3i",
+        "name": "StageLightingMap_01"
+      },
+      {
+        "path": "World/DesertCamp/Textures/basesand.i3i",
+        "name": "basesand"
+      },
+      {
+        "path": "World/DesertCamp/Textures/cliff_01.i3i",
+        "name": "cliff_01"
+      },
+      {
+        "path": "World/DesertCamp/Textures/cliff_02.i3i",
+        "name": "cliff_02"
+      },
+      {
+        "path": "World/DesertCamp/Textures/cliff_03.i3i",
+        "name": "cliff_03"
+      },
+      {
+        "path": "World/DesertCamp/Textures/cliff_04.i3i",
+        "name": "cliff_04"
+      },
+      {
+        "path": "World/DesertCamp/Textures/cliff_05.i3i",
+        "name": "cliff_05"
+      },
+      {
+        "path": "World/DesertCamp/Textures/cliff_06.i3i",
+        "name": "cliff_06"
+      },
+      {
+        "path": "World/DesertCamp/Textures/cactus.i3i",
+        "name": "cactus"
+      },
+      {
+        "path": "World/DesertCamp/Textures/AH-6(1).i3i",
+        "name": "AH-6(1)"
+      },
+      {
+        "path": "World/DesertCamp/Textures/Camouflage_02.i3i",
+        "name": "Camouflage_02"
+      },
+      {
+        "path": "World/DesertCamp/Textures/Car_Humvee_01_indoor_01_Diff.i3i",
+        "name": "Car_Humvee_01_indoor_01_Diff"
+      },
+      {
+        "path": "World/DesertCamp/Textures/Car_Humvee_01_Outdoor_01_Pattern_02_Diff.i3i",
+        "name": "Car_Humvee_01_Outdoor_01_Pattern_02_Diff"
+      },
+      {
+        "path": "World/DesertCamp/Textures/rpg7_box.i3i",
+        "name": "rpg7_box"
+      },
+      {
+        "path": "World/DesertCamp/Textures/WireEntanglement_01.i3i",
+        "name": "WireEntanglement_01"
+      },
+      {
+        "path": "World/DesertCamp/Textures/WireEntanglement_02.i3i",
+        "name": "WireEntanglement_02"
+      },
+      {
+        "path": "World/DesertCamp/Textures/eagle_04.i3i",
+        "name": "eagle_04"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          2919919187,
+          4093404709,
+          1841310322,
+          4217294837
+        ],
+        "respath": "World/DesertCamp/DesertCamp.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "unknown",
+      "name": "desertcamp_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        18.188095092773438,
+        29.264633178710938,
+        28.749244689941406
+      ],
+      "rot": [
+        -64.3295934548137,
+        71.75789357985263,
+        -37.602199301624864
+      ],
+      "quat": [
+        -0.5682229399681091,
+        0.3306368589401245,
+        0.07429887354373932,
+        0.7498544454574585
+      ],
+      "scale": [
+        0.9999996423721313,
+        1.000001072883606,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          3787692522,
+          2709735806,
+          799211970,
+          87162911
+        ],
+        "respath": "World/DesertCamp/Light/DesertCamp_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "desertcamp_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -33.73517608642578,
+        -0.8550050258636475,
+        2.98540997505188
+      ],
+      "rot": [
+        0,
+        86.28308861335042,
+        0
+      ],
+      "quat": [
+        0,
+        0.6838030219078064,
+        0,
+        0.7296667098999023
+      ],
+      "scale": [
+        0.999999463558197,
+        1,
+        0.999999463558197
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -33.33699035644531,
+        -0.8550050258636475,
+        5.644692897796631
+      ],
+      "rot": [
+        0,
+        86.28308861335042,
+        0
+      ],
+      "quat": [
+        0,
+        0.6838030219078064,
+        0,
+        0.7296667098999023
+      ],
+      "scale": [
+        0.999999463558197,
+        1,
+        0.999999463558197
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -30.44032096862793,
+        -0.9380840063095093,
+        4.4296159744262695
+      ],
+      "rot": [
+        0,
+        86.28308861335042,
+        0
+      ],
+      "quat": [
+        0,
+        0.6838030219078064,
+        0,
+        0.7296667098999023
+      ],
+      "scale": [
+        0.999999463558197,
+        1,
+        0.999999463558197
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -30.04213523864746,
+        -0.9380840063095093,
+        7.088900089263916
+      ],
+      "rot": [
+        0,
+        86.28308861335042,
+        0
+      ],
+      "quat": [
+        0,
+        0.6838030219078064,
+        0,
+        0.7296667098999023
+      ],
+      "scale": [
+        0.999999463558197,
+        1,
+        0.999999463558197
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -36.11512756347656,
+        -0.9245659708976746,
+        -11.7549467086792
+      ],
+      "rot": [
+        0,
+        86.28308861335042,
+        0
+      ],
+      "quat": [
+        0,
+        0.6838030219078064,
+        0,
+        0.7296667098999023
+      ],
+      "scale": [
+        0.999999463558197,
+        1,
+        0.999999463558197
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -37.04557800292969,
+        -0.9245659708976746,
+        -9.095664978027344
+      ],
+      "rot": [
+        0,
+        86.28308861335042,
+        0
+      ],
+      "quat": [
+        0,
+        0.6838030219078064,
+        0,
+        0.7296667098999023
+      ],
+      "scale": [
+        0.999999463558197,
+        1,
+        0.999999463558197
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -34.61298751831055,
+        -0.7839869856834412,
+        -10.310742378234863
+      ],
+      "rot": [
+        0,
+        86.28308861335042,
+        0
+      ],
+      "quat": [
+        0,
+        0.6838030219078064,
+        0,
+        0.7296667098999023
+      ],
+      "scale": [
+        0.999999463558197,
+        1,
+        0.999999463558197
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -35.210330963134766,
+        -0.7839869856834412,
+        -7.651457786560059
+      ],
+      "rot": [
+        0,
+        86.28308861335042,
+        0
+      ],
+      "quat": [
+        0,
+        0.6838030219078064,
+        0,
+        0.7296667098999023
+      ],
+      "scale": [
+        0.999999463558197,
+        1,
+        0.999999463558197
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        31.945772171020508,
+        -1.0649189949035645,
+        -8.943704605102539
+      ],
+      "rot": [
+        0,
+        -110.86628463193483,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8234646916389465,
+        0,
+        0.5673674941062927
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        31.015317916870117,
+        -1.0649189949035645,
+        -6.284423828125
+      ],
+      "rot": [
+        0,
+        -110.86628463193483,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8234646916389465,
+        0,
+        0.5673674941062927
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        33.9119873046875,
+        -0.5902169942855835,
+        -7.4995012283325195
+      ],
+      "rot": [
+        0,
+        -110.86628463193483,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8234646916389465,
+        0,
+        0.5673674941062927
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        33.31464385986328,
+        -0.5902169942855835,
+        -4.840219020843506
+      ],
+      "rot": [
+        0,
+        -110.86628463193483,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8234646916389465,
+        0,
+        0.5673674941062927
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        35.47145462036133,
+        -0.6267049908638,
+        -3.359035015106201
+      ],
+      "rot": [
+        0,
+        -110.86628463193483,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8234646916389465,
+        0,
+        0.5673674941062927
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        31.015317916870117,
+        -0.3552600145339966,
+        9.786630630493164
+      ],
+      "rot": [
+        0,
+        -110.86628463193483,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8234646916389465,
+        0,
+        0.5673674941062927
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        37.43767166137695,
+        -0.1520020067691803,
+        -1.9148290157318115
+      ],
+      "rot": [
+        0,
+        -110.86628463193483,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8234646916389465,
+        0,
+        0.5673674941062927
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        33.31464385986328,
+        0.11944299936294556,
+        10.012228012084961
+      ],
+      "rot": [
+        0,
+        -110.86628463193483,
+        0
+      ],
+      "quat": [
+        0,
+        -0.8234646916389465,
+        0,
+        0.5673674941062927
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "trigger",
+      "name": "Box",
+      "res": "Scene/DesertCamp/_Generated/Sector_DesertCamp_center.i3Evt",
+      "obj": null,
+      "pos": [
+        -2.526818037033081,
+        8.903800964355469,
+        -1.8650670051574707
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        41.81494903564453,
+        23.144289016723633,
+        25.596330642700195
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2113107137,
+          781137314,
+          3015739540,
+          1313870127
+        ],
+        "respath": "Scene/DesertCamp/_Generated/Sector_DesertCamp_center.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "trigger",
+      "name": "Box0",
+      "res": "Scene/DesertCamp/_Generated/Sector_DesertCamp_center.i3Evt",
+      "obj": null,
+      "pos": [
+        0.04176099970936775,
+        8.903800964355469,
+        0.28804901242256165
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.526545524597168,
+        23.144289016723633,
+        25.596330642700195
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2113107137,
+          781137314,
+          3015739540,
+          1313870127
+        ],
+        "respath": "Scene/DesertCamp/_Generated/Sector_DesertCamp_center.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "trigger",
+      "name": "Box_0",
+      "res": "Scene/DesertCamp/_Generated/Sector_DesertCamp_RED_respown.i3Evt",
+      "obj": null,
+      "pos": [
+        -34.57310104370117,
+        10.568087577819824,
+        -2.8829119205474854
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.673263549804688,
+        28.505685806274414,
+        28.266721725463867
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2711393541,
+          1284759397,
+          1487086429,
+          945603551
+        ],
+        "respath": "Scene/DesertCamp/_Generated/Sector_DesertCamp_RED_respown.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "trigger",
+      "name": "Box_1",
+      "res": "Scene/DesertCamp/_Generated/Sector_DesertCamp_BLUE_respown.i3Evt",
+      "obj": null,
+      "pos": [
+        33.21210861206055,
+        10.400394439697266,
+        -2.2877559661865234
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        27.949975967407227,
+        26.28226661682129,
+        43.55483627319336
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1425811290,
+          2142751284,
+          3689792072,
+          1752680160
+        ],
+        "respath": "Scene/DesertCamp/_Generated/Sector_DesertCamp_BLUE_respown.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "trigger",
+      "name": "Box_2",
+      "res": "Scene/DesertCamp/_Generated/Sector_DesertCamp_RED_hill.i3Evt",
+      "obj": null,
+      "pos": [
+        0.4768710136413574,
+        9.597277641296387,
+        18.069902420043945
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        43.285423278808594,
+        11.261460304260254,
+        8.229948043823242
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3814402235,
+          42895722,
+          2959857109,
+          4264668209
+        ],
+        "respath": "Scene/DesertCamp/_Generated/Sector_DesertCamp_RED_hill.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "trigger",
+      "name": "Box_20",
+      "res": "Scene/DesertCamp/_Generated/Sector_DesertCamp_RED_hill.i3Evt",
+      "obj": null,
+      "pos": [
+        -29.919597625732422,
+        7.579336166381836,
+        16.73250961303711
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        43.285423278808594,
+        11.261460304260254,
+        8.229948043823242
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3814402235,
+          42895722,
+          2959857109,
+          4264668209
+        ],
+        "respath": "Scene/DesertCamp/_Generated/Sector_DesertCamp_RED_hill.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_20",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "trigger",
+      "name": "Box_3",
+      "res": "Scene/DesertCamp/_Generated/Sector_DesertCamp_BLUE_hill.i3Evt",
+      "obj": null,
+      "pos": [
+        -1.9883910417556763,
+        9.829133987426758,
+        -19.470277786254883
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        40.16880798339844,
+        13.168997764587402,
+        8.802047729492188
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          607733216,
+          356464981,
+          3417039905,
+          36295524
+        ],
+        "respath": "Scene/DesertCamp/_Generated/Sector_DesertCamp_BLUE_hill.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "trigger",
+      "name": "Box_4",
+      "res": "Scene/DesertCamp/_Generated/Section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -5.804622173309326,
+        0.5532919764518738,
+        -0.46818000078201294
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.61627197265625,
+        3.450593948364258,
+        2.702004909515381
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2109989858,
+          4115640718,
+          348978176,
+          2899754163
+        ],
+        "respath": "Scene/DesertCamp/_Generated/Section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "trigger",
+      "name": "Box_40",
+      "res": "Scene/DesertCamp/_Generated/Section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -6.412447929382324,
+        0.9804949760437012,
+        -1.3160970211029053
+      ],
+      "rot": [
+        0,
+        21.105357898460774,
+        0
+      ],
+      "quat": [
+        0,
+        0.18313947319984436,
+        0,
+        0.9830869436264038
+      ],
+      "scale": [
+        2.180119514465332,
+        2.920151948928833,
+        2.039167642593384
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2109989858,
+          4115640718,
+          348978176,
+          2899754163
+        ],
+        "respath": "Scene/DesertCamp/_Generated/Section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "190000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_40",
+        "layer": 0
+      }
+    }
+  ]
+}

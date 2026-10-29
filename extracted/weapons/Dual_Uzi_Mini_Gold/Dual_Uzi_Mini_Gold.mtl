@@ -1,0 +1,9 @@
+# Materials for Dual Mini Uzi G
+newmtl Mtl_Dual_Mini_Uzi_Gold_diff.webp
+Kd 1 1 1
+map_Kd Dual_Mini_Uzi_Gold_diff.webp
+
+newmtl Mtl_Silencer_G_diff.webp
+Kd 1 1 1
+map_Kd Silencer_G_diff.webp
+

@@ -1,0 +1,5 @@
+# Materials for K-1 Ext.
+newmtl Mtl_k1.webp
+Kd 1 1 1
+map_Kd k1.webp
+

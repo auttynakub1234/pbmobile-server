@@ -1,0 +1,121 @@
+# Materials for Sentrybase
+newmtl Mtl_B_Wall_04.webp
+Kd 1 1 1
+map_Kd B_Wall_04.webp
+
+newmtl Mtl_B_Wall_09.webp
+Kd 1 1 1
+map_Kd B_Wall_09.webp
+
+newmtl Mtl_B_Wall_05.webp
+Kd 1 1 1
+map_Kd B_Wall_05.webp
+
+newmtl Mtl_B_Wall_17.webp
+Kd 1 1 1
+map_Kd B_Wall_17.webp
+
+newmtl Mtl_A_Wall_05.webp
+Kd 1 1 1
+map_Kd A_Wall_05.webp
+
+newmtl Mtl_man_05.webp
+Kd 1 1 1
+map_Kd man_05.webp
+
+newmtl Mtl_building_store_Hongkong_03.webp
+Kd 1 1 1
+map_Kd building_store_Hongkong_03.webp
+
+newmtl Mtl_man_07.webp
+Kd 1 1 1
+map_Kd man_07.webp
+
+newmtl Mtl_B_Wall_03.webp
+Kd 1 1 1
+map_Kd B_Wall_03.webp
+
+newmtl Mtl_B_Wall_01.webp
+Kd 1 1 1
+map_Kd B_Wall_01.webp
+
+newmtl Mtl_man_03.webp
+Kd 1 1 1
+map_Kd man_03.webp
+
+newmtl Mtl_B_Wall_16.webp
+Kd 1 1 1
+map_Kd B_Wall_16.webp
+
+newmtl Mtl_B_Wall_02.webp
+Kd 1 1 1
+map_Kd B_Wall_02.webp
+
+newmtl Mtl_B_Wall_10.webp
+Kd 1 1 1
+map_Kd B_Wall_10.webp
+
+newmtl Mtl_B_Wall_14.webp
+Kd 1 1 1
+map_Kd B_Wall_14.webp
+
+newmtl Mtl_B_Wall_13.webp
+Kd 1 1 1
+map_Kd B_Wall_13.webp
+
+newmtl Mtl_B_Wall_12.webp
+Kd 1 1 1
+map_Kd B_Wall_12.webp
+
+newmtl Mtl_Box_02.webp
+Kd 1 1 1
+map_Kd Box_02.webp
+
+newmtl Mtl_man_01.webp
+Kd 1 1 1
+map_Kd man_01.webp
+
+newmtl Mtl_B_Wall_07.webp
+Kd 1 1 1
+map_Kd B_Wall_07.webp
+
+newmtl Mtl_ceiling.webp
+Kd 1 1 1
+map_Kd ceiling.webp
+
+newmtl Mtl_Box_01.webp
+Kd 1 1 1
+map_Kd Box_01.webp
+
+newmtl Mtl_man_02.webp
+Kd 1 1 1
+map_Kd man_02.webp
+
+newmtl Mtl_man_06.webp
+Kd 1 1 1
+map_Kd man_06.webp
+
+newmtl Mtl_B_Wall_08.webp
+Kd 1 1 1
+map_Kd B_Wall_08.webp
+
+newmtl Mtl_Civic_bridge.webp
+Kd 1 1 1
+map_Kd Civic_bridge.webp
+
+newmtl Mtl_man_04.webp
+Kd 1 1 1
+map_Kd man_04.webp
+
+newmtl Mtl_ceiling_A_02.webp
+Kd 1 1 1
+map_Kd ceiling_A_02.webp
+
+newmtl Mtl_Civic_bridge_In.webp
+Kd 1 1 1
+map_Kd Civic_bridge_In.webp
+
+newmtl Mtl_B_Wall_11.webp
+Kd 1 1 1
+map_Kd B_Wall_11.webp
+

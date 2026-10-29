@@ -1,0 +1,13 @@
+# Materials for K-201 Ext.
+newmtl Mtl_k2.webp
+Kd 1 1 1
+map_Kd k2.webp
+
+newmtl Mtl_K201.webp
+Kd 1 1 1
+map_Kd K201.webp
+
+newmtl Mtl_K201_Grenade.webp
+Kd 1 1 1
+map_Kd K201_Grenade.webp
+

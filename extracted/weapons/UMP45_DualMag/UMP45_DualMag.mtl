@@ -1,0 +1,5 @@
+# Materials for UMP45 Ext.
+newmtl Mtl_Ump45.webp
+Kd 1 1 1
+map_Kd Ump45.webp
+

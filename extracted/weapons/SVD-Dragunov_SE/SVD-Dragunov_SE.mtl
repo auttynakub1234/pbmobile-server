@@ -1,0 +1,9 @@
+# Materials for Dragunov G.
+newmtl Mtl_SVDscop.webp
+Kd 1 1 1
+map_Kd SVDscop.webp
+
+newmtl Mtl_SVD_Gold.webp
+Kd 1 1 1
+map_Kd SVD_Gold.webp
+

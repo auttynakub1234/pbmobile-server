@@ -1,0 +1,121 @@
+# Materials for Helispot
+newmtl Mtl_building_wall_B_02.webp
+Kd 1 1 1
+map_Kd building_wall_B_02.webp
+
+newmtl Mtl_A_Wall_05.webp
+Kd 1 1 1
+map_Kd A_Wall_05.webp
+
+newmtl Mtl_building_wall_E_02.webp
+Kd 1 1 1
+map_Kd building_wall_E_02.webp
+
+newmtl Mtl_interior_2.webp
+Kd 1 1 1
+map_Kd interior_2.webp
+
+newmtl Mtl_Heliport_rail.webp
+Kd 1 1 1
+map_Kd Heliport_rail.webp
+
+newmtl Mtl_crane.webp
+Kd 1 1 1
+map_Kd crane.webp
+
+newmtl Mtl_building_wall_E_01.webp
+Kd 1 1 1
+map_Kd building_wall_E_01.webp
+
+newmtl Mtl_A_Wall_12.webp
+Kd 1 1 1
+map_Kd A_Wall_12.webp
+
+newmtl Mtl_A_Wall_02.webp
+Kd 1 1 1
+map_Kd A_Wall_02.webp
+
+newmtl Mtl_Door_01.webp
+Kd 1 1 1
+map_Kd Door_01.webp
+
+newmtl Mtl_building_wall_E_03.webp
+Kd 1 1 1
+map_Kd building_wall_E_03.webp
+
+newmtl Mtl_H_Steel.webp
+Kd 1 1 1
+map_Kd H_Steel.webp
+
+newmtl Mtl_wood_prop_1.webp
+Kd 1 1 1
+map_Kd wood_prop_1.webp
+
+newmtl Mtl_top_window_1.webp
+Kd 1 1 1
+map_Kd top_window_1.webp
+
+newmtl Mtl_Prop_1.webp
+Kd 1 1 1
+map_Kd Prop_1.webp
+
+newmtl Mtl_WireEntanglement_02.webp
+Kd 1 1 1
+map_Kd WireEntanglement_02.webp
+
+newmtl Mtl_A_Wall_04.webp
+Kd 1 1 1
+map_Kd A_Wall_04.webp
+
+newmtl Mtl_handrail.webp
+Kd 1 1 1
+map_Kd handrail.webp
+
+newmtl Mtl_signboard_01.webp
+Kd 1 1 1
+map_Kd signboard_01.webp
+
+newmtl Mtl_Tile_01.webp
+Kd 1 1 1
+map_Kd Tile_01.webp
+
+newmtl Mtl_Grat_1.webp
+Kd 1 1 1
+map_Kd Grat_1.webp
+
+newmtl Mtl_building_wall_B_03.webp
+Kd 1 1 1
+map_Kd building_wall_B_03.webp
+
+newmtl Mtl_A_Wall_03.webp
+Kd 1 1 1
+map_Kd A_Wall_03.webp
+
+newmtl Mtl_shutter_2.webp
+Kd 1 1 1
+map_Kd shutter_2.webp
+
+newmtl Mtl_ventilation_04.webp
+Kd 1 1 1
+map_Kd ventilation_04.webp
+
+newmtl Mtl_Smalldynamo_01.webp
+Kd 1 1 1
+map_Kd Smalldynamo_01.webp
+
+newmtl Mtl_A_Wall_01.webp
+Kd 1 1 1
+map_Kd A_Wall_01.webp
+
+newmtl Mtl_ventilation_01.webp
+Kd 1 1 1
+map_Kd ventilation_01.webp
+
+newmtl Mtl_ventilation_03.webp
+Kd 1 1 1
+map_Kd ventilation_03.webp
+
+newmtl Mtl_Billboard_01.webp
+Kd 1 1 1
+map_Kd Billboard_01.webp
+

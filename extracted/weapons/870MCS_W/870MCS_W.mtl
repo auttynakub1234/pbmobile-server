@@ -1,0 +1,9 @@
+# Materials for 870MCS W.
+newmtl Mtl_870MCS_Vol.webp
+Kd 1 1 1
+map_Kd 870MCS_Vol.webp
+
+newmtl Mtl_870MCS_SE.webp
+Kd 1 1 1
+map_Kd 870MCS_SE.webp
+

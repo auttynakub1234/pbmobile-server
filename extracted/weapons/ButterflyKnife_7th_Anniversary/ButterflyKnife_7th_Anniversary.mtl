@@ -1,0 +1,5 @@
+# Materials for Butterfly Knife PBBR7
+newmtl Mtl_Butterfly_Knife_Diff.webp
+Kd 1 1 1
+map_Kd Butterfly_Knife_Diff.webp
+

@@ -1,0 +1,9 @@
+# Materials for SS2-V4  Para Sniper G
+newmtl Mtl_SS2-V4_Para_Sniper_scope_diff.webp
+Kd 1 1 1
+map_Kd SS2-V4_Para_Sniper_scope_diff.webp
+
+newmtl Mtl_SS2-V4_Para_Sniper_Gold_diff.webp
+Kd 1 1 1
+map_Kd SS2-V4_Para_Sniper_Gold_diff.webp
+

@@ -1,0 +1,9 @@
+# Materials for AKS74U Ext.
+newmtl Mtl_Aks74u_Magazin_DIff.webp
+Kd 1 1 1
+map_Kd Aks74u_Magazin_DIff.webp
+
+newmtl Mtl_Aks74u_Diff.webp
+Kd 1 1 1
+map_Kd Aks74u_Diff.webp
+

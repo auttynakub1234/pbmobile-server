@@ -1,0 +1,2950 @@
+{
+  "stage": {
+    "name": "TwoTowers",
+    "world": "World/TwoTowers/TwoTowers_world.i3s",
+    "sky": "World/TwoTowers/TwoTowers_Sky.i3s",
+    "cols": {
+      "hero": "World/TwoTowers/TwoTowers_Col_Hero.i3s",
+      "hit": "World/TwoTowers/TwoTowers_Col_Hit.i3s",
+      "light": "World/TwoTowers/TwoTowers_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/TwoTowers/TwoTowers_world.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TwoTowers/TwoTowers_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TwoTowers/TwoTowers_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TwoTowers/TwoTowers_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TwoTowers/TwoTowers_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TwoTowers/TwoTowers.i3wrd",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box1.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box2.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box3.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box4.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_05.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box8.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box9.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_06.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_08.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box11.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_09.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box12.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box13.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/TwoTowers/Light/TwoTowers_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/TT_Sector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/TwoTowers/_Generated/Box14.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      }
+    ],
+    "ins_version": 3,
+    "layers": [],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_parts_02LightingMap.i3i",
+        "name": "TwoTower_parts_02LightingMap"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_pot_01_rs.i3i",
+        "name": "TwoTower_pot_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_Board_01_rs.i3i",
+        "name": "TwoTower_Board_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_Board paper_01.i3i",
+        "name": "TwoTower_Board paper_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_board_01.i3i",
+        "name": "TwoTower_board_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_box_01_rs.i3i",
+        "name": "TwoTower_box_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_box_02_rs.i3i",
+        "name": "TwoTower_box_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_box_03_rs.i3i",
+        "name": "TwoTower_box_03_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_01_rs.i3i",
+        "name": "TwoTower_building_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_04_rs.i3i",
+        "name": "TwoTower_building_04_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_06_rs.i3i",
+        "name": "TwoTower_building_06_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_07_rs.i3i",
+        "name": "TwoTower_building_07_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_08_01_rs.i3i",
+        "name": "TwoTower_building_08_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_09_rs.i3i",
+        "name": "TwoTower_building_09_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_10_rs.i3i",
+        "name": "TwoTower_building_10_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_11_rs.i3i",
+        "name": "TwoTower_building_11_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_12_rs.i3i",
+        "name": "TwoTower_building_12_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_13_rs.i3i",
+        "name": "TwoTower_building_13_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_14_rs.i3i",
+        "name": "TwoTower_building_14_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_15_rs.i3i",
+        "name": "TwoTower_building_15_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_16_rs.i3i",
+        "name": "TwoTower_building_16_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_17_rs.i3i",
+        "name": "TwoTower_building_17_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_18_rs.i3i",
+        "name": "TwoTower_building_18_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_19_rs.i3i",
+        "name": "TwoTower_building_19_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_ceiling_01_rs.i3i",
+        "name": "TwoTower_ceiling_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_computer_01.i3i",
+        "name": "TwoTower_computer_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_elevator_01_rs.i3i",
+        "name": "TwoTower_elevator_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_Extinguisher_rs_01.i3i",
+        "name": "TwoTower_Extinguisher_rs_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_febric_02_rs.i3i",
+        "name": "TwoTower_febric_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_floor_01_rs.i3i",
+        "name": "TwoTower_floor_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_floor_02_rs.i3i",
+        "name": "TwoTower_floor_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_floor_03_rs.i3i",
+        "name": "TwoTower_floor_03_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_floor_04_rs.i3i",
+        "name": "TwoTower_floor_04_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_light_01_rs.i3i",
+        "name": "TwoTower_light_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_Lighting_01.i3i",
+        "name": "TwoTower_Lighting_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_machin_01_rs.i3i",
+        "name": "TwoTower_machin_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_machin_02_rs.i3i",
+        "name": "TwoTower_machin_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_machin_03_rs.i3i",
+        "name": "TwoTower_machin_03_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_machin_04_rs.i3i",
+        "name": "TwoTower_machin_04_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_machin_05_rs.i3i",
+        "name": "TwoTower_machin_05_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_Met_01_rs.i3i",
+        "name": "TwoTower_Met_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_Met_02_rs.i3i",
+        "name": "TwoTower_Met_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_object_01_rs.i3i",
+        "name": "TwoTower_object_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_pipe_01_rs.i3i",
+        "name": "TwoTower_pipe_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_pipe_02_rs.i3i",
+        "name": "TwoTower_pipe_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_poster_01_rs.i3i",
+        "name": "TwoTower_poster_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_poster_05_rs.i3i",
+        "name": "TwoTower_poster_05_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_poster_06_rs.i3i",
+        "name": "TwoTower_poster_06_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_poster_07_rs.i3i",
+        "name": "TwoTower_poster_07_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_poster_09_rs.i3i",
+        "name": "TwoTower_poster_09_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_radiator_01_rs.i3i",
+        "name": "TwoTower_radiator_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_sign_01_rs.i3i",
+        "name": "TwoTower_sign_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_sign_03_rs.i3i",
+        "name": "TwoTower_sign_03_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_sign_04_rs.i3i",
+        "name": "TwoTower_sign_04_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_table_01_rs.i3i",
+        "name": "TwoTower_table_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_Vending_02.i3i",
+        "name": "TwoTower_Vending_02"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_wall_01_rs.i3i",
+        "name": "TwoTower_wall_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_wall_02_rs.i3i",
+        "name": "TwoTower_wall_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_wall_03_rs.i3i",
+        "name": "TwoTower_wall_03_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_parts_03LightingMap.i3i",
+        "name": "TwoTower_parts_03LightingMap"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_02_rs.i3i",
+        "name": "TwoTower_building_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_03_rs.i3i",
+        "name": "TwoTower_building_03_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_building_05_rs.i3i",
+        "name": "TwoTower_building_05_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_grass_01_rs.i3i",
+        "name": "TwoTower_grass_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_parts_BGLightingMap.i3i",
+        "name": "TwoTower_parts_BGLightingMap"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_Billboard_01.i3i",
+        "name": "twotower_Billboard_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/crane.i3i",
+        "name": "crane"
+      },
+      {
+        "path": "World/TwoTowers/Textures/towtower_sign_01.i3i",
+        "name": "towtower_sign_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/towtower_sign_02.i3i",
+        "name": "towtower_sign_02"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_board01.i3i",
+        "name": "twotower_board01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_01.i3i",
+        "name": "twotower_building_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_02.i3i",
+        "name": "twotower_building_y_02"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_03.i3i",
+        "name": "twotower_building_y_03"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_04.i3i",
+        "name": "twotower_building_y_04"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_05.i3i",
+        "name": "twotower_building_y_05"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_06.i3i",
+        "name": "twotower_building_y_06"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_07.i3i",
+        "name": "twotower_building_y_07"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_08.i3i",
+        "name": "twotower_building_y_08"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_09.i3i",
+        "name": "twotower_building_y_09"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_10.i3i",
+        "name": "twotower_building_y_10"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_11.i3i",
+        "name": "twotower_building_y_11"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_13.i3i",
+        "name": "twotower_building_y_13"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_14.i3i",
+        "name": "twotower_building_y_14"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_15.i3i",
+        "name": "twotower_building_y_15"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_16.i3i",
+        "name": "twotower_building_y_16"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_17.i3i",
+        "name": "twotower_building_y_17"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_18.i3i",
+        "name": "twotower_building_y_18"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_19.i3i",
+        "name": "twotower_building_y_19"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_20.i3i",
+        "name": "twotower_building_y_20"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_21.i3i",
+        "name": "twotower_building_y_21"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_23.i3i",
+        "name": "twotower_building_y_23"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_flag_y_01.i3i",
+        "name": "twotower_flag_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_grass_y_01.i3i",
+        "name": "twotower_grass_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_highway_y_01.i3i",
+        "name": "twotower_highway_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_highway_y_02.i3i",
+        "name": "twotower_highway_y_02"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_highway_y_03.i3i",
+        "name": "twotower_highway_y_03"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_object_y_01.i3i",
+        "name": "twotower_object_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_object_y_02.i3i",
+        "name": "twotower_object_y_02"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_object_y_03.i3i",
+        "name": "twotower_object_y_03"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_park_y_01.i3i",
+        "name": "twotower_park_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_road_y_01.i3i",
+        "name": "twotower_road_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_road_y_02.i3i",
+        "name": "twotower_road_y_02"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_road_y_03.i3i",
+        "name": "twotower_road_y_03"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_road_y_04.i3i",
+        "name": "twotower_road_y_04"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_road_y_05.i3i",
+        "name": "twotower_road_y_05"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_building_y_12.i3i",
+        "name": "twotower_building_y_12"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_RoadLamp_y_01.i3i",
+        "name": "twotower_RoadLamp_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_SignalLamp_y_01.i3i",
+        "name": "twotower_SignalLamp_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_parts_01LightingMap.i3i",
+        "name": "TwoTower_parts_01LightingMap"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_poster_03_rs.i3i",
+        "name": "TwoTower_poster_03_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_poster_04_rs.i3i",
+        "name": "TwoTower_poster_04_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_poster_08_rs.i3i",
+        "name": "TwoTower_poster_08_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_sign_02_rs.i3i",
+        "name": "TwoTower_sign_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_Vending_01.i3i",
+        "name": "TwoTower_Vending_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_poster_02_rs.i3i",
+        "name": "TwoTower_poster_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_alphaLightingMap.i3i",
+        "name": "TwoTower_alphaLightingMap"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_glass_01_rs_noalpha.i3i",
+        "name": "TwoTower_glass_01_rs_noalpha"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_bg_y_01.i3i",
+        "name": "twotower_bg_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_cable_01_rs.i3i",
+        "name": "TwoTower_cable_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_colorline_rs_01.i3i",
+        "name": "TwoTower_colorline_rs_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_doorline_01_rs.i3i",
+        "name": "TwoTower_doorline_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_febric_01_rs.i3i",
+        "name": "TwoTower_febric_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_glass_02_rs.i3i",
+        "name": "TwoTower_glass_02_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_glass_03_rs.i3i",
+        "name": "TwoTower_glass_03_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_ground_01.i3i",
+        "name": "TwoTower_ground_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_leaf_01_rs.i3i",
+        "name": "TwoTower_leaf_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_paper_01_rs.i3i",
+        "name": "TwoTower_paper_01_rs"
+      },
+      {
+        "path": "World/TwoTowers/Textures/twotower_tree_y_01.i3i",
+        "name": "twotower_tree_y_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_waste_01.i3i",
+        "name": "TwoTower_waste_01"
+      },
+      {
+        "path": "World/TwoTowers/Textures/TwoTower_glass_01_rs.i3i",
+        "name": "TwoTower_glass_01_rs"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          2955735664,
+          232745765,
+          1493029738,
+          3742109326
+        ],
+        "respath": "World/TwoTowers/TwoTowers.i3wrd",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        10.776636123657227,
+        30.149192810058594,
+        30.679489135742188
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        7.156084060668945,
+        30.149192810058594,
+        30.679489135742188
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        10.776636123657227,
+        30.149192810058594,
+        28.37171745300293
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        7.156084060668945,
+        30.149192810058594,
+        28.37171745300293
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -5.676939964294434,
+        30.488466262817383,
+        30.679489135742188
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -9.297492980957031,
+        30.488466262817383,
+        30.679489135742188
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -5.676939964294434,
+        30.488466262817383,
+        28.37171745300293
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -9.297492980957031,
+        30.488466262817383,
+        28.37171745300293
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        10.776636123657227,
+        30.271820068359375,
+        -27.363704681396484
+      ],
+      "rot": [
+        0,
+        -1.6869735850280052,
+        0
+      ],
+      "quat": [
+        0,
+        -0.014721089974045753,
+        0,
+        0.9998916387557983
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        7.156084060668945,
+        30.271820068359375,
+        -27.363704681396484
+      ],
+      "rot": [
+        0,
+        -1.6869735850280052,
+        0
+      ],
+      "quat": [
+        0,
+        -0.014721089974045753,
+        0,
+        0.9998916387557983
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        10.776636123657227,
+        30.271820068359375,
+        -29.671478271484375
+      ],
+      "rot": [
+        0,
+        -1.6869735850280052,
+        0
+      ],
+      "quat": [
+        0,
+        -0.014721089974045753,
+        0,
+        0.9998916387557983
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        7.156084060668945,
+        30.271820068359375,
+        -29.671478271484375
+      ],
+      "rot": [
+        0,
+        -1.6869735850280052,
+        0
+      ],
+      "quat": [
+        0,
+        -0.014721089974045753,
+        0,
+        0.9998916387557983
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -5.676939964294434,
+        30.05425453186035,
+        -27.363704681396484
+      ],
+      "rot": [
+        0,
+        -1.6869735850280052,
+        0
+      ],
+      "quat": [
+        0,
+        -0.014721089974045753,
+        0,
+        0.9998916387557983
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -9.297492980957031,
+        30.05425453186035,
+        -27.363704681396484
+      ],
+      "rot": [
+        0,
+        -1.6869735850280052,
+        0
+      ],
+      "quat": [
+        0,
+        -0.014721089974045753,
+        0,
+        0.9998916387557983
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -5.676939964294434,
+        30.05425453186035,
+        -29.671478271484375
+      ],
+      "rot": [
+        0,
+        -1.6869735850280052,
+        0
+      ],
+      "quat": [
+        0,
+        -0.014721089974045753,
+        0,
+        0.9998916387557983
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -9.297492980957031,
+        30.05425453186035,
+        -29.671478271484375
+      ],
+      "rot": [
+        0,
+        -1.6869735850280052,
+        0
+      ],
+      "quat": [
+        0,
+        -0.014721089974045753,
+        0,
+        0.9998916387557983
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "trigger",
+      "name": "Box0",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -8.260866165161133,
+        32.114524841308594,
+        -26.90962028503418
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.825840950012207,
+        4.510173797607422,
+        8.571977615356445
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          732754461,
+          2831805015,
+          1342645383,
+          1941179852
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "trigger",
+      "name": "Box1",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        8.483697891235352,
+        32.19007110595703,
+        -26.90962028503418
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.825840950012207,
+        4.510173797607422,
+        8.571977615356445
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          732754461,
+          2831805015,
+          1342645383,
+          1941179852
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "trigger",
+      "name": "Box2",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        -8.260866165161133,
+        32.114524841308594,
+        27.1527099609375
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.825840950012207,
+        4.510173797607422,
+        8.571977615356445
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1997408242,
+          2171158809,
+          2382073571,
+          2638670146
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "trigger",
+      "name": "Box3",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        8.483697891235352,
+        32.19007110595703,
+        27.1527099609375
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.825840950012207,
+        4.510173797607422,
+        8.571977615356445
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1997408242,
+          2171158809,
+          2382073571,
+          2638670146
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "130000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "trigger",
+      "name": "Box4",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        0.2455420047044754,
+        32.114524841308594,
+        25.308839797973633
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.018128871917725,
+        4.510173797607422,
+        5.268379211425781
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          294764838,
+          2733276588,
+          1409693356,
+          826262549
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "trigger",
+      "name": "Box5",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        0.2455420047044754,
+        32.114524841308594,
+        20.257299423217773
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        25.42308235168457,
+        4.510173797607422,
+        4.731119155883789
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          294764838,
+          2733276588,
+          1409693356,
+          826262549
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "150000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "trigger",
+      "name": "Box6",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        0.2455420047044754,
+        32.114524841308594,
+        -24.763294219970703
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.018128871917725,
+        4.510173797607422,
+        5.268379211425781
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          309181955,
+          2458733690,
+          3250266857,
+          2539384587
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "trigger",
+      "name": "Box7",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        0.2455420047044754,
+        32.114524841308594,
+        -19.933570861816406
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        25.42308235168457,
+        4.510173797607422,
+        4.731119155883789
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          309181955,
+          2458733690,
+          3250266857,
+          2539384587
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "trigger",
+      "name": "Box8",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        0.11059000343084335,
+        29.500896453857422,
+        0.24678100645542145
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.081718444824219,
+        8.827465057373047,
+        34.48854064941406
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3217290937,
+          4147509226,
+          1885835327,
+          3941302234
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "trigger",
+      "name": "Box9",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        0.1207130029797554,
+        32.23261260986328,
+        32.04803466796875
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.1342291831970215,
+        7.92122220993042,
+        7.576697826385498
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3592708909,
+          3293904642,
+          4224962560,
+          44882919
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "trigger",
+      "name": "Box10",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        0.1207130029797554,
+        32.23261260986328,
+        -31.50763511657715
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.1342291831970215,
+        7.92122220993042,
+        7.576697826385498
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          319714705,
+          939143257,
+          1981745285,
+          2943456139
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "trigger",
+      "name": "Box11",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        0.9230989813804626,
+        40.09358215332031,
+        -34.8336067199707
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        29.592212677001953,
+        7.558116912841797,
+        35.135860443115234
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3375467719,
+          1620894765,
+          1469730799,
+          2926521310
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "trigger",
+      "name": "Box12",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        0.9230989813804626,
+        40.09358215332031,
+        35.22385787963867
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        29.592212677001953,
+        7.558116912841797,
+        35.135860443115234
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1070045812,
+          3772503894,
+          3555820552,
+          3706344122
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "trigger",
+      "name": "Box13",
+      "res": "Scene/TwoTowers/_Generated/TT_Section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        0.3547390103340149,
+        36.463768005371094,
+        -1.256108045578003
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        33.19731903076172,
+        5.037868022918701,
+        79.17216491699219
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2884537670,
+          23488821,
+          1550893342,
+          2296685623
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "unknown",
+      "name": "TwoTowers_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        40.90419006347656,
+        73.52720642089844,
+        6.895455837249756
+      ],
+      "rot": [
+        -32.07641554853821,
+        111.78787929854613,
+        -0.4818537024092328
+      ],
+      "quat": [
+        -0.15826141834259033,
+        0.7951148748397827,
+        0.22649061679840088,
+        0.5398590564727783
+      ],
+      "scale": [
+        1.0000001192092896,
+        1.0000003576278687,
+        0.9999996423721313
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          68480621,
+          401297123,
+          104286206,
+          3889491279
+        ],
+        "respath": "World/TwoTowers/Light/TwoTowers_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "TwoTowers_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "trigger",
+      "name": "Box14",
+      "res": "Scene/TwoTowers/_Generated/TT_Sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        0.07119357585906982,
+        36.778343200683594,
+        0.22089767456054688
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.568046569824219,
+        4.857212066650391,
+        34.500770568847656
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1607409167,
+          2869946210,
+          3405902484,
+          3610904203
+        ],
+        "respath": "Scene/TwoTowers/_Generated/TT_Sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box14",
+        "layer": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Materials for C. Python G
+newmtl Mtl_Colt_Python_Gold_Diff.webp
+Kd 1 1 1
+map_Kd Colt_Python_Gold_Diff.webp
+
+newmtl Mtl_ColtPpython_Holder.webp
+Kd 1 1 1
+map_Kd ColtPpython_Holder.webp
+

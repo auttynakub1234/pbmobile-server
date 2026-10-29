@@ -1,0 +1,9 @@
+# Materials for L86 LSW
+newmtl Mtl_SC_02_diff.webp
+Kd 1 1 1
+map_Kd SC_02_diff.webp
+
+newmtl Mtl_L86_LSW_diff.webp
+Kd 1 1 1
+map_Kd L86_LSW_diff.webp
+

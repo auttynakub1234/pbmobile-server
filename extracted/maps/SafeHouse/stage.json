@@ -1,0 +1,3772 @@
+{
+  "stage": {
+    "name": "SafeHouse",
+    "world": "World/SafeHouse/SafeHouse_World.i3s",
+    "sky": "World/SafeHouse/SafeHouse_Sky.i3s",
+    "cols": {
+      "hero": "World/Safehouse/SafeHouse_Col_Hero.i3s",
+      "hit": "World/safehouse/SafeHouse_Col_Hit.i3s",
+      "light": "World/safehouse/SafeHouse_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/SafeHouse/SafeHouse_World.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SafeHouse/SafeHouse_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SafeHouse/SafeHouse_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SafeHouse/SafeHouse_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/SafeHouse/SafeHouse_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "world/safehouse/SafeHouse.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "world/safehouse/light/SafeHouse_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box1.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box2.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box3.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box4.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_09.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box8.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box9.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_05.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box11.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box12.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box13.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_15.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box14.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box15.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box16.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box17.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box18.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_14.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box19.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box20.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_08.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box21.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box22.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box23.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box24.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/SH_sector_06.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "scene/safehouse/_generated/Box25.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      }
+    ],
+    "ins_version": 4,
+    "layers": [
+      "Default",
+      "section",
+      "secter",
+      "respawn"
+    ],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/SafeHouse/Textures/Safe_bottomLightingMap.i3i",
+        "name": "Safe_bottomLightingMap"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_21_B.i3i",
+        "name": "Safe_wall_21_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_07_B.i3i",
+        "name": "Safe_wall_07_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_bottom_01_B.i3i",
+        "name": "Safe_bottom_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_bottom_04_B.i3i",
+        "name": "Safe_bottom_04_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_metal_01_B.i3i",
+        "name": "Safe_metal_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_door_01_B.i3i",
+        "name": "Safe_door_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_corrugated_roof_hs_01.i3i",
+        "name": "Safe_corrugated_roof_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wood_02_B.i3i",
+        "name": "Safe_wood_02_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_14_B.i3i",
+        "name": "Safe_wall_14_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_slate_01_HR.i3i",
+        "name": "Safe_slate_01_HR"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_door_02_B.i3i",
+        "name": "Safe_door_02_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_ladder_02_B.i3i",
+        "name": "Safe_ladder_02_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_door_04_B.i3i",
+        "name": "Safe_door_04_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_corrugated_roof_hs_02.i3i",
+        "name": "Safe_corrugated_roof_hs_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_con_green_hs_03.i3i",
+        "name": "Safe_con_green_hs_03"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_09_B.i3i",
+        "name": "Safe_wall_09_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_door_03_B.i3i",
+        "name": "Safe_door_03_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_bottom_02_B.i3i",
+        "name": "Safe_bottom_02_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_roof_01_B.i3i",
+        "name": "Safe_roof_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/safe_ground_bar_01.i3i",
+        "name": "safe_ground_bar_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_con_hs_04.i3i",
+        "name": "Safe_con_hs_04"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_break_con_hs_01.i3i",
+        "name": "Safe_break_con_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Ground_gravel_hs_01.i3i",
+        "name": "Safe_Ground_gravel_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_bar_conmetal_hs_01.i3i",
+        "name": "Safe_bar_conmetal_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_drainage_01.i3i",
+        "name": "Safe_drainage_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Ground_wood_hs_01.i3i",
+        "name": "Safe_Ground_wood_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Ground_dirt_hs_02.i3i",
+        "name": "Safe_Ground_dirt_hs_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_ventilation_hs_01.i3i",
+        "name": "Safe_ventilation_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_hs_04.i3i",
+        "name": "Safe_window_hs_04"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_hs_05.i3i",
+        "name": "Safe_window_hs_05"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_hs_07.i3i",
+        "name": "Safe_window_hs_07"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_hs_06.i3i",
+        "name": "Safe_window_hs_06"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_door_04_B_HR.i3i",
+        "name": "Safe_door_04_B_HR"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_mountain_01_B.i3i",
+        "name": "Safe_mountain_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_OBJLightingMap.i3i",
+        "name": "Safe_OBJLightingMap"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_11_B.i3i",
+        "name": "Safe_wall_11_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_01_B.i3i",
+        "name": "Safe_wall_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Metal_hs_01.i3i",
+        "name": "Safe_Metal_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_05_B.i3i",
+        "name": "Safe_wall_05_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Crate_04_D.i3i",
+        "name": "Safe_Crate_04_D"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Barricade_01_D.i3i",
+        "name": "Safe_Barricade_01_D"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Garbage_Middle_01.i3i",
+        "name": "Safe_Garbage_Middle_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/wastebasket_metal_hs_01.i3i",
+        "name": "wastebasket_metal_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_10_B.i3i",
+        "name": "Safe_wall_10_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_01_B.i3i",
+        "name": "Safe_window_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_06_HR.i3i",
+        "name": "Safe_wall_06_HR"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_ladder_01_B.i3i",
+        "name": "Safe_ladder_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_palette_01_B.i3i",
+        "name": "Safe_palette_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_08_HR.i3i",
+        "name": "Safe_wall_08_HR"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Garbage_Large_Green.i3i",
+        "name": "Safe_Garbage_Large_Green"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Car_Truck_01.i3i",
+        "name": "Safe_Car_Truck_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_plaster_01_B.i3i",
+        "name": "Safe_plaster_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/gasbarrel_hs_01.i3i",
+        "name": "gasbarrel_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_box_01_B.i3i",
+        "name": "Safe_box_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_tree_01_HR.i3i",
+        "name": "Safe_tree_01_HR"
+      },
+      {
+        "path": "World/SafeHouse/Textures/table_wood_hs_01.i3i",
+        "name": "table_wood_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_06_B.i3i",
+        "name": "Safe_wall_06_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Car_Outdoor_01_Diff.i3i",
+        "name": "Safe_Car_Outdoor_01_Diff"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Car_indoor_01_Diff.i3i",
+        "name": "Safe_Car_indoor_01_Diff"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wood_01_B.i3i",
+        "name": "Safe_wood_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_brick_hs_01.i3i",
+        "name": "Safe_brick_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_con_blue_hs_01.i3i",
+        "name": "Safe_con_blue_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_con_yellow_hs_02.i3i",
+        "name": "Safe_con_yellow_hs_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_cabinet_01_B.i3i",
+        "name": "Safe_cabinet_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/can_rust_hs_01.i3i",
+        "name": "can_rust_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_con_red_hs_01.i3i",
+        "name": "Safe_con_red_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_vent_hs_01.i3i",
+        "name": "Safe_vent_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_pipe_drainage_hs_01.i3i",
+        "name": "Safe_pipe_drainage_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/playground_seesaw_hs_01.i3i",
+        "name": "playground_seesaw_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/playground_slide_hs_01.i3i",
+        "name": "playground_slide_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_sign_hs_01.i3i",
+        "name": "Safe_sign_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Box_A.i3i",
+        "name": "Safe_Box_A"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_ plant_01_B.i3i",
+        "name": "Safe_ plant_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/box_paint_hs_01.i3i",
+        "name": "box_paint_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/washingmachine_hs_01.i3i",
+        "name": "washingmachine_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_tv_01_B.i3i",
+        "name": "Safe_tv_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/antena_hs_01.i3i",
+        "name": "antena_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/washingmachine_old_hs_02_512.i3i",
+        "name": "washingmachine_old_hs_02_512"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Light_fluorescent_hs_01.i3i",
+        "name": "Light_fluorescent_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/gasbarrel_hs_02.i3i",
+        "name": "gasbarrel_hs_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/fan_ceiling_hs_01.i3i",
+        "name": "fan_ceiling_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/dish_hs_01.i3i",
+        "name": "dish_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/telegraphpole_hs_02.i3i",
+        "name": "telegraphpole_hs_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/antena_hs_02.i3i",
+        "name": "antena_hs_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/box_conflake_hs_01.i3i",
+        "name": "box_conflake_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_watertong_01_B.i3i",
+        "name": "Safe_watertong_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/petrol_cask_hs_01.i3i",
+        "name": "petrol_cask_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/furniture_hs_01.i3i",
+        "name": "furniture_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/bed_hs_01.i3i",
+        "name": "bed_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/cloth_hs_01.i3i",
+        "name": "cloth_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/telegraphpole_hs_01.i3i",
+        "name": "telegraphpole_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/box_wood_fruit_hs_01.i3i",
+        "name": "box_wood_fruit_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_garbage_01_B.i3i",
+        "name": "Safe_garbage_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/refrigerator_old_hs_01_512.i3i",
+        "name": "refrigerator_old_hs_01_512"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_hs_01.i3i",
+        "name": "Safe_window_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_hs_02.i3i",
+        "name": "Safe_window_hs_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_hs_02_01.i3i",
+        "name": "Safe_window_hs_02_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_hs_03.i3i",
+        "name": "Safe_window_hs_03"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_slate_02_HR.i3i",
+        "name": "Safe_slate_02_HR"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_WorldLightingMap.i3i",
+        "name": "Safe_WorldLightingMap"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_04_B.i3i",
+        "name": "Safe_wall_04_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_22_B.i3i",
+        "name": "Safe_wall_22_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_02_B.i3i",
+        "name": "Safe_wall_02_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_12_HR.i3i",
+        "name": "Safe_wall_12_HR"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_03_B.i3i",
+        "name": "Safe_wall_03_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_13_B.i3i",
+        "name": "Safe_wall_13_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wall_08_B.i3i",
+        "name": "Safe_wall_08_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_conbrick_hs_01.i3i",
+        "name": "Safe_conbrick_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_con_white_hs_01.i3i",
+        "name": "Safe_con_white_hs_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_door_05_B.i3i",
+        "name": "Safe_door_05_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_con_white_hs_02.i3i",
+        "name": "Safe_con_white_hs_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_con_hs_08.i3i",
+        "name": "Safe_con_hs_08"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_AlphaLightingMap.i3i",
+        "name": "Safe_AlphaLightingMap"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Car_Swat_01.i3i",
+        "name": "Safe_Car_Swat_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_window_01_Diff.i3i",
+        "name": "Safe_window_01_Diff"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_bottom_05_B.i3i",
+        "name": "Safe_bottom_05_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_tree_02_HR.i3i",
+        "name": "Safe_tree_02_HR"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_wash_01_B.i3i",
+        "name": "Safe_wash_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/WireEntanglement_02.i3i",
+        "name": "WireEntanglement_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_graffity_02_B.i3i",
+        "name": "Safe_graffity_02_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_alpha_Metal_01.i3i",
+        "name": "Safe_alpha_Metal_01"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_graffity_01_B.i3i",
+        "name": "Safe_graffity_01_B"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Sign.i3i",
+        "name": "Sign"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_decal_rs_02.i3i",
+        "name": "Safe_decal_rs_02"
+      },
+      {
+        "path": "World/SafeHouse/Textures/Safe_Re_plants_01.i3i",
+        "name": "Safe_Re_plants_01"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          205094844,
+          39484994,
+          2610873698,
+          3288031967
+        ],
+        "respath": "world/safehouse/SafeHouse.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "unknown",
+      "name": "SafeHouse_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        11.33056640625,
+        64.09953308105469,
+        -8.389862060546875
+      ],
+      "rot": [
+        -79.38239969807762,
+        134.1408313687116,
+        -134.39686552269362
+      ],
+      "quat": [
+        -0.7497397065162659,
+        0.045275378972291946,
+        -0.04842162877321243,
+        0.6584041118621826
+      ],
+      "scale": [
+        1,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          3741179506,
+          1496802859,
+          3728396561,
+          1884457506
+        ],
+        "respath": "world/safehouse/light/SafeHouse_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "SafeHouse_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        9.292606353759766,
+        0.9010570049285889,
+        -45.927642822265625
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "Respawn1",
+      "res": null,
+      "obj": null,
+      "pos": [
+        6.056917190551758,
+        0.90106600522995,
+        -45.768272399902344
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn1",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "Respawn2",
+      "res": null,
+      "obj": null,
+      "pos": [
+        10.478790283203125,
+        0.9176729917526245,
+        -49.051143646240234
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn2",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "Respawn3",
+      "res": null,
+      "obj": null,
+      "pos": [
+        11.08388900756836,
+        1.001101016998291,
+        -42.496761322021484
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn3",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "Respawn4",
+      "res": null,
+      "obj": null,
+      "pos": [
+        7.488736152648926,
+        0.9010519981384277,
+        -42.38460922241211
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn4",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "Respawn5",
+      "res": null,
+      "obj": null,
+      "pos": [
+        4.138833045959473,
+        0.9010679721832275,
+        -48.42852020263672
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn5",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "Respawn6",
+      "res": null,
+      "obj": null,
+      "pos": [
+        7.836756229400635,
+        0.9176729917526245,
+        -49.50932312011719
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn6",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "Respawn7",
+      "res": null,
+      "obj": null,
+      "pos": [
+        4.331689834594727,
+        0.9010570049285889,
+        -42.4823112487793
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn7",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "Respawn8",
+      "res": null,
+      "obj": null,
+      "pos": [
+        9.120160102844238,
+        8.100348472595215,
+        45.619144439697266
+      ],
+      "rot": [
+        0,
+        -147.44699059035528,
+        0
+      ],
+      "quat": [
+        0,
+        -0.959920346736908,
+        0,
+        0.2802731394767761
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn8",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "Respawn9",
+      "res": null,
+      "obj": null,
+      "pos": [
+        11.906900405883789,
+        8.100356101989746,
+        46.882022857666016
+      ],
+      "rot": [
+        0,
+        -163.4089002524237,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9895370006561279,
+        0,
+        0.144279345870018
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn9",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "Respawn10",
+      "res": null,
+      "obj": null,
+      "pos": [
+        10.011713981628418,
+        8.100360870361328,
+        49.180789947509766
+      ],
+      "rot": [
+        0,
+        -138.79572015325206,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9360464215278625,
+        0,
+        0.3518766462802887
+      ],
+      "scale": [
+        1.0000004768371582,
+        1,
+        1.0000004768371582
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn10",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "Respawn11",
+      "res": null,
+      "obj": null,
+      "pos": [
+        18.78644561767578,
+        8.100357055664062,
+        48.41513442993164
+      ],
+      "rot": [
+        0,
+        158.56167120708247,
+        0
+      ],
+      "quat": [
+        0,
+        0.9825506806373596,
+        0,
+        0.18599529564380646
+      ],
+      "scale": [
+        1.0000005960464478,
+        1,
+        1.0000005960464478
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn11",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "Respawn12",
+      "res": null,
+      "obj": null,
+      "pos": [
+        26.098791122436523,
+        8.100346565246582,
+        48.74724197387695
+      ],
+      "rot": [
+        0,
+        149.42327541826276,
+        0
+      ],
+      "quat": [
+        0,
+        0.9646110534667969,
+        0,
+        0.263677179813385
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn12",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "Respawn13",
+      "res": null,
+      "obj": null,
+      "pos": [
+        15.856623649597168,
+        8.100361824035645,
+        48.36189270019531
+      ],
+      "rot": [
+        0,
+        -170.43844738351441,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9965209364891052,
+        0,
+        0.0833435133099556
+      ],
+      "scale": [
+        1.0000003576278687,
+        1,
+        1.0000003576278687
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn13",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "Respawn14",
+      "res": null,
+      "obj": null,
+      "pos": [
+        24.360532760620117,
+        8.100358009338379,
+        47.65241241455078
+      ],
+      "rot": [
+        0,
+        156.91840951173424,
+        0
+      ],
+      "quat": [
+        0,
+        0.9797825217247009,
+        0,
+        0.20006561279296875
+      ],
+      "scale": [
+        0.9999997019767761,
+        1,
+        0.9999997019767761
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn14",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "respawn",
+      "name": "Respawn15",
+      "res": null,
+      "obj": null,
+      "pos": [
+        21.920392990112305,
+        8.100359916687012,
+        48.86476516723633
+      ],
+      "rot": [
+        0,
+        155.89407414650614,
+        0
+      ],
+      "quat": [
+        0,
+        0.9779550433158875,
+        0,
+        0.2088158130645752
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn15",
+        "layer": 3
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "trigger",
+      "name": "Box0",
+      "res": "Scene/SafeHouse/_Generated/SH_section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        5.744894027709961,
+        5.161960124969482,
+        -1.5257099866867065
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.816871643066406,
+        3.4874370098114014,
+        4.335844039916992
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2500268393,
+          2194799534,
+          2249919784,
+          761460354
+        ],
+        "respath": "scene/safehouse/_generated/SH_section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box0",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "trigger",
+      "name": "Box1",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        7.117475986480713,
+        3.707731008529663,
+        -41.91460418701172
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        18.549983978271484,
+        19.063365936279297,
+        22.582653045654297
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2491597992,
+          276403570,
+          1386206546,
+          3202129220
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box1",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "trigger",
+      "name": "Box2",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        20.861553192138672,
+        5.792306900024414,
+        -34.32167434692383
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.4937744140625,
+        10.864608764648438,
+        21.136693954467773
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1223066866,
+          3313273668,
+          3904800939,
+          2109711436
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box2",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "trigger",
+      "name": "Box3",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        11.002359390258789,
+        5.846551895141602,
+        -23.926286697387695
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        28.916229248046875,
+        11.186893463134766,
+        5.849161148071289
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1223066866,
+          3313273668,
+          3904800939,
+          2109711436
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box3",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "trigger",
+      "name": "Box4",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        -5.273858070373535,
+        6.384882926940918,
+        -27.478851318359375
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.839828014373779,
+        12.82451057434082,
+        24.327890396118164
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1223066866,
+          3313273668,
+          3904800939,
+          2109711436
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box4",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "trigger",
+      "name": "Box5",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        5.786096096038818,
+        3.9364850521087646,
+        1.5593940019607544
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.970139980316162,
+        7.571498870849609,
+        42.737327575683594
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1759836498,
+          794205355,
+          1221521652,
+          2323999427
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box5",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "trigger",
+      "name": "Box6",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        18.848031997680664,
+        7.514770984649658,
+        -16.945133209228516
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        17.792022705078125,
+        9.00800895690918,
+        7.237488269805908
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2200705063,
+          1483742275,
+          1786575457,
+          2144566563
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box6",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "trigger",
+      "name": "Box7",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        13.761479377746582,
+        7.583157062530518,
+        -6.207777976989746
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.061538696289062,
+        8.178346633911133,
+        15.209207534790039
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2200705063,
+          1483742275,
+          1786575457,
+          2144566563
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box7",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "trigger",
+      "name": "Box8",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        29.74077606201172,
+        7.370182991027832,
+        -4.796593189239502
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        22.50708770751953,
+        10.238080978393555,
+        15.386299133300781
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4212935761,
+          1315536193,
+          3853566450,
+          3322182549
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box8",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "trigger",
+      "name": "Box9",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        36.01022720336914,
+        6.6545491218566895,
+        5.638995170593262
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.451798439025879,
+        11.439408302307129,
+        6.773680210113525
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4212935761,
+          1315536193,
+          3853566450,
+          3322182549
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box9",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "trigger",
+      "name": "Box10",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        39.195533752441406,
+        8.193321228027344,
+        13.43002700805664
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.479438781738281,
+        7.858390808105469,
+        9.25900936126709
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4212935761,
+          1315536193,
+          3853566450,
+          3322182549
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box10",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "trigger",
+      "name": "Box11",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        26.192991256713867,
+        8.907949447631836,
+        14.103628158569336
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        16.457504272460938,
+        9.907596588134766,
+        8.928378105163574
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          803115876,
+          3002974879,
+          4199250356,
+          356115646
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box11",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "trigger",
+      "name": "Box12",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        30.83009910583496,
+        9.082368850708008,
+        28.60075569152832
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.436965942382812,
+        11.661184310913086,
+        20.94792938232422
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          803115876,
+          3002974879,
+          4199250356,
+          356115646
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box12",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "trigger",
+      "name": "Box13",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        29.86806297302246,
+        8.33570384979248,
+        41.48262023925781
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.048054218292236,
+        8.713823318481445,
+        5.613882064819336
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          803115876,
+          3002974879,
+          4199250356,
+          356115646
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box13",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "trigger",
+      "name": "Box14",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_15.i3Evt",
+      "obj": null,
+      "pos": [
+        15.215200424194336,
+        5.253407955169678,
+        21.582576751708984
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.504877090454102,
+        12.04693603515625,
+        16.845619201660156
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4034540523,
+          3789848060,
+          2674422718,
+          3021504109
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_15.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box14",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "trigger",
+      "name": "Box15",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        -27.30517578125,
+        4.702976226806641,
+        -7.931661128997803
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        25.967573165893555,
+        7.895444869995117,
+        15.948530197143555
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2696600171,
+          3366641438,
+          1090786828,
+          3077343186
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box15",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "trigger",
+      "name": "Box16",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.329944610595703,
+        4.702969074249268,
+        -18.126428604125977
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        13.351536750793457,
+        8.338155746459961,
+        6.356616973876953
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2696600171,
+          3366641438,
+          1090786828,
+          3077343186
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box16",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "trigger",
+      "name": "Box17",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_11.i3Evt",
+      "obj": null,
+      "pos": [
+        -35.80119323730469,
+        3.3705379962921143,
+        11.493268013000488
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.127638816833496,
+        8.635578155517578,
+        22.56623077392578
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2204875761,
+          4159997580,
+          681450649,
+          1355444092
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box17",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "trigger",
+      "name": "Box18",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_13.i3Evt",
+      "obj": null,
+      "pos": [
+        -25.521465301513672,
+        5.158286094665527,
+        34.47803497314453
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        30.14623260498047,
+        9.7559814453125,
+        22.450721740722656
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3655413645,
+          3290630081,
+          917884310,
+          2290123400
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box18",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "trigger",
+      "name": "Box19",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_14.i3Evt",
+      "obj": null,
+      "pos": [
+        -6.130064010620117,
+        6.431890964508057,
+        -0.33316001296043396
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        15.29550838470459,
+        7.661808967590332,
+        15.077086448669434
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3821993623,
+          2187675067,
+          1408152194,
+          3270566586
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_14.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box19",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "trigger",
+      "name": "Box20",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_12.i3Evt",
+      "obj": null,
+      "pos": [
+        -14.215774536132812,
+        4.451773166656494,
+        15.172022819519043
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        19.97892189025879,
+        11.50788688659668,
+        14.951699256896973
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          253131581,
+          1646248590,
+          1769802798,
+          2174661298
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box20",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "trigger",
+      "name": "Box21",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.24820199608802795,
+        5.698371887207031,
+        30.071640014648438
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        19.950897216796875,
+        10.881010055541992,
+        13.62168025970459
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3464707807,
+          637283691,
+          2022075590,
+          2542019578
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box21",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "trigger",
+      "name": "Box22",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        -3.0239670276641846,
+        8.723880767822266,
+        41.94804382324219
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.415388107299805,
+        6.95182991027832,
+        10.476930618286133
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3464707807,
+          637283691,
+          2022075590,
+          2542019578
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "270000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box22",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "trigger",
+      "name": "Box23",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        9.033209800720215,
+        11.123952865600586,
+        44.268123626708984
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.450709342956543,
+        7.978560924530029,
+        6.151209831237793
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          63132584,
+          77892726,
+          214738085,
+          1086093618
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box23",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "trigger",
+      "name": "Box24",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        6.711895942687988,
+        11.123950004577637,
+        50.7951545715332
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.090752601623535,
+        7.978560924530029,
+        7.020476818084717
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          63132584,
+          77892726,
+          214738085,
+          1086093618
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "290000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box24",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "trigger",
+      "name": "Box25",
+      "res": "Scene/SafeHouse/_Generated/SH_sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        24.295507431030273,
+        9.038789749145508,
+        48.00568771362305
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        20.901878356933594,
+        11.956620216369629,
+        7.204043865203857
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4279660416,
+          4122859124,
+          4279219871,
+          2318811568
+        ],
+        "respath": "scene/safehouse/_generated/SH_sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box25",
+        "layer": 2
+      }
+    }
+  ]
+}

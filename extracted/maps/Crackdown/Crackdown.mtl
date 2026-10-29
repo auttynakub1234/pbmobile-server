@@ -1,0 +1,97 @@
+# Materials for Crackdown
+newmtl Mtl_Car_CTS_Indoor_01_Break_01.webp
+Kd 1 1 1
+map_Kd Car_CTS_Indoor_01_Break_01.webp
+
+newmtl Mtl_Sign_Danger_01.webp
+Kd 1 1 1
+map_Kd Sign_Danger_01.webp
+
+newmtl Mtl_WireEntanglement_03.webp
+Kd 1 1 1
+map_Kd WireEntanglement_03.webp
+
+newmtl Mtl_Palette_Wood_01.webp
+Kd 1 1 1
+map_Kd Palette_Wood_01.webp
+
+newmtl Mtl_Car_Humvee_01_Outdoor_01_Pattern_02_Diff.webp
+Kd 1 1 1
+map_Kd Car_Humvee_01_Outdoor_01_Pattern_02_Diff.webp
+
+newmtl Mtl_handrail.webp
+Kd 1 1 1
+map_Kd handrail.webp
+
+newmtl Mtl_Car_Option_01_Break_01.webp
+Kd 1 1 1
+map_Kd Car_Option_01_Break_01.webp
+
+newmtl Mtl_bottom.webp
+Kd 1 1 1
+map_Kd bottom.webp
+
+newmtl Mtl_Handrail_01.webp
+Kd 1 1 1
+map_Kd Handrail_01.webp
+
+newmtl Mtl_bottom_02.webp
+Kd 1 1 1
+map_Kd bottom_02.webp
+
+newmtl Mtl_Drum_Blue_01.webp
+Kd 1 1 1
+map_Kd Drum_Blue_01.webp
+
+newmtl Mtl_leaflet_1.webp
+Kd 1 1 1
+map_Kd leaflet_1.webp
+
+newmtl Mtl_GarbageCan_Middle_01.webp
+Kd 1 1 1
+map_Kd GarbageCan_Middle_01.webp
+
+newmtl Mtl_Car_Humvee_01_window_01_Diff.webp
+Kd 1 1 1
+map_Kd Car_Humvee_01_window_01_Diff.webp
+
+newmtl Mtl_Drum_Black_01.webp
+Kd 1 1 1
+map_Kd Drum_Black_01.webp
+
+newmtl Mtl_WireEntanglement_01.webp
+Kd 1 1 1
+map_Kd WireEntanglement_01.webp
+
+newmtl Mtl_leaflet_2.webp
+Kd 1 1 1
+map_Kd leaflet_2.webp
+
+newmtl Mtl_road_1.webp
+Kd 1 1 1
+map_Kd road_1.webp
+
+newmtl Mtl_wood_resources_01.webp
+Kd 1 1 1
+map_Kd wood_resources_01.webp
+
+newmtl Mtl_WireEntanglement_02.webp
+Kd 1 1 1
+map_Kd WireEntanglement_02.webp
+
+newmtl Mtl_Car_CTS_Outdoor_01_Taxi_01_Break_01.webp
+Kd 1 1 1
+map_Kd Car_CTS_Outdoor_01_Taxi_01_Break_01.webp
+
+newmtl Mtl_Container CrackDown.webp
+Kd 1 1 1
+map_Kd Container CrackDown.webp
+
+newmtl Mtl_interior_2.webp
+Kd 1 1 1
+map_Kd interior_2.webp
+
+newmtl Mtl_CableDrum_01.webp
+Kd 1 1 1
+map_Kd CableDrum_01.webp
+

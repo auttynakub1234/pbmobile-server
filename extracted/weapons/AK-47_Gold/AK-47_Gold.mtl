@@ -1,0 +1,9 @@
+# Materials for AK-47 G.
+newmtl Mtl_Ak47_DualMagazine_Gold.webp
+Kd 1 1 1
+map_Kd Ak47_DualMagazine_Gold.webp
+
+newmtl Mtl_AK47_Gold.webp
+Kd 1 1 1
+map_Kd AK47_Gold.webp
+

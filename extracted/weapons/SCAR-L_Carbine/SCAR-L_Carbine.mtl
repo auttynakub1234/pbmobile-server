@@ -1,0 +1,17 @@
+# Materials for SCAR-L Carbine
+newmtl Mtl_DotSight.webp
+Kd 1 1 1
+map_Kd DotSight.webp
+
+newmtl Mtl_AN_PEQ-15_Diff.webp
+Kd 1 1 1
+map_Kd AN_PEQ-15_Diff.webp
+
+newmtl Mtl_M32_MGL_handle_diff.webp
+Kd 1 1 1
+map_Kd M32_MGL_handle_diff.webp
+
+newmtl Mtl_SCAR-L_diff.webp
+Kd 1 1 1
+map_Kd SCAR-L_diff.webp
+

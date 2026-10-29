@@ -1,0 +1,5 @@
+# Materials for CS Gas
+newmtl Mtl_Smoke_grenade.webp
+Kd 1 1 1
+map_Kd Smoke_grenade.webp
+

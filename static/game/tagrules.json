@@ -1,0 +1,328 @@
+{
+ "_doc": "REGRAS PELO TITULO DA SALA (dono 15/10: '@camp' etc. do PB antigo). Lido pelo netserver (tagrules.py: equipamento da partida + dano) e pelo cliente (pb.js PB.tagRule: inventario da sala, Montar personagem, troca do T). A 1a regra cujo 'match' (regex, sem maiuscula/minuscula) casa com o titulo vale; 'base' herda os campos de outra regra. Campos: deny_name = regex do nome da arma; deny_ext = extensao da arma (GrenadeLauncher...); chara_hp_max = personagem com HP maior fica de fora; parts_off = acessorios proibidos (Head = capacete, Facegear = mascara, Beret = boina); items_off = grupos de item de conta desligados (ItemID % 1000; 34 = Kit de velocidade C4); allow_slots = SO' armas destes slots (3 = arma branca): o resto vira a faca do jogador na partida. allow = SO' armas desta lista (classe, regex do nome e dano maximo = o da versao original; null = sem teto): o resto fica de fora.",
+ "rules": [
+  {
+   "id": "79",
+   "label": "@79",
+   "match": "@79(?![0-9])",
+   "desc": "@79 (modo faca): só arma branca -- sem arma de fogo, pistola, granada ou C4",
+   "allow_slots": [
+    3
+   ]
+  },
+  {
+   "id": "camp_sb",
+   "base": "camp",
+   "label": "@camp s/boina",
+   "match": "@camp\\s*(s/|sem\\s*)boina",
+   "desc": "@CAMP sem boina",
+   "parts_off": [
+    "Head",
+    "Facegear",
+    "Beret"
+   ]
+  },
+  {
+   "id": "camp_cb",
+   "base": "camp",
+   "label": "@camp c/boina",
+   "match": "@camp\\s*(c/|com\\s*)boina",
+   "desc": "@CAMP com boina"
+  },
+  {
+   "id": "camp",
+   "label": "@camp",
+   "match": "@camp",
+   "desc": "@CAMP: só armas clássicas (K-2, AK-47, M4A1, AUG A3, P90, L115A1, Desert Eagle...) no dano original; sem shotgun, sem dupla, sem F.C, sem armas novas; sem personagem de mais de 100 HP; sem capacete e máscara; sem Kit de velocidade C4",
+   "deny_name": [
+    "\\bdual\\b"
+   ],
+   "deny_ext": [
+    "GrenadeLauncher",
+    "ShotGunLauncher"
+   ],
+   "chara_hp_max": 100,
+   "parts_off": [
+    "Head",
+    "Facegear"
+   ],
+   "items_off": [
+    34
+   ],
+   "allow": [
+    {
+     "cls": [
+      "AssaultRifle"
+     ],
+     "re": "^K-2\\b",
+     "max": 27
+    },
+    {
+     "cls": [
+      "AssaultRifle"
+     ],
+     "re": "^SG 550\\b",
+     "max": 30
+    },
+    {
+     "cls": [
+      "AssaultRifle"
+     ],
+     "re": "^AK-47\\b",
+     "max": 33
+    },
+    {
+     "cls": [
+      "AssaultRifle"
+     ],
+     "re": "^AK SOPMOD\\b",
+     "max": 33
+    },
+    {
+     "cls": [
+      "AssaultRifle"
+     ],
+     "re": "^M4A1\\b",
+     "max": 26
+    },
+    {
+     "cls": [
+      "AssaultRifle"
+     ],
+     "re": "^F2000\\b",
+     "max": 27
+    },
+    {
+     "cls": [
+      "AssaultRifle"
+     ],
+     "re": "^G36C\\b",
+     "max": 25
+    },
+    {
+     "cls": [
+      "AssaultRifle"
+     ],
+     "re": "^AUG A3\\b",
+     "max": 30
+    },
+    {
+     "cls": [
+      "SMG"
+     ],
+     "re": "^K-1\\b",
+     "max": 23
+    },
+    {
+     "cls": [
+      "SMG"
+     ],
+     "re": "^MP5K\\b",
+     "max": 22
+    },
+    {
+     "cls": [
+      "SMG"
+     ],
+     "re": "^Spectre\\b",
+     "max": 22
+    },
+    {
+     "cls": [
+      "SMG"
+     ],
+     "re": "^MP7\\b",
+     "max": 21
+    },
+    {
+     "cls": [
+      "SMG"
+     ],
+     "re": "^UMP45\\b",
+     "max": 25
+    },
+    {
+     "cls": [
+      "SMG"
+     ],
+     "re": "^P90\\b",
+     "max": 24
+    },
+    {
+     "cls": [
+      "SniperRifle"
+     ],
+     "re": "^SSG-69\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "SniperRifle"
+     ],
+     "re": "^PSG1\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "SniperRifle"
+     ],
+     "re": "^Dragunov\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "SniperRifle"
+     ],
+     "re": "^L115A1\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "SniperRifle"
+     ],
+     "re": "^VSK94\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "SniperRifle"
+     ],
+     "re": "^Winchester M70\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "SniperRifle"
+     ],
+     "re": "^Rangemaster\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "MG"
+     ],
+     "re": "^MK\\.46\\b",
+     "max": 25
+    },
+    {
+     "cls": [
+      "HandGun",
+      "CIC"
+     ],
+     "re": "^K-5\\b",
+     "max": 17
+    },
+    {
+     "cls": [
+      "HandGun",
+      "CIC"
+     ],
+     "re": "^P99&HAK\\b",
+     "max": 20
+    },
+    {
+     "cls": [
+      "HandGun",
+      "CIC"
+     ],
+     "re": "^Desert Eagle\\b",
+     "max": 28
+    },
+    {
+     "cls": [
+      "HandGun",
+      "CIC"
+     ],
+     "re": "^MK\\.23\\b",
+     "max": 20
+    },
+    {
+     "cls": [
+      "HandGun",
+      "CIC"
+     ],
+     "re": "^Glock 18\\b",
+     "max": 17
+    },
+    {
+     "cls": [
+      "HandGun",
+      "CIC"
+     ],
+     "re": "^C\\. ?Python\\b",
+     "max": 50
+    },
+    {
+     "cls": [
+      "Knife"
+     ],
+     "re": "^M-7\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "Knife"
+     ],
+     "re": "^Amok Kukri\\b",
+     "max": 84
+    },
+    {
+     "cls": [
+      "Knife"
+     ],
+     "re": "^Mini Axe\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "Knife"
+     ],
+     "re": "^Machete\\b",
+     "max": 72
+    },
+    {
+     "cls": [
+      "Knife"
+     ],
+     "re": "^Bone Knife\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "Throwing"
+     ],
+     "re": "^K-400\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "Throwing"
+     ],
+     "re": "^K-413\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "Throwing"
+     ],
+     "re": "^Smoke\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "Throwing"
+     ],
+     "re": "^Flash\\b",
+     "max": null
+    },
+    {
+     "cls": [
+      "Throwing"
+     ],
+     "re": "^WP Smoke\\b",
+     "max": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+# Materials for MP7 Ext.
+newmtl Mtl_DotSight.webp
+Kd 1 1 1
+map_Kd DotSight.webp
+
+newmtl Mtl_MP7.webp
+Kd 1 1 1
+map_Kd MP7.webp
+

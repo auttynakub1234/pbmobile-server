@@ -1,0 +1,121 @@
+# Materials for NStation
+newmtl Mtl_base_1_1.webp
+Kd 1 1 1
+map_Kd base_1_1.webp
+
+newmtl Mtl_base_1_3.webp
+Kd 1 1 1
+map_Kd base_1_3.webp
+
+newmtl Mtl_base_1.webp
+Kd 1 1 1
+map_Kd base_1.webp
+
+newmtl Mtl_shutter.webp
+Kd 1 1 1
+map_Kd shutter.webp
+
+newmtl Mtl_wall_1.webp
+Kd 1 1 1
+map_Kd wall_1.webp
+
+newmtl Mtl_base_13.webp
+Kd 1 1 1
+map_Kd base_13.webp
+
+newmtl Mtl_base_1_2.webp
+Kd 1 1 1
+map_Kd base_1_2.webp
+
+newmtl Mtl_base_1_4.webp
+Kd 1 1 1
+map_Kd base_1_4.webp
+
+newmtl Mtl_base_1_7.webp
+Kd 1 1 1
+map_Kd base_1_7.webp
+
+newmtl Mtl_wall_2_2.webp
+Kd 1 1 1
+map_Kd wall_2_2.webp
+
+newmtl Mtl_base_8.webp
+Kd 1 1 1
+map_Kd base_8.webp
+
+newmtl Mtl_machine.webp
+Kd 1 1 1
+map_Kd machine.webp
+
+newmtl Mtl_wall_1_1.webp
+Kd 1 1 1
+map_Kd wall_1_1.webp
+
+newmtl Mtl_railway_4.webp
+Kd 1 1 1
+map_Kd railway_4.webp
+
+newmtl Mtl_base_10.webp
+Kd 1 1 1
+map_Kd base_10.webp
+
+newmtl Mtl_base_2.webp
+Kd 1 1 1
+map_Kd base_2.webp
+
+newmtl Mtl_wall_2_1.webp
+Kd 1 1 1
+map_Kd wall_2_1.webp
+
+newmtl Mtl_base_9_1.webp
+Kd 1 1 1
+map_Kd base_9_1.webp
+
+newmtl Mtl_base_8_1.webp
+Kd 1 1 1
+map_Kd base_8_1.webp
+
+newmtl Mtl_base_8_3.webp
+Kd 1 1 1
+map_Kd base_8_3.webp
+
+newmtl Mtl_wall_2_3.webp
+Kd 1 1 1
+map_Kd wall_2_3.webp
+
+newmtl Mtl_railway_1.webp
+Kd 1 1 1
+map_Kd railway_1.webp
+
+newmtl Mtl_railway_3.webp
+Kd 1 1 1
+map_Kd railway_3.webp
+
+newmtl Mtl_wall_5.webp
+Kd 1 1 1
+map_Kd wall_5.webp
+
+newmtl Mtl_base_11.webp
+Kd 1 1 1
+map_Kd base_11.webp
+
+newmtl Mtl_base_12_1.webp
+Kd 1 1 1
+map_Kd base_12_1.webp
+
+newmtl Mtl_base_8_2.webp
+Kd 1 1 1
+map_Kd base_8_2.webp
+
+newmtl Mtl_base_7.webp
+Kd 1 1 1
+map_Kd base_7.webp
+
+newmtl Mtl_railway_2.webp
+Kd 1 1 1
+map_Kd railway_2.webp
+
+newmtl Mtl_wall_2.webp
+Kd 1 1 1
+map_Kd wall_2.webp
+

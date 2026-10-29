@@ -1,0 +1,13 @@
+# Materials for FAMAS_G2_Commando_Gold
+newmtl Mtl_DotSight.webp
+Kd 1 1 1
+map_Kd DotSight.webp
+
+newmtl Mtl_Rail.webp
+Kd 1 1 1
+map_Kd Rail.webp
+
+newmtl Mtl_FAMAS_G2_Comando_Gold_diff.webp
+Kd 1 1 1
+map_Kd FAMAS_G2_Comando_Gold_diff.webp
+

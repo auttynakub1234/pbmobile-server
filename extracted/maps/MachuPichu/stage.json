@@ -1,0 +1,2672 @@
+{
+  "stage": {
+    "name": "MachuPichu",
+    "world": "World/MachuPichu/MachuPichu_World.i3s",
+    "sky": "World/MachuPichu/MachuPichu_Sky.i3s",
+    "cols": {
+      "hero": "World/MachuPichu/MachuPichu_Col_Hero.i3s",
+      "hit": "World/MachuPichu/MachuPichu_Col_Hit.I3S",
+      "light": "World/MachuPichu/MachuPichu_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/MachuPichu/MachuPichu_World.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/MachuPichu/MachuPichu_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/MachuPichu/MachuPichu_Col_Hero.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/MachuPichu/MachuPichu_Col_Hit.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/MachuPichu/MachuPichu_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/MachuPichu/MachuPichu.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box1.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box2.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box3.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box4.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_09.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_04.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_06.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box8.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_07.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box9.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_03.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_05.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box11.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/MP_Sector_08.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/MachuPichu/_Generated/Box12.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/MachuPichu/Light/MachuPichu_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Sound/Object/Explosion/OB_FirePort_Torch.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "Object/effect/firebox.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/effect/Env_FirePort.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      }
+    ],
+    "ins_version": 3,
+    "layers": [],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/MachuPichu/Textures/Machu_OBJ2_Lightingmap.i3i",
+        "name": "Machu_OBJ2_Lightingmap"
+      },
+      {
+        "path": "World/MachuPichu/Textures/antena.i3i",
+        "name": "antena"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Cabinet_02.i3i",
+        "name": "Cabinet_02"
+      },
+      {
+        "path": "World/MachuPichu/Textures/cabinet_big.i3i",
+        "name": "cabinet_big"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Camouflage_02.i3i",
+        "name": "Camouflage_02"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Cartridge.i3i",
+        "name": "Cartridge"
+      },
+      {
+        "path": "World/MachuPichu/Textures/metalchair.i3i",
+        "name": "metalchair"
+      },
+      {
+        "path": "World/MachuPichu/Textures/missile_1.i3i",
+        "name": "missile_1"
+      },
+      {
+        "path": "World/MachuPichu/Textures/missile_2.i3i",
+        "name": "missile_2"
+      },
+      {
+        "path": "World/MachuPichu/Textures/MissileController_01.i3i",
+        "name": "MissileController_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/MissileController_02.i3i",
+        "name": "MissileController_02"
+      },
+      {
+        "path": "World/MachuPichu/Textures/MissileController_03.i3i",
+        "name": "MissileController_03"
+      },
+      {
+        "path": "World/MachuPichu/Textures/MissileController_out.i3i",
+        "name": "MissileController_out"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Mortar_Shell_Box.i3i",
+        "name": "Mortar_Shell_Box"
+      },
+      {
+        "path": "World/MachuPichu/Textures/perscomwhite.i3i",
+        "name": "perscomwhite"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Sandstorm_world_32.i3i",
+        "name": "Sandstorm_world_32"
+      },
+      {
+        "path": "World/MachuPichu/Textures/steeldesk.i3i",
+        "name": "steeldesk"
+      },
+      {
+        "path": "World/MachuPichu/Textures/wood_07.i3i",
+        "name": "wood_07"
+      },
+      {
+        "path": "World/MachuPichu/Textures/wood_tableA.i3i",
+        "name": "wood_tableA"
+      },
+      {
+        "path": "World/MachuPichu/Textures/XPC_Diff.i3i",
+        "name": "XPC_Diff"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Out_Lightingmap.i3i",
+        "name": "Machu_Out_Lightingmap"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Bottom_a.i3i",
+        "name": "Machu_Bottom_a"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_BottenWall01.i3i",
+        "name": "Machu_BottenWall01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Bottom_b.i3i",
+        "name": "Machu_Bottom_b"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Bottom_c.i3i",
+        "name": "Machu_Bottom_c"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_rock.i3i",
+        "name": "Machu_rock"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Mt.i3i",
+        "name": "Machu_Mt"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_RWall01_01.i3i",
+        "name": "Machu_RWall01_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_RWall02_01.i3i",
+        "name": "Machu_RWall02_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_RWall02_02.i3i",
+        "name": "Machu_RWall02_02"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_RWall05_01.i3i",
+        "name": "Machu_RWall05_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Tile_Lightingmap.i3i",
+        "name": "Machu_Tile_Lightingmap"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_stair.i3i",
+        "name": "Machu_stair"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Tree01_Bark.i3i",
+        "name": "Machu_Tree01_Bark"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Tree02_Bark.i3i",
+        "name": "Machu_Tree02_Bark"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Wall_Lightingmap.i3i",
+        "name": "Machu_Wall_Lightingmap"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_RWall_etc.i3i",
+        "name": "Machu_RWall_etc"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_WireFenceBar.i3i",
+        "name": "Machu_WireFenceBar"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Palette_Wood_01.i3i",
+        "name": "Palette_Wood_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_OBJ1_Lightingmap.i3i",
+        "name": "Machu_OBJ1_Lightingmap"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Drum_add_wood.i3i",
+        "name": "Drum_add_wood"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_box_wood_01.i3i",
+        "name": "Machu_box_wood_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Rpg7_box.i3i",
+        "name": "Rpg7_box"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Supply_Box.i3i",
+        "name": "Supply_Box"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Tent_01.i3i",
+        "name": "Tent_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Tent_03.i3i",
+        "name": "Tent_03"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Camouflage_01.i3i",
+        "name": "Camouflage_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/box_wood_01.i3i",
+        "name": "box_wood_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Drum_Yellow_01.i3i",
+        "name": "Drum_Yellow_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_vinylbox.i3i",
+        "name": "Machu_vinylbox"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Bottom_c_01.i3i",
+        "name": "Machu_Bottom_c_01"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Bottom_c_02.i3i",
+        "name": "Machu_Bottom_c_02"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_WireFence.i3i",
+        "name": "Machu_WireFence"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Plant02.i3i",
+        "name": "Machu_Plant02"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Plant05.i3i",
+        "name": "Machu_Plant05"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Tree01_Leaves1.i3i",
+        "name": "Machu_Tree01_Leaves1"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Tree01_Leaves2.i3i",
+        "name": "Machu_Tree01_Leaves2"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Tree02_Leaves1.i3i",
+        "name": "Machu_Tree02_Leaves1"
+      },
+      {
+        "path": "World/MachuPichu/Textures/Machu_Wire.i3i",
+        "name": "Machu_Wire"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          3373762672,
+          2389487226,
+          102166336,
+          3826930726
+        ],
+        "respath": "World/MachuPichu/MachuPichu.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "trigger",
+      "name": "Box0",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_01.i3Evt",
+      "obj": null,
+      "pos": [
+        32.749053955078125,
+        12.43596076965332,
+        -40.43811798095703
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        25.14960479736328,
+        13.039443016052246,
+        22.09142303466797
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3962008839,
+          1567341295,
+          2114319367,
+          3847918751
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "trigger",
+      "name": "Box1",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        30.043407440185547,
+        5.65462589263916,
+        -19.25784683227539
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        19.697742462158203,
+        26.0932674407959,
+        19.139739990234375
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3166535496,
+          3779331407,
+          864874305,
+          3365535341
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "trigger",
+      "name": "Box2",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_02.i3Evt",
+      "obj": null,
+      "pos": [
+        6.912898063659668,
+        9.292488098144531,
+        -31.227153778076172
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        26.384132385253906,
+        17.075023651123047,
+        43.00178909301758
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3166535496,
+          3779331407,
+          864874305,
+          3365535341
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "trigger",
+      "name": "Box3",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_11.i3Evt",
+      "obj": null,
+      "pos": [
+        -45.19365692138672,
+        8.496965408325195,
+        36.952537536621094
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        23.17959976196289,
+        21.374786376953125,
+        25.00005340576172
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          385651006,
+          1018687533,
+          255206400,
+          1926198996
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "trigger",
+      "name": "Box4",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        -20.216400146484375,
+        0.7105119824409485,
+        37.97627258300781
+      ],
+      "rot": [
+        0,
+        180,
+        180
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        26.398447036743164,
+        36.99663162231445,
+        27.119165420532227
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4250881297,
+          1747501588,
+          1240910111,
+          3195582416
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "trigger",
+      "name": "Box5",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        -32.302734375,
+        11.952528953552246,
+        17.127552032470703
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        51.584495544433594,
+        14.000269889831543,
+        14.19318675994873
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4250881297,
+          1747501588,
+          1240910111,
+          3195582416
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "trigger",
+      "name": "Box6",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_09.i3Evt",
+      "obj": null,
+      "pos": [
+        1.2417140007019043,
+        17.58526611328125,
+        35.56793975830078
+      ],
+      "rot": [
+        0,
+        180,
+        180
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        15.959461212158203,
+        13.092601776123047,
+        20.34287452697754
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3613678933,
+          4082416859,
+          2303341950,
+          912691063
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_09.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "trigger",
+      "name": "Box7",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_04.i3Evt",
+      "obj": null,
+      "pos": [
+        1.2363970279693604,
+        13.372234344482422,
+        7.840979099273682
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        14.682589530944824,
+        15.77018928527832,
+        34.671722412109375
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          473028575,
+          1178229020,
+          500842982,
+          1537535183
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_04.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "trigger",
+      "name": "Box8",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_06.i3Evt",
+      "obj": null,
+      "pos": [
+        -19.81399917602539,
+        12.789896965026855,
+        -16.1755313873291
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        26.583576202392578,
+        15.864564895629883,
+        52.14386749267578
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3988340840,
+          2605753653,
+          2121825972,
+          1168763292
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_06.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "trigger",
+      "name": "Box9",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_07.i3Evt",
+      "obj": null,
+      "pos": [
+        27.718448638916016,
+        23.316333770751953,
+        23.56930160522461
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        36.83576202392578,
+        14.684977531433105,
+        27.968605041503906
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2129795677,
+          43324279,
+          295540113,
+          1771846033
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_07.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "trigger",
+      "name": "Box10",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_03.i3Evt",
+      "obj": null,
+      "pos": [
+        24.289560317993164,
+        16.30025863647461,
+        -0.18484799563884735
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        31.200613021850586,
+        15.205755233764648,
+        18.770896911621094
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2455436146,
+          320262203,
+          3264094059,
+          464300409
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_03.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "trigger",
+      "name": "Box11",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_05.i3Evt",
+      "obj": null,
+      "pos": [
+        44.862186431884766,
+        13.71855354309082,
+        -9.83839225769043
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        9.43347454071045,
+        15.904891967773438,
+        38.56616973876953
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3432870118,
+          1168269358,
+          637134785,
+          3939699878
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_05.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "trigger",
+      "name": "Box12",
+      "res": "Scene/MachuPichu/_Generated/MP_Sector_08.i3Evt",
+      "obj": null,
+      "pos": [
+        50.53651809692383,
+        23.44290542602539,
+        24.225299835205078
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.663578033447266,
+        9.336694717407227,
+        14.95880126953125
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3359573426,
+          1101969899,
+          2428403242,
+          2029974108
+        ],
+        "respath": "Scene/MachuPichu/_Generated/MP_Sector_08.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "unknown",
+      "name": "MachuPichu_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -105.10846710205078,
+        10.662628173828125,
+        -18.394485473632812
+      ],
+      "rot": [
+        -45.67689303009585,
+        -40.93401933834176,
+        -0.0000031893384510176856
+      ],
+      "quat": [
+        -0.36363258957862854,
+        -0.32225504517555237,
+        -0.13571807742118835,
+        0.8634255528450012
+      ],
+      "scale": [
+        0.9999999403953552,
+        1.0000003576278687,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          1279858596,
+          2016055149,
+          3369550272,
+          3382702646
+        ],
+        "respath": "World/MachuPichu/Light/MachuPichu_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "MachuPichu_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        33.16923141479492,
+        9.62938117980957,
+        -47.91781997680664
+      ],
+      "rot": [
+        0,
+        -29.519389635635353,
+        0
+      ],
+      "quat": [
+        0,
+        -0.2547655701637268,
+        0,
+        0.9670028686523438
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        34.643917083740234,
+        9.62938117980957,
+        -47.91781997680664
+      ],
+      "rot": [
+        0,
+        -29.519389635635353,
+        0
+      ],
+      "quat": [
+        0,
+        -0.2547655701637268,
+        0,
+        0.9670028686523438
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        33.440406799316406,
+        9.62938117980957,
+        -46.251895904541016
+      ],
+      "rot": [
+        0,
+        -29.519389635635353,
+        0
+      ],
+      "quat": [
+        0,
+        -0.2547655701637268,
+        0,
+        0.9670028686523438
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        34.89141845703125,
+        9.62938117980957,
+        -46.36827850341797
+      ],
+      "rot": [
+        0,
+        -29.519389635635353,
+        0
+      ],
+      "quat": [
+        0,
+        -0.2547655701637268,
+        0,
+        0.9670028686523438
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        36.890384674072266,
+        9.62938117980957,
+        -47.974849700927734
+      ],
+      "rot": [
+        0,
+        -53.90534675649232,
+        0
+      ],
+      "quat": [
+        0,
+        -0.453254371881485,
+        0,
+        0.8913812041282654
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        38.267242431640625,
+        9.62938117980957,
+        -47.91781997680664
+      ],
+      "rot": [
+        0,
+        -53.90534675649232,
+        0
+      ],
+      "quat": [
+        0,
+        -0.453254371881485,
+        0,
+        0.8913812041282654
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        36.97325897216797,
+        9.62938117980957,
+        -46.4918212890625
+      ],
+      "rot": [
+        0,
+        -53.90534675649232,
+        0
+      ],
+      "quat": [
+        0,
+        -0.453254371881485,
+        0,
+        0.8913812041282654
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        38.44984436035156,
+        9.62938117980957,
+        -46.251895904541016
+      ],
+      "rot": [
+        0,
+        -53.90534675649232,
+        0
+      ],
+      "quat": [
+        0,
+        -0.453254371881485,
+        0,
+        0.8913812041282654
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -43.868675231933594,
+        5.968975067138672,
+        33.15447998046875
+      ],
+      "rot": [
+        0,
+        85.16728414011719,
+        0
+      ],
+      "quat": [
+        0,
+        0.6766657829284668,
+        0,
+        0.7362903952598572
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -43.868675231933594,
+        5.968975067138672,
+        34.69087219238281
+      ],
+      "rot": [
+        0,
+        85.16728414011719,
+        0
+      ],
+      "quat": [
+        0,
+        0.6766657829284668,
+        0,
+        0.7362903952598572
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -45.72953796386719,
+        5.968975067138672,
+        33.15447998046875
+      ],
+      "rot": [
+        0,
+        85.16728414011719,
+        0
+      ],
+      "quat": [
+        0,
+        0.6766657829284668,
+        0,
+        0.7362903952598572
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -45.72953796386719,
+        5.968975067138672,
+        34.69087219238281
+      ],
+      "rot": [
+        0,
+        85.16728414011719,
+        0
+      ],
+      "quat": [
+        0,
+        0.6766657829284668,
+        0,
+        0.7362903952598572
+      ],
+      "scale": [
+        1.0000001192092896,
+        1,
+        1.0000001192092896
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -48.597747802734375,
+        5.968975067138672,
+        35.3330192565918
+      ],
+      "rot": [
+        0,
+        121.69936841322333,
+        0
+      ],
+      "quat": [
+        0,
+        0.8733448386192322,
+        0,
+        0.4871026277542114
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -48.597747802734375,
+        5.968975067138672,
+        36.86941146850586
+      ],
+      "rot": [
+        0,
+        121.69936841322333,
+        0
+      ],
+      "quat": [
+        0,
+        0.8733448386192322,
+        0,
+        0.4871026277542114
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -50.45861053466797,
+        5.968975067138672,
+        35.3330192565918
+      ],
+      "rot": [
+        0,
+        121.69936841322333,
+        0
+      ],
+      "quat": [
+        0,
+        0.8733448386192322,
+        0,
+        0.4871026277542114
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -50.45861053466797,
+        5.968975067138672,
+        36.86941146850586
+      ],
+      "rot": [
+        0,
+        121.69936841322333,
+        0
+      ],
+      "quat": [
+        0,
+        0.8733448386192322,
+        0,
+        0.4871026277542114
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        0.9999999403953552
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "prop",
+      "name": "Env_FirePort0",
+      "res": "Object/effect/firebox.i3s",
+      "obj": "Object/effect/Env_FirePort.i3Obj",
+      "pos": [
+        1.944540023803711,
+        13.489001274108887,
+        12.257793426513672
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1580921884,
+          2631702365,
+          2547164334,
+          3880949965
+        ],
+        "respath": "Object/effect/Env_FirePort.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Env_FirePort0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "prop",
+      "name": "Env_FirePort1",
+      "res": "Object/effect/firebox.i3s",
+      "obj": "Object/effect/Env_FirePort.i3Obj",
+      "pos": [
+        28.616397857666016,
+        10.458270072937012,
+        -23.030057907104492
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1580921884,
+          2631702365,
+          2547164334,
+          3880949965
+        ],
+        "respath": "Object/effect/Env_FirePort.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Env_FirePort1",
+        "layer": 0
+      }
+    }
+  ]
+}

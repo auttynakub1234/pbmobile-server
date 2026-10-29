@@ -1,0 +1,5062 @@
+{
+  "stage": {
+    "name": "Provence",
+    "world": "World/Provence/Provence_world.i3s",
+    "sky": "World/Provence/Provence_Sky.i3s",
+    "cols": {
+      "hero": "World/Provence/Provence_Col_Hero.i3s",
+      "hit": "World/Provence/Provence_Col_Hit.i3s",
+      "light": "World/Provence/Provence_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/Provence/Provence_world.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Provence/Provence_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Provence/Provence_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Provence/Provence_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Provence/Provence_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Provence/Provence.i3WRD",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dinoruins_Box.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Dinoruins_Box.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "World/Provence/Light/Provence_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/SS_Section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/SS_Section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/SS_Section_01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_8.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_9.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_10.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_14.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_12.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_13.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_11.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_15.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_16.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_16.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_17.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_18.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_16.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_20.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_21.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_22.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_24.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_24.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_24.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Provence/_Generated/MapSector_19.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      }
+    ],
+    "ins_version": 4,
+    "layers": [
+      "Default",
+      "Section",
+      "Sector",
+      "HitMap",
+      "HitMap"
+    ],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/Provence/Textures/Provence_Parts_01LightingMap.i3i",
+        "name": "Provence_Parts_01LightingMap"
+      },
+      {
+        "path": "World/Provence/Textures/GarbageCan_Middle_01.i3i",
+        "name": "GarbageCan_Middle_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Bench_01_B.i3i",
+        "name": "Provence_Bench_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_bottom_01.i3i",
+        "name": "Provence_bottom_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_bottom_02.i3i",
+        "name": "Provence_bottom_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_bottom_03.i3i",
+        "name": "Provence_bottom_03"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_bottom_04.i3i",
+        "name": "Provence_bottom_04"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_bottom_06_B.i3i",
+        "name": "Provence_bottom_06_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Box_01_rs.i3i",
+        "name": "Provence_Box_01_rs"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Box_02_rs.i3i",
+        "name": "Provence_Box_02_rs"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_carpets_01_B.i3i",
+        "name": "Provence_carpets_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_cement_01.i3i",
+        "name": "Provence_cement_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_cloth_01_B.i3i",
+        "name": "Provence_cloth_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_con_lc_01_13.i3i",
+        "name": "Provence_con_lc_01_13"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_con_lc_01_15.i3i",
+        "name": "Provence_con_lc_01_15"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_concrete_02.i3i",
+        "name": "Provence_concrete_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_concrete_03.i3i",
+        "name": "Provence_concrete_03"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Crate_01.i3i",
+        "name": "Provence_Crate_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Door_01.i3i",
+        "name": "Provence_Door_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Door_02.i3i",
+        "name": "Provence_Door_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Door_03.i3i",
+        "name": "Provence_Door_03"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Door_04.i3i",
+        "name": "Provence_Door_04"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Door_05.i3i",
+        "name": "Provence_Door_05"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Door_06.i3i",
+        "name": "Provence_Door_06"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Door_07.i3i",
+        "name": "Provence_Door_07"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Door_08.i3i",
+        "name": "Provence_Door_08"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Etc_01.i3i",
+        "name": "Provence_Etc_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Floor_01.i3i",
+        "name": "Provence_Floor_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Floor_03.i3i",
+        "name": "Provence_Floor_03"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Floor_04.i3i",
+        "name": "Provence_Floor_04"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Floor_07.i3i",
+        "name": "Provence_Floor_07"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Floor_08.i3i",
+        "name": "Provence_Floor_08"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_flowerbed_lc_01.i3i",
+        "name": "Provence_flowerbed_lc_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_FluorescentLamp_01.i3i",
+        "name": "Provence_FluorescentLamp_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_fountain_01_B.i3i",
+        "name": "Provence_fountain_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_fountain_02_B.i3i",
+        "name": "Provence_fountain_02_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_interior_01.i3i",
+        "name": "Provence_interior_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_interior_02.i3i",
+        "name": "Provence_interior_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Metal_frame_01_rs.i3i",
+        "name": "Provence_Metal_frame_01_rs"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Omament_01.i3i",
+        "name": "Provence_Omament_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_roof_02.i3i",
+        "name": "Provence_roof_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_table_01.i3i",
+        "name": "Provence_table_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_01.i3i",
+        "name": "Provence_wall_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_03.i3i",
+        "name": "Provence_wall_03"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_04.i3i",
+        "name": "Provence_wall_04"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_04_HR copy.i3i",
+        "name": "Provence_wall_04_HR copy"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_05.i3i",
+        "name": "Provence_wall_05"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_06.i3i",
+        "name": "Provence_wall_06"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_07.i3i",
+        "name": "Provence_wall_07"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_08.i3i",
+        "name": "Provence_wall_08"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_09.i3i",
+        "name": "Provence_wall_09"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_10.i3i",
+        "name": "Provence_wall_10"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_11.i3i",
+        "name": "Provence_wall_11"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_12.i3i",
+        "name": "Provence_wall_12"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_13.i3i",
+        "name": "Provence_wall_13"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_14.i3i",
+        "name": "Provence_wall_14"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_15.i3i",
+        "name": "Provence_wall_15"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_16.i3i",
+        "name": "Provence_wall_16"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_17.i3i",
+        "name": "Provence_wall_17"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_18.i3i",
+        "name": "Provence_wall_18"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_19.i3i",
+        "name": "Provence_wall_19"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_20.i3i",
+        "name": "Provence_wall_20"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_21.i3i",
+        "name": "Provence_wall_21"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_22.i3i",
+        "name": "Provence_wall_22"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Wall_bk_rs_01.i3i",
+        "name": "Provence_Wall_bk_rs_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wallpaper_01.i3i",
+        "name": "Provence_wallpaper_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Wallpaper_02.i3i",
+        "name": "Provence_Wallpaper_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_waste_01.i3i",
+        "name": "Provence_waste_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_well_01_B.i3i",
+        "name": "Provence_well_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_window_01.i3i",
+        "name": "Provence_window_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_window_02.i3i",
+        "name": "Provence_window_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_window_03.i3i",
+        "name": "Provence_window_03"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_window_04.i3i",
+        "name": "Provence_window_04"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_window_05.i3i",
+        "name": "Provence_window_05"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wood_02.i3i",
+        "name": "Provence_wood_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wood_03.i3i",
+        "name": "Provence_wood_03"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Wood_04.i3i",
+        "name": "Provence_Wood_04"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_frame _01_B.i3i",
+        "name": "RampartTown_frame _01_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_grass_01.i3i",
+        "name": "RampartTown_grass_01"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_lamp_01_B.i3i",
+        "name": "RampartTown_lamp_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_map_01_B.i3i",
+        "name": "RampartTown_map_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_parasol_01_B.i3i",
+        "name": "RampartTown_parasol_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_pot_01_B.i3i",
+        "name": "RampartTown_pot_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_pot_02_B.i3i",
+        "name": "RampartTown_pot_02_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_stair_01.i3i",
+        "name": "RampartTown_stair_01"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_Table.i3i",
+        "name": "RampartTown_Table"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_vertical_01_B.i3i",
+        "name": "RampartTown_vertical_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_Window_lc_01.i3i",
+        "name": "RampartTown_Window_lc_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Parts_02LightingMap.i3i",
+        "name": "Provence_Parts_02LightingMap"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_concrete_01.i3i",
+        "name": "Provence_concrete_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Floor_06.i3i",
+        "name": "Provence_Floor_06"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_well_02_B.i3i",
+        "name": "Provence_well_02_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wood_05.i3i",
+        "name": "Provence_wood_05"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_sign_01_B.i3i",
+        "name": "RampartTown_sign_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Parts_03LightingMap.i3i",
+        "name": "Provence_Parts_03LightingMap"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_roof_01.i3i",
+        "name": "Provence_roof_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_roof_01_A.i3i",
+        "name": "Provence_roof_01_A"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_roof_01_B.i3i",
+        "name": "Provence_roof_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wall_02.i3i",
+        "name": "Provence_wall_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_wood_01.i3i",
+        "name": "Provence_wood_01"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_antena_hs_01.i3i",
+        "name": "RampartTown_antena_hs_01"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_tree_01_HR.i3i",
+        "name": "RampartTown_tree_01_HR"
+      },
+      {
+        "path": "World/Provence/Textures/Z_Provence_AlphaLightingMap.i3i",
+        "name": "Z_Provence_AlphaLightingMap"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_paper_01_rs.i3i",
+        "name": "Provence_paper_01_rs"
+      },
+      {
+        "path": "World/Provence/Textures/handrail_01.i3i",
+        "name": "handrail_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_awning_rs_01_01.i3i",
+        "name": "Provence_awning_rs_01_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_awning_rs_01_03.i3i",
+        "name": "Provence_awning_rs_01_03"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Decal_01.i3i",
+        "name": "Provence_Decal_01"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Decal_02.i3i",
+        "name": "Provence_Decal_02"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Decal_03.i3i",
+        "name": "Provence_Decal_03"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Decal_04.i3i",
+        "name": "Provence_Decal_04"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Decal_05.i3i",
+        "name": "Provence_Decal_05"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Decal_06.i3i",
+        "name": "Provence_Decal_06"
+      },
+      {
+        "path": "World/Provence/Textures/Provence_Decal_07.i3i",
+        "name": "Provence_Decal_07"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_bush.i3i",
+        "name": "RampartTown_bush"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_decal_01.i3i",
+        "name": "RampartTown_decal_01"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_flower_01_B.i3i",
+        "name": "RampartTown_flower_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_flower_02_B.i3i",
+        "name": "RampartTown_flower_02_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_grass_01_B.i3i",
+        "name": "RampartTown_grass_01_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_grass_02.i3i",
+        "name": "RampartTown_grass_02"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_ivy_01.i3i",
+        "name": "RampartTown_ivy_01"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_ivy_03.i3i",
+        "name": "RampartTown_ivy_03"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_ivy_03_B.i3i",
+        "name": "RampartTown_ivy_03_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_ivy_04_B.i3i",
+        "name": "RampartTown_ivy_04_B"
+      },
+      {
+        "path": "World/Provence/Textures/RampartTown_tree_02_HR.i3i",
+        "name": "RampartTown_tree_02_HR"
+      },
+      {
+        "path": "World/Provence/Textures/SC_shutter_01.i3i",
+        "name": "SC_shutter_01"
+      },
+      {
+        "path": "World/Provence/Textures/sign.i3i",
+        "name": "sign"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          737235619,
+          3347529079,
+          538026824,
+          703197313
+        ],
+        "respath": "World/Provence/Provence.i3WRD",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "respawn",
+      "name": "Respawn0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -13.441526412963867,
+        -3.2175979614257812,
+        46.27787780761719
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "respawn",
+      "name": "Respawn1",
+      "res": null,
+      "obj": null,
+      "pos": [
+        11.413816452026367,
+        0.05516999959945679,
+        -54.343353271484375
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "respawn",
+      "name": "Respawn2",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -11.22252082824707,
+        -3.2175979614257812,
+        46.27787780761719
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn2",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "respawn",
+      "name": "Respawn3",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -8.658515930175781,
+        -3.2175979614257812,
+        46.27787780761719
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn3",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "respawn",
+      "name": "Respawn4",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -6.04705810546875,
+        -3.2175979614257812,
+        46.27787780761719
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "respawn",
+      "name": "Respawn5",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -13.441527366638184,
+        -3.2175979614257812,
+        49.40243911743164
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "respawn",
+      "name": "Respawn6",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -11.22252082824707,
+        -3.2175979614257812,
+        49.40243911743164
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "respawn",
+      "name": "Respawn7",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -8.658515930175781,
+        -3.2175979614257812,
+        49.40243911743164
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "respawn",
+      "name": "Respawn8",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -6.04705810546875,
+        -3.2175979614257812,
+        49.40243911743164
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn8",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "respawn",
+      "name": "Respawn9",
+      "res": null,
+      "obj": null,
+      "pos": [
+        9.368401527404785,
+        0.05516999959945679,
+        -54.343353271484375
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "respawn",
+      "name": "Respawn10",
+      "res": null,
+      "obj": null,
+      "pos": [
+        7.152027130126953,
+        0.05516999959945679,
+        -54.343353271484375
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "respawn",
+      "name": "Respawn11",
+      "res": null,
+      "obj": null,
+      "pos": [
+        5.106612205505371,
+        0.05516999959945679,
+        -54.343353271484375
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "respawn",
+      "name": "Respawn12",
+      "res": null,
+      "obj": null,
+      "pos": [
+        11.413816452026367,
+        0.05516999959945679,
+        -51.29177474975586
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "respawn",
+      "name": "Respawn13",
+      "res": null,
+      "obj": null,
+      "pos": [
+        9.368401527404785,
+        0.05516999959945679,
+        -51.29177474975586
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "respawn",
+      "name": "Respawn14",
+      "res": null,
+      "obj": null,
+      "pos": [
+        7.152027130126953,
+        0.05516999959945679,
+        -51.29177474975586
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn14",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "respawn",
+      "name": "Respawn15",
+      "res": null,
+      "obj": null,
+      "pos": [
+        5.106612205505371,
+        0.05516999959945679,
+        -51.29177474975586
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Respawn15",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "prop",
+      "name": "Dinoruins_Box0",
+      "res": "Object/break/Dinoruins_Box.I3S",
+      "obj": "Object/break/Dinoruins_Box.i3Obj",
+      "pos": [
+        -32.10405349731445,
+        -5.744370937347412,
+        -20.840978622436523
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3602445399,
+          129552415,
+          3365440327,
+          1976182598
+        ],
+        "respath": "Object/break/Dinoruins_Box.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Dinoruins_Box0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "unknown",
+      "name": "Box0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        15.291292190551758,
+        2.0958690643310547,
+        -25.21303367614746
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1.2899999618530273,
+        4,
+        0.5
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3739082731,
+        "clsname": "0xDEDDDFEB",
+        "res": [
+          4294967295,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "unknown",
+      "name": "Box1",
+      "res": null,
+      "obj": null,
+      "pos": [
+        27.622577667236328,
+        1.995871901512146,
+        -20.402379989624023
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.2899999618530273,
+        4.050000190734863,
+        0.5
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3739082731,
+        "clsname": "0xDEDDDFEB",
+        "res": [
+          4294967295,
+          4294967295,
+          4294967295,
+          4294967295
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box1",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "unknown",
+      "name": "Provence_Light0",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -2.4394659996032715,
+        40.68633270263672,
+        10.215924263000488
+      ],
+      "rot": [
+        -70.00001122118488,
+        0,
+        0
+      ],
+      "quat": [
+        -0.5735765099525452,
+        0,
+        0,
+        0.8191519975662231
+      ],
+      "scale": [
+        1,
+        1.000000238418579,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          2978088562,
+          4178176216,
+          3718221774,
+          203738113
+        ],
+        "respath": "World/Provence/Light/Provence_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Provence_Light0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "trigger",
+      "name": "Box2",
+      "res": "Scene/Provence/_Generated/SS_Section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        29.321853637695312,
+        5.958714962005615,
+        -22.08840560913086
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6.016997814178467,
+        4.607447147369385,
+        5.99424409866333
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1431513485,
+          2688027004,
+          1787218359,
+          879856677
+        ],
+        "respath": "Scene/Provence/_Generated/SS_Section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box2",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "trigger",
+      "name": "Box3",
+      "res": "Scene/Provence/_Generated/SS_Section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        -7.081017017364502,
+        0.018636999651789665,
+        0.7176100015640259
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.366994857788086,
+        6.457444190979004,
+        4.594244003295898
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1431513485,
+          2688027004,
+          1787218359,
+          879856677
+        ],
+        "respath": "Scene/Provence/_Generated/SS_Section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box3",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "trigger",
+      "name": "Box4",
+      "res": "Scene/Provence/_Generated/SS_Section_01.i3Evt",
+      "obj": null,
+      "pos": [
+        29.810216903686523,
+        3.250256061553955,
+        -1.0437270402908325
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7.366994857788086,
+        6.457444190979004,
+        11.044238090515137
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 1,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1431513485,
+          2688027004,
+          1787218359,
+          879856677
+        ],
+        "respath": "Scene/Provence/_Generated/SS_Section_01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box4",
+        "layer": 1
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "trigger",
+      "name": "Box5",
+      "res": "Scene/Provence/_Generated/MapSector_1.i3Evt",
+      "obj": null,
+      "pos": [
+        9.678288459777832,
+        4.193211078643799,
+        -46.77549362182617
+      ],
+      "rot": [
+        0,
+        -179.9999958272173,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -3.6414398607576004e-8
+      ],
+      "scale": [
+        16.05611228942871,
+        13.349993705749512,
+        23.987716674804688
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1299926858,
+          821536849,
+          1093581954,
+          2981496773
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box5",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "trigger",
+      "name": "Box6",
+      "res": "Scene/Provence/_Generated/MapSector_3.i3Evt",
+      "obj": null,
+      "pos": [
+        -31.392845153808594,
+        1.7977629899978638,
+        -33.713768005371094
+      ],
+      "rot": [
+        0,
+        -179.9999953094755,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -4.0932548017735826e-8
+      ],
+      "scale": [
+        22.856103897094727,
+        20.649988174438477,
+        26.237689971923828
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3236731103,
+          3452735352,
+          2077361392,
+          2534632022
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box6",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "trigger",
+      "name": "Box7",
+      "res": "Scene/Provence/_Generated/MapSector_3.i3Evt",
+      "obj": null,
+      "pos": [
+        -18.529138565063477,
+        1.4477629661560059,
+        -41.66376495361328
+      ],
+      "rot": [
+        0,
+        -179.99999702751668,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.593981029974657e-8
+      ],
+      "scale": [
+        2.7560958862304688,
+        21.349987030029297,
+        9.6376953125
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3236731103,
+          3452735352,
+          2077361392,
+          2534632022
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box7",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "trigger",
+      "name": "Box8",
+      "res": "Scene/Provence/_Generated/MapSector_2.i3Evt",
+      "obj": null,
+      "pos": [
+        -11.041297912597656,
+        1.5227630138397217,
+        -54.35556411743164
+      ],
+      "rot": [
+        0,
+        -179.9999953428183,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -4.0641577214728386e-8
+      ],
+      "scale": [
+        23.292213439941406,
+        21.199987411499023,
+        13.037689208984375
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          863509872,
+          1396683197,
+          3892865872,
+          990033
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box8",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "trigger",
+      "name": "Box9",
+      "res": "Scene/Provence/_Generated/MapSector_4.i3Evt",
+      "obj": null,
+      "pos": [
+        -32.142860412597656,
+        2.407672882080078,
+        -4.613248825073242
+      ],
+      "rot": [
+        0,
+        -179.99999491111618,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -4.440888901058315e-8
+      ],
+      "scale": [
+        13.756065368652344,
+        18.699989318847656,
+        28.58766746520996
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2868822082,
+          256161653,
+          3559181761,
+          548339820
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box9",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "trigger",
+      "name": "Box10",
+      "res": "Scene/Provence/_Generated/MapSector_5.i3Evt",
+      "obj": null,
+      "pos": [
+        -17.88680076599121,
+        2.7727620601654053,
+        -10.213249206542969
+      ],
+      "rot": [
+        0,
+        -179.99999530609975,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -4.096200711956044e-8
+      ],
+      "scale": [
+        12.656062126159668,
+        18.699989318847656,
+        11.7876558303833
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1755080166,
+          3021925412,
+          3105314408,
+          878531025
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box10",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "trigger",
+      "name": "Box11",
+      "res": "Scene/Provence/_Generated/MapSector_6.i3Evt",
+      "obj": null,
+      "pos": [
+        -6.896582126617432,
+        0.7727630138397217,
+        -18.913236618041992
+      ],
+      "rot": [
+        0,
+        -179.99999379248058,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -5.417082604708412e-8
+      ],
+      "scale": [
+        8.006058692932129,
+        22.699987411499023,
+        32.6876106262207
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3179576655,
+          1757231109,
+          1584751966,
+          1592068670
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box11",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "trigger",
+      "name": "Box12",
+      "res": "Scene/Provence/_Generated/MapSector_6.i3Evt",
+      "obj": null,
+      "pos": [
+        -8.571579933166504,
+        0.9977629780769348,
+        7.710210800170898
+      ],
+      "rot": [
+        0,
+        -179.99999365125908,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -5.540321623698219e-8
+      ],
+      "scale": [
+        11.35605239868164,
+        22.24998664855957,
+        7.487602233886719
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3179576655,
+          1757231109,
+          1584751966,
+          1592068670
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box12",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "trigger",
+      "name": "Box13",
+      "res": "Scene/Provence/_Generated/MapSector_7.i3Evt",
+      "obj": null,
+      "pos": [
+        -8.771581649780273,
+        1.6727629899978638,
+        0.6429659724235535
+      ],
+      "rot": [
+        0,
+        -179.99999758369017,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.10862811655943e-8
+      ],
+      "scale": [
+        11.856049537658691,
+        20.899988174438477,
+        4.5876030921936035
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1529461798,
+          2324544598,
+          1227081592,
+          1268235634
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box13",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "trigger",
+      "name": "Box14",
+      "res": "Scene/Provence/_Generated/MapSector_8.i3Evt",
+      "obj": null,
+      "pos": [
+        4.327788829803467,
+        4.3727641105651855,
+        -6.0510687828063965
+      ],
+      "rot": [
+        0,
+        -179.9999977888393,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -1.9296017228498386e-8
+      ],
+      "scale": [
+        12.95604133605957,
+        15.499987602233887,
+        17.65319061279297
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3998013071,
+          3558126846,
+          52716595,
+          22764809
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_8.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box14",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "trigger",
+      "name": "Box15",
+      "res": "Scene/Provence/_Generated/MapSector_9.i3Evt",
+      "obj": null,
+      "pos": [
+        15.615095138549805,
+        3.972764015197754,
+        -12.52606201171875
+      ],
+      "rot": [
+        0,
+        -179.9999960788705,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -3.421830996330755e-8
+      ],
+      "scale": [
+        7.306029796600342,
+        16.299985885620117,
+        8.30317497253418
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2699920287,
+          3143661893,
+          2138748569,
+          3764235088
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_9.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box15",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "trigger",
+      "name": "Box16",
+      "res": "Scene/Provence/_Generated/MapSector_10.i3Evt",
+      "obj": null,
+      "pos": [
+        37.704795837402344,
+        4.3727641105651855,
+        -32.294925689697266
+      ],
+      "rot": [
+        0,
+        -179.99999797627646,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -1.7660319429069204e-8
+      ],
+      "scale": [
+        14.156028747558594,
+        15.499987602233887,
+        13.503172874450684
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          461018343,
+          3816378986,
+          4024199511,
+          3726639383
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_10.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box16",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "trigger",
+      "name": "Box17",
+      "res": "Scene/Provence/_Generated/MapSector_14.i3Evt",
+      "obj": null,
+      "pos": [
+        14.428282737731934,
+        5.318210124969482,
+        -29.593978881835938
+      ],
+      "rot": [
+        0,
+        -179.99999619938228,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -3.316664631825006e-8
+      ],
+      "scale": [
+        7.356101989746094,
+        11.099995613098145,
+        7.537693023681641
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3604584661,
+          3733167363,
+          4012142686,
+          4291699161
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_14.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box17",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "trigger",
+      "name": "Box18",
+      "res": "Scene/Provence/_Generated/MapSector_12.i3Evt",
+      "obj": null,
+      "pos": [
+        4.4094390869140625,
+        1.6682130098342896,
+        -21.33267593383789
+      ],
+      "rot": [
+        0,
+        -179.9999945126351,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -4.788629226482044e-8
+      ],
+      "scale": [
+        12.456096649169922,
+        18.399988174438477,
+        8.98769760131836
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2579615414,
+          110102334,
+          3884051742,
+          769661087
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_12.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box18",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "trigger",
+      "name": "Box19",
+      "res": "Scene/Provence/_Generated/MapSector_13.i3Evt",
+      "obj": null,
+      "pos": [
+        -15.31617546081543,
+        2.7727620601654053,
+        -33.813228607177734
+      ],
+      "rot": [
+        0,
+        -179.99999607887702,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -3.4218253119888686e-8
+      ],
+      "scale": [
+        7.306042194366455,
+        18.699989318847656,
+        3.687598943710327
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1410896607,
+          3108544891,
+          966442904,
+          3731693045
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_13.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box19",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "trigger",
+      "name": "Box20",
+      "res": "Scene/Provence/_Generated/MapSector_11.i3Evt",
+      "obj": null,
+      "pos": [
+        -6.551270961761475,
+        1.3727630376815796,
+        -41.212921142578125
+      ],
+      "rot": [
+        0,
+        -179.99999300739228,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -6.10220141084028e-8
+      ],
+      "scale": [
+        14.106040000915527,
+        21.49998664855957,
+        9.774710655212402
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3947473769,
+          2140044486,
+          244940625,
+          2967283963
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_11.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box20",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "trigger",
+      "name": "Box21",
+      "res": "Scene/Provence/_Generated/MapSector_1.i3Evt",
+      "obj": null,
+      "pos": [
+        20.278818130493164,
+        4.5182108879089355,
+        -51.625492095947266
+      ],
+      "rot": [
+        0,
+        -179.99999799492926,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -1.7497542970090763e-8
+      ],
+      "scale": [
+        4.656116008758545,
+        12.699995040893555,
+        14.2877197265625
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1299926858,
+          821536849,
+          1093581954,
+          2981496773
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box21",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "trigger",
+      "name": "Box22",
+      "res": "Scene/Provence/_Generated/MapSector_15.i3Evt",
+      "obj": null,
+      "pos": [
+        24.263526916503906,
+        4.3727641105651855,
+        -39.05859375
+      ],
+      "rot": [
+        0,
+        -179.9999973970709,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.271484156324277e-8
+      ],
+      "scale": [
+        11.006019592285156,
+        15.499987602233887,
+        9.203170776367188
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2500345620,
+          2648441747,
+          171567054,
+          3837552073
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_15.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box22",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "trigger",
+      "name": "Box23",
+      "res": "Scene/Provence/_Generated/MapSector_16.i3Evt",
+      "obj": null,
+      "pos": [
+        24.388526916503906,
+        4.3727641105651855,
+        -29.57547950744629
+      ],
+      "rot": [
+        0,
+        -179.9999974320692,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.240942365006049e-8
+      ],
+      "scale": [
+        11.156021118164062,
+        15.499987602233887,
+        7.853157997131348
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4153841273,
+          2437082367,
+          3096659728,
+          1024216851
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_16.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box23",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "trigger",
+      "name": "Box24",
+      "res": "Scene/Provence/_Generated/MapSector_16.i3Evt",
+      "obj": null,
+      "pos": [
+        18.788530349731445,
+        4.3727641105651855,
+        -21.289552688598633
+      ],
+      "rot": [
+        0,
+        -179.99999799046998,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -1.7536457619371504e-8
+      ],
+      "scale": [
+        14.256014823913574,
+        15.499987602233887,
+        7.353157043457031
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4153841273,
+          2437082367,
+          3096659728,
+          1024216851
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_16.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box24",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i44",
+      "kind": "trigger",
+      "name": "Box25",
+      "res": "Scene/Provence/_Generated/MapSector_17.i3Evt",
+      "obj": null,
+      "pos": [
+        35.4356575012207,
+        3.3727641105651855,
+        -18.320222854614258
+      ],
+      "rot": [
+        0,
+        -179.9999983350065,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -1.4529809355678935e-8
+      ],
+      "scale": [
+        17.20600700378418,
+        17.49998664855957,
+        12.703134536743164
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          950984391,
+          2103154581,
+          2409259637,
+          3704549819
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_17.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box25",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i45",
+      "kind": "trigger",
+      "name": "Box26",
+      "res": "Scene/Provence/_Generated/MapSector_18.i3Evt",
+      "obj": null,
+      "pos": [
+        30.585655212402344,
+        4.3727641105651855,
+        -10.762552261352539
+      ],
+      "rot": [
+        0,
+        -179.99999757344298,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.117570474524655e-8
+      ],
+      "scale": [
+        11.80598258972168,
+        15.499987602233887,
+        6.8531270027160645
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3737923235,
+          407548566,
+          622734592,
+          3985789311
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_18.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box26",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i46",
+      "kind": "trigger",
+      "name": "Box27",
+      "res": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+      "obj": null,
+      "pos": [
+        27.768413543701172,
+        6.072768211364746,
+        -4.762551784515381
+      ],
+      "rot": [
+        0,
+        -179.99999682677026,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.7691653414763095e-8
+      ],
+      "scale": [
+        18.05598258972168,
+        12.09997844696045,
+        2.553138017654419
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2667413668,
+          2994349826,
+          3246100976,
+          192178171
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box27",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i47",
+      "kind": "trigger",
+      "name": "Box28",
+      "res": "Scene/Provence/_Generated/MapSector_16.i3Evt",
+      "obj": null,
+      "pos": [
+        23.085649490356445,
+        4.3727641105651855,
+        -16.273874282836914
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        5.605998992919922,
+        15.499987602233887,
+        2.5031239986419678
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          4153841273,
+          2437082367,
+          3096659728,
+          1024216851
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_16.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box28",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i48",
+      "kind": "trigger",
+      "name": "Box29",
+      "res": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+      "obj": null,
+      "pos": [
+        21.993417739868164,
+        3.647763967514038,
+        -10.212862968444824
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        3.3059799671173096,
+        16.94998550415039,
+        7.703134059906006
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2667413668,
+          2994349826,
+          3246100976,
+          192178171
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box29",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i49",
+      "kind": "trigger",
+      "name": "Box30",
+      "res": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+      "obj": null,
+      "pos": [
+        19.493412017822266,
+        4.072763919830322,
+        -7.086474895477295
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1.5059740543365479,
+        16.099985122680664,
+        1.3031389713287354
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2667413668,
+          2994349826,
+          3246100976,
+          192178171
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box30",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i50",
+      "kind": "trigger",
+      "name": "Box31",
+      "res": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+      "obj": null,
+      "pos": [
+        32.343421936035156,
+        6.072768211364746,
+        0.3970929980278015
+      ],
+      "rot": [
+        0,
+        -179.99999523008765,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -4.162533784324296e-8
+      ],
+      "scale": [
+        6.005957126617432,
+        12.099976539611816,
+        7.803133010864258
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2667413668,
+          2994349826,
+          3246100976,
+          192178171
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_25.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box31",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i51",
+      "kind": "trigger",
+      "name": "Box32",
+      "res": "Scene/Provence/_Generated/MapSector_20.i3Evt",
+      "obj": null,
+      "pos": [
+        23.566884994506836,
+        3.49776291847229,
+        1.4720940589904785
+      ],
+      "rot": [
+        0,
+        -179.99999698632155,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.6299305844190712e-8
+      ],
+      "scale": [
+        9.50595474243164,
+        17.24998664855957,
+        5.1531291007995605
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2268000409,
+          854599313,
+          707799682,
+          3784954710
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_20.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box32",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i52",
+      "kind": "trigger",
+      "name": "Box33",
+      "res": "Scene/Provence/_Generated/MapSector_21.i3Evt",
+      "obj": null,
+      "pos": [
+        27.016887664794922,
+        3.49776291847229,
+        14.754154205322266
+      ],
+      "rot": [
+        0,
+        -179.99999818752514,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -1.581682695928066e-8
+      ],
+      "scale": [
+        15.805953025817871,
+        17.24998664855957,
+        19.303119659423828
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1200081241,
+          1115153041,
+          3835179528,
+          2067605237
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_21.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box33",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i53",
+      "kind": "trigger",
+      "name": "Box34",
+      "res": "Scene/Provence/_Generated/MapSector_22.i3Evt",
+      "obj": null,
+      "pos": [
+        23.566890716552734,
+        3.49776291847229,
+        28.764488220214844
+      ],
+      "rot": [
+        0,
+        -179.99999700115444,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.6169864497660456e-8
+      ],
+      "scale": [
+        19.105945587158203,
+        17.24998664855957,
+        8.203119277954102
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1486737625,
+          1464496306,
+          935339618,
+          82615108
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_22.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box34",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i54",
+      "kind": "trigger",
+      "name": "Box35",
+      "res": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+      "obj": null,
+      "pos": [
+        8.52041244506836,
+        0.7977650165557861,
+        19.682369232177734
+      ],
+      "rot": [
+        0,
+        -179.9999970322178,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.589878533854062e-8
+      ],
+      "scale": [
+        19.305923461914062,
+        22.64998435974121,
+        8.303117752075195
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1211892256,
+          3690027191,
+          1775551219,
+          4185240449
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box35",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i55",
+      "kind": "trigger",
+      "name": "Box36",
+      "res": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+      "obj": null,
+      "pos": [
+        -6.191537857055664,
+        1.247763991355896,
+        25.960468292236328
+      ],
+      "rot": [
+        0,
+        -179.99999816429153,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -1.6019578552572966e-8
+      ],
+      "scale": [
+        15.605903625488281,
+        21.749984741210938,
+        19.90308952331543
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1211892256,
+          3690027191,
+          1775551219,
+          4185240449
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box36",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i56",
+      "kind": "trigger",
+      "name": "Box37",
+      "res": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+      "obj": null,
+      "pos": [
+        7.945415019989014,
+        0.5727649927139282,
+        25.150409698486328
+      ],
+      "rot": [
+        0,
+        -179.9999974320454,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.24096314838107e-8
+      ],
+      "scale": [
+        11.15591812133789,
+        23.09998321533203,
+        2.603118896484375
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1211892256,
+          3690027191,
+          1775551219,
+          4185240449
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box37",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i57",
+      "kind": "trigger",
+      "name": "Box38",
+      "res": "Scene/Provence/_Generated/MapSector_24.i3Evt",
+      "obj": null,
+      "pos": [
+        -8.791540145874023,
+        3.49776291847229,
+        48.144203186035156
+      ],
+      "rot": [
+        0,
+        -179.99999749832205,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.1831258578686175e-8
+      ],
+      "scale": [
+        45.805877685546875,
+        17.24998664855957,
+        20.653091430664062
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2339400824,
+          1363413188,
+          4032625636,
+          2245551019
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_24.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box38",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i58",
+      "kind": "trigger",
+      "name": "Box39",
+      "res": "Scene/Provence/_Generated/MapSector_24.i3Evt",
+      "obj": null,
+      "pos": [
+        8.233465194702148,
+        3.49776291847229,
+        32.809791564941406
+      ],
+      "rot": [
+        0,
+        -179.99999723364962,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.4140961230045832e-8
+      ],
+      "scale": [
+        10.355842590332031,
+        17.24998664855957,
+        9.053083419799805
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2339400824,
+          1363413188,
+          4032625636,
+          2245551019
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_24.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box39",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i59",
+      "kind": "trigger",
+      "name": "Box40",
+      "res": "Scene/Provence/_Generated/MapSector_24.i3Evt",
+      "obj": null,
+      "pos": [
+        -26.100332260131836,
+        3.49776291847229,
+        34.08479309082031
+      ],
+      "rot": [
+        0,
+        -179.9999973107947,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.346774330419521e-8
+      ],
+      "scale": [
+        21.30583953857422,
+        17.24998664855957,
+        6.503079891204834
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2339400824,
+          1363413188,
+          4032625636,
+          2245551019
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_24.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box40",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i60",
+      "kind": "trigger",
+      "name": "Box41",
+      "res": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+      "obj": null,
+      "pos": [
+        -29.27533531188965,
+        1.8477649688720703,
+        20.239410400390625
+      ],
+      "rot": [
+        0,
+        -179.9999980845,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -1.671589089369263e-8
+      ],
+      "scale": [
+        14.955827713012695,
+        20.549983978271484,
+        18.50307846069336
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1211892256,
+          3690027191,
+          1775551219,
+          4185240449
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box41",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i61",
+      "kind": "trigger",
+      "name": "Box42",
+      "res": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+      "obj": null,
+      "pos": [
+        -12.40713882446289,
+        2.4977641105651855,
+        14.289410591125488
+      ],
+      "rot": [
+        0,
+        -179.99999700113366,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -2.6170045686058074e-8
+      ],
+      "scale": [
+        19.10581398010254,
+        19.249984741210938,
+        3.7030720710754395
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1211892256,
+          3690027191,
+          1775551219,
+          4185240449
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_23.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box42",
+        "layer": 2
+      }
+    },
+    {
+      "id": "i62",
+      "kind": "trigger",
+      "name": "Box43",
+      "res": "Scene/Provence/_Generated/MapSector_19.i3Evt",
+      "obj": null,
+      "pos": [
+        32.343421936035156,
+        -6.664813995361328,
+        -0.9529039859771729
+      ],
+      "rot": [
+        0,
+        -179.99999523008765,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        -4.162533784324296e-8
+      ],
+      "scale": [
+        6.005957126617432,
+        12.099976539611816,
+        10.503127098083496
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1093070080,
+          2967247243,
+          2157558659,
+          4223725249
+        ],
+        "respath": "Scene/Provence/_Generated/MapSector_19.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box43",
+        "layer": 2
+      }
+    }
+  ]
+}

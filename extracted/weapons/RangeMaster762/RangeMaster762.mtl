@@ -1,0 +1,13 @@
+# Materials for Rangemaster 7.62
+newmtl Mtl_PSG-1_diff.webp
+Kd 1 1 1
+map_Kd PSG-1_diff.webp
+
+newmtl Mtl_RanageMaster_Diff.webp
+Kd 1 1 1
+map_Kd RanageMaster_Diff.webp
+
+newmtl Mtl_Rangermaster_Bipod_Diff.webp
+Kd 1 1 1
+map_Kd Rangermaster_Bipod_Diff.webp
+

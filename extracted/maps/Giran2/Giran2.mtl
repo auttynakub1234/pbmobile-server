@@ -1,0 +1,121 @@
+# Materials for Giran2
+newmtl Mtl_interior_A_candle03.webp
+Kd 1 1 1
+map_Kd interior_A_candle03.webp
+
+newmtl Mtl_Agit_B_carpet001a.webp
+Kd 1 1 1
+map_Kd Agit_B_carpet001a.webp
+
+newmtl Mtl_Agit_B_deco001a.webp
+Kd 1 1 1
+map_Kd Agit_B_deco001a.webp
+
+newmtl Mtl_interior_A_grid01.webp
+Kd 1 1 1
+map_Kd interior_A_grid01.webp
+
+newmtl Mtl_interior_A_deco21.webp
+Kd 1 1 1
+map_Kd interior_A_deco21.webp
+
+newmtl Mtl_interior_A_flag06.webp
+Kd 1 1 1
+map_Kd interior_A_flag06.webp
+
+newmtl Mtl_Agit_B_pattern01a.webp
+Kd 1 1 1
+map_Kd Agit_B_pattern01a.webp
+
+newmtl Mtl_Agit_B_curten001a.webp
+Kd 1 1 1
+map_Kd Agit_B_curten001a.webp
+
+newmtl Mtl_interior_A_deco04.webp
+Kd 1 1 1
+map_Kd interior_A_deco04.webp
+
+newmtl Mtl_interior_A_deco19.webp
+Kd 1 1 1
+map_Kd interior_A_deco19.webp
+
+newmtl Mtl_interior_A_deco18.webp
+Kd 1 1 1
+map_Kd interior_A_deco18.webp
+
+newmtl Mtl_interior_A_curten05.webp
+Kd 1 1 1
+map_Kd interior_A_curten05.webp
+
+newmtl Mtl_interior_B_curten03.webp
+Kd 1 1 1
+map_Kd interior_B_curten03.webp
+
+newmtl Mtl_Agit_B_candle001a.webp
+Kd 1 1 1
+map_Kd Agit_B_candle001a.webp
+
+newmtl Mtl_interior_B_arm37.webp
+Kd 1 1 1
+map_Kd interior_B_arm37.webp
+
+newmtl Mtl_interior_B_frame08.webp
+Kd 1 1 1
+map_Kd interior_B_frame08.webp
+
+newmtl Mtl_interior_A_chair02.webp
+Kd 1 1 1
+map_Kd interior_A_chair02.webp
+
+newmtl Mtl_Agit_B_chain001a.webp
+Kd 1 1 1
+map_Kd Agit_B_chain001a.webp
+
+newmtl Mtl_interior_A_flag07.webp
+Kd 1 1 1
+map_Kd interior_A_flag07.webp
+
+newmtl Mtl_interior_B_arm38.webp
+Kd 1 1 1
+map_Kd interior_B_arm38.webp
+
+newmtl Mtl_Agit_B_mirror03a.webp
+Kd 1 1 1
+map_Kd Agit_B_mirror03a.webp
+
+newmtl Mtl_interior_A_deco20-1.webp
+Kd 1 1 1
+map_Kd interior_A_deco20-1.webp
+
+newmtl Mtl_interior_A_flag00.webp
+Kd 1 1 1
+map_Kd interior_A_flag00.webp
+
+newmtl Mtl_interior_A_counter06.webp
+Kd 1 1 1
+map_Kd interior_A_counter06.webp
+
+newmtl Mtl_Agit_B_deco003a.webp
+Kd 1 1 1
+map_Kd Agit_B_deco003a.webp
+
+newmtl Mtl_interior_A_table01.webp
+Kd 1 1 1
+map_Kd interior_A_table01.webp
+
+newmtl Mtl_interior_A_table02.webp
+Kd 1 1 1
+map_Kd interior_A_table02.webp
+
+newmtl Mtl_Agit_B_deco002a.webp
+Kd 1 1 1
+map_Kd Agit_B_deco002a.webp
+
+newmtl Mtl_interior_B_paper07.webp
+Kd 1 1 1
+map_Kd interior_B_paper07.webp
+
+newmtl Mtl_Agit_B_flag005a.webp
+Kd 1 1 1
+map_Kd Agit_B_flag005a.webp
+

@@ -1,0 +1,9051 @@
+{
+  "stage": {
+    "name": "Construction",
+    "world": "World/Construction/Construction_World.i3s",
+    "sky": "World/Construction/Construction_Sky.i3s",
+    "cols": {
+      "hero": "World/Construction/Construction_Col_Hero.i3s",
+      "hit": "World/Construction/Construction_Col_Hit.i3s",
+      "light": "World/Construction/Construction_Col_Light.i3s"
+    },
+    "rsc": [
+      {
+        "path": "World/Construction/Construction_World.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Construction/Construction_Sky.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Construction/Construction_Col_Hero.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Construction/Construction_Col_Hit.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Construction/Construction_Col_Light.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Construction/Construction.i3wrd",
+        "type": 5,
+        "tname": "WORLD",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_00.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_00.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_01.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Sound/Object/Explosion/OB_Wall_Destroy.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_01.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_04.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_04.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_06.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_07.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_07.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_08.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_08.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_03.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_03.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_02.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_05.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Pilar_05.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall00.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall00.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall02.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall02.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall04.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall04.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall05.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall05.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall07.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall07.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall03.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall03.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall06.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall06.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall08.I3S",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Object/break/Construction_Wall08.i3Obj",
+        "type": 8,
+        "tname": "OBJECT",
+        "style": 0
+      },
+      {
+        "path": "World/Construction/Light/Construction_Light0.i3Light",
+        "type": 9,
+        "tname": "LIGHT",
+        "style": 0
+      },
+      {
+        "path": "Sound/Ambient/Redrock/OB_Construction_Ambient_2.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "Sound/Ambient/Redrock/OB_Truck_Ambient.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Redrock_Consruction.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Sound/Ambient/Redrock/OB_Chopper_Ambient_2.wav",
+        "type": 4,
+        "tname": "SOUND",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Redrock_Chopper.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box0.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "World/Construction/Path.i3Path",
+        "type": 11,
+        "tname": "PATH",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction2/_Generated/Ct02.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_4.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_5.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction2/_Generated/Ct01.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_6.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_7.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/RED_1.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_9.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/RED_2.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_10.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_100.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/RED_3.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_11.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/RED_4.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_101.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_1000.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/RED_5.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_90.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/RED_7.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_12.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_13.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/RED_6.i3Evt",
+        "type": 12,
+        "tname": "EVENT",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_130.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      },
+      {
+        "path": "Scene/Construction/_Generated/Box_120.i3s",
+        "type": 7,
+        "tname": "SCENE",
+        "style": 0
+      }
+    ],
+    "ins_version": 3,
+    "layers": [],
+    "source": "pack",
+    "textures": [
+      {
+        "path": "World/Construction/Textures/Construction_1LightingMap.i3i",
+        "name": "Construction_1LightingMap"
+      },
+      {
+        "path": "World/Construction/Textures/bottom_01.i3i",
+        "name": "bottom_01"
+      },
+      {
+        "path": "World/Construction/Textures/bottom_02.i3i",
+        "name": "bottom_02"
+      },
+      {
+        "path": "World/Construction/Textures/bottom_03.i3i",
+        "name": "bottom_03"
+      },
+      {
+        "path": "World/Construction/Textures/bottom_04.i3i",
+        "name": "bottom_04"
+      },
+      {
+        "path": "World/Construction/Textures/bottom_05.i3i",
+        "name": "bottom_05"
+      },
+      {
+        "path": "World/Construction/Textures/column_bottom_1.i3i",
+        "name": "column_bottom_1"
+      },
+      {
+        "path": "World/Construction/Textures/column_bottom_2.i3i",
+        "name": "column_bottom_2"
+      },
+      {
+        "path": "World/Construction/Textures/column_bottom_3.i3i",
+        "name": "column_bottom_3"
+      },
+      {
+        "path": "World/Construction/Textures/column_top_1.i3i",
+        "name": "column_top_1"
+      },
+      {
+        "path": "World/Construction/Textures/column_top_2.i3i",
+        "name": "column_top_2"
+      },
+      {
+        "path": "World/Construction/Textures/stair_01.i3i",
+        "name": "stair_01"
+      },
+      {
+        "path": "World/Construction/Textures/stair_02.i3i",
+        "name": "stair_02"
+      },
+      {
+        "path": "World/Construction/Textures/stair_03.i3i",
+        "name": "stair_03"
+      },
+      {
+        "path": "World/Construction/Textures/stair_05.i3i",
+        "name": "stair_05"
+      },
+      {
+        "path": "World/Construction/Textures/wall_04.i3i",
+        "name": "wall_04"
+      },
+      {
+        "path": "World/Construction/Textures/wall_05.i3i",
+        "name": "wall_05"
+      },
+      {
+        "path": "World/Construction/Textures/wall_05_1.i3i",
+        "name": "wall_05_1"
+      },
+      {
+        "path": "World/Construction/Textures/wall_06.i3i",
+        "name": "wall_06"
+      },
+      {
+        "path": "World/Construction/Textures/wall_06_1.i3i",
+        "name": "wall_06_1"
+      },
+      {
+        "path": "World/Construction/Textures/wall_07.i3i",
+        "name": "wall_07"
+      },
+      {
+        "path": "World/Construction/Textures/wall_08.i3i",
+        "name": "wall_08"
+      },
+      {
+        "path": "World/Construction/Textures/wall_09.i3i",
+        "name": "wall_09"
+      },
+      {
+        "path": "World/Construction/Textures/wall_metl01.i3i",
+        "name": "wall_metl01"
+      },
+      {
+        "path": "World/Construction/Textures/wall_metl02.i3i",
+        "name": "wall_metl02"
+      },
+      {
+        "path": "World/Construction/Textures/Construction_2LightingMap.i3i",
+        "name": "Construction_2LightingMap"
+      },
+      {
+        "path": "World/Construction/Textures/Construction_3LightingMap.i3i",
+        "name": "Construction_3LightingMap"
+      },
+      {
+        "path": "World/Construction/Textures/Barricade_01.i3i",
+        "name": "Barricade_01"
+      },
+      {
+        "path": "World/Construction/Textures/brick_01.i3i",
+        "name": "brick_01"
+      },
+      {
+        "path": "World/Construction/Textures/Car_Crane_01.i3i",
+        "name": "Car_Crane_01"
+      },
+      {
+        "path": "World/Construction/Textures/Car_Forklift_01.i3i",
+        "name": "Car_Forklift_01"
+      },
+      {
+        "path": "World/Construction/Textures/cement_01.i3i",
+        "name": "cement_01"
+      },
+      {
+        "path": "World/Construction/Textures/Drum_1.i3i",
+        "name": "Drum_1"
+      },
+      {
+        "path": "World/Construction/Textures/Drum_2.i3i",
+        "name": "Drum_2"
+      },
+      {
+        "path": "World/Construction/Textures/wood01.i3i",
+        "name": "wood01"
+      },
+      {
+        "path": "World/Construction/Textures/barbedwire_01.i3i",
+        "name": "barbedwire_01"
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "i0",
+      "kind": "unknown",
+      "name": "World",
+      "res": null,
+      "obj": null,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 1588284048,
+        "clsname": "i3World",
+        "res": [
+          1576169050,
+          3247262080,
+          3081283672,
+          1738041803
+        ],
+        "respath": "World/Construction/Construction.i3wrd",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "World",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "prop",
+      "name": "Construction_Pilar_00",
+      "res": "Object/break/Construction_Pilar_00.i3s",
+      "obj": "Object/break/Construction_Pilar_00.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2521535895,
+          1339267839,
+          1149746012,
+          537237884
+        ],
+        "respath": "Object/break/Construction_Pilar_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "prop",
+      "name": "Construction_Pilar_01",
+      "res": "Object/break/Construction_Pilar_01.I3S",
+      "obj": "Object/break/Construction_Pilar_01.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1139138515,
+          2916169098,
+          3164793833,
+          3862970464
+        ],
+        "respath": "Object/break/Construction_Pilar_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "prop",
+      "name": "Construction_Pilar_04",
+      "res": "Object/break/Construction_Pilar_04.I3S",
+      "obj": "Object/break/Construction_Pilar_04.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4164784027,
+          3381078626,
+          2852188116,
+          1246219252
+        ],
+        "respath": "Object/break/Construction_Pilar_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "prop",
+      "name": "Construction_Pilar_06",
+      "res": "Object/break/Construction_Pilar_06.I3S",
+      "obj": "Object/break/Construction_Pilar_06.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4254383298,
+          2568189299,
+          2055726027,
+          399685036
+        ],
+        "respath": "Object/break/Construction_Pilar_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i5",
+      "kind": "prop",
+      "name": "Construction_Pilar_07",
+      "res": "Object/break/Construction_Pilar_07.I3S",
+      "obj": "Object/break/Construction_Pilar_07.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4116289403,
+          2590788778,
+          2446042893,
+          1042001865
+        ],
+        "respath": "Object/break/Construction_Pilar_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i6",
+      "kind": "prop",
+      "name": "Construction_Pilar_08",
+      "res": "Object/break/Construction_Pilar_08.I3S",
+      "obj": "Object/break/Construction_Pilar_08.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          400587414,
+          3007152600,
+          790943112,
+          2320164332
+        ],
+        "respath": "Object/break/Construction_Pilar_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i7",
+      "kind": "prop",
+      "name": "Construction_Pilar_03",
+      "res": "Object/break/Construction_Pilar_03.I3S",
+      "obj": "Object/break/Construction_Pilar_03.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          428672118,
+          1255987508,
+          211676583,
+          2826720143
+        ],
+        "respath": "Object/break/Construction_Pilar_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i8",
+      "kind": "prop",
+      "name": "Construction_Pilar_00",
+      "res": "Object/break/Construction_Pilar_00.i3s",
+      "obj": "Object/break/Construction_Pilar_00.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2521535895,
+          1339267839,
+          1149746012,
+          537237884
+        ],
+        "respath": "Object/break/Construction_Pilar_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i9",
+      "kind": "prop",
+      "name": "Construction_Pilar_02",
+      "res": "Object/break/Construction_Pilar_02.I3S",
+      "obj": "Object/break/Construction_Pilar_02.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1274586868,
+          3084983780,
+          2809841099,
+          1314321446
+        ],
+        "respath": "Object/break/Construction_Pilar_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i10",
+      "kind": "prop",
+      "name": "Construction_Pilar_04",
+      "res": "Object/break/Construction_Pilar_04.I3S",
+      "obj": "Object/break/Construction_Pilar_04.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4164784027,
+          3381078626,
+          2852188116,
+          1246219252
+        ],
+        "respath": "Object/break/Construction_Pilar_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i11",
+      "kind": "prop",
+      "name": "Construction_Pilar_05",
+      "res": "Object/break/Construction_Pilar_05.I3S",
+      "obj": "Object/break/Construction_Pilar_05.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3750941249,
+          490653431,
+          2928512635,
+          1875278239
+        ],
+        "respath": "Object/break/Construction_Pilar_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_05",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i12",
+      "kind": "prop",
+      "name": "Construction_Pilar_06",
+      "res": "Object/break/Construction_Pilar_06.I3S",
+      "obj": "Object/break/Construction_Pilar_06.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4254383298,
+          2568189299,
+          2055726027,
+          399685036
+        ],
+        "respath": "Object/break/Construction_Pilar_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i13",
+      "kind": "prop",
+      "name": "Construction_Pilar_07",
+      "res": "Object/break/Construction_Pilar_07.I3S",
+      "obj": "Object/break/Construction_Pilar_07.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4116289403,
+          2590788778,
+          2446042893,
+          1042001865
+        ],
+        "respath": "Object/break/Construction_Pilar_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i14",
+      "kind": "prop",
+      "name": "Construction_Pilar_08",
+      "res": "Object/break/Construction_Pilar_08.I3S",
+      "obj": "Object/break/Construction_Pilar_08.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          400587414,
+          3007152600,
+          790943112,
+          2320164332
+        ],
+        "respath": "Object/break/Construction_Pilar_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i15",
+      "kind": "prop",
+      "name": "Construction_Pilar_03",
+      "res": "Object/break/Construction_Pilar_03.I3S",
+      "obj": "Object/break/Construction_Pilar_03.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          428672118,
+          1255987508,
+          211676583,
+          2826720143
+        ],
+        "respath": "Object/break/Construction_Pilar_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i16",
+      "kind": "prop",
+      "name": "Construction_Pilar_00",
+      "res": "Object/break/Construction_Pilar_00.i3s",
+      "obj": "Object/break/Construction_Pilar_00.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2521535895,
+          1339267839,
+          1149746012,
+          537237884
+        ],
+        "respath": "Object/break/Construction_Pilar_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i17",
+      "kind": "prop",
+      "name": "Construction_Pilar_01",
+      "res": "Object/break/Construction_Pilar_01.I3S",
+      "obj": "Object/break/Construction_Pilar_01.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1139138515,
+          2916169098,
+          3164793833,
+          3862970464
+        ],
+        "respath": "Object/break/Construction_Pilar_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i18",
+      "kind": "prop",
+      "name": "Construction_Pilar_02",
+      "res": "Object/break/Construction_Pilar_02.I3S",
+      "obj": "Object/break/Construction_Pilar_02.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1274586868,
+          3084983780,
+          2809841099,
+          1314321446
+        ],
+        "respath": "Object/break/Construction_Pilar_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i19",
+      "kind": "prop",
+      "name": "Construction_Pilar_05",
+      "res": "Object/break/Construction_Pilar_05.I3S",
+      "obj": "Object/break/Construction_Pilar_05.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3750941249,
+          490653431,
+          2928512635,
+          1875278239
+        ],
+        "respath": "Object/break/Construction_Pilar_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_05",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i20",
+      "kind": "prop",
+      "name": "Construction_Pilar_06",
+      "res": "Object/break/Construction_Pilar_06.I3S",
+      "obj": "Object/break/Construction_Pilar_06.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4254383298,
+          2568189299,
+          2055726027,
+          399685036
+        ],
+        "respath": "Object/break/Construction_Pilar_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i21",
+      "kind": "prop",
+      "name": "Construction_Pilar_07",
+      "res": "Object/break/Construction_Pilar_07.I3S",
+      "obj": "Object/break/Construction_Pilar_07.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4116289403,
+          2590788778,
+          2446042893,
+          1042001865
+        ],
+        "respath": "Object/break/Construction_Pilar_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i22",
+      "kind": "prop",
+      "name": "Construction_Pilar_03",
+      "res": "Object/break/Construction_Pilar_03.I3S",
+      "obj": "Object/break/Construction_Pilar_03.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        -14.607922554016113
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          428672118,
+          1255987508,
+          211676583,
+          2826720143
+        ],
+        "respath": "Object/break/Construction_Pilar_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i23",
+      "kind": "prop",
+      "name": "Construction_Pilar_00",
+      "res": "Object/break/Construction_Pilar_00.i3s",
+      "obj": "Object/break/Construction_Pilar_00.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2521535895,
+          1339267839,
+          1149746012,
+          537237884
+        ],
+        "respath": "Object/break/Construction_Pilar_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i24",
+      "kind": "prop",
+      "name": "Construction_Pilar_01",
+      "res": "Object/break/Construction_Pilar_01.I3S",
+      "obj": "Object/break/Construction_Pilar_01.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1139138515,
+          2916169098,
+          3164793833,
+          3862970464
+        ],
+        "respath": "Object/break/Construction_Pilar_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i25",
+      "kind": "prop",
+      "name": "Construction_Pilar_02",
+      "res": "Object/break/Construction_Pilar_02.I3S",
+      "obj": "Object/break/Construction_Pilar_02.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1274586868,
+          3084983780,
+          2809841099,
+          1314321446
+        ],
+        "respath": "Object/break/Construction_Pilar_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i26",
+      "kind": "prop",
+      "name": "Construction_Pilar_04",
+      "res": "Object/break/Construction_Pilar_04.I3S",
+      "obj": "Object/break/Construction_Pilar_04.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4164784027,
+          3381078626,
+          2852188116,
+          1246219252
+        ],
+        "respath": "Object/break/Construction_Pilar_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i27",
+      "kind": "prop",
+      "name": "Construction_Pilar_06",
+      "res": "Object/break/Construction_Pilar_06.I3S",
+      "obj": "Object/break/Construction_Pilar_06.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4254383298,
+          2568189299,
+          2055726027,
+          399685036
+        ],
+        "respath": "Object/break/Construction_Pilar_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i28",
+      "kind": "prop",
+      "name": "Construction_Pilar_07",
+      "res": "Object/break/Construction_Pilar_07.I3S",
+      "obj": "Object/break/Construction_Pilar_07.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4116289403,
+          2590788778,
+          2446042893,
+          1042001865
+        ],
+        "respath": "Object/break/Construction_Pilar_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i29",
+      "kind": "prop",
+      "name": "Construction_Pilar_08",
+      "res": "Object/break/Construction_Pilar_08.I3S",
+      "obj": "Object/break/Construction_Pilar_08.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          400587414,
+          3007152600,
+          790943112,
+          2320164332
+        ],
+        "respath": "Object/break/Construction_Pilar_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i30",
+      "kind": "prop",
+      "name": "Construction_Pilar_03",
+      "res": "Object/break/Construction_Pilar_03.I3S",
+      "obj": "Object/break/Construction_Pilar_03.i3Obj",
+      "pos": [
+        6.10913610458374,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          428672118,
+          1255987508,
+          211676583,
+          2826720143
+        ],
+        "respath": "Object/break/Construction_Pilar_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i31",
+      "kind": "prop",
+      "name": "Construction_Pilar_00",
+      "res": "Object/break/Construction_Pilar_00.i3s",
+      "obj": "Object/break/Construction_Pilar_00.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2521535895,
+          1339267839,
+          1149746012,
+          537237884
+        ],
+        "respath": "Object/break/Construction_Pilar_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i32",
+      "kind": "prop",
+      "name": "Construction_Pilar_02",
+      "res": "Object/break/Construction_Pilar_02.I3S",
+      "obj": "Object/break/Construction_Pilar_02.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1274586868,
+          3084983780,
+          2809841099,
+          1314321446
+        ],
+        "respath": "Object/break/Construction_Pilar_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i33",
+      "kind": "prop",
+      "name": "Construction_Pilar_04",
+      "res": "Object/break/Construction_Pilar_04.I3S",
+      "obj": "Object/break/Construction_Pilar_04.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4164784027,
+          3381078626,
+          2852188116,
+          1246219252
+        ],
+        "respath": "Object/break/Construction_Pilar_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i34",
+      "kind": "prop",
+      "name": "Construction_Pilar_06",
+      "res": "Object/break/Construction_Pilar_06.I3S",
+      "obj": "Object/break/Construction_Pilar_06.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4254383298,
+          2568189299,
+          2055726027,
+          399685036
+        ],
+        "respath": "Object/break/Construction_Pilar_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i35",
+      "kind": "prop",
+      "name": "Construction_Pilar_07",
+      "res": "Object/break/Construction_Pilar_07.I3S",
+      "obj": "Object/break/Construction_Pilar_07.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4116289403,
+          2590788778,
+          2446042893,
+          1042001865
+        ],
+        "respath": "Object/break/Construction_Pilar_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i36",
+      "kind": "prop",
+      "name": "Construction_Pilar_08",
+      "res": "Object/break/Construction_Pilar_08.I3S",
+      "obj": "Object/break/Construction_Pilar_08.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          400587414,
+          3007152600,
+          790943112,
+          2320164332
+        ],
+        "respath": "Object/break/Construction_Pilar_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i37",
+      "kind": "prop",
+      "name": "Construction_Pilar_03",
+      "res": "Object/break/Construction_Pilar_03.I3S",
+      "obj": "Object/break/Construction_Pilar_03.i3Obj",
+      "pos": [
+        -6.1174540519714355,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          428672118,
+          1255987508,
+          211676583,
+          2826720143
+        ],
+        "respath": "Object/break/Construction_Pilar_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i38",
+      "kind": "prop",
+      "name": "Construction_Pilar_00",
+      "res": "Object/break/Construction_Pilar_00.i3s",
+      "obj": "Object/break/Construction_Pilar_00.i3Obj",
+      "pos": [
+        -6.119450092315674,
+        0,
+        -2.3407390117645264
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2521535895,
+          1339267839,
+          1149746012,
+          537237884
+        ],
+        "respath": "Object/break/Construction_Pilar_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i39",
+      "kind": "prop",
+      "name": "Construction_Pilar_02",
+      "res": "Object/break/Construction_Pilar_02.I3S",
+      "obj": "Object/break/Construction_Pilar_02.i3Obj",
+      "pos": [
+        -6.119450092315674,
+        0,
+        -2.3407390117645264
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1274586868,
+          3084983780,
+          2809841099,
+          1314321446
+        ],
+        "respath": "Object/break/Construction_Pilar_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i40",
+      "kind": "prop",
+      "name": "Construction_Pilar_04",
+      "res": "Object/break/Construction_Pilar_04.I3S",
+      "obj": "Object/break/Construction_Pilar_04.i3Obj",
+      "pos": [
+        -6.119450092315674,
+        0,
+        -2.3407390117645264
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4164784027,
+          3381078626,
+          2852188116,
+          1246219252
+        ],
+        "respath": "Object/break/Construction_Pilar_04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i41",
+      "kind": "prop",
+      "name": "Construction_Pilar_05",
+      "res": "Object/break/Construction_Pilar_05.I3S",
+      "obj": "Object/break/Construction_Pilar_05.i3Obj",
+      "pos": [
+        -6.119450092315674,
+        0,
+        -2.3407390117645264
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3750941249,
+          490653431,
+          2928512635,
+          1875278239
+        ],
+        "respath": "Object/break/Construction_Pilar_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_05",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i42",
+      "kind": "prop",
+      "name": "Construction_Pilar_06",
+      "res": "Object/break/Construction_Pilar_06.I3S",
+      "obj": "Object/break/Construction_Pilar_06.i3Obj",
+      "pos": [
+        -6.119450092315674,
+        0,
+        -2.3407390117645264
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4254383298,
+          2568189299,
+          2055726027,
+          399685036
+        ],
+        "respath": "Object/break/Construction_Pilar_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i43",
+      "kind": "prop",
+      "name": "Construction_Pilar_07",
+      "res": "Object/break/Construction_Pilar_07.I3S",
+      "obj": "Object/break/Construction_Pilar_07.i3Obj",
+      "pos": [
+        -6.119450092315674,
+        0,
+        -2.3407390117645264
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4116289403,
+          2590788778,
+          2446042893,
+          1042001865
+        ],
+        "respath": "Object/break/Construction_Pilar_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i44",
+      "kind": "prop",
+      "name": "Construction_Pilar_08",
+      "res": "Object/break/Construction_Pilar_08.I3S",
+      "obj": "Object/break/Construction_Pilar_08.i3Obj",
+      "pos": [
+        -6.119450092315674,
+        0,
+        -2.3407390117645264
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          400587414,
+          3007152600,
+          790943112,
+          2320164332
+        ],
+        "respath": "Object/break/Construction_Pilar_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i45",
+      "kind": "prop",
+      "name": "Construction_Pilar_03",
+      "res": "Object/break/Construction_Pilar_03.I3S",
+      "obj": "Object/break/Construction_Pilar_03.i3Obj",
+      "pos": [
+        -6.119450092315674,
+        0,
+        -2.3407390117645264
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          428672118,
+          1255987508,
+          211676583,
+          2826720143
+        ],
+        "respath": "Object/break/Construction_Pilar_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i46",
+      "kind": "prop",
+      "name": "Construction_Wall00",
+      "res": "Object/break/Construction_Wall00.I3S",
+      "obj": "Object/break/Construction_Wall00.i3Obj",
+      "pos": [
+        9.14494514465332,
+        0,
+        -2.3467109203338623
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1181340200,
+          2855512797,
+          3169117994,
+          1496249460
+        ],
+        "respath": "Object/break/Construction_Wall00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i47",
+      "kind": "prop",
+      "name": "Construction_Wall02",
+      "res": "Object/break/Construction_Wall02.I3S",
+      "obj": "Object/break/Construction_Wall02.i3Obj",
+      "pos": [
+        9.14494514465332,
+        0,
+        -2.3467109203338623
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3578811915,
+          3012508889,
+          1739384410,
+          249567360
+        ],
+        "respath": "Object/break/Construction_Wall02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i48",
+      "kind": "prop",
+      "name": "Construction_Wall04",
+      "res": "Object/break/Construction_Wall04.I3S",
+      "obj": "Object/break/Construction_Wall04.i3Obj",
+      "pos": [
+        9.14494514465332,
+        0,
+        -2.3467109203338623
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1805961340,
+          939251801,
+          16965902,
+          1595607416
+        ],
+        "respath": "Object/break/Construction_Wall04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i49",
+      "kind": "prop",
+      "name": "Construction_Wall05",
+      "res": "Object/break/Construction_Wall05.I3S",
+      "obj": "Object/break/Construction_Wall05.i3Obj",
+      "pos": [
+        9.14494514465332,
+        0,
+        -2.3467109203338623
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3428885540,
+          1447671471,
+          4280907124,
+          527558144
+        ],
+        "respath": "Object/break/Construction_Wall05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall05",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i50",
+      "kind": "prop",
+      "name": "Construction_Wall07",
+      "res": "Object/break/Construction_Wall07.I3S",
+      "obj": "Object/break/Construction_Wall07.i3Obj",
+      "pos": [
+        9.14494514465332,
+        0,
+        -2.3467109203338623
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2387037470,
+          3512424873,
+          3264895842,
+          2575021894
+        ],
+        "respath": "Object/break/Construction_Wall07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i51",
+      "kind": "prop",
+      "name": "Construction_Wall00",
+      "res": "Object/break/Construction_Wall00.I3S",
+      "obj": "Object/break/Construction_Wall00.i3Obj",
+      "pos": [
+        -0.004025000147521496,
+        0,
+        0.699193000793457
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1181340200,
+          2855512797,
+          3169117994,
+          1496249460
+        ],
+        "respath": "Object/break/Construction_Wall00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i52",
+      "kind": "prop",
+      "name": "Construction_Wall02",
+      "res": "Object/break/Construction_Wall02.I3S",
+      "obj": "Object/break/Construction_Wall02.i3Obj",
+      "pos": [
+        -0.004025000147521496,
+        0,
+        0.699193000793457
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3578811915,
+          3012508889,
+          1739384410,
+          249567360
+        ],
+        "respath": "Object/break/Construction_Wall02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i53",
+      "kind": "prop",
+      "name": "Construction_Wall03",
+      "res": "Object/break/Construction_Wall03.I3S",
+      "obj": "Object/break/Construction_Wall03.i3Obj",
+      "pos": [
+        -0.004025000147521496,
+        0,
+        0.699193000793457
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3443345044,
+          4021265628,
+          380106646,
+          4273727314
+        ],
+        "respath": "Object/break/Construction_Wall03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i54",
+      "kind": "prop",
+      "name": "Construction_Wall04",
+      "res": "Object/break/Construction_Wall04.I3S",
+      "obj": "Object/break/Construction_Wall04.i3Obj",
+      "pos": [
+        -0.004025000147521496,
+        0,
+        0.699193000793457
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1805961340,
+          939251801,
+          16965902,
+          1595607416
+        ],
+        "respath": "Object/break/Construction_Wall04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i55",
+      "kind": "prop",
+      "name": "Construction_Wall05",
+      "res": "Object/break/Construction_Wall05.I3S",
+      "obj": "Object/break/Construction_Wall05.i3Obj",
+      "pos": [
+        -0.004025000147521496,
+        0,
+        0.699193000793457
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3428885540,
+          1447671471,
+          4280907124,
+          527558144
+        ],
+        "respath": "Object/break/Construction_Wall05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall05",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i56",
+      "kind": "prop",
+      "name": "Construction_Wall06",
+      "res": "Object/break/Construction_Wall06.I3S",
+      "obj": "Object/break/Construction_Wall06.i3Obj",
+      "pos": [
+        -0.004025000147521496,
+        0,
+        0.699193000793457
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3906953329,
+          2482218130,
+          33465602,
+          1253228415
+        ],
+        "respath": "Object/break/Construction_Wall06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i57",
+      "kind": "prop",
+      "name": "Construction_Wall08",
+      "res": "Object/break/Construction_Wall08.I3S",
+      "obj": "Object/break/Construction_Wall08.i3Obj",
+      "pos": [
+        -0.004025000147521496,
+        0,
+        0.699193000793457
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1153344333,
+          128660984,
+          2274765293,
+          2261485195
+        ],
+        "respath": "Object/break/Construction_Wall08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i58",
+      "kind": "prop",
+      "name": "Construction_Wall00",
+      "res": "Object/break/Construction_Wall00.I3S",
+      "obj": "Object/break/Construction_Wall00.i3Obj",
+      "pos": [
+        -3.0800909996032715,
+        0,
+        9.919798851013184
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1181340200,
+          2855512797,
+          3169117994,
+          1496249460
+        ],
+        "respath": "Object/break/Construction_Wall00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i59",
+      "kind": "prop",
+      "name": "Construction_Wall02",
+      "res": "Object/break/Construction_Wall02.I3S",
+      "obj": "Object/break/Construction_Wall02.i3Obj",
+      "pos": [
+        -3.0800909996032715,
+        0,
+        9.919798851013184
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3578811915,
+          3012508889,
+          1739384410,
+          249567360
+        ],
+        "respath": "Object/break/Construction_Wall02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i60",
+      "kind": "prop",
+      "name": "Construction_Wall04",
+      "res": "Object/break/Construction_Wall04.I3S",
+      "obj": "Object/break/Construction_Wall04.i3Obj",
+      "pos": [
+        -3.0800909996032715,
+        0,
+        9.919798851013184
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1805961340,
+          939251801,
+          16965902,
+          1595607416
+        ],
+        "respath": "Object/break/Construction_Wall04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i61",
+      "kind": "prop",
+      "name": "Construction_Wall06",
+      "res": "Object/break/Construction_Wall06.I3S",
+      "obj": "Object/break/Construction_Wall06.i3Obj",
+      "pos": [
+        -3.0800909996032715,
+        0,
+        9.919798851013184
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3906953329,
+          2482218130,
+          33465602,
+          1253228415
+        ],
+        "respath": "Object/break/Construction_Wall06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i62",
+      "kind": "prop",
+      "name": "Construction_Wall07",
+      "res": "Object/break/Construction_Wall07.I3S",
+      "obj": "Object/break/Construction_Wall07.i3Obj",
+      "pos": [
+        -3.0800909996032715,
+        0,
+        9.919798851013184
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2387037470,
+          3512424873,
+          3264895842,
+          2575021894
+        ],
+        "respath": "Object/break/Construction_Wall07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i63",
+      "kind": "prop",
+      "name": "Construction_Wall08",
+      "res": "Object/break/Construction_Wall08.I3S",
+      "obj": "Object/break/Construction_Wall08.i3Obj",
+      "pos": [
+        -3.0800909996032715,
+        0,
+        9.919798851013184
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1153344333,
+          128660984,
+          2274765293,
+          2261485195
+        ],
+        "respath": "Object/break/Construction_Wall08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i64",
+      "kind": "prop",
+      "name": "Construction_Pilar_00",
+      "res": "Object/break/Construction_Pilar_00.i3s",
+      "obj": "Object/break/Construction_Pilar_00.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2521535895,
+          1339267839,
+          1149746012,
+          537237884
+        ],
+        "respath": "Object/break/Construction_Pilar_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i65",
+      "kind": "prop",
+      "name": "Construction_Pilar_01",
+      "res": "Object/break/Construction_Pilar_01.I3S",
+      "obj": "Object/break/Construction_Pilar_01.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1139138515,
+          2916169098,
+          3164793833,
+          3862970464
+        ],
+        "respath": "Object/break/Construction_Pilar_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i66",
+      "kind": "prop",
+      "name": "Construction_Pilar_02",
+      "res": "Object/break/Construction_Pilar_02.I3S",
+      "obj": "Object/break/Construction_Pilar_02.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1274586868,
+          3084983780,
+          2809841099,
+          1314321446
+        ],
+        "respath": "Object/break/Construction_Pilar_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i67",
+      "kind": "prop",
+      "name": "Construction_Pilar_05",
+      "res": "Object/break/Construction_Pilar_05.I3S",
+      "obj": "Object/break/Construction_Pilar_05.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3750941249,
+          490653431,
+          2928512635,
+          1875278239
+        ],
+        "respath": "Object/break/Construction_Pilar_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_05",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i68",
+      "kind": "prop",
+      "name": "Construction_Pilar_06",
+      "res": "Object/break/Construction_Pilar_06.I3S",
+      "obj": "Object/break/Construction_Pilar_06.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4254383298,
+          2568189299,
+          2055726027,
+          399685036
+        ],
+        "respath": "Object/break/Construction_Pilar_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i69",
+      "kind": "prop",
+      "name": "Construction_Pilar_07",
+      "res": "Object/break/Construction_Pilar_07.I3S",
+      "obj": "Object/break/Construction_Pilar_07.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4116289403,
+          2590788778,
+          2446042893,
+          1042001865
+        ],
+        "respath": "Object/break/Construction_Pilar_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i70",
+      "kind": "prop",
+      "name": "Construction_Pilar_03",
+      "res": "Object/break/Construction_Pilar_03.I3S",
+      "obj": "Object/break/Construction_Pilar_03.i3Obj",
+      "pos": [
+        -0.004315000027418137,
+        0,
+        16.0568790435791
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          428672118,
+          1255987508,
+          211676583,
+          2826720143
+        ],
+        "respath": "Object/break/Construction_Pilar_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i71",
+      "kind": "prop",
+      "name": "Construction_Pilar_00",
+      "res": "Object/break/Construction_Pilar_00.i3s",
+      "obj": "Object/break/Construction_Pilar_00.i3Obj",
+      "pos": [
+        6.1122541427612305,
+        0,
+        3.795332908630371
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2521535895,
+          1339267839,
+          1149746012,
+          537237884
+        ],
+        "respath": "Object/break/Construction_Pilar_00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i72",
+      "kind": "prop",
+      "name": "Construction_Pilar_01",
+      "res": "Object/break/Construction_Pilar_01.I3S",
+      "obj": "Object/break/Construction_Pilar_01.i3Obj",
+      "pos": [
+        6.1122541427612305,
+        0,
+        3.795332908630371
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1139138515,
+          2916169098,
+          3164793833,
+          3862970464
+        ],
+        "respath": "Object/break/Construction_Pilar_01.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_01",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i73",
+      "kind": "prop",
+      "name": "Construction_Pilar_02",
+      "res": "Object/break/Construction_Pilar_02.I3S",
+      "obj": "Object/break/Construction_Pilar_02.i3Obj",
+      "pos": [
+        6.1122541427612305,
+        0,
+        3.795332908630371
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1274586868,
+          3084983780,
+          2809841099,
+          1314321446
+        ],
+        "respath": "Object/break/Construction_Pilar_02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i74",
+      "kind": "prop",
+      "name": "Construction_Pilar_05",
+      "res": "Object/break/Construction_Pilar_05.I3S",
+      "obj": "Object/break/Construction_Pilar_05.i3Obj",
+      "pos": [
+        6.1122541427612305,
+        0,
+        3.795332908630371
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3750941249,
+          490653431,
+          2928512635,
+          1875278239
+        ],
+        "respath": "Object/break/Construction_Pilar_05.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_05",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i75",
+      "kind": "prop",
+      "name": "Construction_Pilar_06",
+      "res": "Object/break/Construction_Pilar_06.I3S",
+      "obj": "Object/break/Construction_Pilar_06.i3Obj",
+      "pos": [
+        6.1122541427612305,
+        0,
+        3.795332908630371
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4254383298,
+          2568189299,
+          2055726027,
+          399685036
+        ],
+        "respath": "Object/break/Construction_Pilar_06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i76",
+      "kind": "prop",
+      "name": "Construction_Pilar_07",
+      "res": "Object/break/Construction_Pilar_07.I3S",
+      "obj": "Object/break/Construction_Pilar_07.i3Obj",
+      "pos": [
+        6.1122541427612305,
+        0,
+        3.795332908630371
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          4116289403,
+          2590788778,
+          2446042893,
+          1042001865
+        ],
+        "respath": "Object/break/Construction_Pilar_07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i77",
+      "kind": "prop",
+      "name": "Construction_Pilar_08",
+      "res": "Object/break/Construction_Pilar_08.I3S",
+      "obj": "Object/break/Construction_Pilar_08.i3Obj",
+      "pos": [
+        6.1122541427612305,
+        0,
+        3.795332908630371
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          400587414,
+          3007152600,
+          790943112,
+          2320164332
+        ],
+        "respath": "Object/break/Construction_Pilar_08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i78",
+      "kind": "prop",
+      "name": "Construction_Pilar_03",
+      "res": "Object/break/Construction_Pilar_03.I3S",
+      "obj": "Object/break/Construction_Pilar_03.i3Obj",
+      "pos": [
+        6.1122541427612305,
+        0,
+        3.795332908630371
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          428672118,
+          1255987508,
+          211676583,
+          2826720143
+        ],
+        "respath": "Object/break/Construction_Pilar_03.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Pilar_03",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i79",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        9.016898155212402,
+        0,
+        43.5903205871582
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i80",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        12.32071304321289,
+        0,
+        50.030479431152344
+      ],
+      "rot": [
+        0,
+        -170.0000131372409,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9961947798728943,
+        0,
+        0.08715564757585526
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i81",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        11.364935874938965,
+        0,
+        45.69612121582031
+      ],
+      "rot": [
+        0,
+        -170.0000131372409,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9961947798728943,
+        0,
+        0.08715564757585526
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i82",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        15.85777759552002,
+        0,
+        45.7901496887207
+      ],
+      "rot": [
+        0,
+        -170.0000131372409,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9961947798728943,
+        0,
+        0.08715564757585526
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i83",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        13.73855972290039,
+        0,
+        47.729347229003906
+      ],
+      "rot": [
+        0,
+        -170.0000131372409,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9961947798728943,
+        0,
+        0.08715564757585526
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i84",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        15.322020530700684,
+        0,
+        50.14668273925781
+      ],
+      "rot": [
+        0,
+        -170.0000131372409,
+        0
+      ],
+      "quat": [
+        0,
+        -0.9961947798728943,
+        0,
+        0.08715564757585526
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i85",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        9.143209457397461,
+        4.091308116912842,
+        34.34686279296875
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i86",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        9.225027084350586,
+        4.091308116912842,
+        28.348718643188477
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "quat": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 1,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          1,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i87",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -9.29177474975586,
+        4.091308116912842,
+        -26.701065063476562
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i88",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -9.29177474975586,
+        4.091308116912842,
+        -32.98379135131836
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i89",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -10.02931022644043,
+        0,
+        -43.332427978515625
+      ],
+      "rot": [
+        0,
+        9.99998746178698,
+        0
+      ],
+      "quat": [
+        0,
+        0.08715563267469406,
+        0,
+        0.9961947202682495
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i90",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -12.070395469665527,
+        0,
+        -48.19813537597656
+      ],
+      "rot": [
+        0,
+        9.99998746178698,
+        0
+      ],
+      "quat": [
+        0,
+        0.08715563267469406,
+        0,
+        0.9961947202682495
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i91",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -15.415353775024414,
+        0,
+        -48.19813537597656
+      ],
+      "rot": [
+        0,
+        9.99998746178698,
+        0
+      ],
+      "quat": [
+        0,
+        0.08715563267469406,
+        0,
+        0.9961947202682495
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i92",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -15.415353775024414,
+        0,
+        -42.120941162109375
+      ],
+      "rot": [
+        0,
+        9.99998746178698,
+        0
+      ],
+      "quat": [
+        0,
+        0.08715563267469406,
+        0,
+        0.9961947202682495
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i93",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -12.169720649719238,
+        0,
+        -45.083919525146484
+      ],
+      "rot": [
+        0,
+        9.99998746178698,
+        0
+      ],
+      "quat": [
+        0,
+        0.08715563267469406,
+        0,
+        0.9961947202682495
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i94",
+      "kind": "respawn",
+      "name": "",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -15.415353775024414,
+        0,
+        -45.083919525146484
+      ],
+      "rot": [
+        0,
+        9.99998746178698,
+        0
+      ],
+      "quat": [
+        0,
+        0.08715563267469406,
+        0,
+        0.9961947202682495
+      ],
+      "scale": [
+        1.000000238418579,
+        1,
+        1.000000238418579
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1290238771,
+        "clsname": "i3RespawnObj",
+        "res": [
+          4294967295,
+          0,
+          0,
+          0
+        ],
+        "respath": null,
+        "enable": 1,
+        "portal": 0,
+        "dyn": 0,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i95",
+      "kind": "unknown",
+      "name": "Element",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -21.368370056152344,
+        28.419775009155273,
+        -7.599588871002197
+      ],
+      "rot": [
+        -59.999980866541186,
+        -140.0000531245658,
+        -179.9999533399274
+      ],
+      "quat": [
+        -0.8137978315353394,
+        0.17101013660430908,
+        0.2961979806423187,
+        0.46984612941741943
+      ],
+      "scale": [
+        0.9999998807907104,
+        0.9999998211860657,
+        0.9999995827674866
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 3647390477,
+        "clsname": "i3LightObject",
+        "res": [
+          695743384,
+          2932007140,
+          3970379764,
+          883423181
+        ],
+        "respath": "World/Construction/Light/Construction_Light0.i3Light",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Element",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i96",
+      "kind": "prop",
+      "name": "Construction_Wall00",
+      "res": "Object/break/Construction_Wall00.I3S",
+      "obj": "Object/break/Construction_Wall00.i3Obj",
+      "pos": [
+        -9.20090103149414,
+        0,
+        3.7957370281219482
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1181340200,
+          2855512797,
+          3169117994,
+          1496249460
+        ],
+        "respath": "Object/break/Construction_Wall00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i97",
+      "kind": "prop",
+      "name": "Construction_Wall02",
+      "res": "Object/break/Construction_Wall02.I3S",
+      "obj": "Object/break/Construction_Wall02.i3Obj",
+      "pos": [
+        -9.20090103149414,
+        0,
+        3.7957370281219482
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3578811915,
+          3012508889,
+          1739384410,
+          249567360
+        ],
+        "respath": "Object/break/Construction_Wall02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i98",
+      "kind": "prop",
+      "name": "Construction_Wall04",
+      "res": "Object/break/Construction_Wall04.I3S",
+      "obj": "Object/break/Construction_Wall04.i3Obj",
+      "pos": [
+        -9.20090103149414,
+        0,
+        3.7957370281219482
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1805961340,
+          939251801,
+          16965902,
+          1595607416
+        ],
+        "respath": "Object/break/Construction_Wall04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i99",
+      "kind": "prop",
+      "name": "Construction_Wall06",
+      "res": "Object/break/Construction_Wall06.I3S",
+      "obj": "Object/break/Construction_Wall06.i3Obj",
+      "pos": [
+        -9.20090103149414,
+        0,
+        3.7957370281219482
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3906953329,
+          2482218130,
+          33465602,
+          1253228415
+        ],
+        "respath": "Object/break/Construction_Wall06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i100",
+      "kind": "prop",
+      "name": "Construction_Wall07",
+      "res": "Object/break/Construction_Wall07.I3S",
+      "obj": "Object/break/Construction_Wall07.i3Obj",
+      "pos": [
+        -9.20090103149414,
+        0,
+        3.7957370281219482
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2387037470,
+          3512424873,
+          3264895842,
+          2575021894
+        ],
+        "respath": "Object/break/Construction_Wall07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i101",
+      "kind": "prop",
+      "name": "Construction_Wall08",
+      "res": "Object/break/Construction_Wall08.I3S",
+      "obj": "Object/break/Construction_Wall08.i3Obj",
+      "pos": [
+        -9.20090103149414,
+        0,
+        3.7957370281219482
+      ],
+      "rot": [
+        0,
+        89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1153344333,
+          128660984,
+          2274765293,
+          2261485195
+        ],
+        "respath": "Object/break/Construction_Wall08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i102",
+      "kind": "prop",
+      "name": "Construction_Wall00",
+      "res": "Object/break/Construction_Wall00.I3S",
+      "obj": "Object/break/Construction_Wall00.i3Obj",
+      "pos": [
+        3.090881109237671,
+        0,
+        -8.472940444946289
+      ],
+      "rot": [
+        0,
+        -89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1181340200,
+          2855512797,
+          3169117994,
+          1496249460
+        ],
+        "respath": "Object/break/Construction_Wall00.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall00",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i103",
+      "kind": "prop",
+      "name": "Construction_Wall02",
+      "res": "Object/break/Construction_Wall02.I3S",
+      "obj": "Object/break/Construction_Wall02.i3Obj",
+      "pos": [
+        3.090881109237671,
+        0,
+        -8.472940444946289
+      ],
+      "rot": [
+        0,
+        -89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3578811915,
+          3012508889,
+          1739384410,
+          249567360
+        ],
+        "respath": "Object/break/Construction_Wall02.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall02",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i104",
+      "kind": "prop",
+      "name": "Construction_Wall04",
+      "res": "Object/break/Construction_Wall04.I3S",
+      "obj": "Object/break/Construction_Wall04.i3Obj",
+      "pos": [
+        3.090881109237671,
+        0,
+        -8.472940444946289
+      ],
+      "rot": [
+        0,
+        -89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1805961340,
+          939251801,
+          16965902,
+          1595607416
+        ],
+        "respath": "Object/break/Construction_Wall04.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall04",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i105",
+      "kind": "prop",
+      "name": "Construction_Wall06",
+      "res": "Object/break/Construction_Wall06.I3S",
+      "obj": "Object/break/Construction_Wall06.i3Obj",
+      "pos": [
+        3.090881109237671,
+        0,
+        -8.472940444946289
+      ],
+      "rot": [
+        0,
+        -89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          3906953329,
+          2482218130,
+          33465602,
+          1253228415
+        ],
+        "respath": "Object/break/Construction_Wall06.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall06",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i106",
+      "kind": "prop",
+      "name": "Construction_Wall07",
+      "res": "Object/break/Construction_Wall07.I3S",
+      "obj": "Object/break/Construction_Wall07.i3Obj",
+      "pos": [
+        3.090881109237671,
+        0,
+        -8.472940444946289
+      ],
+      "rot": [
+        0,
+        -89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          2387037470,
+          3512424873,
+          3264895842,
+          2575021894
+        ],
+        "respath": "Object/break/Construction_Wall07.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall07",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i107",
+      "kind": "prop",
+      "name": "Construction_Wall08",
+      "res": "Object/break/Construction_Wall08.I3S",
+      "obj": "Object/break/Construction_Wall08.i3Obj",
+      "pos": [
+        3.090881109237671,
+        0,
+        -8.472940444946289
+      ],
+      "rot": [
+        0,
+        -89.99999803884896,
+        0
+      ],
+      "quat": [
+        0,
+        -0.7071067690849304,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 3071538393,
+        "clsname": "i3Object",
+        "res": [
+          1153344333,
+          128660984,
+          2274765293,
+          2261485195
+        ],
+        "respath": "Object/break/Construction_Wall08.i3Obj",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 1,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Construction_Wall08",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i108",
+      "kind": "trigger",
+      "name": "Box",
+      "res": "Scene/Construction/_Generated/Redrock_Consruction.i3Evt",
+      "obj": null,
+      "pos": [
+        -12.077837944030762,
+        1.0347779989242554,
+        -1.9481650590896606
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.958271026611328,
+        1.9930859804153442,
+        9.986493110656738
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          840313374,
+          126193075,
+          1890508959,
+          1828177252
+        ],
+        "respath": "Scene/Construction/_Generated/Redrock_Consruction.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i109",
+      "kind": "trigger",
+      "name": "Box0",
+      "res": "Scene/Construction/_Generated/Redrock_Chopper.i3Evt",
+      "obj": null,
+      "pos": [
+        0.05350600183010101,
+        3.621903896331787,
+        0.0316770002245903
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        24.90007781982422,
+        6.071529865264893,
+        78.01520538330078
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          964852494,
+          1368944635,
+          2467453294,
+          2427132152
+        ],
+        "respath": "Scene/Construction/_Generated/Redrock_Chopper.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box0",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i110",
+      "kind": "unknown",
+      "name": "Path",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -35.98506164550781,
+        0,
+        -27.849090576171875
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": true,
+      "orig": {
+        "cls": 2763177827,
+        "clsname": "i3GamePath",
+        "res": [
+          3178654879,
+          2391642297,
+          2934317223,
+          1221661008
+        ],
+        "respath": "World/Construction/Path.i3Path",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          0,
+          0,
+          0
+        ],
+        "gamedata": "",
+        "name": "Path",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i111",
+      "kind": "trigger",
+      "name": "Box_4",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -12.382935523986816,
+        5.545502185821533,
+        -36.1430778503418
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        11.515555381774902,
+        2.9385619163513184,
+        5.610095977783203
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1350703327,
+          3430883430,
+          2699434924,
+          960791901
+        ],
+        "respath": "Scene/Construction2/_Generated/Ct02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_4",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i112",
+      "kind": "trigger",
+      "name": "Box_5",
+      "res": null,
+      "obj": null,
+      "pos": [
+        -9.289806365966797,
+        5.594668865203857,
+        -21.027896881103516
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.684340953826904,
+        3.070301055908203,
+        25.286224365234375
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1350703327,
+          3430883430,
+          2699434924,
+          960791901
+        ],
+        "respath": "Scene/Construction2/_Generated/Ct02.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "6f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_5",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i113",
+      "kind": "trigger",
+      "name": "Box_6",
+      "res": null,
+      "obj": null,
+      "pos": [
+        12.1761474609375,
+        5.90382194519043,
+        37.72385025024414
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        11.636606216430664,
+        3.5657451152801514,
+        5.249476909637451
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3490361421,
+          1221165678,
+          2237602355,
+          1754173203
+        ],
+        "respath": "Scene/Construction2/_Generated/Ct01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_6",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i114",
+      "kind": "trigger",
+      "name": "Box_7",
+      "res": null,
+      "obj": null,
+      "pos": [
+        9.508434295654297,
+        6.08814001083374,
+        22.618574142456055
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.940903186798096,
+        3.9062719345092773,
+        24.08334732055664
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3490361421,
+          1221165678,
+          2237602355,
+          1754173203
+        ],
+        "respath": "Scene/Construction2/_Generated/Ct01.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          30,
+          0
+        ],
+        "gamedata": "710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_7",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i115",
+      "kind": "trigger",
+      "name": "Box_9",
+      "res": "Scene/Construction/_Generated/RED_1.i3Evt",
+      "obj": null,
+      "pos": [
+        -12.118184089660645,
+        1.2693439722061157,
+        -41.992889404296875
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.709739685058594,
+        3.0332000255584717,
+        17.084522247314453
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          213769117,
+          978744665,
+          1790693469,
+          4263541833
+        ],
+        "respath": "Scene/Construction/_Generated/RED_1.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_9",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i116",
+      "kind": "trigger",
+      "name": "Box_10",
+      "res": "Scene/Construction/_Generated/RED_2.i3Evt",
+      "obj": null,
+      "pos": [
+        3.293962001800537,
+        1.3845829963684082,
+        -23.236480712890625
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        18.32367706298828,
+        2.70570707321167,
+        30.594282150268555
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          166365809,
+          1603101611,
+          3720017494,
+          15904456
+        ],
+        "respath": "Scene/Construction/_Generated/RED_2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_10",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i117",
+      "kind": "trigger",
+      "name": "Box_100",
+      "res": "Scene/Construction/_Generated/RED_2.i3Evt",
+      "obj": null,
+      "pos": [
+        -9.16445541381836,
+        1.3845829963684082,
+        -20.594980239868164
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.36942195892334,
+        2.70570707321167,
+        23.56302261352539
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          166365809,
+          1603101611,
+          3720017494,
+          15904456
+        ],
+        "respath": "Scene/Construction/_Generated/RED_2.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_100",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i118",
+      "kind": "trigger",
+      "name": "Box_11",
+      "res": "Scene/Construction/_Generated/RED_3.i3Evt",
+      "obj": null,
+      "pos": [
+        -0.2594130039215088,
+        2.0066030025482178,
+        1.034844994544983
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        25.95020294189453,
+        4.137166976928711,
+        16.75412940979004
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1952972757,
+          480099806,
+          3241064084,
+          1919855222
+        ],
+        "respath": "Scene/Construction/_Generated/RED_3.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_11",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i119",
+      "kind": "trigger",
+      "name": "Box_101",
+      "res": "Scene/Construction/_Generated/RED_4.i3Evt",
+      "obj": null,
+      "pos": [
+        -3.180691957473755,
+        1.3845829963684082,
+        24.92395782470703
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        18.32367706298828,
+        2.70570707321167,
+        30.594282150268555
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1032056913,
+          27908955,
+          3256080944,
+          887571422
+        ],
+        "respath": "Scene/Construction/_Generated/RED_4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_101",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i120",
+      "kind": "trigger",
+      "name": "Box_1000",
+      "res": "Scene/Construction/_Generated/RED_4.i3Evt",
+      "obj": null,
+      "pos": [
+        8.897966384887695,
+        1.3845829963684082,
+        22.113662719726562
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.36942195892334,
+        2.70570707321167,
+        23.56302261352539
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          1032056913,
+          27908955,
+          3256080944,
+          887571422
+        ],
+        "respath": "Scene/Construction/_Generated/RED_4.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "770000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_1000",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i121",
+      "kind": "trigger",
+      "name": "Box_90",
+      "res": "Scene/Construction/_Generated/RED_5.i3Evt",
+      "obj": null,
+      "pos": [
+        12.20892333984375,
+        1.2693439722061157,
+        43.39051055908203
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        10.709739685058594,
+        3.0332000255584717,
+        17.084522247314453
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          541105479,
+          2142096297,
+          377807192,
+          3738198870
+        ],
+        "respath": "Scene/Construction/_Generated/RED_5.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_90",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i122",
+      "kind": "trigger",
+      "name": "Box_12",
+      "res": "Scene/Construction/_Generated/RED_7.i3Evt",
+      "obj": null,
+      "pos": [
+        9.530510902404785,
+        6.121816158294678,
+        25.360179901123047
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.73131799697876,
+        3.7385480403900146,
+        29.421621322631836
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2882262838,
+          2679052477,
+          2954589890,
+          160196372
+        ],
+        "respath": "Scene/Construction/_Generated/RED_7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_12",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i123",
+      "kind": "trigger",
+      "name": "Box_13",
+      "res": "Scene/Construction/_Generated/RED_7.i3Evt",
+      "obj": null,
+      "pos": [
+        15.31183910369873,
+        5.794626235961914,
+        37.43681335449219
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.3323540687561035,
+        3.1274759769439697,
+        4.8204498291015625
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          2882262838,
+          2679052477,
+          2954589890,
+          160196372
+        ],
+        "respath": "Scene/Construction/_Generated/RED_7.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "7a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_13",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i124",
+      "kind": "trigger",
+      "name": "Box_130",
+      "res": "Scene/Construction/_Generated/RED_6.i3Evt",
+      "obj": null,
+      "pos": [
+        -14.847899436950684,
+        5.794626235961914,
+        -36.12495803833008
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.3323540687561035,
+        3.1274759769439697,
+        4.8204498291015625
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3849209560,
+          693135177,
+          3232579617,
+          218478657
+        ],
+        "respath": "Scene/Construction/_Generated/RED_6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "",
+        "name": "Box_130",
+        "layer": 0
+      }
+    },
+    {
+      "id": "i125",
+      "kind": "trigger",
+      "name": "Box_120",
+      "res": "Scene/Construction/_Generated/RED_6.i3Evt",
+      "obj": null,
+      "pos": [
+        -9.1864595413208,
+        6.121816158294678,
+        -23.934328079223633
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.73131799697876,
+        3.7385480403900146,
+        29.421621322631836
+      ],
+      "team": 0,
+      "collision": "auto",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "layer": 0,
+      "visible": true,
+      "locked": false,
+      "orig": {
+        "cls": 1288140065,
+        "clsname": "i3Trigger",
+        "res": [
+          3849209560,
+          693135177,
+          3232579617,
+          218478657
+        ],
+        "respath": "Scene/Construction/_Generated/RED_6.i3Evt",
+        "enable": 1,
+        "portal": 0,
+        "dyn": 3,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "namehash": 0,
+        "net": 0,
+        "trig": [
+          1,
+          25,
+          0
+        ],
+        "gamedata": "7c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "name": "Box_120",
+        "layer": 0
+      }
+    }
+  ]
+}

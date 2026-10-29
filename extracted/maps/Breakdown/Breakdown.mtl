@@ -1,0 +1,121 @@
+# Materials for Breakdown
+newmtl Mtl_Barricade_Stone_01.webp
+Kd 1 1 1
+map_Kd Barricade_Stone_01.webp
+
+newmtl Mtl_CableDrum_01.webp
+Kd 1 1 1
+map_Kd CableDrum_01.webp
+
+newmtl Mtl_Car_Tram_A.webp
+Kd 1 1 1
+map_Kd Car_Tram_A.webp
+
+newmtl Mtl_CupBoard_01.webp
+Kd 1 1 1
+map_Kd CupBoard_01.webp
+
+newmtl Mtl_Car_BRKT_01_Police_01.webp
+Kd 1 1 1
+map_Kd Car_BRKT_01_Police_01.webp
+
+newmtl Mtl_radiator_1.webp
+Kd 1 1 1
+map_Kd radiator_1.webp
+
+newmtl Mtl_Table_02.webp
+Kd 1 1 1
+map_Kd Table_02.webp
+
+newmtl Mtl_Car_Swat_01_Outdoor_01.webp
+Kd 1 1 1
+map_Kd Car_Swat_01_Outdoor_01.webp
+
+newmtl Mtl_Car_Bus_01.webp
+Kd 1 1 1
+map_Kd Car_Bus_01.webp
+
+newmtl Mtl_Drum_Black_01.webp
+Kd 1 1 1
+map_Kd Drum_Black_01.webp
+
+newmtl Mtl_smalldynamo.webp
+Kd 1 1 1
+map_Kd smalldynamo.webp
+
+newmtl Mtl_Chair_02.webp
+Kd 1 1 1
+map_Kd Chair_02.webp
+
+newmtl Mtl_box.webp
+Kd 1 1 1
+map_Kd box.webp
+
+newmtl Mtl_Car_ChevroletVan_01_Indoor_01.webp
+Kd 1 1 1
+map_Kd Car_ChevroletVan_01_Indoor_01.webp
+
+newmtl Mtl_BarTable_01.webp
+Kd 1 1 1
+map_Kd BarTable_01.webp
+
+newmtl Mtl_Car_Swat_01_Indoor_01.webp
+Kd 1 1 1
+map_Kd Car_Swat_01_Indoor_01.webp
+
+newmtl Mtl_Car_BRKT_01_Army_01.webp
+Kd 1 1 1
+map_Kd Car_BRKT_01_Army_01.webp
+
+newmtl Mtl_road_2.webp
+Kd 1 1 1
+map_Kd road_2.webp
+
+newmtl Mtl_Car_Tram_B.webp
+Kd 1 1 1
+map_Kd Car_Tram_B.webp
+
+newmtl Mtl_billboard_1.webp
+Kd 1 1 1
+map_Kd billboard_1.webp
+
+newmtl Mtl_menu_board.webp
+Kd 1 1 1
+map_Kd menu_board.webp
+
+newmtl Mtl_BusStop_01.webp
+Kd 1 1 1
+map_Kd BusStop_01.webp
+
+newmtl Mtl_GarbageCan_Large_01.webp
+Kd 1 1 1
+map_Kd GarbageCan_Large_01.webp
+
+newmtl Mtl_Car_ChevroletVan_01_White_01_Outdoor_01.webp
+Kd 1 1 1
+map_Kd Car_ChevroletVan_01_White_01_Outdoor_01.webp
+
+newmtl Mtl_GarbageCan_Middle_01.webp
+Kd 1 1 1
+map_Kd GarbageCan_Middle_01.webp
+
+newmtl Mtl_transmission_tower_01.webp
+Kd 1 1 1
+map_Kd transmission_tower_01.webp
+
+newmtl Mtl_Car_TopCar_01_Khaki_01.webp
+Kd 1 1 1
+map_Kd Car_TopCar_01_Khaki_01.webp
+
+newmtl Mtl_transmission_tower_02.webp
+Kd 1 1 1
+map_Kd transmission_tower_02.webp
+
+newmtl Mtl_Sofa_01.webp
+Kd 1 1 1
+map_Kd Sofa_01.webp
+
+newmtl Mtl_Car_Bus_01_Indoor_01.webp
+Kd 1 1 1
+map_Kd Car_Bus_01_Indoor_01.webp
+

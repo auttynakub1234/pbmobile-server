@@ -1,0 +1,721 @@
+{
+  "Downtown": {
+    "scale": 186.268463,
+    "baked": 659,
+    "cx": 365,
+    "cy": 259,
+    "extra": 0,
+    "imgs": [
+      "mini_Downtown"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 395,
+      "Height": 374,
+      "RatioWidthBaked": 1.38,
+      "RatioHeightBaked": 1.07,
+      "AdjustWidth": 8,
+      "AdjustHeight": 2.5,
+      "totalTexCnt": 1
+    }
+  },
+  "Downtown2": {
+    "scale": 103,
+    "baked": 578,
+    "cx": 305,
+    "cy": 330,
+    "extra": 0,
+    "imgs": [
+      "mini_Downtown2"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 285,
+      "Height": 353,
+      "RatioWidthBaked": 1.55,
+      "RatioHeightBaked": 1.15,
+      "AdjustWidth": 30,
+      "AdjustHeight": 13,
+      "totalTexCnt": 1
+    }
+  },
+  "BurningHall": {
+    "scale": 76.55275,
+    "baked": 648,
+    "cx": 398,
+    "cy": 268,
+    "extra": 0,
+    "imgs": [
+      "mini_BurningHall"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 463,
+      "Height": 238,
+      "RatioWidthBaked": 0.98,
+      "RatioHeightBaked": 1.15,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 1
+    }
+  },
+  "Luxville": {
+    "scale": 86.564713,
+    "baked": 581,
+    "cx": 289,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_Luxville"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 409,
+      "Height": 350,
+      "RatioWidthBaked": 1.08,
+      "RatioHeightBaked": 1.07,
+      "AdjustWidth": 0,
+      "AdjustHeight": -12,
+      "totalTexCnt": 1
+    }
+  },
+  "Crackdown": {
+    "scale": 165.955566,
+    "baked": 1563,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_Crackdown"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 344,
+      "Height": 344,
+      "RatioWidthBaked": 16.5,
+      "RatioHeightBaked": 14,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 1
+    }
+  },
+  "Hospital": {
+    "scale": 90.522186,
+    "baked": 481,
+    "cx": 257,
+    "cy": 320,
+    "extra": 2,
+    "imgs": [
+      "mini_Hospital",
+      "mini_Hospital_01",
+      "mini_Hospital_02"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 349,
+      "Height": 345,
+      "RatioWidthBaked": 1.2,
+      "RatioHeightBaked": 1.15,
+      "AdjustWidth": -2.5,
+      "AdjustHeight": 47,
+      "totalTexCnt": 3
+    }
+  },
+  "Helispot": {
+    "scale": 248.292908,
+    "baked": 1225,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_Helispot"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 361,
+      "Height": 366,
+      "RatioWidthBaked": 8,
+      "RatioHeightBaked": 5.1,
+      "AdjustWidth": 0,
+      "AdjustHeight": 21.5,
+      "totalTexCnt": 1
+    }
+  },
+  "Sentrybase": {
+    "scale": 249.150055,
+    "baked": 1224,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_Sentrybase"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 240,
+      "Height": 347,
+      "RatioWidthBaked": 3.3,
+      "RatioHeightBaked": 2.45,
+      "AdjustWidth": 8.5,
+      "AdjustHeight": 2.5,
+      "totalTexCnt": 1
+    }
+  },
+  "Uptown": {
+    "scale": 204.917755,
+    "baked": 698,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_Uptown"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 174,
+      "Height": 363,
+      "RatioWidthBaked": 1.85,
+      "RatioHeightBaked": 1.5,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 1
+    }
+  },
+  "NPort": {
+    "scale": 98.475136,
+    "baked": 679,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_NPort"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 249,
+      "Height": 356,
+      "RatioWidthBaked": 1.5,
+      "RatioHeightBaked": 1.3,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 1
+    }
+  },
+  "NStation": {
+    "scale": 81.975075,
+    "baked": 571,
+    "cx": 189,
+    "cy": 307,
+    "extra": 0,
+    "imgs": [
+      "mini_NStation"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 161,
+      "Height": 349,
+      "RatioWidthBaked": 0.95,
+      "RatioHeightBaked": 0.96,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 1
+    }
+  },
+  "BlackPanther": {
+    "scale": 105.99,
+    "baked": 486,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_BlackPanther"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 324,
+      "Height": 369,
+      "RatioWidthBaked": 2.1,
+      "RatioHeightBaked": 2.45,
+      "AdjustWidth": 0,
+      "AdjustHeight": -10,
+      "totalTexCnt": 1
+    }
+  },
+  "Giran2": {
+    "scale": 222.999207,
+    "baked": 667,
+    "cx": 369,
+    "cy": 368,
+    "extra": 0,
+    "imgs": [
+      "mini_Giran2"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 338,
+      "Height": 354,
+      "RatioWidthBaked": 1,
+      "RatioHeightBaked": 1.3,
+      "AdjustWidth": 80,
+      "AdjustHeight": -40,
+      "totalTexCnt": 1
+    }
+  },
+  "Kickpoint": {
+    "scale": 59.993234,
+    "baked": 416,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_Kickpoint"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 354,
+      "Height": 352,
+      "RatioWidthBaked": 1.15,
+      "RatioHeightBaked": 0.935,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 1
+    }
+  },
+  "Outpost": {
+    "scale": 85.258636,
+    "baked": 461,
+    "cx": 256,
+    "cy": 320,
+    "extra": 1,
+    "imgs": [
+      "mini_Outpost",
+      "mini_Outpost_01"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 255,
+      "Height": 357,
+      "RatioWidthBaked": 1.6,
+      "RatioHeightBaked": 1.2,
+      "AdjustWidth": -10,
+      "AdjustHeight": 50,
+      "totalTexCnt": 2
+    }
+  },
+  "Breakdown": {
+    "scale": 312.696259,
+    "baked": 988,
+    "cx": 356,
+    "cy": 157,
+    "extra": 0,
+    "imgs": [
+      "mini_Breakdown"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 479,
+      "Height": 214,
+      "RatioWidthBaked": 1.54,
+      "RatioHeightBaked": 2.3,
+      "AdjustWidth": -12.5,
+      "AdjustHeight": 5,
+      "totalTexCnt": 1
+    }
+  },
+  "DSquad": {
+    "scale": 91.015686,
+    "baked": 486,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_DSquad"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 350,
+      "Height": 348,
+      "RatioWidthBaked": 0.96,
+      "RatioHeightBaked": 0.95,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 1
+    }
+  },
+  "Metro": {
+    "scale": 143.259567,
+    "baked": 512,
+    "cx": 272,
+    "cy": 128,
+    "extra": 0,
+    "imgs": [
+      "mini_Metro"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 489,
+      "Height": 292,
+      "RatioWidthBaked": 0.99,
+      "RatioHeightBaked": 1.15,
+      "AdjustWidth": 0,
+      "AdjustHeight": 20,
+      "totalTexCnt": 1
+    }
+  },
+  "RushHour": {
+    "scale": 110.517755,
+    "baked": 512,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_RushHour"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 240,
+      "Height": 370,
+      "RatioWidthBaked": 2.6,
+      "RatioHeightBaked": 2.6,
+      "AdjustWidth": -5,
+      "AdjustHeight": -10,
+      "totalTexCnt": 1
+    }
+  },
+  "StillRaid": {
+    "scale": 107,
+    "baked": 280,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_StillRaid"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 500,
+      "Height": 390,
+      "RatioWidthBaked": 0.96,
+      "RatioHeightBaked": 1.58,
+      "AdjustWidth": 0,
+      "AdjustHeight": -4,
+      "totalTexCnt": 1
+    }
+  },
+  "Provence": {
+    "scale": 112.8,
+    "baked": 272,
+    "cx": 256,
+    "cy": 256,
+    "extra": 1,
+    "imgs": [
+      "mini_Provence",
+      "mini_Provence_01"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 221,
+      "Height": 290,
+      "RatioWidthBaked": 1.24,
+      "RatioHeightBaked": 1.27,
+      "AdjustWidth": 0,
+      "AdjustHeight": -2.9,
+      "totalTexCnt": 2
+    }
+  },
+  "MachuPichu": {
+    "scale": 123.205032,
+    "baked": 512,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_MachuPichu"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 385,
+      "Height": 344,
+      "RatioWidthBaked": 11,
+      "RatioHeightBaked": 21.5,
+      "AdjustWidth": 0,
+      "AdjustHeight": -15,
+      "totalTexCnt": 1
+    }
+  },
+  "CargoPort": {
+    "scale": 142.564713,
+    "baked": 512,
+    "cx": 256,
+    "cy": 128,
+    "extra": 0,
+    "imgs": [
+      "mini_CargoPort"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 459,
+      "Height": 135,
+      "RatioWidthBaked": 2.2,
+      "RatioHeightBaked": 3.4,
+      "AdjustWidth": 0,
+      "AdjustHeight": -5,
+      "totalTexCnt": 1
+    }
+  },
+  "TwoTowers": {
+    "scale": 84.519867,
+    "baked": 512,
+    "cx": 128,
+    "cy": 256,
+    "extra": 1,
+    "imgs": [
+      "mini_TwoTowers",
+      "mini_TwoTowers_01"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 136,
+      "Height": 387,
+      "RatioWidthBaked": 65,
+      "RatioHeightBaked": 22,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 2
+    }
+  },
+  "SafeHouse": {
+    "scale": 142,
+    "baked": 512,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_SafeHouse"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 255,
+      "Width": 385,
+      "Height": 360,
+      "RatioWidthBaked": 2.1,
+      "RatioHeightBaked": 2.7,
+      "AdjustWidth": 3,
+      "AdjustHeight": 3.8,
+      "totalTexCnt": 1
+    }
+  },
+  "Junkyard": {
+    "scale": 43.1,
+    "baked": 512,
+    "cx": 256,
+    "cy": 254,
+    "extra": 0,
+    "imgs": [
+      "mini_Junkyard"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 500,
+      "Height": 390,
+      "RatioWidthBaked": 8.5,
+      "RatioHeightBaked": 12.7,
+      "AdjustWidth": 0,
+      "AdjustHeight": -5,
+      "totalTexCnt": 1
+    }
+  },
+  "Library": {
+    "scale": 76.259567,
+    "baked": 492,
+    "cx": 256,
+    "cy": 256,
+    "extra": 0,
+    "imgs": [
+      "mini_Library"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 489,
+      "Height": 292,
+      "RatioWidthBaked": 0.99,
+      "RatioHeightBaked": 1.15,
+      "AdjustWidth": 0,
+      "AdjustHeight": 20,
+      "totalTexCnt": 1
+    }
+  },
+  "Airport": {
+    "scale": 135.564713,
+    "baked": 512,
+    "cx": 274,
+    "cy": 242,
+    "extra": 0,
+    "imgs": [
+      "mini_Airport"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 316,
+      "Height": 340,
+      "RatioWidthBaked": 2.63,
+      "RatioHeightBaked": 2.63,
+      "AdjustWidth": 10,
+      "AdjustHeight": -12,
+      "totalTexCnt": 1
+    }
+  },
+  "TinyTown": {
+    "scale": 90.7,
+    "baked": 465,
+    "cx": 256,
+    "cy": 256,
+    "extra": 1,
+    "imgs": [
+      "mini_TinyTown",
+      "mini_TinyTown_01"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 465,
+      "Height": 240,
+      "RatioWidthBaked": 1.89,
+      "RatioHeightBaked": 3.65,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 2
+    }
+  },
+  "PumpkinHollow": {
+    "scale": 103,
+    "baked": 512,
+    "cx": 256,
+    "cy": 128,
+    "extra": 0,
+    "imgs": [
+      "mini_PumpkinHollow"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 128,
+      "Width": 500,
+      "Height": 270,
+      "RatioWidthBaked": 1.25,
+      "RatioHeightBaked": 2.34,
+      "AdjustWidth": 0,
+      "AdjustHeight": 0,
+      "totalTexCnt": 1
+    }
+  },
+  "Construction": {
+    "scale": 103.205032,
+    "baked": 612,
+    "cx": 151,
+    "cy": 317,
+    "extra": 0,
+    "imgs": [
+      "mini_Construction"
+    ],
+    "tab": {
+      "frameWindowWidth": 500,
+      "frameWindowHeight": 390,
+      "CenterX": 256,
+      "CenterY": 256,
+      "Width": 161,
+      "Height": 374,
+      "RatioWidthBaked": 0.95,
+      "RatioHeightBaked": 0.95,
+      "AdjustWidth": -10,
+      "AdjustHeight": 0,
+      "totalTexCnt": 1
+    }
+  }
+}

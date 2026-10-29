@@ -1,0 +1,21 @@
+# Materials for SCAR-L Recon
+newmtl Mtl_SCAR-L_Recon.I3S#38
+Kd 1 1 1
+map_Kd SCAR-L_Recon.I3S#38
+
+newmtl Mtl_SCAR-L_Recon.I3S#72
+Kd 1 1 1
+map_Kd SCAR-L_Recon.I3S#72
+
+newmtl Mtl_SCAR-L_Recon.I3S#23
+Kd 1 1 1
+map_Kd SCAR-L_Recon.I3S#23
+
+newmtl Mtl_SCAR-L_Recon.I3S#57
+Kd 1 1 1
+map_Kd SCAR-L_Recon.I3S#57
+
+newmtl Mtl_SCAR-L_Recon.I3S#8
+Kd 1 1 1
+map_Kd SCAR-L_Recon.I3S#8
+

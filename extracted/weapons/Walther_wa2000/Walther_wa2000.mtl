@@ -1,0 +1,9 @@
+# Materials for Walther WA2000
+newmtl Mtl_dot_sight_diff.webp
+Kd 1 1 1
+map_Kd dot_sight_diff.webp
+
+newmtl Mtl_Walther_Wa2000_Diff.webp
+Kd 1 1 1
+map_Kd Walther_Wa2000_Diff.webp
+

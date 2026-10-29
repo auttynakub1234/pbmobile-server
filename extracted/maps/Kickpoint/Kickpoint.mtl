@@ -1,0 +1,121 @@
+# Materials for Kickpoint
+newmtl Mtl_break_1.webp
+Kd 1 1 1
+map_Kd break_1.webp
+
+newmtl Mtl_Car_Forklift_01.webp
+Kd 1 1 1
+map_Kd Car_Forklift_01.webp
+
+newmtl Mtl_EmergencyStaircase.webp
+Kd 1 1 1
+map_Kd EmergencyStaircase.webp
+
+newmtl Mtl_Paint.webp
+Kd 1 1 1
+map_Kd Paint.webp
+
+newmtl Mtl_constructionfabric_blue.webp
+Kd 1 1 1
+map_Kd constructionfabric_blue.webp
+
+newmtl Mtl_EmergencyStaircase_blue.webp
+Kd 1 1 1
+map_Kd EmergencyStaircase_blue.webp
+
+newmtl Mtl_Drum_1.webp
+Kd 1 1 1
+map_Kd Drum_1.webp
+
+newmtl Mtl_Barricade_01.webp
+Kd 1 1 1
+map_Kd Barricade_01.webp
+
+newmtl Mtl_emergency exit_1.webp
+Kd 1 1 1
+map_Kd emergency exit_1.webp
+
+newmtl Mtl_Palette_Wood_01.webp
+Kd 1 1 1
+map_Kd Palette_Wood_01.webp
+
+newmtl Mtl_H_Steel.webp
+Kd 1 1 1
+map_Kd H_Steel.webp
+
+newmtl Mtl_stair_03.webp
+Kd 1 1 1
+map_Kd stair_03.webp
+
+newmtl Mtl_cement_01.webp
+Kd 1 1 1
+map_Kd cement_01.webp
+
+newmtl Mtl_wall_09.webp
+Kd 1 1 1
+map_Kd wall_09.webp
+
+newmtl Mtl_barbedwire_01.webp
+Kd 1 1 1
+map_Kd barbedwire_01.webp
+
+newmtl Mtl_Construction.webp
+Kd 1 1 1
+map_Kd Construction.webp
+
+newmtl Mtl_Lamp.webp
+Kd 1 1 1
+map_Kd Lamp.webp
+
+newmtl Mtl_constructionfabric_green.webp
+Kd 1 1 1
+map_Kd constructionfabric_green.webp
+
+newmtl Mtl_brick_01.webp
+Kd 1 1 1
+map_Kd brick_01.webp
+
+newmtl Mtl_crane.webp
+Kd 1 1 1
+map_Kd crane.webp
+
+newmtl Mtl_Ladder_01.webp
+Kd 1 1 1
+map_Kd Ladder_01.webp
+
+newmtl Mtl_column_bottom_1.webp
+Kd 1 1 1
+map_Kd column_bottom_1.webp
+
+newmtl Mtl_Window_Barricade_1.webp
+Kd 1 1 1
+map_Kd Window_Barricade_1.webp
+
+newmtl Mtl_handle_Diff.webp
+Kd 1 1 1
+map_Kd handle_Diff.webp
+
+newmtl Mtl_wall_04.webp
+Kd 1 1 1
+map_Kd wall_04.webp
+
+newmtl Mtl_wood01.webp
+Kd 1 1 1
+map_Kd wood01.webp
+
+newmtl Mtl_bottom_05.webp
+Kd 1 1 1
+map_Kd bottom_05.webp
+
+newmtl Mtl_column_bottom_2.webp
+Kd 1 1 1
+map_Kd column_bottom_2.webp
+
+newmtl Mtl_WireEntanglement_01.webp
+Kd 1 1 1
+map_Kd WireEntanglement_01.webp
+
+newmtl Mtl_Drum_2.webp
+Kd 1 1 1
+map_Kd Drum_2.webp
+

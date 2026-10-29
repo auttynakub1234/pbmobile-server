@@ -1,0 +1,5 @@
+# Materials for MK.46 Ext.
+newmtl Mtl_Mk46.webp
+Kd 1 1 1
+map_Kd Mk46.webp
+

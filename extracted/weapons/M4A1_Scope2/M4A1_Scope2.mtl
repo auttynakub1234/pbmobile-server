@@ -1,0 +1,9 @@
+# Materials for M4A1 Ext.
+newmtl Mtl_Scope.webp
+Kd 1 1 1
+map_Kd Scope.webp
+
+newmtl Mtl_M4A1.webp
+Kd 1 1 1
+map_Kd M4A1.webp
+

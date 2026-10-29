@@ -1,0 +1,121 @@
+# Materials for RushHour
+newmtl Mtl_Car_ChevroletVan_01_Indoor_01.webp
+Kd 1 1 1
+map_Kd Car_ChevroletVan_01_Indoor_01.webp
+
+newmtl Mtl_Table.webp
+Kd 1 1 1
+map_Kd Table.webp
+
+newmtl Mtl_Car_Pumper_01.webp
+Kd 1 1 1
+map_Kd Car_Pumper_01.webp
+
+newmtl Mtl_Place_Reial_Streetlamp.webp
+Kd 1 1 1
+map_Kd Place_Reial_Streetlamp.webp
+
+newmtl Mtl_Uptown2_newspaper_01.webp
+Kd 1 1 1
+map_Kd Uptown2_newspaper_01.webp
+
+newmtl Mtl_Uptown2_boxpaperblue_01.webp
+Kd 1 1 1
+map_Kd Uptown2_boxpaperblue_01.webp
+
+newmtl Mtl_GarbageCan_Middle_01.webp
+Kd 1 1 1
+map_Kd GarbageCan_Middle_01.webp
+
+newmtl Mtl_Uptown2_Arch_01.webp
+Kd 1 1 1
+map_Kd Uptown2_Arch_01.webp
+
+newmtl Mtl_Uptown2_grass_01.webp
+Kd 1 1 1
+map_Kd Uptown2_grass_01.webp
+
+newmtl Mtl_Uptown2_door_lc_05.webp
+Kd 1 1 1
+map_Kd Uptown2_door_lc_05.webp
+
+newmtl Mtl_Uptown2_popsign_01.webp
+Kd 1 1 1
+map_Kd Uptown2_popsign_01.webp
+
+newmtl Mtl_Uptown2_line_lc_01.webp
+Kd 1 1 1
+map_Kd Uptown2_line_lc_01.webp
+
+newmtl Mtl_table_chair.webp
+Kd 1 1 1
+map_Kd table_chair.webp
+
+newmtl Mtl_BusStop_01.webp
+Kd 1 1 1
+map_Kd BusStop_01.webp
+
+newmtl Mtl_Car_Pumper_02.webp
+Kd 1 1 1
+map_Kd Car_Pumper_02.webp
+
+newmtl Mtl_Box_Paper_Red_01.webp
+Kd 1 1 1
+map_Kd Box_Paper_Red_01.webp
+
+newmtl Mtl_Uptown2_aircon_lc_01.webp
+Kd 1 1 1
+map_Kd Uptown2_aircon_lc_01.webp
+
+newmtl Mtl_Uptown2_door_01.webp
+Kd 1 1 1
+map_Kd Uptown2_door_01.webp
+
+newmtl Mtl_Car_CTS_Outdoor_01_Green_01.webp
+Kd 1 1 1
+map_Kd Car_CTS_Outdoor_01_Green_01.webp
+
+newmtl Mtl_Uptown2_barricade_01.webp
+Kd 1 1 1
+map_Kd Uptown2_barricade_01.webp
+
+newmtl Mtl_Car_CTS_Indoor_01.webp
+Kd 1 1 1
+map_Kd Car_CTS_Indoor_01.webp
+
+newmtl Mtl_Uptown2_phonebooth_01.webp
+Kd 1 1 1
+map_Kd Uptown2_phonebooth_01.webp
+
+newmtl Mtl_Uptown2_door_lc_02.webp
+Kd 1 1 1
+map_Kd Uptown2_door_lc_02.webp
+
+newmtl Mtl_Uptown2_ect_lc_01.webp
+Kd 1 1 1
+map_Kd Uptown2_ect_lc_01.webp
+
+newmtl Mtl_Uptown2_flowerbed_lc_01.webp
+Kd 1 1 1
+map_Kd Uptown2_flowerbed_lc_01.webp
+
+newmtl Mtl_Uptown2_Aircos_01.webp
+Kd 1 1 1
+map_Kd Uptown2_Aircos_01.webp
+
+newmtl Mtl_Uptown2_publicphone_01.webp
+Kd 1 1 1
+map_Kd Uptown2_publicphone_01.webp
+
+newmtl Mtl_Car_Ambulance_01.webp
+Kd 1 1 1
+map_Kd Car_Ambulance_01.webp
+
+newmtl Mtl_Car_ChevroletVan_01_White_01_Outdoor_01.webp
+Kd 1 1 1
+map_Kd Car_ChevroletVan_01_White_01_Outdoor_01.webp
+
+newmtl Mtl_Beetle_01.webp
+Kd 1 1 1
+map_Kd Beetle_01.webp
+

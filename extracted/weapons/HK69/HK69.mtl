@@ -1,0 +1,9 @@
+# Materials for HK 69
+newmtl Mtl_HK69_diff.webp
+Kd 1 1 1
+map_Kd HK69_diff.webp
+
+newmtl Mtl_Grenade.webp
+Kd 1 1 1
+map_Kd Grenade.webp
+
